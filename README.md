@@ -1,6 +1,6 @@
 # Classify ICS Device — nhận diện vai trò thiết bị ICS từ lưu lượng mạng thụ động
 
-Mã nguồn và dữ liệu đã ẩn danh của luận văn thạc sĩ "Nghiên cứu cải tiến phương pháp nhận diện thiết bị ICS dựa trên học kết hợp phục vụ hệ thống NIDS" (tác giả: sonthai).
+Mã nguồn của luận văn thạc sĩ "Nghiên cứu cải tiến phương pháp nhận diện thiết bị ICS dựa trên học kết hợp phục vụ hệ thống NIDS" (tác giả: sonthai).
 
 Phương pháp gồm hai giai đoạn, chỉ dùng lưu lượng mạng thụ động:
 
@@ -19,6 +19,8 @@ Phương pháp gồm hai giai đoạn, chỉ dùng lưu lượng mạng thụ đ
 | `docs/` | Chỉ mục script, mô tả dữ liệu, danh sách nguồn PCAP công khai |
 
 Tên các thư mục gốc được giữ như trong dự án vì script tìm nhau và tìm dữ liệu theo đường dẫn tương đối.
+
+> Ở thời điểm này repo mới có mã nguồn và tài liệu. Hai thư mục `Dataset/features/` (dữ liệu đã ẩn danh) và `phase2_infer/` (mô hình của nguyên mẫu) sẽ được bổ sung sau; khi chưa có chúng, các script huấn luyện, đánh giá và nguyên mẫu chưa chạy được.
 
 ## Cài đặt
 
