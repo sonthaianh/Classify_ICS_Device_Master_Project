@@ -10,7 +10,7 @@ Cach danh gia (de tranh anh huong "co hay khong co payload"):
 CV   : StratifiedGroupKFold (nhom = session dau cua thiet bi), 5 hat x 5 fold; RandomForest class_weight=balanced.
 Kiem tra: hoan vi nhan (100 lan) cho bien the tot nhat de lay p-value so voi ngau nhien.
 Dau ra: phase2_train4_v6.json  (+ phase2_train4_preds_v6.csv: du doan out-of-fold hat 0)
-Chay: py -3.14 Tools/pcap_to_dataset/58_phase2_train4.py
+Chay: py -3.14 pcap_to_dataset/58_phase2_train4.py
 """
 import importlib.util
 import json

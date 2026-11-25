@@ -1,7 +1,7 @@
 """Nguyen mau Phase 2 tren MOT file PCAP, huan luyen lai tren bo 186 nhan (2026-11-20). KHONG ghi de mo hinh 117 nhan.
 
-Boc script 69: doi file nhan sang phase2_type_labels_4class_186_devices.csv (qua script 80), ghi mo hinh vao Tools/phase2_infer/model_186/,
-doc ket qua CV tu cac file *_186 va ghi ket qua phan tich vao Tools/phase2_infer/output/<ten>_phase2_186.json.
+Boc script 69: doi file nhan sang phase2_type_labels_4class_186_devices.csv (qua script 80), ghi mo hinh vao phase2_infer/model_186/,
+doc ket qua CV tu cac file *_186 va ghi ket qua phan tich vao phase2_infer/output/<ten>_phase2_186.json.
   py -3.14 99_phase2_infer_186.py --train
   py -3.14 99_phase2_infer_186.py --selftest
   py -3.14 99_phase2_infer_186.py <file.pcap> [--all]

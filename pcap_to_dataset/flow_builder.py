@@ -25,17 +25,17 @@ Initiator/responder (dung guide muc 6.3):
          handshake - KHONG bao gio coi ngang hang voi TCP co bang chung SYN that.
 
 Chay 1 file:
-    "C:\Program Files\Python314\python.exe" Tools\pcap_to_dataset\flow_builder.py --file "Tools\Dataset\raw_parquet\S0003.parquet"
+    python pcap_to_dataset\flow_builder.py --file "Dataset\raw_parquet\S0003.parquet"
 
 Chay nhieu file cung luc (batch, lay mau ngau nhien N file trong 1 thu muc):
-    "C:\Program Files\Python314\python.exe" Tools\pcap_to_dataset\flow_builder.py --dir "Tools\Dataset\raw_parquet" --n 10
+    python pcap_to_dataset\flow_builder.py --dir "Dataset\raw_parquet" --n 10
 
 Tham so:
     --file    1 file parquet Packet Dataset dau vao (dung 1 trong 2: --file hoac --dir)
     --dir     thu muc chua nhieu file parquet, xu ly hang loat
     --n       (chi dung voi --dir) chi lay mau ngau nhien N file, mac dinh: xu ly TAT CA file trong --dir
     --seed    seed cho --n (mac dinh 42, de tai lap duoc)
-    --out     thu muc luu flow.parquet (mac dinh: Tools/Dataset/processed/flows/)
+    --out     thu muc luu flow.parquet (mac dinh: Dataset/processed/flows/)
 """
 
 from __future__ import annotations

@@ -5,8 +5,8 @@ frame_builder.py
 Tai tao (synthetic) Ethernet+IP+TCP/UDP frame tu 1 dong du lieu da tach lop san
 (schema hien co cua raw_parquet/: src_mac, dst_mac, eth_type, src_ip, dst_ip,
 ip_proto, ip_ttl, src_port, dst_port, tcp_flags, app_payload - xem audit trong
-dpi_enrich.py). Dung chung cho ca webapp demo (Tools/webapp/app.py) va batch
-pipeline (Tools/pcap_to_dataset/dpi_enrich.py) de khong lap logic.
+dpi_enrich.py). Dung chung cho ca webapp demo (webapp/app.py) va batch
+pipeline (pcap_to_dataset/dpi_enrich.py) de khong lap logic.
 
 VI SAO CAN TAI TAO FRAME (khong dissect thang tu app_payload):
     Dissector cua Wireshark (vd packet-mbtcp.c) can biet port TCP/UDP that su

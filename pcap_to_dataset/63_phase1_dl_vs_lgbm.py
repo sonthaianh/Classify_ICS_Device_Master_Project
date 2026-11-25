@@ -11,7 +11,7 @@ Mo hinh (siêu tham so CO DINH truoc; dung som tren 10% thiet bi train, KHONG du
 Moi mo hinh DL chay 3 hat; bao cao (a) trung binh +- do lech theo hat (mo hinh don) va (b) diem trung binh 3 hat (ensemble).
 Danh gia: ROC/PR tren nhan luat (tat ca/giao thuc/chi cong/khong flood) + tren gold hop nhat 184 thiet bi (ROC, recall/non-OT bi gan nham @0,5) + bootstrap hieu ROC theo thiet bi.
 Tu kiem: LightGBM hat dau phai tai tao ROC da bao cao truoc do (0,928 theo thiet bi; ~0,858 chat).
-Dau ra: phase1_dl_vs_lgbm_v6.json, phase1_dl_vs_lgbm_scores_v6.csv     Chay: py -3.14 Tools/pcap_to_dataset/63_phase1_dl_vs_lgbm.py
+Dau ra: phase1_dl_vs_lgbm_v6.json, phase1_dl_vs_lgbm_scores_v6.csv     Chay: py -3.14 pcap_to_dataset/63_phase1_dl_vs_lgbm.py
 """
 import importlib.util
 import json

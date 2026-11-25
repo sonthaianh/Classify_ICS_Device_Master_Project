@@ -15,7 +15,7 @@ Danh gia: EWS vs HMI tren thiet bi co ho so payload. LUU Y quan trong:
   * 5 nhan EWS duyet tay (owner_approved_session_evidence) duoc chon tu TEN SESSION mo ta chinh nhung tac vu nay -> khong doc lap; bao cao rieng.
   * feature S7 co the chi phan anh "dung giao thuc S7": co bang phan tich ho giao thuc chinh va AUC trong rieng nhom S7.
 Dau ra: phase2_eng_features_v6.csv, phase2_eng_features_eval_v6.json
-Chay: py -3.14 Tools/pcap_to_dataset/57_phase2_eng_features.py
+Chay: py -3.14 pcap_to_dataset/57_phase2_eng_features.py
 """
 import json
 import os

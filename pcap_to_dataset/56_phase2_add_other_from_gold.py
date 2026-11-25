@@ -4,7 +4,7 @@ Nguon: gold_union_v6.csv (non-OT) join diem OOF Phase 1 (phase1_oof_scores_v6.cs
 Tat ca da nam trong danh sach Phase 2 (phase2_candidate_pool_v6.csv) nhung chua co nhan 4 lop.
 Dau vao : phase2_type_labels_4class_v6.csv (script 55). Dau ra: phase2_type_labels_4class_plus_v6.csv + _summary.json.
 Khong sua file goc. Nhan moi la nhan CHUA chuyen gia xac nhan: giu `gold_source` de bao cao tach rieng.
-Chay: py -3.14 Tools/pcap_to_dataset/56_phase2_add_other_from_gold.py
+Chay: py -3.14 pcap_to_dataset/56_phase2_add_other_from_gold.py
 """
 import json
 from pathlib import Path

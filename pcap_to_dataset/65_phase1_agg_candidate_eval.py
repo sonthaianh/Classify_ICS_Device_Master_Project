@@ -5,7 +5,7 @@ chon nguong theo cung quy tac da dung truoc do (cuc dai Youden J tren gold hop n
 Bien the ung vien duoc CHON THEO CHI SO TREN NHAN LUAT (ROC/PR theo thiet bi va chia chat), KHONG theo gold: all_mean_std_min_max (60 cot);
 mean_only (15 cot) la doi chung gon nhat.
 Dau ra (Dataset/features): phase1_agg_oof_scores_v6.csv, phase1_agg_threshold_union_v6.csv, phase1_agg_vs_window_v6.json
-Chay: py -3.14 Tools/pcap_to_dataset/65_phase1_agg_candidate_eval.py
+Chay: py -3.14 pcap_to_dataset/65_phase1_agg_candidate_eval.py
 """
 import importlib.util
 import json

@@ -1,6 +1,6 @@
 """Phase 2 cho ung dung web: du doan vai tro (PLC / HMI / EWS / OTHER) cua thiet bi qua cong Phase 1, bang mo hinh huan luyen tren bo 186 nhan.
 
-Dung lai ham cua script 69 (cung cong thuc ho so payload, vai tro ket noi, tac vu ky thuat nhu luc huan luyen) va mo hinh trong Tools/phase2_infer/model_186/
+Dung lai ham cua script 69 (cung cong thuc ho so payload, vai tro ket noi, tac vu ky thuat nhu luc huan luyen) va mo hinh trong phase2_infer/model_186/
 (huan luyen bang 99_phase2_infer_186.py --train). Khong sua, khong huan luyen lai gi o day.
 """
 from __future__ import annotations

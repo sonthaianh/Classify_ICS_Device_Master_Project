@@ -1,7 +1,7 @@
 """Phase 2: chay lai cac script dong bang (58, 59, 61, 66) tren bo 186 nhan (2026-11-20). KHONG ghi de ket qua dong bang.
 
 Cach lam: dung script 80 de chuyen huong pd.read_csv (file nhan cu -> file 186), roi chay nguyen ham cua script goc.
-Moi file dau ra ghi vao Tools/Dataset/features duoc doi ten them hau to _186 (vi du phase2_train4_v6.json -> phase2_train4_v6_186.json);
+Moi file dau ra ghi vao Dataset/features duoc doi ten them hau to _186 (vi du phase2_train4_v6.json -> phase2_train4_v6_186.json);
 file doc lai trong cung tien trinh cung duoc doi sang ten _186 neu da ghi.
 Chay (tung phan):
   py -3.14 94_phase2_rerun_186.py --rf      # script 58: bo dac trung x tap A/B/C x strict, hoan vi nhan, tam quan trong   -> phase2_train4_v6_186.json, preds _186.csv

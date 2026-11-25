@@ -8,7 +8,7 @@ Tien huan luyen (khong nhan): doan ky hieu bi che (15%) tren cua so cua TOAN BO 
 So sanh: (a) tu dau (khong tien huan luyen) vs (b) tinh chinh tu trong so tien huan luyen; CUNG nhan/fold/chi so voi RandomForest (58/59) va MLP (61).
 Sieu tham so CO DINH truoc, khong chinh theo fold test. Chi dung chuoi su kien: KHONG dung feature vai tro/payload tong hop, KHONG dung chuoi danh tinh.
 Che do: A = 101 thiet bi co ho so; T = 65 thiet bi co token; nhan day du va nhan nghiem (bo 5 EWS duyet tay).
-Dau ra: phase2_dl_seq_v6.json     Chay: py -3.14 Tools/pcap_to_dataset/62_phase2_dl_seq.py
+Dau ra: phase2_dl_seq_v6.json     Chay: py -3.14 pcap_to_dataset/62_phase2_dl_seq.py
 """
 import copy
 import importlib.util

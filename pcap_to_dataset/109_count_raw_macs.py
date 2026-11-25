@@ -1,4 +1,4 @@
-"""Dem lai tu cac tep parquet THO (Tools/Dataset/raw_parquet, 2.230 tep): tong so goi, so MAC phan biet (src U dst), MAC unicast / multicast / broadcast (2026-11-22).
+"""Dem lai tu cac tep parquet THO (Dataset/raw_parquet, 2.230 tep): tong so goi, so MAC phan biet (src U dst), MAC unicast / multicast / broadcast (2026-11-22).
 Chi doc hai cot src_mac, dst_mac; KHONG ghi de du lieu. Dau ra: Dataset/features/raw_mac_recount_20261122.json
 Chay: py -3.14 109_count_raw_macs.py"""
 import glob

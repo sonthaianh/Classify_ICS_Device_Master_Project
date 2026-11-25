@@ -5,7 +5,7 @@ Phase 2 = du doan out-of-fold 4 lop (phase2_train4_preds_v6.csv, bo A payload+va
 Ket qua cuoi (end-to-end) cua mot thiet bi: Phase 1 < 0,5 -> "non-OT/OTHER" (khong di tiep); nguoc lai -> nhan Phase 2.
 CANH BAO thien lech: 33/56 nhan OTHER la thiet bi non-OT bi Phase 1 gan nham (chon tu danh sach da qua Phase 1) -> moi OTHER deu "qua cong"; phan OTHER
 cua end-to-end KHONG danh gia duoc cong. Chi so dang tin hon la 3 lop OT (PLC/HMI/EWS): ty le qua cong va ty le dung sau cong. Nhan chua chuyen gia xac nhan.
-Dau ra: endtoend_phase1_phase2_v6.csv, endtoend_phase1_phase2_v6.json     Chay: py -3.14 Tools/pcap_to_dataset/66_endtoend_phase1_phase2.py
+Dau ra: endtoend_phase1_phase2_v6.csv, endtoend_phase1_phase2_v6.json     Chay: py -3.14 pcap_to_dataset/66_endtoend_phase1_phase2.py
 """
 import json
 import sys

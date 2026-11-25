@@ -1,8 +1,18 @@
-# Chỉ mục script
+# Chỉ mục script theo giai đoạn
 
-Mọi script nằm phẳng trong `pcap_to_dataset/` và giữ số thứ tự gốc, vì các script gọi nhau theo tên tệp và tìm dữ liệu theo đường dẫn tương đối (`../Dataset/features`, `../utils`, `../phase1_webapp`). Bảng dưới xếp script theo giai đoạn; cột mô tả là dòng đầu của docstring.
+Mọi script nằm phẳng trong `pcap_to_dataset/` và giữ số thứ tự gốc, vì các script gọi nhau theo tên tệp và tìm dữ liệu theo đường dẫn tương đối (`../Dataset/features`, `../utils`, `../demo_webapp`, `../phase2_infer`). Vì vậy không có thư mục riêng cho từng giai đoạn; bảng dưới cho biết script nào thuộc giai đoạn nào. Cột mô tả là dòng đầu của docstring.
 
 Chạy từ thư mục gốc của repo: `python pcap_to_dataset/<tên script>.py`.
+
+| Nhóm | Số script |
+|---|---|
+| [0. Chuyển PCAP thành bảng gói tin và dựng flow](#0-chuyển-pcap-thành-bảng-gói-tin-và-dựng-flow) | 7 |
+| [1. Dựng bộ dữ liệu hành vi theo thiết bị và cửa sổ 45 giây (phiên bản v6)](#1-dựng-bộ-dữ-liệu-hành-vi-theo-thiết-bị-và-cửa-sổ-45-giây-phiên-bản-v6) | 8 |
+| [2. Giai đoạn 1: thiết bị OT hay không-OT](#2-giai-đoạn-1-thiết-bị-ot-hay-khôngot) | 18 |
+| [3. Giai đoạn 2: nhãn vai trò](#3-giai-đoạn-2-nhãn-vai-trò) | 17 |
+| [4. Giai đoạn 2: đặc trưng, mô hình và phương pháp cơ sở](#4-giai-đoạn-2-đặc-trưng-mô-hình-và-phương-pháp-cơ-sở) | 26 |
+| [5. Hai giai đoạn nối nhau: đánh giá đầu–cuối và nguyên mẫu trên một tệp PCAP](#5-hai-giai-đoạn-nối-nhau-đánh-giá-đầucuối-và-nguyên-mẫu-trên-một-tệp-pcap) | 4 |
+| [6. Kết quả chính trên bộ nhãn độc lập và các kiểm tra bổ sung](#6-kết-quả-chính-trên-bộ-nhãn-độc-lập-và-các-kiểm-tra-bổ-sung) | 11 |
 
 ## 0. Chuyển PCAP thành bảng gói tin và dựng flow
 
@@ -48,10 +58,11 @@ Chạy từ thư mục gốc của repo: `python pcap_to_dataset/<tên script>.p
 | `81_phase1_baselines_pu.py` | Phase 1: baseline cong trinh truoc + hoc voi nhan duong va chua gan nhan (PU) + nhan hop nhat (2026-11-12). KHONG ghi de ket qua dong bang. |
 | `84_phase1_new_features.py` | Phase 1: tinh THEM dac trung moi (thoi gian giua cac goi, thong ke do dai goi, do thi giao tiep khong dinh danh) theo dung cua so 45 s cua v6 (2026-11-12). |
 | `87_phase1_newfeat_ablation.py` | Phase 1: danh gia dac trung moi (script 84) bang ablation theo nhom, giao thuc DONG BANG (2026-11-12). KHONG ghi de ket qua dong bang. |
-| `109_count_raw_macs.py` | Dem lai tu cac tep parquet THO (Tools/Dataset/raw_parquet, 2.230 tep): tong so goi, so MAC phan biet (src U dst), MAC unicast / multicast / broadcast (2026-11-22). |
+| `109_count_raw_macs.py` | Dem lai tu cac tep parquet THO (Dataset/raw_parquet, 2.230 tep): tong so goi, so MAC phan biet (src U dst), MAC unicast / multicast / broadcast (2026-11-22). |
 | `111_phase1_13feat.py` | Nhom A2 cua so theo doi (2026-11-25): giai doan 1 voi 13 dac trung (bo 2 dac trung dem cong svc_port_unique, unique_local_port_count). KHONG ghi de ket qua dong bang. |
+| `115_recheck_appendix_G.py` | Kiem tra lai hai cho so o Phu luc G cua luan van (2026-11-25). KHONG ghi de ket qua dong bang; chi ghi appendix_G_recheck.json. |
 
-## 3. Nhãn vai trò cho giai đoạn 2
+## 3. Giai đoạn 2: nhãn vai trò
 
 | Script | Mục đích |
 |---|---|
@@ -103,14 +114,20 @@ Chạy từ thư mục gốc của repo: `python pcap_to_dataset/<tên script>.p
 | `96_phase2_tf_T_186.py` | Phase 2: Transformer tren TAP T (thiet bi co token OT) cua bo 186 nhan (2026-11-20). Boc script 80/92, KHONG ghi de ket qua dong bang. |
 | `97_phase2_tf_ci_186.py` | Phase 2: them Transformer (huan luyen tu dau, hat 0) vao bang khoang tin cay bootstrap cua bo 186 nhan (2026-11-20). KHONG ghi de ket qua dong bang. |
 | `98_phase2_mlp_T64_186.py` | Phase 2: MLP 64 cot tren TAP T (thiet bi co token OT) cua bo 186 nhan, ca nhan day du va nhan nghiem (2026-11-20). KHONG ghi de ket qua dong bang. |
-| `99_phase2_infer_186.py` | Nguyen mau Phase 2 tren MOT file PCAP, huan luyen lai tren bo 186 nhan (2026-11-20). KHONG ghi de mo hinh 117 nhan. |
 
-## 5. Đánh giá đầu–cuối, nguyên mẫu và các kiểm tra bổ sung
+## 5. Hai giai đoạn nối nhau: đánh giá đầu–cuối và nguyên mẫu trên một tệp PCAP
 
 | Script | Mục đích |
 |---|---|
 | `66_endtoend_phase1_phase2.py` | Phase 1 -> Phase 2 error propagation (RQ5), 2026-11-11. Chi dung ket qua da co, KHONG huan luyen lai. |
 | `69_phase2_infer.py` | Phase 2 tren MOT file PCAP: Phase 1 (OT?) -> cong -> ho so payload -> feature -> RandomForest 4 lop PLC / HMI / EWS / OTHER (2026-11-11). |
+| `99_phase2_infer_186.py` | Nguyen mau Phase 2 tren MOT file PCAP, huan luyen lai tren bo 186 nhan (2026-11-20). KHONG ghi de mo hinh 117 nhan. |
+| `112_stage_timing.py` | Nhom A4 cua so theo doi (2026-11-25): chi phi cua tung giai doan. KHONG huan luyen lai, KHONG ghi de ket qua dong bang. |
+
+## 6. Kết quả chính trên bộ nhãn độc lập và các kiểm tra bổ sung
+
+| Script | Mục đích |
+|---|---|
 | `101_phase2_fold_audit.py` | Phase 2: kiem tra cach chia fold va cot trung tren bo 186 nhan (2026-11-22). KHONG ghi de ket qua dong bang. |
 | `102_build_manifest_186.py` | Manifest nguon - capture - session - thiet bi cho bo 186 nhan (2026-11-22). Chi doc du lieu co san, khong ghi de ket qua. |
 | `103_group_c_checks.py` | Nhom C theo nhan xet cua Thay (2026-11-22). Chi dung du lieu co san; KHONG ghi de ket qua dong bang. |
@@ -120,7 +137,6 @@ Chạy từ thư mục gốc của repo: `python pcap_to_dataset/<tên script>.p
 | `107_phase2_fold_counts.py` | Dem so thiet bi huan luyen / kiem tra theo lop o tung fold cua giai doan 2 (2026-11-22). KHONG huan luyen, KHONG ghi de ket qua dong bang. |
 | `108_phase2_perclass_models.py` | Bang precision / do phu / F1 theo lop va ma tran nham lan cho RF64, MLP64, CNN 1D, Transformer (tu dau) tren tap A (2026-11-22). |
 | `110_group_A_independent.py` | Nhom A cua so theo doi (2026-11-25): chay lai giai doan 2 va baseline tren BO NHAN DOC LAP. KHONG ghi de ket qua dong bang. |
-| `112_stage_timing.py` | Nhom A4 cua so theo doi (2026-11-25): chi phi cua tung giai doan. KHONG huan luyen lai, KHONG ghi de ket qua dong bang. |
 | `113_group_A_extra.py` | Nhom A (2026-11-25), phan bo sung cho muc 4.3 tren bo nhan doc lap: bo dac trung, doi chung chi vai tro ket noi, hoan vi nhan, phan tich loi hat 0, |
 | `114_group_A_setT_dl.py` | Nhom A (2026-11-25): MLP 64 cot, CNN 1D tu dau (5 hat) va Transformer tu dau (3 hat) tren TAP T cua bo nhan doc lap (cho Bang 4.5). KHONG ghi de ket qua dong bang. |
 
@@ -129,14 +145,15 @@ Chạy từ thư mục gốc của repo: `python pcap_to_dataset/<tên script>.p
 | Nội dung | Script | Tệp kết quả trong `Dataset/features/` |
 |---|---|---|
 | Giai đoạn 1: LightGBM so với XGBoost | `34_compare_lightgbm_xgboost.py` | `phase1_lgbm_vs_xgb_results.json` |
-| Giai đoạn 1: đánh giá trên tập gold, bảng ngưỡng | `36_phase1_gold_eval.py` | `phase1_gold_eval_v6.json`, `phase1_threshold_table_v6.csv` |
+| Giai đoạn 1: đánh giá trên tập gold, bảng ngưỡng | `36_phase1_gold_eval.py`, `39_phase1_scanner_strict_obstime.py` | `phase1_gold_eval_v6.json`, `phase1_threshold_union_v6.csv` |
 | Giai đoạn 1: chia chặt theo thành phần liên thông | `39_phase1_scanner_strict_obstime.py` | `phase1_followups_v6.json`, `phase1_strict_split_v6.csv` |
 | Giai đoạn 1: bỏ hai đặc trưng đếm cổng (13 đặc trưng) | `111_phase1_13feat.py` | `phase1_13feat_eval.json` |
 | Giai đoạn 1: phương pháp cơ sở | `81_phase1_baselines_pu.py` | `phase1_wp3_baselines_pu.json` |
-| Giai đoạn 2 trên bộ nhãn độc lập: Random Forest, MLP, CNN 1D, Transformer, luật vai trò, phương pháp cơ sở, chia theo thành phần liên thông, đầu–cuối | `110_group_A_independent.py` | `phase2_groupA_indep160.json` |
+| Giai đoạn 2 trên bộ nhãn độc lập: Random Forest, MLP, CNN 1D, Transformer, luật vai trò, phương pháp cơ sở, chia theo thành phần liên thông | `110_group_A_independent.py` | `phase2_groupA_indep160.json` |
 | Giai đoạn 2: bộ đặc trưng, hoán vị nhãn | `113_group_A_extra.py` | `phase2_groupA_extra_indep160.json` |
 | Giai đoạn 2: mô hình học sâu trên tập T | `114_group_A_setT_dl.py` | `phase2_groupA_setT_dl_indep160.json` |
+| Đầu–cuối hai giai đoạn và đối chứng một giai đoạn | `110_group_A_independent.py` | `phase2_groupA_indep160.json` (khóa `end_to_end`) |
 | Chi phí từng giai đoạn | `112_stage_timing.py` | `stage_timing_a4.json` |
 | Số thiết bị theo fold | `107_phase2_fold_counts.py` | `phase2_fold_counts_186.json` |
 | Kiểm tra chia fold, kiểm tra lồng, độ nhạy nhãn DCS (bộ đủ 186 nhãn) | `101_phase2_fold_audit.py`, `103_group_c_checks.py`, `105_group_c_rerun.py` | `phase2_fold_audit_186.json`, `phase2_groupc_extra_186.json`, `phase2_groupc_rerun_186.json` |
-| Nguyên mẫu trên một tệp PCAP | `69_phase2_infer.py`, `phase1_webapp/` | — |
+| Nguyên mẫu hai giai đoạn trên một tệp PCAP | `99_phase2_infer_186.py`, `69_phase2_infer.py`, thư mục `demo_webapp/` | `phase2_infer/output/` |

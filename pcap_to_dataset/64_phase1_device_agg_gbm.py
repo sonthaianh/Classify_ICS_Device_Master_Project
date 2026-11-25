@@ -5,7 +5,7 @@ Cau hoi: DeepSets thang LightGBM cua so co phai vi la deep learning, hay chi vi 
 Cung giao thuc voi script 63: cung feature log, cung K, cung fold (fold_device va fold_component), 3 hat, cung gold, cung bootstrap theo thiet bi.
 KHONG dung so cua so cua thiet bi lam feature (tranh nhiem "do dai capture").
 Doc diem cua DeepSets/LightGBM-cua-so tu phase1_dl_vs_lgbm_scores_v6.csv (script 63).
-Dau ra: phase1_device_agg_gbm_v6.json     Chay: py -3.14 Tools/pcap_to_dataset/64_phase1_device_agg_gbm.py
+Dau ra: phase1_device_agg_gbm_v6.json     Chay: py -3.14 pcap_to_dataset/64_phase1_device_agg_gbm.py
 """
 import importlib.util
 import json

@@ -1,12 +1,12 @@
 """Phase 2 tren MOT file PCAP: Phase 1 (OT?) -> cong -> ho so payload -> feature -> RandomForest 4 lop PLC / HMI / EWS / OTHER (2026-11-11).
 
-Dung lai code da kiem chung: doc PCAP = phase1_webapp/pcap_reader (cung 18 cot voi raw_parquet); diem Phase 1 + 15 feature hanh vi = phase1_webapp/pipeline (script 26);
+Dung lai code da kiem chung: doc PCAP = demo_webapp/pcap_reader (cung 18 cot voi raw_parquet); diem Phase 1 + 15 feature hanh vi = demo_webapp/pipeline (script 26);
 ho so payload = cung logic script 67 (family_and_role, msg_token cua script 42); feature payload/vai tro/tac vu = cung cong thuc script 58/57/45.
 Mo hinh = RandomForest huan luyen tren TOAN BO thiet bi co nhan va co ho so (bo feature 'behaviour_payload_role_eng', 64 cot).
 
-  py -3.14 Tools/pcap_to_dataset/69_phase2_infer.py --train                 # huan luyen mo hinh cuoi -> Tools/phase2_infer/model/
-  py -3.14 Tools/pcap_to_dataset/69_phase2_infer.py <file.pcap> [--all]     # phan tich 1 file; --all: du doan Phase 2 ca thiet bi khong qua cong Phase 1
-  py -3.14 Tools/pcap_to_dataset/69_phase2_infer.py --selftest              # kiem tra tuong thich feature: cong thuc ban moi == ma tran huan luyen
+  py -3.14 pcap_to_dataset/69_phase2_infer.py --train                 # huan luyen mo hinh cuoi -> phase2_infer/model/
+  py -3.14 pcap_to_dataset/69_phase2_infer.py <file.pcap> [--all]     # phan tich 1 file; --all: du doan Phase 2 ca thiet bi khong qua cong Phase 1
+  py -3.14 pcap_to_dataset/69_phase2_infer.py --selftest              # kiem tra tuong thich feature: cong thuc ban moi == ma tran huan luyen
 
 GIOI HAN (doc truoc khi tin ket qua): mo hinh chi dung 117 nhan (PLC 37 / HMI 11 / EWS 15 / OTHER 54), chua chuyen gia xac nhan; do chinh xac cheo ~0,58 (4 lop, ngau nhien 0,25),
 HMI va EWS yeu (recall ~0,3-0,5); thiet bi khong co thong diep OT (token) thuong bi doan OTHER vi nhan OTHER phan lon la thiet bi khong noi giao thuc OT.
@@ -25,7 +25,7 @@ import pandas as pd
 
 HERE = Path(__file__).resolve().parent
 TOOLS = HERE.parent
-APP = TOOLS / "phase1_webapp"
+APP = TOOLS / "demo_webapp"
 OUTDIR = TOOLS / "phase2_infer"
 MODEL_DIR = OUTDIR / "model"
 FEATURE_SET = "behaviour_payload_role_eng"

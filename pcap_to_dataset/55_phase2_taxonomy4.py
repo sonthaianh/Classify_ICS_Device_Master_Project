@@ -2,7 +2,7 @@
 
 Chi anh xa lai bang nhan da co (phase2_type_labels_v6.csv); KHONG tao nhan moi, KHONG sua file goc.
 IED, IO va OTHER cu gop thanh OTHER; giu cot `sub_type` de truy nguoc. Nhan EXCLUDED_* giu nguyen (khong tinh).
-Chay: py -3.14 Tools/pcap_to_dataset/55_phase2_taxonomy4.py
+Chay: py -3.14 pcap_to_dataset/55_phase2_taxonomy4.py
 """
 import json
 from pathlib import Path

@@ -3,7 +3,7 @@ r"""
 oui_lookup.py
 
 Tra cuu vendor phan cung tu dia chi MAC, dung truc tiep file
-Tools/utils/OUI/manuf.txt (IEEE OUI registry, xuat boi `tshark -G manuf`,
+utils/OUI/manuf.txt (IEEE OUI registry, xuat boi `tshark -G manuf`,
 CHINH LA file Wireshark/tshark tu dung de resolve ten vendor trong GUI).
 
 Day la TIN HIEU DOC LAP voi viec tai tao frame: src_mac/dst_mac trong
@@ -15,7 +15,7 @@ Ho tro dung dinh dang block IEEE: 24-bit (MA-L, mac dinh khi khong co "/N"),
 28-bit (MA-M), 36-bit (MA-S) - vi du dong "00:1B:C5:00:00/36" trong manuf.txt.
 
 Su dung:
-    lookup = OuiLookup()  # tu dong tim manuf.txt canh file nay (Tools/utils/OUI/manuf.txt)
+    lookup = OuiLookup()  # tu dong tim manuf.txt canh file nay (utils/OUI/manuf.txt)
     info = lookup.lookup("00:0f:b5:4d:be:f3")
     # info = {"short_name": ..., "full_name": ..., "match_bits": 24,
     #         "is_multicast": False, "is_locally_administered": False}

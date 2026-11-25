@@ -7,7 +7,7 @@ Moi su kien = 1 goi mang payload cua thiet bi:  ky hieu = "<vai tro S|C>:<tx|rx>
 kem bin do dai payload (log2) va bin khoang cach thoi gian (so voi su kien truoc, trong cung thiet bi-session).
 Luu toi da CAP_EVENTS su kien dau moi thiet bi-session (de nho), nhung dem token tren TOAN BO (<= MAX_PKTS) de doi chieu.
 Cache: Dataset/features/seq_cache_v6/<session>.pkl (ghi nguyen tu; chay lai se bo qua file da xong).  Dau ra gop: phase2_sequences_v6.pkl
-Chay: py -3.14 Tools/pcap_to_dataset/60_phase2_sequences.py [--workers 6] [--limit N]     (them --merge-only de chi gop + kiem tra)
+Chay: py -3.14 pcap_to_dataset/60_phase2_sequences.py [--workers 6] [--limit N]     (them --merge-only de chi gop + kiem tra)
 """
 import importlib.util
 import json

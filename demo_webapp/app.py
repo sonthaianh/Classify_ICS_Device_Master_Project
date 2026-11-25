@@ -1,6 +1,6 @@
 """Phase 1 + Phase 2 test web app: upload a PCAP/PCAPNG -> per-device OT score (Phase 1) and, for OT devices, role PLC/HMI/EWS/OTHER (Phase 2, model_186).
 
-Run:  python Tools/phase1_webapp/app.py      then open http://127.0.0.1:5001
+Run:  python demo_webapp/app.py      then open http://127.0.0.1:5001
 Local use only (binds to 127.0.0.1). Uploaded captures are deleted after analysis; only the result JSON is kept.
 """
 from __future__ import annotations

@@ -20,17 +20,17 @@ dong) - de xu ly duoc flow.parquet hang trieu dong (vd file ABB tcpflood
 part1-12, ~5 trieu flow/file).
 
 Chay 1 file:
-    "C:\Program Files\Python314\python.exe" Tools\pcap_to_dataset\device_flow_builder.py --file "Tools\Dataset\processed\flows\S0003.parquet"
+    python pcap_to_dataset\device_flow_builder.py --file "Dataset\processed\flows\S0003.parquet"
 
 Chay nhieu file (batch, toan bo hoac lay mau):
-    "C:\Program Files\Python314\python.exe" Tools\pcap_to_dataset\device_flow_builder.py --dir "Tools\Dataset\processed\flows" --n 10
+    python pcap_to_dataset\device_flow_builder.py --dir "Dataset\processed\flows" --n 10
 
 Tham so:
     --file    1 file flow.parquet dau vao (dung 1 trong 2: --file hoac --dir)
     --dir     thu muc chua nhieu file flow.parquet, xu ly hang loat
     --n       (chi voi --dir) chi lay mau ngau nhien N file, mac dinh: xu ly TAT CA
     --seed    seed cho --n (mac dinh 42)
-    --out     thu muc luu device_flow.parquet (mac dinh: Tools/Dataset/processed/device_flows/)
+    --out     thu muc luu device_flow.parquet (mac dinh: Dataset/processed/device_flows/)
     --overwrite  xu ly lai file da co output
 """
 

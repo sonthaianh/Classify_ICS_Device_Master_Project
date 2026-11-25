@@ -6,7 +6,7 @@ CUNG chi so (balanced accuracy) de so sanh cong bang. Sieu tham so CO DINH truoc
   CE co trong so lop nghich dao tan suat (chi tinh tren train); gop 3 khoi tao ngau nhien (trung binh xac suat).
 Che do: A = 101 thiet bi co ho so payload; T = 65 thiet bi co token (nhan day du va nhan nghiem bo 5 EWS duyet tay).
 Dau ra: phase2_dl_mlp_v6.json (kem so RandomForest tu script 58/59 de doi chieu)
-Chay: py -3.14 Tools/pcap_to_dataset/61_phase2_dl_mlp.py
+Chay: py -3.14 pcap_to_dataset/61_phase2_dl_mlp.py
 """
 import importlib.util
 import json

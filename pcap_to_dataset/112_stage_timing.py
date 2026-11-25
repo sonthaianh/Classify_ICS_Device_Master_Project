@@ -3,7 +3,7 @@
 (1) Khoi luong phai doc payload: so tep va dung luong (tep raw_parquet) khi CO cong loc giai doan 1 (chi thiet bi co diem >= 0,5 va cac thiet bi OT cua bang phong thi nghiem,
     dung pham vi cua script 67) va khi KHONG co cong loc (moi thiet bi cua giai doan 1).
 (2) Thoi gian suy luan mo hinh tren du lieu da trich dac trung: LightGBM giai doan 1 tren moi cua so cua 3.923 thiet bi; Random Forest giai doan 2 tren vector 64 cot.
-(3) Thoi gian tung buoc cua nguyen mau tren cac tep PCAP mau (Tools/Dataset/pcap): doc PCAP; giai doan 1 (dung cua so 45 giay + LightGBM); giai doan 2 (doc payload cua
+(3) Thoi gian tung buoc cua nguyen mau tren cac tep PCAP mau (Dataset/pcap): doc PCAP; giai doan 1 (dung cua so 45 giay + LightGBM); giai doan 2 (doc payload cua
     thiet bi qua cong, dung vector 64 cot, Random Forest). Moi tep lap 3 lan, lay trung vi. Them truong hop khong co cong loc (doc payload cua moi thiet bi).
 Dau ra: stage_timing_a4.json.    Chay: py -3.14 112_stage_timing.py [--skip-pcap]
 """
@@ -26,7 +26,7 @@ HERE = Path(__file__).resolve().parent
 TOOLS = HERE.parent
 F = TOOLS / "Dataset/features"
 DS = TOOLS / "Dataset"
-APP = TOOLS / "phase1_webapp"
+APP = TOOLS / "demo_webapp"
 THR = 0.5
 REP = 3
 GB = 1024 ** 3

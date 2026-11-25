@@ -1,6 +1,6 @@
 # Dữ liệu trong repo
 
-Thư mục `Dataset/features/` chứa 175 tệp: bảng đặc trưng, nhãn, cách chia fold và các tệp kết quả mà script đọc hoặc ghi. Dữ liệu gói tin thô (2.230 tệp PCAP, khoảng 116 GB ở dạng bảng) không nằm trong repo.
+Thư mục `Dataset/features/` chứa 176 tệp: bảng đặc trưng, nhãn, cách chia fold và các tệp kết quả mà script đọc hoặc ghi. Dữ liệu gói tin thô (2.230 tệp PCAP, khoảng 116 GB ở dạng bảng) không nằm trong repo.
 
 ## Đã ẩn danh như thế nào
 
@@ -25,4 +25,5 @@ Script `109`, `26`–`28`, `42`, `45`, `46`, `52`, `54`, `67`, `68`, `84`, `85`,
 | `phase2_eng_features_v6.csv`, `phase2_role_tier1_v6.csv` | Đặc trưng tác vụ kỹ thuật và vai trò kết nối |
 | `phase2_type_labels_4class_186_devices.csv` | 186 nhãn vai trò PLC, HMI, EWS, OTHER |
 | `phase2_type_labels_4class_186_devices_indep160.csv` | 160 nhãn độc lập với đặc trưng, dùng cho kết quả chính |
+| `b3b4_cache_v6/` | Đồ thị giao tiếp và thống kê payload theo capture cho hai phương pháp cơ sở B3, B4; địa chỉ MAC đã thay bằng địa chỉ giả giữ mã nhà sản xuất |
 | `phase2_groupA_indep160.json` | Kết quả chính của giai đoạn 2 trên bộ nhãn độc lập |

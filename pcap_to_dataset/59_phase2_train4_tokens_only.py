@@ -1,6 +1,6 @@
 """Phase 2 - bo sung cho script 58: danh gia 4 lop CHI tren thiet bi co token thong diep (n~65), noi feature "tac vu ky thuat" khong bi
 confound do thieu du lieu (thiet bi co ho so nhung khong co token bi dien 0, phan lon la OTHER). Dung lai ham cua script 58.
-Chay: py -3.14 Tools/pcap_to_dataset/59_phase2_train4_tokens_only.py     Dau ra: phase2_train4_tokens_only_v6.json
+Chay: py -3.14 pcap_to_dataset/59_phase2_train4_tokens_only.py     Dau ra: phase2_train4_tokens_only_v6.json
 """
 import importlib.util
 import json
