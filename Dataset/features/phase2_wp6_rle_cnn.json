@@ -1,0 +1,128 @@
+{
+ "n": 117,
+ "class_counts": {
+  "OTHER": 54,
+  "PLC": 37,
+  "EWS": 15,
+  "HMI": 11
+ },
+ "seeds": 5,
+ "variants": {
+  "raw": {
+   "balanced_acc": 0.564,
+   "balanced_acc_std": 0.033,
+   "macro_f1": 0.562,
+   "recall": {
+    "PLC": 0.724,
+    "HMI": 0.491,
+    "EWS": 0.36,
+    "OTHER": 0.681
+   },
+   "confusion_sum_over_seeds": [
+    [
+     134,
+     10,
+     27,
+     14
+    ],
+    [
+     16,
+     27,
+     5,
+     7
+    ],
+    [
+     19,
+     3,
+     27,
+     26
+    ],
+    [
+     29,
+     12,
+     45,
+     184
+    ]
+   ]
+  },
+  "rle_rep": {
+   "balanced_acc": 0.562,
+   "balanced_acc_std": 0.028,
+   "macro_f1": 0.568,
+   "recall": {
+    "PLC": 0.741,
+    "HMI": 0.364,
+    "EWS": 0.387,
+    "OTHER": 0.756
+   },
+   "confusion_sum_over_seeds": [
+    [
+     137,
+     7,
+     23,
+     18
+    ],
+    [
+     21,
+     20,
+     5,
+     9
+    ],
+    [
+     20,
+     0,
+     29,
+     26
+    ],
+    [
+     27,
+     7,
+     32,
+     204
+    ]
+   ]
+  },
+  "rle_norep": {
+   "balanced_acc": 0.583,
+   "balanced_acc_std": 0.05,
+   "macro_f1": 0.583,
+   "recall": {
+    "PLC": 0.746,
+    "HMI": 0.491,
+    "EWS": 0.373,
+    "OTHER": 0.722
+   },
+   "confusion_sum_over_seeds": [
+    [
+     138,
+     8,
+     21,
+     18
+    ],
+    [
+     15,
+     27,
+     5,
+     8
+    ],
+    [
+     19,
+     3,
+     28,
+     25
+    ],
+    [
+     30,
+     9,
+     36,
+     195
+    ]
+   ]
+  }
+ },
+ "events_mean": {
+  "raw": 5027.9,
+  "rle_rep": 3540.0,
+  "rle_norep": 3540.0
+ }
+}

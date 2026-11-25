@@ -1,0 +1,12 @@
+{
+ "device_sessions_in_profiles": 1473,
+ "device_sessions_in_cache": 1473,
+ "pairs_missing_from_cache": 0,
+ "pairs_not_in_profiles": 0,
+ "checked": 1473,
+ "token_count_mismatches": 0,
+ "mismatch_examples": [],
+ "n_devices": 864,
+ "vocab_size": 851,
+ "events_total": 1775347
+}

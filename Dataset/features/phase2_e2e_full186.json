@@ -1,0 +1,163 @@
+{
+ "status": "EXPLORATORY; labels not expert-verified; OTHER labels partly selected from stage-1 false positives; no frozen result overwritten",
+ "n_labels": 186,
+ "n_profiled": 165,
+ "n_no_profile": 21,
+ "threshold": 0.5,
+ "no_profile_by_class": {
+  "HMI": 15,
+  "PLC": 3,
+  "OTHER": 3
+ },
+ "no_profile_pass_stage1": 5,
+ "stage2_only_balanced_acc_profiled_165": {
+  "mean": 0.641,
+  "sd": 0.03
+ },
+ "scenario_U_missing_profile_counts_as_wrong": {
+  "oracle": {
+   "balanced_acc_186": {
+    "mean": 0.55,
+    "sd": 0.028
+   },
+   "ot3_accuracy_106": {
+    "mean": 0.587,
+    "sd": 0.02
+   },
+   "recall_by_class": {
+    "PLC": {
+     "mean": 0.743,
+     "sd": 0.023
+    },
+    "HMI": {
+     "mean": 0.358,
+     "sd": 0.023
+    },
+    "EWS": {
+     "mean": 0.55,
+     "sd": 0.055
+    },
+    "OTHER": {
+     "mean": 0.548,
+     "sd": 0.06
+    }
+   }
+  },
+  "e2e": {
+   "balanced_acc_186": {
+    "mean": 0.553,
+    "sd": 0.028
+   },
+   "ot3_accuracy_106": {
+    "mean": 0.587,
+    "sd": 0.02
+   },
+   "recall_by_class": {
+    "PLC": {
+     "mean": 0.743,
+     "sd": 0.023
+    },
+    "HMI": {
+     "mean": 0.358,
+     "sd": 0.023
+    },
+    "EWS": {
+     "mean": 0.55,
+     "sd": 0.055
+    },
+    "OTHER": {
+     "mean": 0.56,
+     "sd": 0.06
+    }
+   }
+  }
+ },
+ "scenario_D_missing_profile_defaults_to_OTHER": {
+  "oracle": {
+   "balanced_acc_186": {
+    "mean": 0.559,
+    "sd": 0.028
+   },
+   "ot3_accuracy_106": {
+    "mean": 0.587,
+    "sd": 0.02
+   },
+   "recall_by_class": {
+    "PLC": {
+     "mean": 0.743,
+     "sd": 0.023
+    },
+    "HMI": {
+     "mean": 0.358,
+     "sd": 0.023
+    },
+    "EWS": {
+     "mean": 0.55,
+     "sd": 0.055
+    },
+    "OTHER": {
+     "mean": 0.585,
+     "sd": 0.06
+    }
+   }
+  },
+  "e2e": {
+   "balanced_acc_186": {
+    "mean": 0.559,
+    "sd": 0.028
+   },
+   "ot3_accuracy_106": {
+    "mean": 0.587,
+    "sd": 0.02
+   },
+   "recall_by_class": {
+    "PLC": {
+     "mean": 0.743,
+     "sd": 0.023
+    },
+    "HMI": {
+     "mean": 0.358,
+     "sd": 0.023
+    },
+    "EWS": {
+     "mean": 0.55,
+     "sd": 0.055
+    },
+    "OTHER": {
+     "mean": 0.585,
+     "sd": 0.06
+    }
+   }
+  }
+ },
+ "seed0_status_by_true_class": {
+  "EWS": {
+   "blocked_by_stage1": 0,
+   "no_profile_blocked": 0,
+   "no_profile_passed": 0,
+   "stage2_correct": 11,
+   "stage2_wrong_role": 9
+  },
+  "HMI": {
+   "blocked_by_stage1": 2,
+   "no_profile_blocked": 15,
+   "no_profile_passed": 0,
+   "stage2_correct": 11,
+   "stage2_wrong_role": 5
+  },
+  "OTHER": {
+   "blocked_by_stage1": 0,
+   "no_profile_blocked": 1,
+   "no_profile_passed": 2,
+   "stage2_correct": 47,
+   "stage2_wrong_role": 30
+  },
+  "PLC": {
+   "blocked_by_stage1": 1,
+   "no_profile_blocked": 0,
+   "no_profile_passed": 3,
+   "stage2_correct": 38,
+   "stage2_wrong_role": 11
+  }
+ }
+}

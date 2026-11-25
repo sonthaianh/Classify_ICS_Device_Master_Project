@@ -1,0 +1,407 @@
+{
+ "status": "EXPLORATORY re-implementations; frozen results untouched",
+ "sessions": 379,
+ "setA_n": 117,
+ "B3": {
+  "V1_all": {
+   "graph_stats": {
+    "sessions": 369,
+    "single_level": 305,
+    "fallback": 10,
+    "sources_median": 2.0
+   },
+   "setA": {
+    "n": 117,
+    "balanced_acc": 0.314,
+    "recall": {
+     "PLC": 0.784,
+     "HMI": 0.455,
+     "EWS": 0.0,
+     "OTHER": 0.019
+    },
+    "confusion": [
+     [
+      29,
+      8,
+      0,
+      0
+     ],
+     [
+      5,
+      5,
+      0,
+      1
+     ],
+     [
+      12,
+      3,
+      0,
+      0
+     ],
+     [
+      37,
+      16,
+      0,
+      1
+     ]
+    ]
+   },
+   "setA_ci95": [
+    0.231,
+    0.402
+   ],
+   "set144": {
+    "n": 144,
+    "balanced_acc": 0.293,
+    "recall": {
+     "PLC": 0.8,
+     "HMI": 0.357,
+     "EWS": 0.0,
+     "OTHER": 0.013
+    },
+    "confusion": [
+     [
+      32,
+      8,
+      0,
+      0
+     ],
+     [
+      8,
+      5,
+      0,
+      1
+     ],
+     [
+      12,
+      3,
+      0,
+      0
+     ],
+     [
+      58,
+      16,
+      0,
+      1
+     ]
+    ]
+   },
+   "devices_in_graph_setA": 115,
+   "pred_counts_setA": {
+    "PLC": 83,
+    "HMI": 32,
+    "OTHER": 2
+   },
+   "plc_vs_hmi_only": {
+    "n": 48,
+    "accuracy": 0.708,
+    "predicted_as_PLC_or_HMI": 47
+   }
+  },
+  "V2_ot": {
+   "graph_stats": {
+    "sessions": 224,
+    "single_level": 203,
+    "fallback": 3,
+    "sources_median": 2.0
+   },
+   "setA": {
+    "n": 117,
+    "balanced_acc": 0.346,
+    "recall": {
+     "PLC": 0.811,
+     "HMI": 0.0,
+     "EWS": 0.0,
+     "OTHER": 0.574
+    },
+    "confusion": [
+     [
+      30,
+      4,
+      0,
+      3
+     ],
+     [
+      9,
+      0,
+      0,
+      2
+     ],
+     [
+      10,
+      0,
+      0,
+      5
+     ],
+     [
+      15,
+      8,
+      0,
+      31
+     ]
+    ]
+   },
+   "setA_ci95": [
+    0.298,
+    0.391
+   ],
+   "set144": {
+    "n": 144,
+    "balanced_acc": 0.297,
+    "recall": {
+     "PLC": 0.775,
+     "HMI": 0.0,
+     "EWS": 0.0,
+     "OTHER": 0.413
+    },
+    "confusion": [
+     [
+      31,
+      4,
+      0,
+      5
+     ],
+     [
+      11,
+      0,
+      0,
+      3
+     ],
+     [
+      10,
+      0,
+      0,
+      5
+     ],
+     [
+      36,
+      8,
+      0,
+      31
+     ]
+    ]
+   },
+   "devices_in_graph_setA": 76,
+   "pred_counts_setA": {
+    "PLC": 64,
+    "HMI": 12,
+    "OTHER": 41
+   },
+   "plc_vs_hmi_only": {
+    "n": 48,
+    "accuracy": 0.625,
+    "predicted_as_PLC_or_HMI": 43
+   }
+  },
+  "V3_ot_req": {
+   "graph_stats": {
+    "sessions": 215,
+    "single_level": 5,
+    "fallback": 17,
+    "sources_median": 2.0
+   },
+   "setA": {
+    "n": 117,
+    "balanced_acc": 0.523,
+    "recall": {
+     "PLC": 0.811,
+     "HMI": 0.727,
+     "EWS": 0.0,
+     "OTHER": 0.556
+    },
+    "confusion": [
+     [
+      30,
+      4,
+      0,
+      3
+     ],
+     [
+      1,
+      8,
+      0,
+      2
+     ],
+     [
+      1,
+      9,
+      0,
+      5
+     ],
+     [
+      21,
+      3,
+      0,
+      30
+     ]
+    ]
+   },
+   "setA_ci95": [
+    0.437,
+    0.602
+   ],
+   "set144": {
+    "n": 144,
+    "balanced_acc": 0.467,
+    "recall": {
+     "PLC": 0.825,
+     "HMI": 0.643,
+     "EWS": 0.0,
+     "OTHER": 0.4
+    },
+    "confusion": [
+     [
+      33,
+      4,
+      0,
+      3
+     ],
+     [
+      2,
+      9,
+      0,
+      3
+     ],
+     [
+      1,
+      9,
+      0,
+      5
+     ],
+     [
+      41,
+      4,
+      0,
+      30
+     ]
+    ]
+   },
+   "devices_in_graph_setA": 77,
+   "pred_counts_setA": {
+    "PLC": 53,
+    "HMI": 24,
+    "OTHER": 40
+   },
+   "plc_vs_hmi_only": {
+    "n": 48,
+    "accuracy": 0.792,
+    "predicted_as_PLC_or_HMI": 43
+   }
+  }
+ },
+ "B4": {
+  "devices_with_samples_setA": 105,
+  "samples_per_device_median": 2.0,
+  "P1_paper_scenario3": {
+   "balanced_acc": 0.319,
+   "balanced_acc_std": 0.025,
+   "macro_f1": 0.3,
+   "recall": {
+    "PLC": 0.368,
+    "HMI": 0.182,
+    "EWS": 0.373,
+    "OTHER": 0.352
+   },
+   "confusion_sum_over_seeds": [
+    [
+     68,
+     59,
+     42,
+     16
+    ],
+    [
+     21,
+     10,
+     10,
+     14
+    ],
+    [
+     22,
+     15,
+     28,
+     10
+    ],
+    [
+     74,
+     41,
+     60,
+     95
+    ]
+   ]
+  },
+  "P2_standard": {
+   "balanced_acc": 0.436,
+   "balanced_acc_std": 0.012,
+   "macro_f1": 0.441,
+   "recall": {
+    "PLC": 0.573,
+    "HMI": 0.2,
+    "EWS": 0.227,
+    "OTHER": 0.744
+   },
+   "confusion_sum_over_seeds": [
+    [
+     106,
+     26,
+     13,
+     40
+    ],
+    [
+     32,
+     11,
+     7,
+     5
+    ],
+    [
+     32,
+     0,
+     17,
+     26
+    ],
+    [
+     54,
+     1,
+     14,
+     201
+    ]
+   ]
+  },
+  "P2e_entropy_only": {
+   "balanced_acc": 0.432,
+   "balanced_acc_std": 0.033,
+   "macro_f1": 0.446,
+   "recall": {
+    "PLC": 0.584,
+    "HMI": 0.255,
+    "EWS": 0.213,
+    "OTHER": 0.678
+   },
+   "confusion_sum_over_seeds": [
+    [
+     108,
+     14,
+     15,
+     48
+    ],
+    [
+     32,
+     14,
+     4,
+     5
+    ],
+    [
+     33,
+     0,
+     16,
+     26
+    ],
+    [
+     75,
+     0,
+     12,
+     183
+    ]
+   ]
+  }
+ }
+}

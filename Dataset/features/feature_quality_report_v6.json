@@ -1,0 +1,272 @@
+{
+ "status": "passed",
+ "rows": 768927,
+ "columns": 76,
+ "devices": 3923,
+ "captures": 1664,
+ "review_rows": 14335,
+ "raw_packets_scanned": 572433200,
+ "scoped_packets": 517448231,
+ "duplicate_flow_packets_excluded": 15928140,
+ "invalid_timestamp_packets_excluded": 0,
+ "packet_only_windows": 32114,
+ "model_identity_review_rows": 0,
+ "protocol_evidence_review_rows": 9516,
+ "training_features": [
+  "pkts_per_flow",
+  "bytes_per_packet",
+  "udp_ratio",
+  "packet_rate",
+  "small_flow_ratio",
+  "one_way_flow_ratio",
+  "flow_dur_median",
+  "unique_local_port_count",
+  "svc_port_unique",
+  "frames_sent",
+  "arp_frame_count",
+  "arp_target_unique",
+  "icmp_frame_count",
+  "nonip_frame_count",
+  "bcast_frame_ratio",
+  "carryover_flow_ratio",
+  "ip_count"
+ ],
+ "runtime": {
+  "python": "3.14.10",
+  "executable": "C:\\Program Files\\Python314\\python.exe",
+  "pandas": "3.0.5",
+  "numpy": "2.5.1",
+  "pyarrow": "25.0.1"
+ },
+ "support_code_sha256": {
+  "pcap_to_dataset\\feature_contract.py": "701471207403c7d6703ca742a653ff6dd859c7f4512998f01ab0e49ae2fe15c7",
+  "utils\\frame_builder.py": "ccdb92217b45ce742ac7edc8be4b5af25a0ca80dc0503a668ee5dfe61b75e0f0",
+  "utils\\tshark_dpi.py": "7a0683ce4a24d0740fc45839709e47ba4216bf6f666c713e8f79ee03eb95d259",
+  "pcap_to_dataset\\27_validate_behavior_dataset.py": "06388aafbae8027511ab471bd0689cdc6dcdd3cb16e2c6badec647c9195457ae"
+ },
+ "column_types": {
+  "device_id": "large_string",
+  "window_start": "double",
+  "packet_count": "int64",
+  "frames_sent": "int64",
+  "frames_received": "int64",
+  "arp_frame_count": "int64",
+  "icmp_frame_count": "int64",
+  "nonip_frame_count": "int64",
+  "unparsed_ip_frame_count": "int64",
+  "first_observed": "double",
+  "last_observed": "double",
+  "observed_seconds": "double",
+  "frame_rate": "double",
+  "bcast_frame_ratio": "double",
+  "arp_target_unique": "int64",
+  "ip_count": "int64",
+  "flows_active": "double",
+  "pkt_alloc": "double",
+  "bytes_observed": "double",
+  "exposure_seconds": "double",
+  "pkts_per_flow": "double",
+  "bytes_per_packet": "double",
+  "udp_ratio": "double",
+  "packet_rate": "double",
+  "small_flow_ratio": "double",
+  "one_way_flow_ratio": "double",
+  "flow_dur_median": "double",
+  "unique_local_port_count": "double",
+  "svc_port_unique": "double",
+  "carryover_flow_ratio": "double",
+  "server_role_ratio": "double",
+  "role_known_ratio": "double",
+  "role_syn_ratio": "double",
+  "sent_byte_ratio": "double",
+  "started_before_capture_ratio": "double",
+  "ot_flow_ratio": "double",
+  "ot_pkt_share": "double",
+  "has_flow_packets": "bool",
+  "window_end": "double",
+  "session_id": "large_string",
+  "feature_version": "large_string",
+  "packet_allocation_method": "large_string",
+  "capture_file": "large_string",
+  "device_mac": "large_string",
+  "transports_seen": "large_string",
+  "protocols_seen": "large_string",
+  "message_types": "large_string",
+  "model": "large_string",
+  "station_name": "large_string",
+  "vendor": "large_string",
+  "vendor_source": "large_string",
+  "evidence_source": "large_string",
+  "protocol_detection_method": "large_string",
+  "dissection_scope": "large_string",
+  "label": "large_string",
+  "label_reason": "large_string",
+  "label_quality": "large_string",
+  "review_status": "large_string",
+  "reviewer": "large_string",
+  "reviewed_at": "large_string",
+  "proposed_label": "large_string",
+  "ambiguity_note": "large_string",
+  "n_windows": "int64",
+  "role_evidence": "large_string",
+  "role_hint": "large_string",
+  "source_group": "large_string",
+  "source_group_status": "large_string",
+  "legacy_label": "large_string",
+  "legacy_label_source": "large_string",
+  "legacy_protocols_seen": "large_string",
+  "legacy_evidence_scope": "large_string",
+  "flow_count": "int64",
+  "n_device_ips": "int64",
+  "n_peer_ips": "int64",
+  "n_peer_macs": "int64",
+  "n_service_ports": "int64"
+ },
+ "feature_summary": {
+  "pkts_per_flow": {
+   "missing": 32114,
+   "min": 1.0,
+   "max": 251513.0
+  },
+  "bytes_per_packet": {
+   "missing": 32114,
+   "min": 42.0,
+   "max": 17605.2
+  },
+  "udp_ratio": {
+   "missing": 32114,
+   "min": 0.0,
+   "max": 1.0
+  },
+  "packet_rate": {
+   "missing": 32114,
+   "min": 0.045506694255858085,
+   "max": 263110.3105232276
+  },
+  "small_flow_ratio": {
+   "missing": 32114,
+   "min": 0.0,
+   "max": 1.0
+  },
+  "one_way_flow_ratio": {
+   "missing": 32114,
+   "min": 0.0,
+   "max": 1.0
+  },
+  "flow_dur_median": {
+   "missing": 32114,
+   "min": 0.0,
+   "max": 44.99998593330383
+  },
+  "unique_local_port_count": {
+   "missing": 32114,
+   "min": 0.0,
+   "max": 65536.0
+  },
+  "svc_port_unique": {
+   "missing": 32114,
+   "min": 0.0,
+   "max": 52687.0
+  },
+  "frames_sent": {
+   "missing": 0,
+   "min": 0.0,
+   "max": 4997122.0
+  },
+  "arp_frame_count": {
+   "missing": 0,
+   "min": 0.0,
+   "max": 13780.0
+  },
+  "arp_target_unique": {
+   "missing": 0,
+   "min": 0.0,
+   "max": 750.0
+  },
+  "icmp_frame_count": {
+   "missing": 0,
+   "min": 0.0,
+   "max": 11261.0
+  },
+  "nonip_frame_count": {
+   "missing": 0,
+   "min": 0.0,
+   "max": 215997.0
+  },
+  "bcast_frame_ratio": {
+   "missing": 40223,
+   "min": 0.0,
+   "max": 1.0
+  },
+  "carryover_flow_ratio": {
+   "missing": 32114,
+   "min": 0.0,
+   "max": 1.0
+  },
+  "ip_count": {
+   "missing": 0,
+   "min": 0.0,
+   "max": 4948666.0
+  },
+  "server_role_ratio": {
+   "missing": 100748,
+   "min": 0.0,
+   "max": 1.0
+  },
+  "role_known_ratio": {
+   "missing": 32114,
+   "min": 0.0,
+   "max": 1.0
+  },
+  "role_syn_ratio": {
+   "missing": 32114,
+   "min": 0.0,
+   "max": 1.0
+  },
+  "sent_byte_ratio": {
+   "missing": 32114,
+   "min": 0.0,
+   "max": 1.0
+  },
+  "started_before_capture_ratio": {
+   "missing": 269758,
+   "min": 0.0,
+   "max": 1.0
+  },
+  "ot_flow_ratio": {
+   "missing": 32114,
+   "min": 0.0,
+   "max": 1.0
+  },
+  "ot_pkt_share": {
+   "missing": 32114,
+   "min": 0.0,
+   "max": 1.0
+  },
+  "frame_rate": {
+   "missing": 0,
+   "min": 0.0,
+   "max": 258112.7423702109
+  }
+ },
+ "verified": [
+  "source files unchanged",
+  "unique keys",
+  "complete device_flows device/session coverage",
+  "device set == include_in_behavior_dataset",
+  "no spoofed MAC",
+  "exact integer packet counts",
+  "bounded duration/ratios",
+  "no-flow NaN preserved",
+  "metadata excluded from D17",
+  "all new labels empty",
+  "review/window totals agree",
+  "output hashes"
+ ],
+ "not_claimed": [
+  "label correctness",
+  "physical identity across sites",
+  "full protocol dissection",
+  "model accuracy or calibration"
+ ]
+}

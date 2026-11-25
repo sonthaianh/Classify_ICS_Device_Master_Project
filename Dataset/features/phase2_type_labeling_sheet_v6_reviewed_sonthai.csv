@@ -1,0 +1,181 @@
+﻿device_id,device_mac,vendor_oui_unverified,top_sessions,ot_protocols,ot_peer_ports,ot_local_ports,pkts_per_flow,udp_ratio,packet_rate,svc_port_unique,gold_type,gold_basis,gold_confidence,notes
+DEV_2513,78:e7:d1:00:00:00,,,bacapp;bacnet;bvlc,47808,47808,1.0,1.0,1.0,0.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_2595,98:be:94:00:00:00,,,dnp3,20000,20000,2.0,1.0,2.0,0.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_0269,00:14:22:00:00:00,,,,102;2000;4000;4001;4002;20000,,2.36,0.75,7.19,20.5,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_1074,00:0c:29:00:00:00,,,hart_ip,5094,,5.0,0.67,1.0,2.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_0456,8c:ec:4b:00:00:00,,,,2000,,2.04,0.0,103.23,100.0,Engineering workstation/tool,scenario_name(engineering software),medium,reviewed_by=sonthai; not verified by domain expert
+DEV_2113,50:57:a8:00:00:00,,,,,2404,2.0,0.0,2.17,1.5,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_2736,00:e0:ab:00:00:00,,,iec60870_104,2404,,3.0,0.0,3.0,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_0226,00:30:a7:00:00:00,,,dnp3,20000,,43.67,0.0,3.4,3.0,IED/RTU/protection relay,vendor_product(relay/IED/IEC61850 gear)+substation scenario,medium,reviewed_by=sonthai; not verified by domain expert
+DEV_1802,00:09:5b:00:00:00,,,,,2404,36.5,0.5,1.85,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_1691,00:02:b3:00:00:00,,,,,,7.46,0.08,4.48,1.5,khac/khong ro,network infra / scanner / simulator / generic IT host,medium,reviewed_by=sonthai; not verified by domain expert
+DEV_2336,00:50:56:00:00:00,,,cip;cipcls;enip,44818,44818,1759.5,0.0,154.42,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_0648,00:0c:29:00:00:00,,,profinet-rt,,,4.0,0.0,2.76,0.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_2351,00:30:a7:00:00:00,,,,,,215.5,0.0,9.78,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_1217,00:30:a7:00:00:00,,,,,4712,1409.5,0.0,81.39,1.0,IED/RTU/protection relay,vendor_product(relay/IED/IEC61850 gear)+substation scenario,medium,reviewed_by=sonthai; not verified by domain expert
+DEV_2999,ec:1c:5d:00:00:00,,,,,,44.5,0.0,6.76,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_0047,00:09:8e:00:00:00,,,goose,,,84.0,0.0,1.96,0.0,IED/RTU/protection relay,vendor_product(relay/IED/IEC61850 gear)+substation scenario,medium,reviewed_by=sonthai; not verified by domain expert
+DEV_2472,00:1e:c9:00:00:00,,,sv,,,1.0,0.0,20.0,0.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_1419,00:0c:29:00:00:00,,,mbtcp;modbus,502,502,9.0,0.0,3.49,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_0145,00:30:de:00:00:00,,,bacapp;bacnet;bvlc,47808,47808,2.0,1.0,2.0,0.0,PLC/controller,vendor_product(PLC/controller maker)+scenario,medium,reviewed_by=sonthai; not verified by domain expert
+DEV_0051,00:09:8e:00:00:00,,,goose,,,123.0,0.0,2.94,0.0,IED/RTU/protection relay,vendor_product(relay/IED/IEC61850 gear)+substation scenario,medium,reviewed_by=sonthai; not verified by domain expert
+DEV_0107,00:0c:29:00:00:00,,,mbtcp;modbus,502,,691.0,0.0,67.87,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_1672,00:50:56:00:00:00,,,,,,187.14,0.0,116.31,27.0,HMI/SCADA/operator station,scenario_name(FEP),low,reviewed_by=sonthai; not verified by domain expert
+DEV_2112,34:17:eb:00:00:00,,,,,2404,2.0,0.0,2.32,1.5,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_0216,ec:8e:b5:00:00:00,,,,,55000;55001;55003,12.0,0.0,2.7,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_2969,04:91:62:00:00:00,,,,,,1.0,1.0,1.0,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_0579,94:a4:b5:00:00:00,,,,,,310.53,0.0,65.19,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_2636,00:01:f0:00:00:00,,,,1911,,7.0,0.0,7.0,1.0,PLC/controller,vendor_oui+scenario,low,reviewed_by=sonthai; not verified by domain expert
+DEV_0440,00:1e:bd:00:00:00,,,,,1089;1090;2000;4001;20000,2.0,0.0,32.63,100.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_0652,08:00:27:00:00:00,,,dnp3,20000,20000,12.0,1.0,0.39,0.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_2252,00:1d:9c:00:00:00,,,enip,2222,2222;44818,4871.0,0.5,250.22,1.0,PLC/controller,vendor_product(PLC/controller maker)+scenario,medium,reviewed_by=sonthai; not verified by domain expert
+DEV_1052,00:1a:d3:00:00:00,,,,,102,8.67,0.0,0.62,1.0,IED/RTU/protection relay,vendor_product(relay/IED/IEC61850 gear)+substation scenario,medium,reviewed_by=sonthai; not verified by domain expert
+DEV_0386,00:02:b3:00:00:00,,,dnp3;mbtcp;modbus,,502;20000,6.0,0.0,2.0,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_0304,00:80:f4:00:00:00,,,goose,,102,15.9,0.0,1.1,0.5,IED/RTU/protection relay,vendor_product(relay/IED/IEC61850 gear)+substation scenario,medium,reviewed_by=sonthai; not verified by domain expert
+DEV_1384,08:11:96:00:00:00,,,,1090;2000;4000;4001,,1.0,0.0,598.0,306.0,HMI/SCADA/operator station,scenario_name(SCADA/HMI sim)+vendor,medium,reviewed_by=sonthai; not verified by domain expert
+DEV_1935,ec:1c:5d:00:00:00,,,s7comm,,102,829.12,0.0,923.8,1.0,PLC/controller,vendor_product(PLC/controller maker)+scenario,medium,reviewed_by=sonthai; not verified by domain expert
+DEV_0976,c8:bc:c8:00:00:00,,,bacapp;bacnet;bvlc,47808,47808,2768.58,0.83,16611.5,1.5,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_0058,00:09:8e:00:00:00,,,goose,,,123.0,0.0,2.91,0.0,IED/RTU/protection relay,vendor_product(relay/IED/IEC61850 gear)+substation scenario,medium,reviewed_by=sonthai; not verified by domain expert
+DEV_0335,00:00:54:00:00:00,,,mbtcp;modbus,502,502;2000,135.0,0.0,3.07,1.0,PLC/controller,vendor_product(PLC/controller maker)+scenario,medium,reviewed_by=sonthai; not verified by domain expert
+DEV_2617,00:01:03:00:00:00,,,,,2000,14.5,1.0,1.05,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_0469,c8:e0:eb:00:00:00,,,bacapp;bacnet;bvlc,2222;47808,47808,1.8,0.0,72.0,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_2825,00:01:f0:00:00:00,,,bacapp;bacnet;bvlc,47808,47808,2.5,1.0,0.2,0.0,PLC/controller,vendor_oui+scenario,low,reviewed_by=sonthai; not verified by domain expert
+DEV_1366,08:00:27:00:00:00,,,iec60870_104;iec60870_asdu,47808,1089;1090;1091;2000;2222;2404;4000;4001;4002;20000,65.5,0.0,3.09,2.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_0052,00:09:8e:00:00:00,,,goose,,,79.5,0.0,2.94,0.0,IED/RTU/protection relay,vendor_product(relay/IED/IEC61850 gear)+substation scenario,medium,reviewed_by=sonthai; not verified by domain expert
+DEV_3078,02:00:00:00:00:00,,,profinet-rt,,,10619.5,0.0,246.93,0.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_2637,00:01:f0:00:00:00,,,,,1911,282.0,0.0,92.91,1.0,PLC/controller,vendor_oui+scenario,low,reviewed_by=sonthai; not verified by domain expert
+DEV_0626,00:0c:29:00:00:00,,,cip;enip,44818,,9.5,0.0,14.14,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_0309,00:0c:6e:00:00:00,,,bacapp;bacnet;bvlc,47808,47808,8.0,1.0,2.88,0.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_1058,00:1a:d3:00:00:00,,,,,102,38.33,0.0,2.51,1.0,IED/RTU/protection relay,vendor_product(relay/IED/IEC61850 gear)+substation scenario,medium,reviewed_by=sonthai; not verified by domain expert
+DEV_0189,70:b3:d5:00:00:00,,,sv,,,215996.0,0.0,4799.94,0.0,khac/khong ro,network infra / scanner / simulator / generic IT host,medium,reviewed_by=sonthai; not verified by domain expert
+DEV_2369,00:01:f0:00:00:00,,,bacapp;bacnet;bvlc,47808,47808,1.5,1.0,1.0,0.0,PLC/controller,vendor_oui+scenario,low,reviewed_by=sonthai; not verified by domain expert
+DEV_0187,00:0c:29:00:00:00,,,dnp3,,20000,9.0,0.0,3.0,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_0633,00:00:23:00:00:00,,,goose,,102,28.0,0.33,7.49,2.0,IED/RTU/protection relay,vendor_product(relay/IED/IEC61850 gear)+substation scenario,medium,reviewed_by=sonthai; not verified by domain expert
+DEV_1100,00:08:a1:00:00:00,,,cip;enip,44818,,31.75,0.0,6.7,2.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_2996,bc:e9:2f:00:00:00,,,,,,3080.0,0.0,3080.0,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_0252,00:a0:45:00:00:00,,,profinet-rt,,,176.0,0.0,5.03,0.0,PLC/controller,vendor_product(PLC/controller maker)+scenario,medium,reviewed_by=sonthai; not verified by domain expert
+DEV_1122,24:a2:e1:00:00:00,,,mqtt,,1883,5.75,0.0,0.8,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_2178,00:80:f9:00:00:00,,,,,,3.33,1.0,0.25,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_0077,00:0c:29:00:00:00,,,,1089;1090;1541;55000;55001;55003,1089;1541;34962;34964;34980;41100;44818;47808;48898;55000;55001;55003,14.52,0.0,31.29,2.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_2844,00:04:75:00:00:00,,,,,,135.0,1.0,4.12,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_0310,f4:54:33:00:00:00,,,cip;cipcls;enip,,44818,9231.75,0.0,661.71,1.0,PLC/controller,vendor_product(PLC/controller maker)+scenario,medium,reviewed_by=sonthai; not verified by domain expert
+DEV_1214,00:30:a7:00:00:00,,,goose,,,3.0,0.0,1.25,0.0,IED/RTU/protection relay,vendor_product(relay/IED/IEC61850 gear)+substation scenario,medium,reviewed_by=sonthai; not verified by domain expert
+DEV_2208,00:05:19:00:00:00,,,bacapp;bacnet;bvlc,47808,47808,3.0,1.0,0.28,0.0,PLC/controller,vendor_product(PLC/controller maker)+scenario,medium,reviewed_by=sonthai; not verified by domain expert
+DEV_2488,00:1b:1b:00:00:00,,,mbtcp;modbus,,502,1964.0,0.0,43.7,1.0,PLC/controller,vendor_oui+scenario,low,reviewed_by=sonthai; not verified by domain expert
+DEV_1931,b0:83:fe:00:00:00,,,dnp3,20000,20000,15.0,0.0,0.76,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_2512,00:c0:3d:00:00:00,,,bacapp;bacnet;bvlc,47808,47808,1.0,1.0,1.0,0.0,IO/gateway/other field device,vendor_product(interface maker),low,reviewed_by=sonthai; not verified by domain expert
+DEV_0321,00:d0:03:00:00:00,,,omron,,9600,100.0,1.0,100.0,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_0100,00:00:a0:00:00:00,,,omron,9600,9600,130.5,0.5,12.81,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_0570,00:1c:7f:00:00:00,,,mbtcp;modbus,502,,15.0,0.0,4.09,13.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_1398,54:af:97:00:00:00,,,,,2000,1.02,0.0,121.84,100.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_2960,00:50:56:00:00:00,,,s7comm,102,,771.0,0.0,108.6,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_1259,00:22:15:00:00:00,,,iec60870_104,2404,,17.5,0.0,1.2,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_1407,40:f4:9f:00:00:00,,,,,2000,64.0,1.0,30.91,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_0328,00:1b:1b:00:00:00,,,profinet-rt,,,1.0,0.0,1.0,0.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_0395,ec:1c:5d:00:00:00,,,mbtcp;modbus;profinet-rt;s7comm,102;502,502,111.0,0.05,132.72,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_0649,08:00:06:00:00:00,,,profinet-rt,,,4.0,0.0,2.76,0.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_0254,00:03:1d:00:00:00,,,mbtcp;modbus,,502,450.0,0.0,11.25,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_1443,78:a5:04:00:00:00,,,bacapp;bacnet;bvlc,47808,47808,80.54,1.0,13933.0,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_0331,00:90:0b:00:00:00,,,,,,14.5,1.0,0.54,1.0,Engineering workstation/tool,scenario_name(engineering software),medium,reviewed_by=sonthai; not verified by domain expert
+DEV_0945,80:19:34:00:00:00,,,bacapp;bacnet;bvlc,47808,47808,9.0,0.5,170.5,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_0241,00:03:1d:00:00:00,,,mbtcp;modbus,,502,573.0,0.0,14.27,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_2477,00:d0:c9:00:00:00,,,mbtcp;modbus,,502,76.0,0.0,2.55,1.0,IO/gateway/other field device,vendor_product(IO/gateway/field instrument maker),medium,reviewed_by=sonthai; not verified by domain expert
+DEV_0387,54:e1:ad:00:00:00,,,,4712,,290.0,0.0,67.79,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_0151,98:90:96:00:00:00,,,,,55001,2.82,1.0,0.48,3.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_2207,00:0c:29:00:00:00,,,bacapp;bacnet;bvlc,47808,47808,5.0,1.0,10.0,0.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_1365,08:00:27:00:00:00,,,iec60870_104;iec60870_asdu,,1089;1090;1091;2000;2222;2404;4000;4001;4002;20000,45.0,0.0,1.07,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_2746,00:0e:8c:00:00:00,,,profinet-rt,,,4.0,0.0,1.33,0.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_0810,00:90:0b:00:00:00,,,omron,,102;502;2000;2222;2404;4840;5007;9600;18246;20000;34964;44818;47808,2.31,0.79,1.82,15.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_2514,00:0c:29:00:00:00,,,bacapp;bacnet;bvlc,47808,47808,2.0,1.0,2.0,0.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_0059,00:09:8e:00:00:00,,,goose,,,123.0,0.0,2.91,0.0,IED/RTU/protection relay,vendor_product(relay/IED/IEC61850 gear)+substation scenario,medium,reviewed_by=sonthai; not verified by domain expert
+DEV_0308,00:e0:c9:00:00:00,,,bacapp;bacnet;bvlc,47808,47808,16.0,1.0,2.89,0.0,PLC/controller,vendor_product(PLC/controller maker)+scenario,medium,reviewed_by=sonthai; not verified by domain expert
+DEV_3043,ac:64:17:00:00:00,,,profinet-rt,,,75.0,0.0,1.89,0.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_3090,0a:bb:fe:00:00:00,,,goose,,,82.5,0.0,6.83,0.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_2509,00:c0:4f:00:00:00,,,bacapp;bacnet;bvlc,47808,47808,1.5,1.0,1.5,0.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_1580,00:50:56:00:00:00,,,,,2000,45.97,0.0,22.62,4.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_0076,00:1d:9c:00:00:00,,,cip;cipcls;enip,44818,44818,359.0,0.0,21.48,1.0,PLC/controller,vendor_product(PLC/controller maker)+scenario,medium,reviewed_by=sonthai; not verified by domain expert
+DEV_1149,00:0c:29:00:00:00,,,,102,,77.5,0.0,5.67,1.0,HMI/SCADA/operator station,scenario_name(SCADA/HMI sim)+vendor,medium,reviewed_by=sonthai; not verified by domain expert
+DEV_1421,00:0c:29:00:00:00,,,mbtcp;modbus,4002,502,9.0,0.0,3.43,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_1278,38:e0:8e:00:00:00,,,,,,4373.0,0.0,126.16,1.0,PLC/controller,vendor_product(PLC/controller maker)+scenario,medium,reviewed_by=sonthai; not verified by domain expert
+DEV_17263,00:0a:dc:00:00:00,,,,34980;47808,102;502;1089;1090;1091;2000;2222;4000;4001;4002;20000;44818,1.0,0.0,0.56,2.0,khac/khong ro,network infra / scanner / simulator / generic IT host,medium,reviewed_by=sonthai; not verified by domain expert
+DEV_2958,00:1b:1b:00:00:00,,,s7comm,,102,32.5,0.0,5.35,1.0,PLC/controller,vendor_product(PLC/controller maker)+scenario,medium,reviewed_by=sonthai; not verified by domain expert
+DEV_1103,00:1d:09:00:00:00,,,bacapp;bacnet;bvlc,47808,47808,61.0,1.0,42.79,0.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_2515,00:0c:29:00:00:00,,,bacapp;bacnet;bvlc,47808,47808,2.0,1.0,2.0,0.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_1426,00:0c:29:00:00:00,,,mbtcp;modbus,3671,502,9.0,0.0,3.38,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_0074,08:00:27:00:00:00,,,profinet-rt,102;34964,2000,4.0,0.01,2.74,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_3222,0a:bb:fe:00:00:00,,,goose,,,120.0,0.0,7.63,0.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_1042,00:50:4e:00:00:00,,,bacapp;bacnet;bvlc,47808,47808,64.5,1.0,8.12,0.0,IO/gateway/other field device,vendor_product(IO/gateway/field instrument maker),medium,reviewed_by=sonthai; not verified by domain expert
+DEV_0057,00:09:8e:00:00:00,,,goose,,,123.0,0.0,2.91,0.0,IED/RTU/protection relay,vendor_product(relay/IED/IEC61850 gear)+substation scenario,medium,reviewed_by=sonthai; not verified by domain expert
+DEV_0674,00:20:78:00:00:00,,,,,102;502;503;789;851;1541;2000;4000,7.4,0.8,5.11,3.0,khac/khong ro,network infra / scanner / simulator / generic IT host,medium,reviewed_by=sonthai; not verified by domain expert
+DEV_0818,00:50:56:00:00:00,,,s7comm,102,1911,688.85,0.0,2968.85,31.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_2796,00:00:0a:00:00:00,,,omron,,9600,634.0,0.0,25.11,1.0,PLC/controller,vendor_product(PLC/controller maker)+scenario,medium,reviewed_by=sonthai; not verified by domain expert
+DEV_0409,74:86:7a:00:00:00,,,cip;cipcls;enip,44818,44818,3378.0,0.0,133.0,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_0106,00:30:a7:00:00:00,,,goose,,,45.0,0.0,2.04,0.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_0696,00:0c:29:00:00:00,,,,2000,2000,2.18,0.0,136.48,100.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_2254,00:1d:9c:00:00:00,,,enip,2222,2222;44818,4645.0,0.5,250.25,1.0,PLC/controller,vendor_product(PLC/controller maker)+scenario,medium,reviewed_by=sonthai; not verified by domain expert
+DEV_0251,00:1b:1b:00:00:00,,,profinet-rt,,,1.0,0.0,1.0,0.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_0431,00:30:a7:00:00:00,,,goose,,,42.5,0.0,1.02,0.0,IED/RTU/protection relay,vendor_product(relay/IED/IEC61850 gear)+substation scenario,medium,reviewed_by=sonthai; not verified by domain expert
+DEV_0968,54:35:30:00:00:00,,,bacapp;bacnet;bvlc,47808,47808,398.79,1.0,928.0,0.5,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_2826,00:0e:8c:00:00:00,,,,34964,,1.0,1.0,1.0,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_1015,78:31:c1:00:00:00,,,bacapp;bacnet;bvlc,47808,47808,35.33,0.0,10.14,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_0650,00:00:bc:00:00:00,,,cip;cipcls;enip,,44818,26.0,0.0,1.08,1.0,PLC/controller,vendor_product(PLC/controller maker)+scenario,medium,reviewed_by=sonthai; not verified by domain expert
+DEV_0656,00:00:bc:00:00:00,,,cip;cipcls;enip,,44818,1276.0,0.0,31.79,1.0,PLC/controller,vendor_product(PLC/controller maker)+scenario,medium,reviewed_by=sonthai; not verified by domain expert
+DEV_1362,00:0c:29:00:00:00,,,mbtcp;modbus,502,3671;4000;4001;4002,9.0,0.0,20.4,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_0188,ac:64:17:00:00:00,,,profinet-rt,,,32.0,0.0,0.86,0.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_1433,00:0c:29:00:00:00,,,,,2000,1.05,0.0,121.74,100.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_3117,00:42:15:00:00:00,,,dnp3,,20000,15.0,0.0,3.5,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_0046,00:09:8e:00:00:00,,,goose,,,67.5,0.0,2.93,0.0,IED/RTU/protection relay,vendor_product(relay/IED/IEC61850 gear)+substation scenario,medium,reviewed_by=sonthai; not verified by domain expert
+DEV_1355,00:0c:29:00:00:00,,,,2000,502,1.0,0.33,0.32,5.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_2505,08:00:27:00:00:00,,,dnp3,20000,,8.0,0.0,8.0,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_2835,00:50:56:00:00:00,,,,102,,39.5,0.0,14.51,1.0,HMI/SCADA/operator station,scenario_name(hmi),low,reviewed_by=sonthai; not verified by domain expert
+DEV_2570,78:85:17:00:00:00,,,,,,39.0,1.0,3.86,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_3006,c8:f9:81:00:00:00,,,profinet-rt,,,113.0,0.0,15.91,0.0,IO/gateway/other field device,vendor_product(IO/gateway/field instrument maker),medium,reviewed_by=sonthai; not verified by domain expert
+DEV_0944,00:0c:29:00:00:00,,,,,,33.48,0.0,43.58,9.5,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_3042,ac:64:17:00:00:00,,,profinet-rt,,,75.0,0.0,1.89,0.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_3441,04:00:04:00:00:00,,,dnp3,20000,,15.0,0.0,3.21,2.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_1354,00:0c:29:00:00:00,,,,,2404;18245,1.0,0.21,0.43,5.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_0324,00:1b:1b:00:00:00,,,profinet-rt,,,1.0,0.0,1.0,0.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_0136,00:a0:45:00:00:00,,,profinet-rt,,34964,7951.5,0.5,500.16,1.0,PLC/controller,vendor_product(PLC/controller maker)+scenario,medium,reviewed_by=sonthai; not verified by domain expert
+DEV_2639,00:17:a4:00:00:00,,,goose,,,1.0,0.0,1.0,0.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_0715,50:7c:6f:00:00:00,,,mbtcp;modbus,,502;55001,1083.5,0.5,48.06,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_0133,00:a0:45:00:00:00,,,mbtcp;modbus;profinet-rt,502;34964,502;1962;41100,1133.5,0.05,517.46,2.0,PLC/controller,vendor_product(PLC/controller maker)+scenario,medium,reviewed_by=sonthai; not verified by domain expert
+DEV_1243,00:50:56:00:00:00,,,cip;enip,44818,,1.0,0.0,1.0,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_2653,d0:72:dc:00:00:00,,,iec60870_104;iec60870_asdu,,2404,1.0,0.0,1.0,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_17243,00:0a:dc:00:00:00,,,,1090;1541;9600;41100;44818;55003,,1.0,1.0,0.13,1.0,khac/khong ro,network infra / scanner / simulator / generic IT host,medium,reviewed_by=sonthai; not verified by domain expert
+DEV_1097,00:21:70:00:00:00,,,bacapp;bacnet;bvlc,47808,47808,2.0,1.0,0.24,0.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_1608,00:04:5a:00:00:00,,,,1089;1090;1091,,9.5,0.0,29.26,1.0,khac/khong ro,network infra / scanner / simulator / generic IT host,medium,reviewed_by=sonthai; not verified by domain expert
+DEV_0045,00:09:8e:00:00:00,,,goose,,,50.0,0.5,2.95,1.0,IED/RTU/protection relay,vendor_product(relay/IED/IEC61850 gear)+substation scenario,medium,reviewed_by=sonthai; not verified by domain expert
+DEV_1049,00:1a:d3:00:00:00,,,,,102,44.5,0.0,2.32,1.0,IED/RTU/protection relay,vendor_product(relay/IED/IEC61850 gear)+substation scenario,medium,reviewed_by=sonthai; not verified by domain expert
+DEV_1980,08:00:27:00:00:00,,,iec60870_104;iec60870_asdu,2404,,85.4,0.0,10.48,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_0268,d0:21:f9:00:00:00,,,,,1089;1090;1091;2000;2222;4000;4001;4002;20000,769.1,0.32,369.54,6.5,khac/khong ro,network infra / scanner / simulator / generic IT host,medium,reviewed_by=sonthai; not verified by domain expert
+DEV_0260,00:04:17:00:00:00,,,mbtcp;modbus,,502,500.0,0.0,14.04,1.0,PLC/controller,vendor_product(PLC/controller maker)+scenario,medium,reviewed_by=sonthai; not verified by domain expert
+DEV_2338,00:12:00:00:00:00,,,iec60870_104,,2404,4.5,0.0,4.49,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_0023,00:00:00:00:00:00,,,,,2000,103.0,0.0,2.54,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_3108,02:00:4c:00:00:00,,,iec60870_104;iec60870_asdu,2404,2404,18.0,0.0,1.93,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_0044,00:09:8e:00:00:00,,,goose,,,69.5,0.0,2.94,0.0,IED/RTU/protection relay,vendor_product(relay/IED/IEC61850 gear)+substation scenario,medium,reviewed_by=sonthai; not verified by domain expert
+DEV_3065,00:21:9b:00:00:00,,,,,,29.0,0.0,7.38,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_0642,00:c0:ca:00:00:00,,,bacapp;bacnet;bvlc;mbtcp;modbus,502;47808,47808,1433.0,0.5,1387.91,0.5,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_2621,00:50:56:00:00:00,,,enip,44818,,590.0,0.0,91.21,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_2031,50:57:a8:00:00:00,,,,,2404,1.0,1.0,1.0,0.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_0098,00:50:c2:00:00:00,,,goose,,,27.0,0.0,2.8,0.0,khac/khong ro,network infra / scanner / simulator / generic IT host,medium,reviewed_by=sonthai; not verified by domain expert
+DEV_3001,00:02:a2:00:00:00,,,profinet-rt,,,14428.5,0.0,1999.06,0.0,IO/gateway/other field device,vendor_product(IO/gateway/field instrument maker),medium,reviewed_by=sonthai; not verified by domain expert
+DEV_0219,a8:74:1d:00:00:00,,,,,502,3.64,0.0,1.42,1.0,PLC/controller,vendor_oui+scenario,low,reviewed_by=sonthai; not verified by domain expert
+DEV_1329,00:90:e8:00:00:00,,,,55003,4001,95.0,0.0,42.53,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_0048,00:09:8e:00:00:00,,,goose,,,123.0,0.0,2.94,0.0,IED/RTU/protection relay,vendor_product(relay/IED/IEC61850 gear)+substation scenario,medium,reviewed_by=sonthai; not verified by domain expert
+DEV_3002,00:02:a2:00:00:00,,,profinet-rt,,,14429.0,0.0,1999.23,0.0,IO/gateway/other field device,vendor_product(IO/gateway/field instrument maker),medium,reviewed_by=sonthai; not verified by domain expert
+DEV_2490,00:1b:1b:00:00:00,,,mbtcp;modbus,,502,336.0,0.0,7.57,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_1215,00:30:a7:00:00:00,,,goose,,,3.0,0.0,1.24,0.0,IED/RTU/protection relay,vendor_product(relay/IED/IEC61850 gear)+substation scenario,medium,reviewed_by=sonthai; not verified by domain expert
+DEV_2107,00:0c:29:00:00:00,,,cip;cipcls;enip,44818,,232.0,0.17,15.5,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_2791,90:8c:43:00:00:00,,,,,,13.5,0.0,27.0,1.0,khac/khong ro,network infra / scanner / simulator / generic IT host,medium,reviewed_by=sonthai; not verified by domain expert
+DEV_1063,00:50:56:00:00:00,,,,,,14.0,0.0,4.12,1.5,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_1404,08:00:27:00:00:00,,,,,,1.03,0.01,8.52,1.5,khac/khong ro,network infra / scanner / simulator / generic IT host,medium,reviewed_by=sonthai; not verified by domain expert
+DEV_3004,00:07:05:00:00:00,,,profinet-rt,,,226.0,0.0,31.68,0.0,IO/gateway/other field device,vendor_product(IO/gateway/field instrument maker),medium,reviewed_by=sonthai; not verified by domain expert
+DEV_17244,70:71:bc:00:00:00,,,,,1090;1541;9600;41100;44818;55003,1.0,1.0,0.13,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_17242,00:90:e8:00:00:00,,,,1541;41100;44818;48898;55000,102;502;1089;1090;1091;2000;2222;4000;4001;4002;20000;44818,44.0,1.0,1.04,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_2179,08:00:46:00:00:00,,,,,,1360.0,0.0,132.17,3.0,khac/khong ro,network infra / scanner / simulator / generic IT host,medium,reviewed_by=sonthai; not verified by domain expert
+DEV_1257,00:0c:29:00:00:00,,,,,,10.0,0.0,10.0,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_1532,00:50:56:00:00:00,,,,,,103.39,0.06,85.12,5.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_2151,00:02:a3:00:00:00,,,,1089,102,4.0,0.67,1.86,2.0,IED/RTU/protection relay,vendor_product(relay/IED/IEC61850 gear)+substation scenario,medium,reviewed_by=sonthai; not verified by domain expert
+DEV_2772,88:d7:f6:00:00:00,,,mbtcp;modbus,,502,213.0,0.0,58.49,1.0,khong ro,,,khong du bang chung doc lap (host cong cu thu nghiem/generic IT vendor/mo ho)
+DEV_3229,d6:27:82:00:00:00,,,s7comm,102,,16.0,0.0,7.69,1.0,Engineering workstation/tool,scenario_name(engineering software),medium,reviewed_by=sonthai; not verified by domain expert
+DEV_1609,00:d0:59:00:00:00,,,,,1089;1090;1091,9.5,0.0,29.26,1.0,khac/khong ro,network infra / scanner / simulator / generic IT host,medium,reviewed_by=sonthai; not verified by domain expert

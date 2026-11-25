@@ -1,0 +1,503 @@
+{
+ "devices": 1069,
+ "final_role_counts": {
+  "unknown": 493,
+  "server": 289,
+  "client": 216,
+  "both": 71
+ },
+ "evidence_counts": {
+  "no_evidence": 493,
+  "port_rule_only(weaker)": 392,
+  "handshake_confirms_port_rule": 141,
+  "handshake_only(no port-rule payload)": 26,
+  "handshake_overrides_port_rule": 17
+ },
+ "devices_with_both_evidences": 158,
+ "port_rule_vs_handshake_agreement": 0.892,
+ "confusion_handshake_rows_x_portrule_cols": {
+  "both": {
+   "both": 0,
+   "client": 7,
+   "server": 1
+  },
+  "client": {
+   "both": 3,
+   "client": 68,
+   "server": 0
+  },
+  "server": {
+   "both": 4,
+   "client": 2,
+   "server": 73
+  }
+ },
+ "disagreements": [
+  {
+   "device_id": "DEV_0043",
+   "handshake_role": "client",
+   "port_rule_role": "both",
+   "ot_syn_sent": 24,
+   "ot_synack_sent": 0,
+   "port_rule_server_share": 0.507,
+   "dominant_ot_family": "codesys_ge_misc",
+   "seed_type": ""
+  },
+  {
+   "device_id": "DEV_0029",
+   "handshake_role": "both",
+   "port_rule_role": "server",
+   "ot_syn_sent": 12,
+   "ot_synack_sent": 28,
+   "port_rule_server_share": 0.817,
+   "dominant_ot_family": "iec104",
+   "seed_type": ""
+  },
+  {
+   "device_id": "DEV_0207",
+   "handshake_role": "both",
+   "port_rule_role": "server",
+   "ot_syn_sent": 13,
+   "ot_synack_sent": 9,
+   "port_rule_server_share": 1.0,
+   "dominant_ot_family": "dnp3",
+   "seed_type": ""
+  },
+  {
+   "device_id": "DEV_0135",
+   "handshake_role": "both",
+   "port_rule_role": "server",
+   "ot_syn_sent": 15,
+   "ot_synack_sent": 18,
+   "port_rule_server_share": 0.999,
+   "dominant_ot_family": "s7_iso",
+   "seed_type": ""
+  },
+  {
+   "device_id": "DEV_0089",
+   "handshake_role": "both",
+   "port_rule_role": "client",
+   "ot_syn_sent": 2,
+   "ot_synack_sent": 1,
+   "port_rule_server_share": 0.003,
+   "dominant_ot_family": "s7_iso",
+   "seed_type": ""
+  },
+  {
+   "device_id": "DEV_0158",
+   "handshake_role": "both",
+   "port_rule_role": "server",
+   "ot_syn_sent": 3,
+   "ot_synack_sent": 9,
+   "port_rule_server_share": 1.0,
+   "dominant_ot_family": "codesys_ge_misc",
+   "seed_type": ""
+  },
+  {
+   "device_id": "DEV_1036",
+   "handshake_role": "server",
+   "port_rule_role": "both",
+   "ot_syn_sent": 1,
+   "ot_synack_sent": 6,
+   "port_rule_server_share": 0.257,
+   "dominant_ot_family": "iec104",
+   "seed_type": ""
+  },
+  {
+   "device_id": "DEV_0093",
+   "handshake_role": "client",
+   "port_rule_role": "both",
+   "ot_syn_sent": 59,
+   "ot_synack_sent": 2,
+   "port_rule_server_share": 0.22,
+   "dominant_ot_family": "bacnet",
+   "seed_type": ""
+  },
+  {
+   "device_id": "DEV_17225",
+   "handshake_role": "client",
+   "port_rule_role": "server",
+   "ot_syn_sent": 529,
+   "ot_synack_sent": 0,
+   "port_rule_server_share": 0.986,
+   "dominant_ot_family": "codesys_ge_misc",
+   "seed_type": ""
+  },
+  {
+   "device_id": "DEV_0035",
+   "handshake_role": "both",
+   "port_rule_role": "client",
+   "ot_syn_sent": 2,
+   "ot_synack_sent": 5,
+   "port_rule_server_share": 0.002,
+   "dominant_ot_family": "s7_iso",
+   "seed_type": ""
+  },
+  {
+   "device_id": "DEV_0133",
+   "handshake_role": "client",
+   "port_rule_role": "server",
+   "ot_syn_sent": 368,
+   "ot_synack_sent": 6,
+   "port_rule_server_share": 0.954,
+   "dominant_ot_family": "modbus",
+   "seed_type": ""
+  },
+  {
+   "device_id": "DEV_0472",
+   "handshake_role": "client",
+   "port_rule_role": "both",
+   "ot_syn_sent": 8,
+   "ot_synack_sent": 0,
+   "port_rule_server_share": 0.386,
+   "dominant_ot_family": "bacnet",
+   "seed_type": ""
+  },
+  {
+   "device_id": "DEV_0445",
+   "handshake_role": "client",
+   "port_rule_role": "both",
+   "ot_syn_sent": 26,
+   "ot_synack_sent": 0,
+   "port_rule_server_share": 0.235,
+   "dominant_ot_family": "codesys_ge_misc",
+   "seed_type": ""
+  },
+  {
+   "device_id": "DEV_0533",
+   "handshake_role": "both",
+   "port_rule_role": "client",
+   "ot_syn_sent": 2,
+   "ot_synack_sent": 2,
+   "port_rule_server_share": 0.008,
+   "dominant_ot_family": "s7_iso",
+   "seed_type": "HMI"
+  },
+  {
+   "device_id": "DEV_17249",
+   "handshake_role": "client",
+   "port_rule_role": "both",
+   "ot_syn_sent": 406,
+   "ot_synack_sent": 0,
+   "port_rule_server_share": 0.241,
+   "dominant_ot_family": "modbus",
+   "seed_type": ""
+  },
+  {
+   "device_id": "DEV_0696",
+   "handshake_role": "client",
+   "port_rule_role": "both",
+   "ot_syn_sent": 11,
+   "ot_synack_sent": 0,
+   "port_rule_server_share": 0.375,
+   "dominant_ot_family": "codesys_ge_misc",
+   "seed_type": ""
+  },
+  {
+   "device_id": "DEV_1349",
+   "handshake_role": "client",
+   "port_rule_role": "both",
+   "ot_syn_sent": 16,
+   "ot_synack_sent": 0,
+   "port_rule_server_share": 0.529,
+   "dominant_ot_family": "codesys_ge_misc",
+   "seed_type": ""
+  }
+ ],
+ "seed_table": [
+  {
+   "device_id": "DEV_0367",
+   "seed_type": "PLC",
+   "seed_ip": "0.0.0.0",
+   "final_role": "client",
+   "evidence": "port_rule_only(weaker)",
+   "handshake_role": "unknown",
+   "port_rule_role": "client",
+   "ot_syn_sent": 0,
+   "ot_synack_sent": 0,
+   "dominant_ot_family": "codesys_ge_misc"
+  },
+  {
+   "device_id": "DEV_0523",
+   "seed_type": "PLC",
+   "seed_ip": "0.0.0.0",
+   "final_role": "server",
+   "evidence": "port_rule_only(weaker)",
+   "handshake_role": "unknown",
+   "port_rule_role": "server",
+   "ot_syn_sent": 0,
+   "ot_synack_sent": 0,
+   "dominant_ot_family": "codesys_ge_misc"
+  },
+  {
+   "device_id": "DEV_0075",
+   "seed_type": "PLC",
+   "seed_ip": "0.0.0.0",
+   "final_role": "server",
+   "evidence": "handshake_confirms_port_rule",
+   "handshake_role": "server",
+   "port_rule_role": "server",
+   "ot_syn_sent": 0,
+   "ot_synack_sent": 43,
+   "dominant_ot_family": "s7_iso"
+  },
+  {
+   "device_id": "DEV_0552",
+   "seed_type": "PLC",
+   "seed_ip": "0.0.0.0",
+   "final_role": "unknown",
+   "evidence": "no_evidence",
+   "handshake_role": "unknown",
+   "port_rule_role": "unknown",
+   "ot_syn_sent": 0,
+   "ot_synack_sent": 0,
+   "dominant_ot_family": "modbus"
+  },
+  {
+   "device_id": "DEV_3097",
+   "seed_type": "HMI",
+   "seed_ip": "0.0.0.0",
+   "final_role": "unknown",
+   "evidence": "no_evidence",
+   "handshake_role": "unknown",
+   "port_rule_role": "unknown",
+   "ot_syn_sent": 0,
+   "ot_synack_sent": 0,
+   "dominant_ot_family": NaN
+  },
+  {
+   "device_id": "DEV_0103",
+   "seed_type": "PLC",
+   "seed_ip": "0.0.0.0",
+   "final_role": "server",
+   "evidence": "handshake_confirms_port_rule",
+   "handshake_role": "server",
+   "port_rule_role": "server",
+   "ot_syn_sent": 0,
+   "ot_synack_sent": 9,
+   "dominant_ot_family": "s7_iso"
+  },
+  {
+   "device_id": "DEV_0153",
+   "seed_type": "PLC",
+   "seed_ip": "0.0.0.0",
+   "final_role": "server",
+   "evidence": "handshake_confirms_port_rule",
+   "handshake_role": "server",
+   "port_rule_role": "server",
+   "ot_syn_sent": 0,
+   "ot_synack_sent": 233,
+   "dominant_ot_family": "s7_iso"
+  },
+  {
+   "device_id": "DEV_0222",
+   "seed_type": "IO",
+   "seed_ip": "0.0.0.0",
+   "final_role": "both",
+   "evidence": "port_rule_only(weaker)",
+   "handshake_role": "unknown",
+   "port_rule_role": "both",
+   "ot_syn_sent": 0,
+   "ot_synack_sent": 0,
+   "dominant_ot_family": "profinet_ethercat"
+  },
+  {
+   "device_id": "DEV_0353",
+   "seed_type": "PLC",
+   "seed_ip": "0.0.0.0",
+   "final_role": "server",
+   "evidence": "handshake_confirms_port_rule",
+   "handshake_role": "server",
+   "port_rule_role": "server",
+   "ot_syn_sent": 0,
+   "ot_synack_sent": 10,
+   "dominant_ot_family": "modbus"
+  },
+  {
+   "device_id": "DEV_0524",
+   "seed_type": "PLC",
+   "seed_ip": "0.0.0.0",
+   "final_role": "client",
+   "evidence": "port_rule_only(weaker)",
+   "handshake_role": "unknown",
+   "port_rule_role": "client",
+   "ot_syn_sent": 0,
+   "ot_synack_sent": 2,
+   "dominant_ot_family": "modbus"
+  },
+  {
+   "device_id": "DEV_1711",
+   "seed_type": "HMI",
+   "seed_ip": "0.0.0.0",
+   "final_role": "unknown",
+   "evidence": "no_evidence",
+   "handshake_role": "unknown",
+   "port_rule_role": "unknown",
+   "ot_syn_sent": 0,
+   "ot_synack_sent": 0,
+   "dominant_ot_family": NaN
+  },
+  {
+   "device_id": "DEV_0751",
+   "seed_type": "PLC",
+   "seed_ip": "0.0.0.0",
+   "final_role": "server",
+   "evidence": "handshake_confirms_port_rule",
+   "handshake_role": "server",
+   "port_rule_role": "server",
+   "ot_syn_sent": 0,
+   "ot_synack_sent": 52,
+   "dominant_ot_family": "enip"
+  },
+  {
+   "device_id": "DEV_0787",
+   "seed_type": "HMI",
+   "seed_ip": "0.0.0.0",
+   "final_role": "server",
+   "evidence": "handshake_confirms_port_rule",
+   "handshake_role": "server",
+   "port_rule_role": "server",
+   "ot_syn_sent": 0,
+   "ot_synack_sent": 3,
+   "dominant_ot_family": "modbus"
+  },
+  {
+   "device_id": "DEV_0286",
+   "seed_type": "PLC",
+   "seed_ip": "0.0.0.0",
+   "final_role": "server",
+   "evidence": "handshake_confirms_port_rule",
+   "handshake_role": "server",
+   "port_rule_role": "server",
+   "ot_syn_sent": 0,
+   "ot_synack_sent": 8,
+   "dominant_ot_family": "modbus"
+  },
+  {
+   "device_id": "DEV_0287",
+   "seed_type": "PLC",
+   "seed_ip": "0.0.0.0",
+   "final_role": "server",
+   "evidence": "handshake_confirms_port_rule",
+   "handshake_role": "server",
+   "port_rule_role": "server",
+   "ot_syn_sent": 0,
+   "ot_synack_sent": 8,
+   "dominant_ot_family": "enip"
+  },
+  {
+   "device_id": "DEV_0354",
+   "seed_type": "HMI",
+   "seed_ip": "0.0.0.0",
+   "final_role": "client",
+   "evidence": "handshake_confirms_port_rule",
+   "handshake_role": "client",
+   "port_rule_role": "client",
+   "ot_syn_sent": 214,
+   "ot_synack_sent": 2,
+   "dominant_ot_family": "enip"
+  },
+  {
+   "device_id": "DEV_0368",
+   "seed_type": "HMI",
+   "seed_ip": "0.0.0.0",
+   "final_role": "client",
+   "evidence": "port_rule_only(weaker)",
+   "handshake_role": "unknown",
+   "port_rule_role": "client",
+   "ot_syn_sent": 0,
+   "ot_synack_sent": 0,
+   "dominant_ot_family": "modbus"
+  },
+  {
+   "device_id": "DEV_0533",
+   "seed_type": "HMI",
+   "seed_ip": "0.0.0.0",
+   "final_role": "both",
+   "evidence": "handshake_overrides_port_rule",
+   "handshake_role": "both",
+   "port_rule_role": "client",
+   "ot_syn_sent": 2,
+   "ot_synack_sent": 2,
+   "dominant_ot_family": "s7_iso"
+  },
+  {
+   "device_id": "DEV_0610",
+   "seed_type": "HMI",
+   "seed_ip": "0.0.0.0",
+   "final_role": "client",
+   "evidence": "port_rule_only(weaker)",
+   "handshake_role": "unknown",
+   "port_rule_role": "client",
+   "ot_syn_sent": 0,
+   "ot_synack_sent": 0,
+   "dominant_ot_family": "modbus"
+  },
+  {
+   "device_id": "DEV_0534",
+   "seed_type": "HMI",
+   "seed_ip": "0.0.0.0",
+   "final_role": "client",
+   "evidence": "port_rule_only(weaker)",
+   "handshake_role": "unknown",
+   "port_rule_role": "client",
+   "ot_syn_sent": 0,
+   "ot_synack_sent": 0,
+   "dominant_ot_family": "modbus"
+  },
+  {
+   "device_id": "DEV_0770",
+   "seed_type": "PLC",
+   "seed_ip": "0.0.0.0",
+   "final_role": "server",
+   "evidence": "handshake_confirms_port_rule",
+   "handshake_role": "server",
+   "port_rule_role": "server",
+   "ot_syn_sent": 0,
+   "ot_synack_sent": 167,
+   "dominant_ot_family": "modbus"
+  },
+  {
+   "device_id": "DEV_1590",
+   "seed_type": "PLC",
+   "seed_ip": "0.0.0.0",
+   "final_role": "server",
+   "evidence": "port_rule_only(weaker)",
+   "handshake_role": "unknown",
+   "port_rule_role": "server",
+   "ot_syn_sent": 0,
+   "ot_synack_sent": 2,
+   "dominant_ot_family": "codesys_ge_misc"
+  }
+ ],
+ "seed_plc_server_rate": 0.833,
+ "seed_hmi_client_rate": 0.667,
+ "vs_sonthai_review_final_role": {
+  "Engineering workstation/tool": {
+   "client": 2,
+   "unknown": 1
+  },
+  "IED/RTU/protection relay": {
+   "unknown": 11,
+   "server": 6,
+   "client": 1
+  },
+  "khac/khong ro": {
+   "unknown": 8,
+   "server": 2
+  },
+  "PLC/controller": {
+   "server": 8,
+   "both": 5,
+   "unknown": 3,
+   "client": 1
+  },
+  "HMI/SCADA/operator station": {
+   "client": 2
+  },
+  "IO/gateway/other field device": {
+   "server": 1,
+   "both": 1
+  }
+ }
+}

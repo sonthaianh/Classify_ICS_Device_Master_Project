@@ -1,0 +1,198 @@
+{
+ "status": "EXPLORATORY; labels not expert-verified; seed-0 out-of-fold predictions, same folds for all models",
+ "bootstrap_B": 2000,
+ "phase1_baseline_on_union_gold": {
+  "gold_184_all_sources": {
+   "n_ot": 65,
+   "n_nonot": 119,
+   "model_roc": 0.819,
+   "luat_giao_thuc_cong": {
+    "ot_recall": 0.831,
+    "nonot_flagged": 0.176,
+    "balanced_acc": 0.827
+   },
+   "lightgbm_0.5": {
+    "ot_recall": 0.846,
+    "nonot_flagged": 0.277,
+    "balanced_acc": 0.784
+   }
+  },
+  "gold_137_excl_capture_scenario": {
+   "n_ot": 65,
+   "n_nonot": 72,
+   "model_roc": 0.822,
+   "luat_giao_thuc_cong": {
+    "ot_recall": 0.831,
+    "nonot_flagged": 0.292,
+    "balanced_acc": 0.77
+   },
+   "lightgbm_0.5": {
+    "ot_recall": 0.846,
+    "nonot_flagged": 0.278,
+    "balanced_acc": 0.784
+   }
+  },
+  "added_value_of_model_over_rule": {
+   "gold_ot_missed_by_rule": 11,
+   "gold_ot_missed_by_rule_model_flags_ot": 4,
+   "gold_nonot_rule_negative": 51,
+   "gold_nonot_rule_negative_model_flags_ot": 11,
+   "gold_nonot_rule_positive": 21,
+   "model_flags_among_rule_positive_nonot": 9
+  },
+  "capture_scenario_nonot_47": {
+   "rule_flags": 0,
+   "model_flags": 13,
+   "n": 47
+  }
+ },
+ "n": 117,
+ "class_counts": {
+  "PLC": 37,
+  "HMI": 11,
+  "EWS": 15,
+  "OTHER": 54
+ },
+ "per_model_recall_seed0": {
+  "RF_64": {
+   "PLC": 0.757,
+   "HMI": 0.455,
+   "EWS": 0.533,
+   "OTHER": 0.796
+  },
+  "MLP_64": {
+   "PLC": 0.649,
+   "HMI": 0.636,
+   "EWS": 0.267,
+   "OTHER": 0.667
+  },
+  "CNN_scratch": {
+   "PLC": 0.811,
+   "HMI": 0.636,
+   "EWS": 0.4,
+   "OTHER": 0.704
+  },
+  "Transformer_scratch": {
+   "PLC": 0.757,
+   "HMI": 0.636,
+   "EWS": 0.4,
+   "OTHER": 0.556
+  },
+  "Luat_vai_tro": {
+   "PLC": 0.703,
+   "HMI": 0.545,
+   "EWS": 0.0,
+   "OTHER": 0.704
+  },
+  "Da_so": {
+   "PLC": 0.0,
+   "HMI": 0.0,
+   "EWS": 0.0,
+   "OTHER": 1.0
+  }
+ },
+ "balanced_acc_seed0_with_bootstrap_ci": {
+  "RF_64": {
+   "point": 0.635,
+   "ci95": [
+    0.525,
+    0.749
+   ]
+  },
+  "MLP_64": {
+   "point": 0.555,
+   "ci95": [
+    0.451,
+    0.658
+   ]
+  },
+  "CNN_scratch": {
+   "point": 0.638,
+   "ci95": [
+    0.527,
+    0.739
+   ]
+  },
+  "Transformer_scratch": {
+   "point": 0.587,
+   "ci95": [
+    0.475,
+    0.695
+   ]
+  },
+  "Luat_vai_tro": {
+   "point": 0.488,
+   "ci95": [
+    0.398,
+    0.578
+   ]
+  },
+  "Da_so": {
+   "point": 0.25,
+   "ci95": [
+    0.25,
+    0.25
+   ]
+  }
+ },
+ "paired_bootstrap_rf_minus_other": {
+  "RF_64 - MLP_64": {
+   "mean_diff": 0.081,
+   "ci95": [
+    -0.049,
+    0.214
+   ],
+   "share_boot_diff_le_0": 0.11
+  },
+  "RF_64 - CNN_scratch": {
+   "mean_diff": -0.001,
+   "ci95": [
+    -0.134,
+    0.131
+   ],
+   "share_boot_diff_le_0": 0.504
+  },
+  "RF_64 - Transformer_scratch": {
+   "mean_diff": 0.049,
+   "ci95": [
+    -0.087,
+    0.183
+   ],
+   "share_boot_diff_le_0": 0.237
+  },
+  "RF_64 - Luat_vai_tro": {
+   "mean_diff": 0.147,
+   "ci95": [
+    0.051,
+    0.24
+   ],
+   "share_boot_diff_le_0": 0.003
+  },
+  "RF_64 - Da_so": {
+   "mean_diff": 0.386,
+   "ci95": [
+    0.275,
+    0.499
+   ],
+   "share_boot_diff_le_0": 0.0
+  }
+ },
+ "rf64_recall_bootstrap_ci95": {
+  "PLC": [
+   0.611,
+   0.889
+  ],
+  "HMI": [
+   0.143,
+   0.769
+  ],
+  "EWS": [
+   0.267,
+   0.786
+  ],
+  "OTHER": [
+   0.681,
+   0.896
+  ]
+ }
+}

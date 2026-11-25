@@ -15,8 +15,6 @@ Có hai cách chạy: giao diện web và dòng lệnh. Cả hai dùng chung mã
 - Wireshark (cần chương trình `tshark`); trên Windows, nguyên mẫu tìm ở `C:/Program Files/Wireshark/tshark.exe`.
 - Các tệp mô hình: `demo_webapp/model/phase1_lightgbm.joblib`, `demo_webapp/model/model_meta.json`, `phase2_infer/model_186/phase2_rf.joblib`, `phase2_infer/model_186/phase2_meta.json`.
 
-> **Trạng thái hiện tại:** repo mới có mã nguồn và tài liệu. Hai phần sau sẽ được bổ sung: `Dataset/features/` (dữ liệu đã ẩn danh) và các tệp mô hình (`demo_webapp/model/`, `phase2_infer/`). Khi chưa có chúng, các script huấn luyện, đánh giá và demo chưa chạy được.
-
 ## Cách 1: giao diện web
 
 ```bash

@@ -1,0 +1,341 @@
+{
+ "status": "EXPLORATORY retrain on 186 labels; frozen results untouched",
+ "labels_file": "phase2_type_labels_4class_186_devices.csv",
+ "chance_balanced_acc": 0.25,
+ "pretrain": {
+  "masked_symbol_acc": 0.828,
+  "most_common_baseline": 0.087
+ },
+ "A_profiled|all_labels": {
+  "n": 165,
+  "class_counts": {
+   "PLC": 50,
+   "HMI": 18,
+   "EWS": 20,
+   "OTHER": 77
+  },
+  "scratch": {
+   "balanced_acc": 0.556,
+   "balanced_acc_std": 0.034,
+   "macro_f1": 0.529,
+   "recall": {
+    "PLC": 0.664,
+    "HMI": 0.522,
+    "EWS": 0.5,
+    "OTHER": 0.538
+   },
+   "confusion_sum_over_seeds": [
+    [
+     166,
+     28,
+     28,
+     28
+    ],
+    [
+     24,
+     47,
+     10,
+     9
+    ],
+    [
+     18,
+     10,
+     50,
+     22
+    ],
+    [
+     102,
+     49,
+     27,
+     207
+    ]
+   ]
+  },
+  "pretrained": {
+   "balanced_acc": 0.544,
+   "balanced_acc_std": 0.038,
+   "macro_f1": 0.527,
+   "recall": {
+    "PLC": 0.66,
+    "HMI": 0.533,
+    "EWS": 0.42,
+    "OTHER": 0.564
+   },
+   "confusion_sum_over_seeds": [
+    [
+     165,
+     32,
+     11,
+     42
+    ],
+    [
+     18,
+     48,
+     14,
+     10
+    ],
+    [
+     20,
+     20,
+     42,
+     18
+    ],
+    [
+     101,
+     40,
+     27,
+     217
+    ]
+   ]
+  }
+ },
+ "A_profiled|strict": {
+  "n": 160,
+  "class_counts": {
+   "PLC": 50,
+   "HMI": 18,
+   "EWS": 15,
+   "OTHER": 77
+  },
+  "scratch": {
+   "balanced_acc": 0.528,
+   "balanced_acc_std": 0.05,
+   "macro_f1": 0.493,
+   "recall": {
+    "PLC": 0.704,
+    "HMI": 0.6,
+    "EWS": 0.32,
+    "OTHER": 0.488
+   },
+   "confusion_sum_over_seeds": [
+    [
+     176,
+     24,
+     19,
+     31
+    ],
+    [
+     19,
+     54,
+     8,
+     9
+    ],
+    [
+     14,
+     14,
+     24,
+     23
+    ],
+    [
+     106,
+     58,
+     33,
+     188
+    ]
+   ]
+  },
+  "pretrained": {
+   "balanced_acc": 0.523,
+   "balanced_acc_std": 0.043,
+   "macro_f1": 0.491,
+   "recall": {
+    "PLC": 0.716,
+    "HMI": 0.567,
+    "EWS": 0.32,
+    "OTHER": 0.488
+   },
+   "confusion_sum_over_seeds": [
+    [
+     179,
+     31,
+     10,
+     30
+    ],
+    [
+     18,
+     51,
+     14,
+     7
+    ],
+    [
+     16,
+     21,
+     24,
+     14
+    ],
+    [
+     107,
+     42,
+     48,
+     188
+    ]
+   ]
+  }
+ },
+ "T_tokens|all_labels": {
+  "n": 98,
+  "class_counts": {
+   "PLC": 44,
+   "HMI": 14,
+   "EWS": 15,
+   "OTHER": 25
+  },
+  "scratch": {
+   "balanced_acc": 0.612,
+   "balanced_acc_std": 0.036,
+   "macro_f1": 0.6,
+   "recall": {
+    "PLC": 0.709,
+    "HMI": 0.614,
+    "EWS": 0.653,
+    "OTHER": 0.472
+   },
+   "confusion_sum_over_seeds": [
+    [
+     156,
+     18,
+     22,
+     24
+    ],
+    [
+     12,
+     43,
+     13,
+     2
+    ],
+    [
+     13,
+     7,
+     49,
+     6
+    ],
+    [
+     41,
+     4,
+     21,
+     59
+    ]
+   ]
+  },
+  "pretrained": {
+   "balanced_acc": 0.615,
+   "balanced_acc_std": 0.017,
+   "macro_f1": 0.607,
+   "recall": {
+    "PLC": 0.718,
+    "HMI": 0.629,
+    "EWS": 0.64,
+    "OTHER": 0.472
+   },
+   "confusion_sum_over_seeds": [
+    [
+     158,
+     20,
+     16,
+     26
+    ],
+    [
+     14,
+     44,
+     12,
+     0
+    ],
+    [
+     12,
+     13,
+     48,
+     2
+    ],
+    [
+     50,
+     4,
+     12,
+     59
+    ]
+   ]
+  }
+ },
+ "T_tokens|strict": {
+  "n": 93,
+  "class_counts": {
+   "PLC": 44,
+   "HMI": 14,
+   "EWS": 10,
+   "OTHER": 25
+  },
+  "scratch": {
+   "balanced_acc": 0.593,
+   "balanced_acc_std": 0.035,
+   "macro_f1": 0.585,
+   "recall": {
+    "PLC": 0.75,
+    "HMI": 0.614,
+    "EWS": 0.52,
+    "OTHER": 0.488
+   },
+   "confusion_sum_over_seeds": [
+    [
+     165,
+     17,
+     14,
+     24
+    ],
+    [
+     17,
+     43,
+     10,
+     0
+    ],
+    [
+     9,
+     10,
+     26,
+     5
+    ],
+    [
+     44,
+     8,
+     12,
+     61
+    ]
+   ]
+  },
+  "pretrained": {
+   "balanced_acc": 0.575,
+   "balanced_acc_std": 0.047,
+   "macro_f1": 0.567,
+   "recall": {
+    "PLC": 0.727,
+    "HMI": 0.6,
+    "EWS": 0.5,
+    "OTHER": 0.472
+   },
+   "confusion_sum_over_seeds": [
+    [
+     160,
+     22,
+     14,
+     24
+    ],
+    [
+     16,
+     42,
+     11,
+     1
+    ],
+    [
+     9,
+     15,
+     25,
+     1
+    ],
+    [
+     51,
+     1,
+     14,
+     59
+    ]
+   ]
+  }
+ }
+}

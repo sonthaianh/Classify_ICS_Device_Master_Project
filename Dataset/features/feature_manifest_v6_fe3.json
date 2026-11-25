@@ -1,0 +1,32 @@
+{
+ "source": "master_device_windows_v6_behavior.parquet (unchanged)",
+ "rows": 768927,
+ "devices": 3923,
+ "seed": 20261108,
+ "log1p_columns": [
+  "pkts_per_flow",
+  "bytes_per_packet",
+  "packet_rate",
+  "unique_local_port_count",
+  "svc_port_unique",
+  "frames_sent",
+  "arp_frame_count",
+  "arp_target_unique",
+  "icmp_frame_count",
+  "nonip_frame_count",
+  "ip_count"
+ ],
+ "cap_rows_by_K": {
+  "10": 22483,
+  "20": 35543,
+  "50": 60994,
+  "100": 87936
+ },
+ "labels": "rule-based weak labels from device_labels_v6_rule.csv",
+ "notes": [
+  "no row dropped; choose K via cap_rank < K at training time",
+  "raw D17 values untouched; log1p_* are extra columns, use one version per model",
+  "fit scalers on train split only; split by device/source group, never by row",
+  "evidence_tier / flood_like / label_quality are metadata, not model inputs"
+ ]
+}

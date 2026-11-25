@@ -1,0 +1,1432 @@
+{
+ "sets": {
+  "label_file": "phase2_type_labels_4class_186_devices_indep160.csv",
+  "n_labels": 160,
+  "labels_by_class": {
+   "PLC": 43,
+   "HMI": 29,
+   "EWS": 10,
+   "OTHER": 78
+  },
+  "set_A_n": 139,
+  "set_A_by_class": {
+   "PLC": 40,
+   "HMI": 14,
+   "EWS": 10,
+   "OTHER": 75
+  },
+  "set_T_n": 73,
+  "set_T_by_class": {
+   "PLC": 34,
+   "HMI": 10,
+   "EWS": 5,
+   "OTHER": 24
+  },
+  "n_first_capture_groups_A": 72
+ },
+ "B3_info": {
+  "V1_all": {
+   "devices_in_graph": 137,
+   "pred_counts": {
+    "PLC": 105,
+    "HMI": 32,
+    "OTHER": 2
+   }
+  },
+  "V2_ot": {
+   "devices_in_graph": 95,
+   "pred_counts": {
+    "PLC": 83,
+    "HMI": 12,
+    "OTHER": 44
+   }
+  },
+  "V3_ot_req": {
+   "devices_in_graph": 98,
+   "pred_counts": {
+    "PLC": 77,
+    "HMI": 21,
+    "OTHER": 41
+   }
+  }
+ },
+ "B4_info": {
+  "devices_with_samples": 127,
+  "n": 139
+ },
+ "component_split": {
+  "n_components": 54,
+  "relabelings": [
+   0.438,
+   0.46,
+   0.446,
+   0.437,
+   0.466,
+   0.467,
+   0.442,
+   0.447,
+   0.45,
+   0.447,
+   0.456,
+   0.456
+  ],
+  "mean": 0.451,
+  "sd": 0.01,
+  "min": 0.437,
+  "max": 0.467,
+  "share_test_devices_sharing_a_capture_with_train_first_capture_grouping": 0.319
+ },
+ "end_to_end": {
+  "n_labels": 160,
+  "labels_by_class": {
+   "PLC": 43,
+   "HMI": 29,
+   "EWS": 10,
+   "OTHER": 78
+  },
+  "n_profiled": 139,
+  "threshold": 0.5,
+  "blocked_by_stage1_by_class": {
+   "PLC": "1/43",
+   "HMI": "17/29",
+   "EWS": "0/10",
+   "OTHER": "1/78"
+  },
+  "blocked_OT_devices": "18/82",
+  "two_stage_e2e_bal_acc": {
+   "mean": 0.469,
+   "sd": 0.028,
+   "per_seed": [
+    0.469,
+    0.494,
+    0.428,
+    0.45,
+    0.504
+   ]
+  },
+  "two_stage_e2e_recall": {
+   "PLC": 0.716,
+   "HMI": 0.193,
+   "EWS": 0.4,
+   "OTHER": 0.567
+  },
+  "two_stage_e2e_ot3_accuracy": {
+   "mean": 0.493,
+   "sd": 0.029,
+   "per_seed": [
+    0.512,
+    0.524,
+    0.451,
+    0.463,
+    0.512
+   ]
+  },
+  "oracle_gate_bal_acc": {
+   "mean": 0.467,
+   "sd": 0.026,
+   "per_seed": [
+    0.466,
+    0.491,
+    0.431,
+    0.447,
+    0.501
+   ]
+  },
+  "one_stage_bal_acc": {
+   "mean": 0.456,
+   "sd": 0.009,
+   "per_seed": [
+    0.465,
+    0.449,
+    0.468,
+    0.446,
+    0.451
+   ]
+  },
+  "one_stage_recall": {
+   "PLC": 0.753,
+   "HMI": 0.138,
+   "EWS": 0.36,
+   "OTHER": 0.572
+  },
+  "one_stage_ot3_accuracy": {
+   "mean": 0.488,
+   "sd": 0.008,
+   "per_seed": [
+    0.488,
+    0.488,
+    0.488,
+    0.476,
+    0.5
+   ]
+  },
+  "seed0_status_by_true_class": {
+   "EWS": {
+    "blocked_by_stage1": 0,
+    "no_profile_blocked": 0,
+    "no_profile_passed": 0,
+    "stage2_correct": 4,
+    "stage2_wrong_role": 6
+   },
+   "HMI": {
+    "blocked_by_stage1": 2,
+    "no_profile_blocked": 15,
+    "no_profile_passed": 0,
+    "stage2_correct": 7,
+    "stage2_wrong_role": 5
+   },
+   "OTHER": {
+    "blocked_by_stage1": 0,
+    "no_profile_blocked": 1,
+    "no_profile_passed": 2,
+    "stage2_correct": 39,
+    "stage2_wrong_role": 36
+   },
+   "PLC": {
+    "blocked_by_stage1": 1,
+    "no_profile_blocked": 0,
+    "no_profile_passed": 3,
+    "stage2_correct": 31,
+    "stage2_wrong_role": 8
+   }
+  },
+  "two_stage_minus_one_stage_paired_bootstrap": {
+   "point": 0.013,
+   "ci95": [
+    -0.012,
+    0.042
+   ],
+   "share_le_0": 0.162
+  }
+ },
+ "report_set_A": {
+  "n": 139,
+  "class_counts": {
+   "PLC": 40,
+   "HMI": 14,
+   "EWS": 10,
+   "OTHER": 75
+  },
+  "bootstrap_B": 2000,
+  "models": {
+   "RF64": {
+    "n_seeds": 5,
+    "mean": 0.538,
+    "sd": 0.038,
+    "per_seed": [
+     0.549,
+     0.567,
+     0.486,
+     0.502,
+     0.585
+    ],
+    "accuracy": 0.603,
+    "recall": {
+     "PLC": 0.775,
+     "HMI": 0.4,
+     "EWS": 0.4,
+     "OTHER": 0.576
+    },
+    "precision": {
+     "PLC": 0.517,
+     "HMI": 0.509,
+     "EWS": 0.308,
+     "OTHER": 0.785
+    },
+    "f1": {
+     "PLC": 0.62,
+     "HMI": 0.448,
+     "EWS": 0.348,
+     "OTHER": 0.665
+    },
+    "macro_f1": 0.52,
+    "confusion_rows_true_cols_pred_sum_over_seeds": [
+     [
+      155,
+      17,
+      4,
+      24
+     ],
+     [
+      19,
+      28,
+      10,
+      13
+     ],
+     [
+      7,
+      1,
+      20,
+      22
+     ],
+     [
+      119,
+      9,
+      31,
+      216
+     ]
+    ],
+    "seed0": {
+     "point": 0.549,
+     "ci95": [
+      0.441,
+      0.667
+     ]
+    },
+    "mean_over_seeds_bootstrap_ci95": [
+     0.434,
+     0.643
+    ]
+   },
+   "Luat_vai_tro": {
+    "n_seeds": 1,
+    "mean": 0.433,
+    "sd": 0.0,
+    "per_seed": [
+     0.433
+    ],
+    "accuracy": 0.532,
+    "recall": {
+     "PLC": 0.725,
+     "HMI": 0.5,
+     "EWS": 0.0,
+     "OTHER": 0.507
+    },
+    "precision": {
+     "PLC": 0.446,
+     "HMI": 0.389,
+     "EWS": 0.0,
+     "OTHER": 0.679
+    },
+    "f1": {
+     "PLC": 0.552,
+     "HMI": 0.438,
+     "EWS": 0.0,
+     "OTHER": 0.58
+    },
+    "macro_f1": 0.393,
+    "confusion_rows_true_cols_pred_sum_over_seeds": [
+     [
+      29,
+      4,
+      0,
+      7
+     ],
+     [
+      2,
+      7,
+      0,
+      5
+     ],
+     [
+      1,
+      3,
+      0,
+      6
+     ],
+     [
+      33,
+      4,
+      0,
+      38
+     ]
+    ],
+    "seed0": {
+     "point": 0.433,
+     "ci95": [
+      0.353,
+      0.513
+     ]
+    },
+    "mean_over_seeds_bootstrap_ci95": [
+     0.35,
+     0.515
+    ],
+    "RF64_minus_this_seed0_paired": {
+     "point": 0.116,
+     "mean_diff": 0.115,
+     "ci95": [
+      0.013,
+      0.227
+     ],
+     "share_le_0": 0.015
+    },
+    "RF64_minus_this_mean_over_seeds_paired": {
+     "rf_seeds_used": 5,
+     "point": 0.105,
+     "ci95": [
+      0.008,
+      0.208
+     ],
+     "share_le_0": 0.021
+    }
+   },
+   "MLP64": {
+    "n_seeds": 5,
+    "mean": 0.448,
+    "sd": 0.014,
+    "per_seed": [
+     0.429,
+     0.463,
+     0.435,
+     0.463,
+     0.45
+    ],
+    "accuracy": 0.535,
+    "recall": {
+     "PLC": 0.62,
+     "HMI": 0.586,
+     "EWS": 0.04,
+     "OTHER": 0.547
+    },
+    "precision": {
+     "PLC": 0.432,
+     "HMI": 0.494,
+     "EWS": 0.038,
+     "OTHER": 0.751
+    },
+    "f1": {
+     "PLC": 0.509,
+     "HMI": 0.536,
+     "EWS": 0.039,
+     "OTHER": 0.633
+    },
+    "macro_f1": 0.429,
+    "confusion_rows_true_cols_pred_sum_over_seeds": [
+     [
+      124,
+      24,
+      18,
+      34
+     ],
+     [
+      22,
+      41,
+      0,
+      7
+     ],
+     [
+      14,
+      7,
+      2,
+      27
+     ],
+     [
+      127,
+      11,
+      32,
+      205
+     ]
+    ],
+    "seed0": {
+     "point": 0.429,
+     "ci95": [
+      0.35,
+      0.508
+     ]
+    },
+    "mean_over_seeds_bootstrap_ci95": [
+     0.368,
+     0.521
+    ],
+    "RF64_minus_this_seed0_paired": {
+     "point": 0.12,
+     "mean_diff": 0.119,
+     "ci95": [
+      0.026,
+      0.218
+     ],
+     "share_le_0": 0.005
+    },
+    "RF64_minus_this_mean_over_seeds_paired": {
+     "rf_seeds_used": 5,
+     "point": 0.09,
+     "ci95": [
+      -0.017,
+      0.197
+     ],
+     "share_le_0": 0.045
+    }
+   },
+   "B2_OUI_RF": {
+    "n_seeds": 5,
+    "mean": 0.245,
+    "sd": 0.025,
+    "per_seed": [
+     0.268,
+     0.263,
+     0.216,
+     0.213,
+     0.264
+    ],
+    "accuracy": 0.279,
+    "recall": {
+     "PLC": 0.195,
+     "HMI": 0.457,
+     "EWS": 0.0,
+     "OTHER": 0.328
+    },
+    "precision": {
+     "PLC": 0.358,
+     "HMI": 0.087,
+     "EWS": 0.0,
+     "OTHER": 0.665
+    },
+    "f1": {
+     "PLC": 0.252,
+     "HMI": 0.147,
+     "EWS": 0.0,
+     "OTHER": 0.439
+    },
+    "macro_f1": 0.21,
+    "confusion_rows_true_cols_pred_sum_over_seeds": [
+     [
+      39,
+      108,
+      16,
+      37
+     ],
+     [
+      12,
+      32,
+      8,
+      18
+     ],
+     [
+      15,
+      28,
+      0,
+      7
+     ],
+     [
+      43,
+      198,
+      11,
+      123
+     ]
+    ],
+    "seed0": {
+     "point": 0.268,
+     "ci95": [
+      0.193,
+      0.35
+     ]
+    },
+    "mean_over_seeds_bootstrap_ci95": [
+     0.176,
+     0.315
+    ],
+    "RF64_minus_this_seed0_paired": {
+     "point": 0.281,
+     "mean_diff": 0.278,
+     "ci95": [
+      0.142,
+      0.421
+     ],
+     "share_le_0": 0.0
+    },
+    "RF64_minus_this_mean_over_seeds_paired": {
+     "rf_seeds_used": 5,
+     "point": 0.293,
+     "ci95": [
+      0.178,
+      0.403
+     ],
+     "share_le_0": 0.0
+    }
+   },
+   "B5_fuzzy_1NN": {
+    "n_seeds": 5,
+    "mean": 0.414,
+    "sd": 0.021,
+    "per_seed": [
+     0.412,
+     0.376,
+     0.433,
+     0.43,
+     0.419
+    ],
+    "accuracy": 0.496,
+    "recall": {
+     "PLC": 0.62,
+     "HMI": 0.529,
+     "EWS": 0.02,
+     "OTHER": 0.488
+    },
+    "precision": {
+     "PLC": 0.409,
+     "HMI": 0.493,
+     "EWS": 0.019,
+     "OTHER": 0.696
+    },
+    "f1": {
+     "PLC": 0.493,
+     "HMI": 0.51,
+     "EWS": 0.019,
+     "OTHER": 0.574
+    },
+    "macro_f1": 0.399,
+    "confusion_rows_true_cols_pred_sum_over_seeds": [
+     [
+      124,
+      11,
+      14,
+      51
+     ],
+     [
+      19,
+      37,
+      2,
+      12
+     ],
+     [
+      19,
+      13,
+      1,
+      17
+     ],
+     [
+      141,
+      14,
+      37,
+      183
+     ]
+    ],
+    "seed0": {
+     "point": 0.412,
+     "ci95": [
+      0.328,
+      0.495
+     ]
+    },
+    "mean_over_seeds_bootstrap_ci95": [
+     0.336,
+     0.493
+    ],
+    "RF64_minus_this_seed0_paired": {
+     "point": 0.136,
+     "mean_diff": 0.136,
+     "ci95": [
+      0.008,
+      0.271
+     ],
+     "share_le_0": 0.018
+    },
+    "RF64_minus_this_mean_over_seeds_paired": {
+     "rf_seeds_used": 5,
+     "point": 0.124,
+     "ci95": [
+      0.009,
+      0.241
+     ],
+     "share_le_0": 0.02
+    }
+   },
+   "B3_V1_all": {
+    "n_seeds": 1,
+    "mean": 0.293,
+    "sd": 0.0,
+    "per_seed": [
+     0.293
+    ],
+    "accuracy": 0.273,
+    "recall": {
+     "PLC": 0.8,
+     "HMI": 0.357,
+     "EWS": 0.0,
+     "OTHER": 0.013
+    },
+    "precision": {
+     "PLC": 0.305,
+     "HMI": 0.156,
+     "EWS": 0.0,
+     "OTHER": 0.5
+    },
+    "f1": {
+     "PLC": 0.441,
+     "HMI": 0.217,
+     "EWS": 0.0,
+     "OTHER": 0.026
+    },
+    "macro_f1": 0.171,
+    "confusion_rows_true_cols_pred_sum_over_seeds": [
+     [
+      32,
+      8,
+      0,
+      0
+     ],
+     [
+      8,
+      5,
+      0,
+      1
+     ],
+     [
+      7,
+      3,
+      0,
+      0
+     ],
+     [
+      58,
+      16,
+      0,
+      1
+     ]
+    ],
+    "seed0": {
+     "point": 0.293,
+     "ci95": [
+      0.219,
+      0.362
+     ]
+    },
+    "mean_over_seeds_bootstrap_ci95": [
+     0.222,
+     0.367
+    ],
+    "RF64_minus_this_seed0_paired": {
+     "point": 0.256,
+     "mean_diff": 0.256,
+     "ci95": [
+      0.128,
+      0.399
+     ],
+     "share_le_0": 0.0
+    },
+    "RF64_minus_this_mean_over_seeds_paired": {
+     "rf_seeds_used": 5,
+     "point": 0.245,
+     "ci95": [
+      0.126,
+      0.358
+     ],
+     "share_le_0": 0.0
+    }
+   },
+   "B3_V2_ot": {
+    "n_seeds": 1,
+    "mean": 0.297,
+    "sd": 0.0,
+    "per_seed": [
+     0.297
+    ],
+    "accuracy": 0.446,
+    "recall": {
+     "PLC": 0.775,
+     "HMI": 0.0,
+     "EWS": 0.0,
+     "OTHER": 0.413
+    },
+    "precision": {
+     "PLC": 0.373,
+     "HMI": 0.0,
+     "EWS": 0.0,
+     "OTHER": 0.705
+    },
+    "f1": {
+     "PLC": 0.504,
+     "HMI": 0.0,
+     "EWS": 0.0,
+     "OTHER": 0.521
+    },
+    "macro_f1": 0.256,
+    "confusion_rows_true_cols_pred_sum_over_seeds": [
+     [
+      31,
+      4,
+      0,
+      5
+     ],
+     [
+      11,
+      0,
+      0,
+      3
+     ],
+     [
+      5,
+      0,
+      0,
+      5
+     ],
+     [
+      36,
+      8,
+      0,
+      31
+     ]
+    ],
+    "seed0": {
+     "point": 0.297,
+     "ci95": [
+      0.253,
+      0.34
+     ]
+    },
+    "mean_over_seeds_bootstrap_ci95": [
+     0.256,
+     0.34
+    ],
+    "RF64_minus_this_seed0_paired": {
+     "point": 0.252,
+     "mean_diff": 0.25,
+     "ci95": [
+      0.138,
+      0.367
+     ],
+     "share_le_0": 0.0
+    },
+    "RF64_minus_this_mean_over_seeds_paired": {
+     "rf_seeds_used": 5,
+     "point": 0.241,
+     "ci95": [
+      0.131,
+      0.35
+     ],
+     "share_le_0": 0.0
+    }
+   },
+   "B3_V3_ot_req": {
+    "n_seeds": 1,
+    "mean": 0.467,
+    "sd": 0.0,
+    "per_seed": [
+     0.467
+    ],
+    "accuracy": 0.518,
+    "recall": {
+     "PLC": 0.825,
+     "HMI": 0.643,
+     "EWS": 0.0,
+     "OTHER": 0.4
+    },
+    "precision": {
+     "PLC": 0.429,
+     "HMI": 0.429,
+     "EWS": 0.0,
+     "OTHER": 0.732
+    },
+    "f1": {
+     "PLC": 0.564,
+     "HMI": 0.514,
+     "EWS": 0.0,
+     "OTHER": 0.517
+    },
+    "macro_f1": 0.399,
+    "confusion_rows_true_cols_pred_sum_over_seeds": [
+     [
+      33,
+      4,
+      0,
+      3
+     ],
+     [
+      2,
+      9,
+      0,
+      3
+     ],
+     [
+      1,
+      4,
+      0,
+      5
+     ],
+     [
+      41,
+      4,
+      0,
+      30
+     ]
+    ],
+    "seed0": {
+     "point": 0.467,
+     "ci95": [
+      0.388,
+      0.541
+     ]
+    },
+    "mean_over_seeds_bootstrap_ci95": [
+     0.388,
+     0.542
+    ],
+    "RF64_minus_this_seed0_paired": {
+     "point": 0.082,
+     "mean_diff": 0.081,
+     "ci95": [
+      -0.033,
+      0.2
+     ],
+     "share_le_0": 0.077
+    },
+    "RF64_minus_this_mean_over_seeds_paired": {
+     "rf_seeds_used": 5,
+     "point": 0.071,
+     "ci95": [
+      -0.035,
+      0.176
+     ],
+     "share_le_0": 0.089
+    }
+   },
+   "B4_P1_paper_scenario3": {
+    "n_seeds": 5,
+    "mean": 0.368,
+    "sd": 0.039,
+    "per_seed": [
+     0.405,
+     0.342,
+     0.403,
+     0.305,
+     0.388
+    ],
+    "accuracy": 0.367,
+    "recall": {
+     "PLC": 0.4,
+     "HMI": 0.086,
+     "EWS": 0.62,
+     "OTHER": 0.368
+    },
+    "precision": {
+     "PLC": 0.449,
+     "HMI": 0.062,
+     "EWS": 0.142,
+     "OTHER": 0.687
+    },
+    "f1": {
+     "PLC": 0.423,
+     "HMI": 0.072,
+     "EWS": 0.23,
+     "OTHER": 0.479
+    },
+    "macro_f1": 0.301,
+    "confusion_rows_true_cols_pred_sum_over_seeds": [
+     [
+      80,
+      38,
+      40,
+      42
+     ],
+     [
+      19,
+      6,
+      32,
+      13
+     ],
+     [
+      5,
+      6,
+      31,
+      8
+     ],
+     [
+      74,
+      47,
+      116,
+      138
+     ]
+    ],
+    "seed0": {
+     "point": 0.405,
+     "ci95": [
+      0.302,
+      0.502
+     ]
+    },
+    "mean_over_seeds_bootstrap_ci95": [
+     0.294,
+     0.442
+    ],
+    "RF64_minus_this_seed0_paired": {
+     "point": 0.144,
+     "mean_diff": 0.141,
+     "ci95": [
+      0.004,
+      0.282
+     ],
+     "share_le_0": 0.022
+    },
+    "RF64_minus_this_mean_over_seeds_paired": {
+     "rf_seeds_used": 5,
+     "point": 0.17,
+     "ci95": [
+      0.044,
+      0.293
+     ],
+     "share_le_0": 0.004
+    }
+   },
+   "B4_P2_standard": {
+    "n_seeds": 5,
+    "mean": 0.404,
+    "sd": 0.039,
+    "per_seed": [
+     0.435,
+     0.365,
+     0.432,
+     0.349,
+     0.438
+    ],
+    "accuracy": 0.554,
+    "recall": {
+     "PLC": 0.615,
+     "HMI": 0.157,
+     "EWS": 0.2,
+     "OTHER": 0.643
+    },
+    "precision": {
+     "PLC": 0.426,
+     "HMI": 0.344,
+     "EWS": 0.222,
+     "OTHER": 0.733
+    },
+    "f1": {
+     "PLC": 0.503,
+     "HMI": 0.216,
+     "EWS": 0.211,
+     "OTHER": 0.685
+    },
+    "macro_f1": 0.403,
+    "confusion_rows_true_cols_pred_sum_over_seeds": [
+     [
+      123,
+      16,
+      7,
+      54
+     ],
+     [
+      45,
+      11,
+      2,
+      12
+     ],
+     [
+      18,
+      0,
+      10,
+      22
+     ],
+     [
+      103,
+      5,
+      26,
+      241
+     ]
+    ],
+    "seed0": {
+     "point": 0.435,
+     "ci95": [
+      0.336,
+      0.544
+     ]
+    },
+    "mean_over_seeds_bootstrap_ci95": [
+     0.331,
+     0.49
+    ],
+    "RF64_minus_this_seed0_paired": {
+     "point": 0.114,
+     "mean_diff": 0.111,
+     "ci95": [
+      -0.047,
+      0.266
+     ],
+     "share_le_0": 0.091
+    },
+    "RF64_minus_this_mean_over_seeds_paired": {
+     "rf_seeds_used": 5,
+     "point": 0.134,
+     "ci95": [
+      -0.003,
+      0.262
+     ],
+     "share_le_0": 0.028
+    }
+   },
+   "B4_P2e_entropy_only": {
+    "n_seeds": 5,
+    "mean": 0.38,
+    "sd": 0.047,
+    "per_seed": [
+     0.382,
+     0.363,
+     0.391,
+     0.308,
+     0.454
+    ],
+    "accuracy": 0.517,
+    "recall": {
+     "PLC": 0.52,
+     "HMI": 0.2,
+     "EWS": 0.18,
+     "OTHER": 0.619
+    },
+    "precision": {
+     "PLC": 0.367,
+     "HMI": 0.359,
+     "EWS": 0.209,
+     "OTHER": 0.703
+    },
+    "f1": {
+     "PLC": 0.431,
+     "HMI": 0.257,
+     "EWS": 0.194,
+     "OTHER": 0.658
+    },
+    "macro_f1": 0.385,
+    "confusion_rows_true_cols_pred_sum_over_seeds": [
+     [
+      104,
+      23,
+      5,
+      68
+     ],
+     [
+      45,
+      14,
+      4,
+      7
+     ],
+     [
+      18,
+      0,
+      9,
+      23
+     ],
+     [
+      116,
+      2,
+      25,
+      232
+     ]
+    ],
+    "seed0": {
+     "point": 0.382,
+     "ci95": [
+      0.287,
+      0.489
+     ]
+    },
+    "mean_over_seeds_bootstrap_ci95": [
+     0.305,
+     0.468
+    ],
+    "RF64_minus_this_seed0_paired": {
+     "point": 0.167,
+     "mean_diff": 0.165,
+     "ci95": [
+      -0.008,
+      0.325
+     ],
+     "share_le_0": 0.03
+    },
+    "RF64_minus_this_mean_over_seeds_paired": {
+     "rf_seeds_used": 5,
+     "point": 0.158,
+     "ci95": [
+      0.014,
+      0.29
+     ],
+     "share_le_0": 0.018
+    }
+   },
+   "CNN1D": {
+    "n_seeds": 5,
+    "mean": 0.469,
+    "sd": 0.031,
+    "per_seed": [
+     0.435,
+     0.508,
+     0.493,
+     0.431,
+     0.476
+    ],
+    "accuracy": 0.531,
+    "recall": {
+     "PLC": 0.69,
+     "HMI": 0.529,
+     "EWS": 0.16,
+     "OTHER": 0.496
+    },
+    "precision": {
+     "PLC": 0.469,
+     "HMI": 0.411,
+     "EWS": 0.108,
+     "OTHER": 0.785
+    },
+    "f1": {
+     "PLC": 0.559,
+     "HMI": 0.463,
+     "EWS": 0.129,
+     "OTHER": 0.608
+    },
+    "macro_f1": 0.44,
+    "confusion_rows_true_cols_pred_sum_over_seeds": [
+     [
+      138,
+      18,
+      22,
+      22
+     ],
+     [
+      20,
+      37,
+      3,
+      10
+     ],
+     [
+      19,
+      4,
+      8,
+      19
+     ],
+     [
+      117,
+      31,
+      41,
+      186
+     ]
+    ],
+    "seed0": {
+     "point": 0.435,
+     "ci95": [
+      0.343,
+      0.53
+     ]
+    },
+    "mean_over_seeds_bootstrap_ci95": [
+     0.39,
+     0.546
+    ],
+    "RF64_minus_this_seed0_paired": {
+     "point": 0.114,
+     "mean_diff": 0.112,
+     "ci95": [
+      -0.024,
+      0.246
+     ],
+     "share_le_0": 0.055
+    },
+    "RF64_minus_this_mean_over_seeds_paired": {
+     "rf_seeds_used": 5,
+     "point": 0.069,
+     "ci95": [
+      -0.061,
+      0.193
+     ],
+     "share_le_0": 0.141
+    }
+   },
+   "Transformer": {
+    "n_seeds": 3,
+    "mean": 0.479,
+    "sd": 0.035,
+    "per_seed": [
+     0.435,
+     0.52,
+     0.481
+    ],
+    "accuracy": 0.547,
+    "recall": {
+     "PLC": 0.583,
+     "HMI": 0.595,
+     "EWS": 0.167,
+     "OTHER": 0.569
+    },
+    "precision": {
+     "PLC": 0.538,
+     "HMI": 0.424,
+     "EWS": 0.082,
+     "OTHER": 0.766
+    },
+    "f1": {
+     "PLC": 0.56,
+     "HMI": 0.495,
+     "EWS": 0.11,
+     "OTHER": 0.653
+    },
+    "macro_f1": 0.455,
+    "confusion_rows_true_cols_pred_sum_over_seeds": [
+     [
+      70,
+      10,
+      21,
+      19
+     ],
+     [
+      6,
+      25,
+      3,
+      8
+     ],
+     [
+      8,
+      5,
+      5,
+      12
+     ],
+     [
+      46,
+      19,
+      32,
+      128
+     ]
+    ],
+    "seed0": {
+     "point": 0.435,
+     "ci95": [
+      0.358,
+      0.517
+     ]
+    },
+    "mean_over_seeds_bootstrap_ci95": [
+     0.411,
+     0.549
+    ],
+    "RF64_minus_this_seed0_paired": {
+     "point": 0.114,
+     "mean_diff": 0.11,
+     "ci95": [
+      -0.001,
+      0.229
+     ],
+     "share_le_0": 0.027
+    },
+    "RF64_minus_this_mean_over_seeds_paired": {
+     "rf_seeds_used": 3,
+     "point": 0.055,
+     "ci95": [
+      -0.06,
+      0.17
+     ],
+     "share_le_0": 0.182
+    }
+   }
+  },
+  "set_T": {
+   "n": 73,
+   "class_counts": {
+    "PLC": 34,
+    "HMI": 10,
+    "EWS": 5,
+    "OTHER": 24
+   },
+   "models": {
+    "RF64": {
+     "n_seeds": 5,
+     "mean": 0.61,
+     "sd": 0.032,
+     "per_seed": [
+      0.595,
+      0.578,
+      0.585,
+      0.628,
+      0.663
+     ],
+     "accuracy": 0.638,
+     "recall": {
+      "PLC": 0.794,
+      "HMI": 0.66,
+      "EWS": 0.56,
+      "OTHER": 0.425
+     },
+     "precision": {
+      "PLC": 0.637,
+      "HMI": 0.673,
+      "EWS": 0.438,
+      "OTHER": 0.708
+     },
+     "f1": {
+      "PLC": 0.707,
+      "HMI": 0.667,
+      "EWS": 0.491,
+      "OTHER": 0.531
+     },
+     "macro_f1": 0.599,
+     "confusion_rows_true_cols_pred_sum_over_seeds": [
+      [
+       135,
+       12,
+       3,
+       20
+      ],
+      [
+       12,
+       33,
+       5,
+       0
+      ],
+      [
+       6,
+       4,
+       14,
+       1
+      ],
+      [
+       59,
+       0,
+       10,
+       51
+      ]
+     ]
+    },
+    "Luat_vai_tro": {
+     "n_seeds": 1,
+     "mean": 0.387,
+     "sd": 0.0,
+     "per_seed": [
+      0.387
+     ],
+     "accuracy": 0.479,
+     "recall": {
+      "PLC": 0.765,
+      "HMI": 0.7,
+      "EWS": 0.0,
+      "OTHER": 0.083
+     },
+     "precision": {
+      "PLC": 0.542,
+      "HMI": 0.438,
+      "EWS": 0.0,
+      "OTHER": 0.222
+     },
+     "f1": {
+      "PLC": 0.634,
+      "HMI": 0.538,
+      "EWS": 0.0,
+      "OTHER": 0.121
+     },
+     "macro_f1": 0.323,
+     "confusion_rows_true_cols_pred_sum_over_seeds": [
+      [
+       26,
+       4,
+       0,
+       4
+      ],
+      [
+       1,
+       7,
+       0,
+       2
+      ],
+      [
+       1,
+       3,
+       0,
+       1
+      ],
+      [
+       20,
+       2,
+       0,
+       2
+      ]
+     ]
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "stage2_nested": {
+  "n": 165,
+  "balanced_acc_outer": {
+   "mean": 0.619,
+   "sd": 0.04
+  },
+  "per_seed": [
+   0.625,
+   0.591,
+   0.581,
+   0.694,
+   0.605
+  ],
+  "configs_chosen_counts": {
+   "behaviour_payload_role_eng|leaf2": 9,
+   "behaviour_payload_role_eng|leaf1": 8,
+   "payload_role_eng|leaf1": 3,
+   "behaviour_payload_role_eng|leaf5": 2,
+   "payload_role_eng|leaf2": 1,
+   "payload_role|leaf1": 1,
+   "payload_role_eng|leaf5": 1
+  },
+  "note": "fixed RF 64 columns, leaf 2: 0.641 +/- 0.030 (frozen)"
+ },
+ "stage1_threshold_nested": {
+  "n_gold": 184,
+  "n_OT": 65,
+  "grid": [
+   0.2,
+   0.25,
+   0.3,
+   0.35,
+   0.4,
+   0.45,
+   0.5,
+   0.55,
+   0.6,
+   0.65,
+   0.7
+  ],
+  "in_sample_best_threshold_youden": 0.65,
+  "in_sample_at_best": [
+   0.754,
+   0.176,
+   0.789
+  ],
+  "in_sample_at_0.5": [
+   0.846,
+   0.277,
+   0.784
+  ],
+  "nested_recall_fpr_balacc_mean": [
+   0.768,
+   0.237,
+   0.766
+  ],
+  "nested_sd": [
+   0.011,
+   0.016,
+   0.007
+  ],
+  "chosen_threshold_counts": {
+   "0.5": 36,
+   "0.55": 2,
+   "0.6": 8,
+   "0.65": 54
+  },
+  "note": "tuples are (recall OT, false-positive rate, balanced accuracy)"
+ }
+}

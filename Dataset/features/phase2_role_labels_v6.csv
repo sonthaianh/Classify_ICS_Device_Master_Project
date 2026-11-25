@@ -1,0 +1,1070 @@
+﻿device_id,ot_pkts,ot_server_share,dominant_ot_family,role_class,n_sessions,analog_seed,analog_type,analog_token_cosine,pseudo_label,is_seed,coarse_label,evidence_strength
+DEV_2475,1,0.0,bacnet,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0090,219,0.215,modbus,mixed,17,,,,mixed,False,mixed_role,weak
+DEV_0145,94,0.489,bacnet,mixed,11,,,,mixed,False,mixed_role,weak
+DEV_0309,974,0.495,bacnet,mixed,5,,,,mixed,False,mixed_role,strong
+DEV_0651,0,,,no_ot_payload,3,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2553,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1246,0,,,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0066,155,0.516,codesys_ge_misc,mixed,21,,,,mixed,False,mixed_role,weak
+DEV_1249,1,1.0,dnp3,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2595,2,0.5,dnp3,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0182,0,,,no_ot_payload,8,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_3025,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_3026,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_3074,154,1.0,s7_iso,responder_like,27,DEV_0153,PLC,0.616,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_2795,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1190,3,0.0,bacnet,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0043,134,0.507,codesys_ge_misc,mixed,31,,,,mixed,False,mixed_role,weak
+DEV_0426,8,0.0,dnp3,no_ot_payload,4,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0427,8,1.0,dnp3,no_ot_payload,4,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1172,0,,,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2573,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0410,0,,,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2514,6,0.5,bacnet,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2515,6,0.5,bacnet,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0099,28921,0.0,enip,initiator_like,16,DEV_0354,HMI,0.873,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0650,452,1.0,enip,responder_like,3,DEV_0287,PLC,0.429,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1243,2,0.0,enip,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0038,13,1.0,codesys_ge_misc,no_ot_payload,37,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0092,13,0.0,codesys_ge_misc,no_ot_payload,17,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0030,14069,0.002,codesys_ge_misc,initiator_like,52,DEV_0367,PLC,0.0,initiator_like|PLC_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0031,30,0.1,codesys_ge_misc,initiator_like,50,DEV_0367,PLC,0.0,initiator_like|PLC_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_2236,2,0.0,modbus,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2237,2,1.0,modbus,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0029,8056,0.817,iec104,responder_like,62,,,,responder_like|no_seed_analog,False,field_device_like(answers OT requests),strong
+DEV_0173,152,1.0,modbus,responder_like,9,DEV_0286,PLC,0.346,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_0263,18,1.0,s7_iso,no_ot_payload,6,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0667,6,0.0,s7_iso,no_ot_payload,3,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0110,29,1.0,codesys_ge_misc,no_ot_payload,12,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0264,1263,0.0,s7_iso,initiator_like,6,DEV_0533,HMI,0.0,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_1245,408,1.0,enip,responder_like,2,DEV_0287,PLC,0.209,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0094,42407,0.085,modbus,initiator_like,13,DEV_0534,HMI,0.722,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0619,10803,1.0,bacnet,responder_like,3,,,,responder_like|no_seed_analog,False,field_device_like(answers OT requests),strong
+DEV_3556,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_3557,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0115,56,0.0,dnp3,initiator_like,13,,,,initiator_like|no_seed_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_0187,44,1.0,dnp3,responder_like,8,,,,responder_like|no_seed_analog,False,field_device_like(answers OT requests),weak
+DEV_0084,11,0.273,codesys_ge_misc,no_ot_payload,18,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0170,69,1.0,dnp3,responder_like,9,,,,responder_like|no_seed_analog,False,field_device_like(answers OT requests),weak
+DEV_0171,69,0.0,dnp3,initiator_like,9,,,,initiator_like|no_seed_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_1248,0,,,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0168,69776,1.0,s7_iso,responder_like,9,DEV_0103,PLC,0.362,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0235,68525,0.0,s7_iso,initiator_like,6,DEV_0533,HMI,0.0,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0121,0,,,no_ot_payload,12,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0454,66,0.0,iec104,initiator_like,3,,,,initiator_like|no_seed_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_0142,0,,,no_ot_payload,11,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0167,5,0.0,codesys_ge_misc,no_ot_payload,9,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2779,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0367,402,0.08,codesys_ge_misc,initiator_like,4,,,,initiator_like|no_seed_analog,True,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0523,464,1.0,codesys_ge_misc,responder_like,3,DEV_1590,PLC,1.0,responder_like|PLC_analog,True,field_device_like(answers OT requests),strong
+DEV_0269,3,0.0,codesys_ge_misc,no_ot_payload,5,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2208,4,0.5,bacnet,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2516,4,0.5,bacnet,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2653,1,1.0,iec104,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0664,30,0.0,modbus,initiator_like,3,DEV_0534,HMI,0.0,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_3087,3911,0.999,codesys_ge_misc,responder_like,5,DEV_0523,PLC,0.0,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0036,0,,,no_ot_payload,41,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1671,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0207,788,1.0,dnp3,responder_like,7,,,,responder_like|no_seed_analog,False,field_device_like(answers OT requests),strong
+DEV_0248,615,0.0,dnp3,initiator_like,6,,,,initiator_like|no_seed_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_2505,6,0.0,dnp3,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2506,6,1.0,dnp3,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0105,21398,0.001,s7_iso,initiator_like,14,DEV_0533,HMI,0.064,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0135,21219,0.999,s7_iso,responder_like,12,DEV_0153,PLC,0.281,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0308,10177,0.494,bacnet,mixed,5,,,,mixed,False,mixed_role,strong
+DEV_1103,350,0.503,bacnet,mixed,2,,,,mixed,False,mixed_role,strong
+DEV_2507,1,0.0,bacnet,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0892,0,,,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_3029,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1122,38,1.0,mqtt,responder_like,2,,,,responder_like|no_seed_analog,False,field_device_like(answers OT requests),weak
+DEV_1123,38,0.0,mqtt,initiator_like,2,,,,initiator_like|no_seed_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_2642,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2643,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0386,417,1.0,dnp3,responder_like,4,,,,responder_like|no_seed_analog,False,field_device_like(answers OT requests),strong
+DEV_1062,115,0.0,modbus,initiator_like,2,DEV_0534,HMI,0.0,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_1930,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2075,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_3441,3,0.0,dnp3,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_3442,3,1.0,dnp3,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0163,0,,,no_ot_payload,10,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0414,0,,,no_ot_payload,4,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2149,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2337,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2750,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2631,18,1.0,modbus,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2632,18,0.0,modbus,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0041,6584,0.0,iec104,initiator_like,31,,,,initiator_like|no_seed_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0300,16563,0.856,bacnet,responder_like,4,,,,responder_like|no_seed_analog,False,field_device_like(answers OT requests),strong
+DEV_0393,1520,0.991,bacnet,responder_like,4,,,,responder_like|no_seed_analog,False,field_device_like(answers OT requests),strong
+DEV_0089,210565,0.003,s7_iso,initiator_like,18,DEV_0533,HMI,0.0,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_2458,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2459,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0626,51,0.0,enip,initiator_like,3,DEV_0354,HMI,0.63,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_0627,51,1.0,enip,responder_like,3,DEV_0287,PLC,0.763,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_0556,2,0.0,codesys_ge_misc,no_ot_payload,3,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0169,46,0.0,s7_iso,initiator_like,9,DEV_0533,HMI,0.014,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_0172,46,1.0,s7_iso,responder_like,9,DEV_0153,PLC,0.658,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_2823,5,1.0,s7_iso,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2824,5,0.0,s7_iso,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0032,210951,0.0,enip,initiator_like,48,DEV_0354,HMI,0.009,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0033,16077,0.994,s7_iso,responder_like,40,DEV_0075,PLC,0.556,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0988,0,,,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0144,28024,1.0,enip,responder_like,11,DEV_0287,PLC,0.975,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0606,0,,,no_ot_payload,3,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2207,40,0.3,bacnet,mixed,1,,,,mixed,False,mixed_role,weak
+DEV_1250,66,0.0,dnp3,initiator_like,2,,,,initiator_like|no_seed_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_3117,66,1.0,dnp3,responder_like,2,,,,responder_like|no_seed_analog,False,field_device_like(answers OT requests),weak
+DEV_2638,5,0.0,fox_niagara,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0636,522,1.0,s7_iso,responder_like,2,DEV_0075,PLC,0.0,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0637,522,0.0,s7_iso,initiator_like,2,DEV_0533,HMI,0.0,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_2456,29,0.0,s7_iso,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2457,29,1.0,s7_iso,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2798,28,0.0,s7_iso,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2799,28,1.0,s7_iso,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2347,26,0.0,mqtt,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2348,26,1.0,mqtt,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0316,18841,0.828,dnp3,responder_like,5,,,,responder_like|no_seed_analog,False,field_device_like(answers OT requests),strong
+DEV_2260,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2591,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2338,9,1.0,iec104,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0100,2207,0.743,omron_fins,mixed,15,,,,mixed,False,mixed_role,strong
+DEV_1255,10,0.3,fox_niagara,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2635,7,1.0,fox_niagara,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0223,13595,0.0,s7_iso,initiator_like,6,DEV_0533,HMI,0.0,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0306,0,,,no_ot_payload,5,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0389,0,,,no_ot_payload,4,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1257,0,,,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0074,59204,0.001,s7_iso,initiator_like,8,DEV_0533,HMI,0.669,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0075,80665,1.0,s7_iso,responder_like,13,DEV_0103,PLC,0.965,responder_like|PLC_analog,True,field_device_like(answers OT requests),strong
+DEV_3553,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_3554,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2644,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2645,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1280,529,1.0,s7_iso,responder_like,2,DEV_0153,PLC,0.555,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_2617,64,1.0,codesys_ge_misc,responder_like,1,DEV_0523,PLC,0.0,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_3575,64,0.0,codesys_ge_misc,initiator_like,1,DEV_0367,PLC,0.0,initiator_like|PLC_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_0476,0,,,no_ot_payload,3,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0496,82,0.0,modbus,initiator_like,3,DEV_0368,HMI,0.378,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_0519,82,1.0,modbus,responder_like,3,DEV_0286,PLC,0.349,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_2649,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2650,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2359,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2361,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0385,0,,,no_ot_payload,4,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0620,0,,,no_ot_payload,3,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0097,0,,,no_ot_payload,17,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0101,0,,,no_ot_payload,15,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0404,153,1.0,s7_iso,responder_like,4,DEV_0103,PLC,0.949,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_0602,117,0.0,s7_iso,initiator_like,3,DEV_0533,HMI,0.711,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_0320,795,0.0,omron_fins,initiator_like,5,,,,initiator_like|no_seed_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0321,795,1.0,omron_fins,responder_like,5,,,,responder_like|no_seed_analog,False,field_device_like(answers OT requests),strong
+DEV_0380,0,,,no_ot_payload,4,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0383,0,,,no_ot_payload,4,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0297,0,,,no_ot_payload,3,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0574,404,0.126,dnp3,initiator_like,3,,,,initiator_like|no_seed_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_1192,103,0.0,modbus,initiator_like,2,DEV_0610,HMI,0.99,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_1194,103,1.0,modbus,responder_like,2,DEV_0353,PLC,0.99,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_2636,3,0.0,fox_niagara,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0331,0,,,no_ot_payload,5,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0552,24,1.0,modbus,no_ot_payload,3,,,,no_ot_payload,True,no_ot_payload(cannot judge),none
+DEV_3097,0,,,no_ot_payload,2,,,,no_ot_payload,True,no_ot_payload(cannot judge),none
+DEV_2834,75,1.0,s7_iso,responder_like,1,DEV_0075,PLC,0.96,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_2835,75,0.0,s7_iso,initiator_like,1,DEV_0533,HMI,0.692,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_1251,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2648,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0674,52,1.0,codesys_ge_misc,responder_like,2,DEV_0523,PLC,0.0,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_2607,79,1.0,s7_iso,responder_like,1,DEV_0103,PLC,0.464,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_2608,79,0.0,s7_iso,initiator_like,1,DEV_0533,HMI,0.006,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_3220,162,1.0,codesys_ge_misc,responder_like,2,DEV_0523,PLC,0.0,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_3221,162,0.0,codesys_ge_misc,initiator_like,2,DEV_0367,PLC,0.0,initiator_like|PLC_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_3065,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_3066,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_3034,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1258,147,1.0,iec104,responder_like,2,,,,responder_like|no_seed_analog,False,field_device_like(answers OT requests),weak
+DEV_1259,147,0.0,iec104,initiator_like,2,,,,initiator_like|no_seed_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_3035,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_3036,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2826,1,0.0,profinet_ethercat,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2836,36,0.0,s7_iso,initiator_like,1,DEV_0533,HMI,0.768,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_0158,5929,1.0,codesys_ge_misc,responder_like,10,DEV_0523,PLC,0.0,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1036,413,0.257,iec104,mixed,2,,,,mixed,False,mixed_role,strong
+DEV_1969,106,0.0,iec104,initiator_like,1,,,,initiator_like|no_seed_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_1074,27,0.0,codesys_ge_misc,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1106,27,1.0,codesys_ge_misc,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1594,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0103,1294,1.0,s7_iso,responder_like,8,DEV_0075,PLC,0.965,responder_like|PLC_analog,True,field_device_like(answers OT requests),strong
+DEV_0215,544,0.015,codesys_ge_misc,initiator_like,6,DEV_0367,PLC,0.0,initiator_like|PLC_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_2468,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2469,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_3091,875,0.0,s7_iso,initiator_like,4,DEV_0533,HMI,0.0,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_3092,875,1.0,s7_iso,responder_like,4,DEV_0153,PLC,0.286,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_2123,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1618,3,0.0,s7_iso,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_3108,86,0.64,iec104,mixed,2,,,,mixed,False,mixed_role,weak
+DEV_0093,8703,0.22,bacnet,mixed,16,,,,mixed,False,mixed_role,strong
+DEV_0153,2654,1.0,s7_iso,responder_like,9,DEV_0103,PLC,0.358,responder_like|PLC_analog,True,field_device_like(answers OT requests),strong
+DEV_0625,458,1.0,s7_iso,responder_like,3,DEV_0103,PLC,0.987,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1149,312,0.0,s7_iso,initiator_like,2,DEV_0533,HMI,0.755,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0310,172551,1.0,enip,responder_like,5,DEV_0287,PLC,0.217,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_2749,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1100,257,0.0,enip,initiator_like,2,DEV_0354,HMI,0.492,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_1307,257,1.0,enip,responder_like,2,DEV_0287,PLC,0.672,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_2841,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2842,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0340,8,1.0,codesys_ge_misc,no_ot_payload,4,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0222,156,0.66,profinet_ethercat,mixed,3,,,,mixed,True,mixed_role,weak
+DEV_0107,27014,0.0,modbus,initiator_like,14,DEV_0534,HMI,0.0,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0108,27014,1.0,modbus,responder_like,14,DEV_0353,PLC,0.0,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_2552,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0217,143144,0.846,bacnet,responder_like,6,,,,responder_like|no_seed_analog,False,field_device_like(answers OT requests),strong
+DEV_0570,152,0.0,modbus,initiator_like,2,DEV_0610,HMI,0.776,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_0642,11624,0.717,bacnet,mixed,3,,,,mixed,False,mixed_role,strong
+DEV_2477,152,1.0,modbus,responder_like,1,DEV_0353,PLC,0.776,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_1431,198,0.0,dnp3,initiator_like,1,,,,initiator_like|no_seed_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_1459,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1460,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2771,280,0.0,modbus,initiator_like,1,DEV_0610,HMI,0.7,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_2772,280,1.0,modbus,responder_like,1,DEV_0353,PLC,0.7,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_2769,322,0.0,modbus,initiator_like,1,DEV_0368,HMI,0.324,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_2147,353,1.0,iec104,responder_like,1,,,,responder_like|no_seed_analog,False,field_device_like(answers OT requests),strong
+DEV_2736,46,0.0,iec104,initiator_like,1,,,,initiator_like|no_seed_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_3083,2446,0.0,s7_iso,initiator_like,6,DEV_0533,HMI,0.011,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_3084,814,1.0,s7_iso,responder_like,6,DEV_0153,PLC,0.607,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_3085,817,1.0,s7_iso,responder_like,6,DEV_0153,PLC,0.606,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_3086,815,1.0,s7_iso,responder_like,6,DEV_0153,PLC,0.607,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_3033,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0289,0,,,no_ot_payload,5,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_3010,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_3011,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1404,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_3094,0,,,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1553,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1608,24,0.0,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1609,24,1.0,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2637,226,1.0,fox_niagara,responder_like,1,,,,responder_like|no_seed_analog,False,field_device_like(answers OT requests),weak
+DEV_0088,408576,1.0,s7_iso,responder_like,17,DEV_0103,PLC,0.56,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0160,115617,0.0,s7_iso,initiator_like,10,DEV_0533,HMI,0.001,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_2758,496,0.0,s7_iso,initiator_like,1,DEV_0533,HMI,0.002,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_2090,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2091,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0076,31183,0.655,enip,mixed,20,,,,mixed,False,mixed_role,strong
+DEV_0091,15109,0.0,enip,initiator_like,18,DEV_0354,HMI,0.246,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0600,4181,1.0,modbus,responder_like,3,DEV_0353,PLC,0.915,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_2777,187,0.0,modbus,initiator_like,1,DEV_0524,PLC,0.073,initiator_like|PLC_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_3395,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_3396,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1039,3588,0.532,bacnet,mixed,2,,,,mixed,False,mixed_role,strong
+DEV_1097,2396,0.437,bacnet,mixed,2,,,,mixed,False,mixed_role,strong
+DEV_1129,281,0.399,bacnet,mixed,2,,,,mixed,False,mixed_role,weak
+DEV_1171,1195,0.422,bacnet,mixed,2,,,,mixed,False,mixed_role,strong
+DEV_0633,56,1.0,s7_iso,responder_like,2,DEV_0153,PLC,0.24,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_1715,85,0.0,s7_iso,initiator_like,1,DEV_0533,HMI,0.007,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_1864,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2151,8,1.0,s7_iso,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2345,10,1.0,s7_iso,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2346,4,1.0,s7_iso,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2764,21,1.0,s7_iso,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2765,6,1.0,s7_iso,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2768,8,1.0,s7_iso,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0208,22862,1.0,s7_iso,responder_like,7,DEV_0103,PLC,0.838,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_2101,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2102,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0869,1358,0.0,enip,initiator_like,2,DEV_0354,HMI,0.0,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_1303,1358,1.0,enip,responder_like,2,DEV_0287,PLC,0.209,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0226,520,0.0,dnp3,initiator_like,6,,,,initiator_like|no_seed_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0228,0,,,no_ot_payload,6,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0232,520,1.0,dnp3,responder_like,6,,,,responder_like|no_seed_analog,False,field_device_like(answers OT requests),strong
+DEV_1691,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0140,213,0.0,codesys_ge_misc,initiator_like,11,DEV_0367,PLC,0.0,initiator_like|PLC_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_0141,201,0.0,codesys_ge_misc,initiator_like,11,DEV_0367,PLC,0.0,initiator_like|PLC_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_0143,0,,,no_ot_payload,11,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0646,1943,0.814,codesys_ge_misc,responder_like,3,DEV_0523,PLC,0.0,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1218,1052,0.343,codesys_ge_misc,mixed,2,,,,mixed,False,mixed_role,strong
+DEV_0693,0,,,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1520,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0271,0,,,no_ot_payload,5,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1159,795,1.0,enip,responder_like,2,DEV_0287,PLC,0.474,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1160,795,0.0,enip,initiator_like,2,DEV_0354,HMI,0.273,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_1152,2652,0.0,codesys_ge_misc,initiator_like,2,DEV_0367,PLC,0.0,initiator_like|PLC_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_1217,1761,1.0,codesys_ge_misc,responder_like,2,DEV_0523,PLC,0.0,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1162,1097,1.0,enip,responder_like,2,DEV_0287,PLC,0.312,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_2796,508,1.0,omron_fins,responder_like,1,,,,responder_like|no_seed_analog,False,field_device_like(answers OT requests),strong
+DEV_2797,508,0.0,omron_fins,initiator_like,1,,,,initiator_like|no_seed_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0663,4432,0.0,modbus,initiator_like,3,DEV_0610,HMI,0.737,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_1500,12,1.0,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2843,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2844,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2845,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2371,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0652,18798,0.17,dnp3,initiator_like,3,,,,initiator_like|no_seed_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_2178,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_3013,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_3014,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0578,0,,,no_ot_payload,3,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0579,0,,,no_ot_payload,3,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1414,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1415,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2620,1178,1.0,enip,responder_like,1,DEV_0287,PLC,0.301,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_2621,1178,0.0,enip,initiator_like,1,DEV_0354,HMI,0.092,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0984,0,,,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1000,0,,,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0409,56898,0.501,enip,mixed,4,,,,mixed,False,mixed_role,strong
+DEV_0137,0,,,no_ot_payload,11,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0147,1,1.0,codesys_ge_misc,no_ot_payload,10,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0148,2,1.0,codesys_ge_misc,no_ot_payload,10,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0150,5,1.0,codesys_ge_misc,no_ot_payload,10,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0151,4,1.0,codesys_ge_misc,no_ot_payload,10,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0164,2,1.0,codesys_ge_misc,no_ot_payload,9,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0403,0,,,no_ot_payload,4,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1667,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2357,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2801,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2802,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2803,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2657,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0229,0,,,no_ot_payload,6,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0055,284663,1.0,modbus,responder_like,30,DEV_0353,PLC,0.99,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_17225,110265,0.986,codesys_ge_misc,responder_like,123,DEV_0523,PLC,0.0,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_2012,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0573,1598,0.0,enip,initiator_like,3,DEV_0354,HMI,0.331,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_1413,9,1.0,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0504,1286,0.0,codesys_ge_misc,initiator_like,3,DEV_0367,PLC,0.0,initiator_like|PLC_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0647,1286,1.0,codesys_ge_misc,responder_like,3,DEV_0523,PLC,0.0,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_2512,60,0.0,bacnet,initiator_like,1,,,,initiator_like|no_seed_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_2513,110,0.218,bacnet,mixed,1,,,,mixed,False,mixed_role,weak
+DEV_0355,11771,0.0,modbus,initiator_like,4,DEV_0610,HMI,0.085,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0782,7158,1.0,modbus,responder_like,2,DEV_0353,PLC,0.109,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_2773,238,0.0,modbus,initiator_like,1,DEV_0534,HMI,0.0,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_2774,239,0.0,modbus,initiator_like,1,DEV_0534,HMI,0.0,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_2775,230,0.0,modbus,initiator_like,1,DEV_0534,HMI,0.0,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_2776,125,0.0,modbus,initiator_like,1,DEV_0534,HMI,0.0,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_0042,219749,0.0,modbus,initiator_like,32,DEV_0534,HMI,0.0,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0660,2732,0.0,enip,initiator_like,3,DEV_0354,HMI,0.0,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0336,22,0.0,codesys_ge_misc,no_ot_payload,4,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0353,31282,0.962,modbus,responder_like,4,DEV_0787,HMI,0.7,responder_like|HMI_analog,True,field_device_like(answers OT requests),strong
+DEV_0455,24,0.0,codesys_ge_misc,no_ot_payload,3,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0456,23,0.0,codesys_ge_misc,no_ot_payload,3,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_3061,1658,0.0,s7_iso,initiator_like,1,DEV_0533,HMI,0.0,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_3062,1658,1.0,s7_iso,responder_like,1,DEV_0153,PLC,0.102,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1683,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2618,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1813,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2622,658,0.0,enip,initiator_like,1,DEV_0354,HMI,0.253,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_2627,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2344,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1474,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0423,24344,0.0,enip,initiator_like,4,DEV_0354,HMI,0.398,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0424,24344,1.0,enip,responder_like,4,DEV_0287,PLC,0.519,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0437,300,0.0,codesys_ge_misc,initiator_like,3,DEV_0367,PLC,0.0,initiator_like|PLC_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0524,35871,0.018,modbus,initiator_like,3,DEV_0610,HMI,0.694,initiator_like|HMI_analog,True,supervisory_or_engineering_like(sends OT requests),strong
+DEV_1427,4,0.0,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1711,0,,,no_ot_payload,1,,,,no_ot_payload,True,no_ot_payload(cannot judge),none
+DEV_1013,12952,0.491,bacnet,mixed,2,,,,mixed,False,mixed_role,strong
+DEV_1041,427,0.422,bacnet,mixed,2,,,,mixed,False,mixed_role,strong
+DEV_1042,12915,0.494,bacnet,mixed,2,,,,mixed,False,mixed_role,strong
+DEV_2938,8,0.0,bacnet,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2646,3879,0.0,codesys_ge_misc,initiator_like,1,DEV_0367,PLC,0.0,initiator_like|PLC_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0035,141104,0.002,s7_iso,initiator_like,41,DEV_0533,HMI,0.006,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0040,140030,1.0,s7_iso,responder_like,33,DEV_0153,PLC,0.391,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1445,1,0.0,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0571,3994,0.0,modbus,initiator_like,3,DEV_0610,HMI,0.916,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_1121,0,,,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2839,5447,1.0,s7_iso,responder_like,1,DEV_0153,PLC,0.259,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_2369,304,0.487,bacnet,mixed,1,,,,mixed,False,mixed_role,strong
+DEV_2825,11,0.0,bacnet,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0425,2776,0.5,s7_iso,mixed,4,,,,mixed,False,mixed_role,strong
+DEV_0469,655,0.092,enip,initiator_like,3,DEV_0354,HMI,0.0,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0565,89,0.0,bacnet,initiator_like,3,,,,initiator_like|no_seed_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_0685,0,,,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1015,512,0.49,bacnet,mixed,2,,,,mixed,False,mixed_role,strong
+DEV_1105,4279,0.512,bacnet,mixed,2,,,,mixed,False,mixed_role,strong
+DEV_2629,4467,1.0,enip,responder_like,1,DEV_0287,PLC,0.857,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_2630,4467,0.0,enip,initiator_like,1,DEV_0354,HMI,0.712,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0545,799,0.0,s7_iso,initiator_like,3,DEV_0533,HMI,0.0,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0608,66205,1.0,s7_iso,responder_like,3,DEV_0153,PLC,0.317,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0661,65406,0.0,s7_iso,initiator_like,3,DEV_0533,HMI,0.0,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0366,6836,0.011,s7_iso,initiator_like,4,DEV_0533,HMI,0.001,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_1048,382,1.0,s7_iso,responder_like,2,DEV_0153,PLC,0.271,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1049,788,1.0,s7_iso,responder_like,2,DEV_0153,PLC,0.261,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1051,743,1.0,s7_iso,responder_like,2,DEV_0153,PLC,0.27,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1054,718,1.0,s7_iso,responder_like,2,DEV_0153,PLC,0.262,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1057,402,1.0,s7_iso,responder_like,2,DEV_0153,PLC,0.27,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1058,838,1.0,s7_iso,responder_like,2,DEV_0153,PLC,0.26,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1059,730,1.0,s7_iso,responder_like,2,DEV_0153,PLC,0.262,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1082,722,1.0,s7_iso,responder_like,2,DEV_0153,PLC,0.262,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1083,456,1.0,s7_iso,responder_like,2,DEV_0153,PLC,0.267,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1084,399,1.0,s7_iso,responder_like,2,DEV_0153,PLC,0.27,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1085,410,1.0,s7_iso,responder_like,2,DEV_0153,PLC,0.269,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1086,678,1.0,s7_iso,responder_like,2,DEV_0153,PLC,0.262,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1889,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0181,0,,,no_ot_payload,8,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1260,0,,,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0711,18,0.0,codesys_ge_misc,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1428,4,0.0,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2204,6837,0.499,bacnet,mixed,1,,,,mixed,False,mixed_role,strong
+DEV_2508,1,0.0,bacnet,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2509,3,0.0,bacnet,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1306,0,,,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0133,16011,0.954,modbus,responder_like,6,DEV_0286,PLC,0.704,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0136,6,1.0,profinet_ethercat,no_ot_payload,6,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0204,3479,1.0,s7_iso,responder_like,6,DEV_0153,PLC,0.308,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0219,734,1.0,modbus,responder_like,6,DEV_0353,PLC,0.0,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0221,12783,0.0,modbus,initiator_like,6,DEV_0534,HMI,0.79,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0224,1832,1.0,enip,responder_like,6,DEV_0287,PLC,0.775,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0292,5152,0.0,modbus,initiator_like,5,DEV_0534,HMI,0.986,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0194,342,0.076,codesys_ge_misc,initiator_like,7,DEV_0367,PLC,0.0,initiator_like|PLC_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0265,509,0.031,codesys_ge_misc,initiator_like,5,DEV_0367,PLC,0.0,initiator_like|PLC_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0364,9617,1.0,opcua,responder_like,4,,,,responder_like|no_seed_analog,False,field_device_like(answers OT requests),strong
+DEV_0447,24,1.0,codesys_ge_misc,no_ot_payload,3,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0683,364,0.033,codesys_ge_misc,initiator_like,2,DEV_0367,PLC,0.0,initiator_like|PLC_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0691,283,0.028,codesys_ge_misc,initiator_like,2,DEV_0367,PLC,0.0,initiator_like|PLC_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_0737,10,1.0,codesys_ge_misc,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0739,4,1.0,codesys_ge_misc,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1364,20,0.0,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1440,2,0.0,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0823,0,,,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1897,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2383,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2384,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0231,1629,1.0,s7_iso,responder_like,2,DEV_0153,PLC,0.24,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0603,1729,1.0,s7_iso,responder_like,3,DEV_0153,PLC,0.272,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1033,1795,1.0,s7_iso,responder_like,2,DEV_0153,PLC,0.32,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1034,1787,1.0,s7_iso,responder_like,2,DEV_0153,PLC,0.318,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1060,1056,1.0,s7_iso,responder_like,2,DEV_0153,PLC,0.279,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1061,436,1.0,s7_iso,responder_like,2,DEV_0075,PLC,0.565,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1362,2464,0.0,modbus,initiator_like,1,DEV_0534,HMI,0.814,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_1419,418,0.995,modbus,responder_like,1,DEV_0286,PLC,0.57,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1420,408,1.0,modbus,responder_like,1,DEV_0286,PLC,0.577,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1421,416,1.0,modbus,responder_like,1,DEV_0286,PLC,0.572,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1424,410,1.0,modbus,responder_like,1,DEV_0286,PLC,0.576,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1425,408,1.0,modbus,responder_like,1,DEV_0286,PLC,0.577,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1426,408,1.0,modbus,responder_like,1,DEV_0286,PLC,0.577,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1853,6,1.0,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2808,3,0.0,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0472,140,0.386,bacnet,mixed,3,,,,mixed,False,mixed_role,weak
+DEV_0876,142,0.401,bacnet,mixed,2,,,,mixed,False,mixed_role,weak
+DEV_0945,2278,0.036,bacnet,initiator_like,1,,,,initiator_like|no_seed_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0949,195,0.513,bacnet,mixed,2,,,,mixed,False,mixed_role,weak
+DEV_0968,3171,0.495,bacnet,mixed,2,,,,mixed,False,mixed_role,strong
+DEV_0976,43366,0.022,bacnet,initiator_like,2,,,,initiator_like|no_seed_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_1014,30,0.5,bacnet,mixed,2,,,,mixed,False,mixed_role,weak
+DEV_1443,19768,0.653,bacnet,mixed,1,,,,mixed,False,mixed_role,strong
+DEV_1637,888,0.125,bacnet,initiator_like,1,,,,initiator_like|no_seed_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_1771,1025,0.484,bacnet,mixed,1,,,,mixed,False,mixed_role,strong
+DEV_1942,804,0.498,bacnet,mixed,1,,,,mixed,False,mixed_role,strong
+DEV_1375,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1376,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2778,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_3925,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0357,845,0.999,opcua,responder_like,2,,,,responder_like|no_seed_analog,False,field_device_like(answers OT requests),strong
+DEV_0468,645,0.006,opcua,initiator_like,2,,,,initiator_like|no_seed_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0751,274,1.0,enip,responder_like,2,DEV_0287,PLC,0.564,responder_like|PLC_analog,True,field_device_like(answers OT requests),weak
+DEV_0787,35290,1.0,modbus,responder_like,2,DEV_0353,PLC,0.7,responder_like|PLC_analog,True,field_device_like(answers OT requests),strong
+DEV_0810,37,1.0,codesys_ge_misc,responder_like,2,DEV_0523,PLC,1.0,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_2471,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_17223,42432973,1.0,modbus,responder_like,140,DEV_0353,PLC,0.888,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_17224,16196878,0.0,modbus,initiator_like,140,DEV_0534,HMI,0.0,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_17229,12282464,0.0,modbus,initiator_like,84,DEV_0610,HMI,0.458,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_1322,6,0.333,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1333,203,0.015,modbus,initiator_like,1,DEV_0524,PLC,0.496,initiator_like|PLC_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_1340,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1341,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1343,1,0.0,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1346,1,0.0,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1354,2,1.0,iec104,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1355,200,1.0,modbus,responder_like,1,DEV_0787,HMI,0.5,responder_like|HMI_analog,False,field_device_like(answers OT requests),weak
+DEV_1031,202,1.0,s7_iso,responder_like,2,DEV_0075,PLC,0.521,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_1032,198,1.0,s7_iso,responder_like,2,DEV_0075,PLC,0.584,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_1050,196,1.0,s7_iso,responder_like,2,DEV_0075,PLC,0.584,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_1052,202,1.0,s7_iso,responder_like,2,DEV_0075,PLC,0.584,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_1053,202,1.0,s7_iso,responder_like,2,DEV_0075,PLC,0.584,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_1055,196,1.0,s7_iso,responder_like,2,DEV_0075,PLC,0.584,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_1056,236,1.0,s7_iso,responder_like,2,DEV_0075,PLC,0.316,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_1087,195,1.0,s7_iso,responder_like,2,DEV_0075,PLC,0.584,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_1088,200,1.0,s7_iso,responder_like,2,DEV_0075,PLC,0.584,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_2787,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2789,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2790,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2791,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2793,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0270,57530,0.0,s7_iso,initiator_like,5,DEV_0533,HMI,0.005,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0272,9011,1.0,s7_iso,responder_like,5,DEV_0075,PLC,0.586,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0273,54,0.074,codesys_ge_misc,initiator_like,5,DEV_0367,PLC,0.0,initiator_like|PLC_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_0277,57512,1.0,s7_iso,responder_like,5,DEV_0075,PLC,0.582,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0278,4,0.0,codesys_ge_misc,no_ot_payload,5,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0282,8961,0.0,s7_iso,initiator_like,5,DEV_0533,HMI,0.002,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0695,18,0.0,codesys_ge_misc,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0387,15029,0.0,codesys_ge_misc,initiator_like,4,DEV_0367,PLC,0.0,initiator_like|PLC_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_3067,5567,1.0,codesys_ge_misc,responder_like,1,DEV_0523,PLC,0.0,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1120,13009,0.0,enip,initiator_like,2,DEV_0354,HMI,0.0,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_2284,12852,1.0,enip,responder_like,1,DEV_0287,PLC,0.209,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0559,0,,,no_ot_payload,3,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0294,61,0.492,bacnet,mixed,5,,,,mixed,False,mixed_role,weak
+DEV_0335,411422,0.962,modbus,responder_like,4,DEV_0353,PLC,0.997,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0746,12,1.0,codesys_ge_misc,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1439,2,0.0,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2518,1,0.0,modbus,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2519,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1278,0,,,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1279,0,,,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1373,14153,1.0,dnp3,responder_like,1,,,,responder_like|no_seed_analog,False,field_device_like(answers OT requests),strong
+DEV_1392,11117,0.0,dnp3,initiator_like,1,,,,initiator_like|no_seed_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_1394,1587,0.0,dnp3,initiator_like,1,,,,initiator_like|no_seed_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0199,119065,0.0,modbus,initiator_like,7,DEV_0368,HMI,0.417,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0236,3872,1.0,modbus,responder_like,6,DEV_0286,PLC,0.352,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0237,6918,1.0,modbus,responder_like,6,DEV_0286,PLC,0.381,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0241,5274,1.0,modbus,responder_like,6,DEV_0286,PLC,0.603,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0242,5941,1.0,modbus,responder_like,6,DEV_0286,PLC,0.613,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0253,5559,1.0,modbus,responder_like,6,DEV_0286,PLC,0.558,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0254,4130,1.0,modbus,responder_like,6,DEV_0286,PLC,0.465,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0255,4143,1.0,modbus,responder_like,6,DEV_0286,PLC,0.471,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0256,5771,1.0,modbus,responder_like,6,DEV_0286,PLC,0.659,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0257,5428,1.0,modbus,responder_like,6,DEV_0286,PLC,0.631,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0258,4716,1.0,modbus,responder_like,6,DEV_0286,PLC,0.354,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0259,7194,1.0,modbus,responder_like,6,DEV_0286,PLC,0.406,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0260,5239,1.0,modbus,responder_like,6,DEV_0286,PLC,0.332,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0261,5866,1.0,modbus,responder_like,6,DEV_0286,PLC,0.308,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0654,5465,1.0,enip,responder_like,3,DEV_0287,PLC,0.425,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0655,5682,1.0,enip,responder_like,3,DEV_0287,PLC,0.441,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0656,5486,1.0,enip,responder_like,3,DEV_0287,PLC,0.424,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0657,4669,1.0,enip,responder_like,3,DEV_0287,PLC,0.439,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0806,28738,0.0,enip,initiator_like,2,DEV_0354,HMI,0.673,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_1158,28407,1.0,enip,responder_like,2,DEV_0287,PLC,0.825,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_3015,8594,0.0,codesys_ge_misc,initiator_like,1,DEV_0367,PLC,0.0,initiator_like|PLC_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_3016,8594,1.0,codesys_ge_misc,responder_like,1,DEV_0523,PLC,0.0,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0186,13219,1.0,s7_iso,responder_like,4,DEV_0075,PLC,0.373,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0211,12507,1.0,s7_iso,responder_like,4,DEV_0075,PLC,0.374,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0947,0,,,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0973,0,,,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0974,0,,,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0981,0,,,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0982,0,,,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1125,3476,1.0,s7_iso,responder_like,2,DEV_0075,PLC,0.382,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1126,2385,1.0,s7_iso,responder_like,2,DEV_0075,PLC,0.374,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1270,724,1.0,s7_iso,responder_like,2,DEV_0153,PLC,0.389,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1271,1305,1.0,s7_iso,responder_like,2,DEV_0153,PLC,0.376,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1272,1271,1.0,s7_iso,responder_like,2,DEV_0075,PLC,0.386,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1273,1033,1.0,s7_iso,responder_like,2,DEV_0153,PLC,0.39,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1274,1152,1.0,s7_iso,responder_like,2,DEV_0153,PLC,0.374,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1275,2660,1.0,s7_iso,responder_like,2,DEV_0153,PLC,0.382,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1276,2590,1.0,s7_iso,responder_like,2,DEV_0153,PLC,0.382,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1277,1218,1.0,s7_iso,responder_like,2,DEV_0075,PLC,0.376,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1043,9454,1.0,codesys_ge_misc,responder_like,2,DEV_0523,PLC,0.0,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0677,41907,0.001,enip,initiator_like,2,DEV_0354,HMI,0.974,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_1353,18,0.0,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1370,7,0.0,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1403,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1727,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_17228,12680941,0.0,modbus,initiator_like,85,DEV_0610,HMI,0.99,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_1391,4,0.0,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1395,4,1.0,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1973,1437,0.514,bacnet,mixed,1,,,,mixed,False,mixed_role,strong
+DEV_3044,1435,0.486,bacnet,mixed,1,,,,mixed,False,mixed_role,strong
+DEV_3049,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1177,0,,,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1320,46,0.196,codesys_ge_misc,initiator_like,1,DEV_0367,PLC,0.0,initiator_like|PLC_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_1321,38,0.158,codesys_ge_misc,initiator_like,1,DEV_0367,PLC,0.0,initiator_like|PLC_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_1334,16,1.0,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1336,22,0.591,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1357,6,0.0,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1360,6,1.0,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1363,12,0.0,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2157,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2385,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2934,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2935,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2336,10919,0.986,enip,responder_like,1,DEV_0287,PLC,0.208,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_2747,10,0.0,enip,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2748,1,0.0,dnp3,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_17230,0,,,no_ot_payload,64,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_17231,0,,,no_ot_payload,64,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_17232,108636,0.008,codesys_ge_misc,initiator_like,62,DEV_0367,PLC,0.0,initiator_like|PLC_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_17234,1685507,1.0,s7_iso,responder_like,6,DEV_0153,PLC,0.271,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_17235,353261,0.0,s7_iso,initiator_like,6,DEV_0533,HMI,0.004,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_17236,1331904,0.0,s7_iso,initiator_like,6,DEV_0533,HMI,0.0,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0279,84268,0.0,s7_iso,initiator_like,4,DEV_0533,HMI,0.0,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_2504,3112,0.5,bacnet,mixed,1,,,,mixed,False,mixed_role,strong
+DEV_1820,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1821,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2454,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2759,31484,1.0,enip,responder_like,1,DEV_0287,PLC,0.978,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_3246,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1601,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1716,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1764,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1313,35,1.0,codesys_ge_misc,responder_like,1,DEV_0523,PLC,0.0,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_1314,35,0.0,codesys_ge_misc,initiator_like,1,DEV_0367,PLC,0.0,initiator_like|PLC_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_1763,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1857,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1792,36644,0.0,bacnet,initiator_like,1,,,,initiator_like|no_seed_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0044,0,,,no_ot_payload,17,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0045,0,,,no_ot_payload,17,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0046,0,,,no_ot_payload,17,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0047,0,,,no_ot_payload,17,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0048,0,,,no_ot_payload,17,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0049,0,,,no_ot_payload,17,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0050,0,,,no_ot_payload,17,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0051,0,,,no_ot_payload,17,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0052,0,,,no_ot_payload,17,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0053,0,,,no_ot_payload,17,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0054,0,,,no_ot_payload,17,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0056,0,,,no_ot_payload,17,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0057,0,,,no_ot_payload,17,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0058,0,,,no_ot_payload,17,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0059,0,,,no_ot_payload,17,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0060,0,,,no_ot_payload,17,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0061,0,,,no_ot_payload,17,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0062,0,,,no_ot_payload,17,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_17240,342,0.0,s7_iso,initiator_like,4,DEV_0533,HMI,0.016,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0299,460,1.0,s7_iso,responder_like,1,DEV_0153,PLC,0.272,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0301,304,1.0,s7_iso,responder_like,1,DEV_0075,PLC,0.387,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0302,304,1.0,s7_iso,responder_like,1,DEV_0075,PLC,0.584,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0303,338,1.0,s7_iso,responder_like,1,DEV_0075,PLC,0.3,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0304,310,1.0,s7_iso,responder_like,1,DEV_0075,PLC,0.584,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0305,312,1.0,s7_iso,responder_like,1,DEV_0075,PLC,0.549,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0312,175,1.0,s7_iso,responder_like,1,DEV_0075,PLC,0.563,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_0317,86,1.0,s7_iso,responder_like,1,DEV_0075,PLC,0.584,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_0318,90,1.0,s7_iso,responder_like,1,DEV_0075,PLC,0.584,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_2038,132,1.0,s7_iso,responder_like,1,DEV_0075,PLC,0.584,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_2039,241,1.0,s7_iso,responder_like,1,DEV_0075,PLC,0.541,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_0214,10,1.0,codesys_ge_misc,no_ot_payload,6,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0432,0,,,no_ot_payload,3,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0470,0,,,no_ot_payload,3,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2352,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1384,8,0.0,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1890,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1931,125,0.0,dnp3,initiator_like,1,,,,initiator_like|no_seed_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_1717,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1843,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1451,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1454,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_3059,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1397,995,0.004,modbus,initiator_like,1,DEV_0534,HMI,1.0,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_1398,4,1.0,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1408,6,1.0,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2340,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2341,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2342,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2343,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2756,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_17239,111836,0.002,modbus,initiator_like,4,DEV_0368,HMI,0.379,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_17241,904,0.987,s7_iso,responder_like,3,DEV_0153,PLC,0.683,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1569,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1866,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2156,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0395,2723,0.0,s7_iso,initiator_like,2,DEV_0533,HMI,0.0,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0399,17030,0.966,s7_iso,responder_like,2,DEV_0153,PLC,0.367,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0400,31343,0.993,s7_iso,responder_like,2,DEV_0153,PLC,0.386,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0401,5964,1.0,s7_iso,responder_like,2,DEV_0153,PLC,0.255,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0402,2813,0.342,s7_iso,mixed,2,,,,mixed,False,mixed_role,strong
+DEV_0604,12464,0.917,s7_iso,responder_like,2,DEV_0153,PLC,0.346,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0681,0,,,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0684,0,,,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0740,12,1.0,codesys_ge_misc,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0761,0,,,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0818,105584,0.0,s7_iso,initiator_like,2,DEV_0533,HMI,0.0,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0894,12240,0.0,s7_iso,initiator_like,2,DEV_0533,HMI,0.697,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0910,26268,0.0,s7_iso,initiator_like,2,DEV_0533,HMI,0.868,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0930,2560,0.0,s7_iso,initiator_like,2,DEV_0533,HMI,0.514,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0944,0,,,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0958,0,,,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0959,0,,,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0967,47406,0.925,s7_iso,responder_like,2,DEV_0153,PLC,0.366,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0996,431,0.0,s7_iso,initiator_like,2,DEV_0533,HMI,0.715,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0997,3520,0.19,s7_iso,initiator_like,2,DEV_0533,HMI,0.0,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_1037,29504,1.0,s7_iso,responder_like,2,DEV_0103,PLC,0.398,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1063,0,,,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1064,558,0.0,s7_iso,initiator_like,2,DEV_0533,HMI,0.0,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_1090,1280,1.0,s7_iso,responder_like,2,DEV_0153,PLC,0.372,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1091,2058,0.807,s7_iso,responder_like,2,DEV_0153,PLC,0.296,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1094,2091,1.0,s7_iso,responder_like,2,DEV_0103,PLC,0.304,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1164,603,1.0,s7_iso,responder_like,2,DEV_0153,PLC,0.378,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1165,73,1.0,s7_iso,responder_like,2,DEV_0103,PLC,0.906,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_1166,0,,,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1167,238,1.0,s7_iso,responder_like,2,DEV_0103,PLC,0.977,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_1264,0,,,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1265,0,,,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0001,13,0.0,codesys_ge_misc,no_ot_payload,169,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0002,2,1.0,codesys_ge_misc,no_ot_payload,169,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0003,10,1.0,codesys_ge_misc,no_ot_payload,169,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0004,2782720,0.985,s7_iso,responder_like,169,DEV_0075,PLC,0.0,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0005,40,1.0,codesys_ge_misc,responder_like,169,DEV_0523,PLC,0.0,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_0006,40,0.0,codesys_ge_misc,initiator_like,169,DEV_0367,PLC,0.0,initiator_like|PLC_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_0007,9,1.0,codesys_ge_misc,no_ot_payload,169,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0009,0,,,no_ot_payload,169,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0010,1393326,0.0,codesys_ge_misc,initiator_like,169,DEV_0367,PLC,0.0,initiator_like|PLC_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0012,2741295,0.0,s7_iso,initiator_like,169,DEV_0533,HMI,0.0,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0013,0,,,no_ot_payload,169,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0014,0,,,no_ot_payload,169,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0020,0,,,no_ot_payload,169,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0022,0,,,no_ot_payload,169,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0023,1393326,1.0,codesys_ge_misc,responder_like,169,DEV_0523,PLC,0.0,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0024,41417,1.0,codesys_ge_misc,responder_like,169,DEV_0523,PLC,0.0,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0025,0,,,no_ot_payload,169,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0026,0,,,no_ot_payload,167,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2179,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_17242,34972,1.0,modbus,responder_like,3,DEV_0286,PLC,0.379,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_17243,8,0.0,codesys_ge_misc,no_ot_payload,3,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_17244,8,1.0,codesys_ge_misc,no_ot_payload,3,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_17245,0,,,no_ot_payload,3,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0551,0,,,no_ot_payload,3,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0554,0,,,no_ot_payload,3,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0613,0,,,no_ot_payload,3,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0615,0,,,no_ot_payload,3,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0616,0,,,no_ot_payload,3,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0618,0,,,no_ot_payload,3,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0356,0,,,no_ot_payload,4,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1677,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1723,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1653,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0268,79,1.0,codesys_ge_misc,responder_like,5,DEV_0523,PLC,0.0,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_0286,230306,1.0,modbus,responder_like,5,DEV_0770,PLC,0.986,responder_like|PLC_analog,True,field_device_like(answers OT requests),strong
+DEV_0287,27229,1.0,enip,responder_like,5,DEV_0751,PLC,0.564,responder_like|PLC_analog,True,field_device_like(answers OT requests),strong
+DEV_0343,3096,1.0,modbus,responder_like,4,DEV_0353,PLC,0.99,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0354,27148,0.001,enip,initiator_like,4,,,,initiator_like|no_seed_analog,True,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0365,6799,0.502,omron_fins,mixed,4,,,,mixed,False,mixed_role,strong
+DEV_0368,230062,0.0,modbus,initiator_like,4,DEV_0534,HMI,0.707,initiator_like|HMI_analog,True,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0434,64,0.188,codesys_ge_misc,initiator_like,3,DEV_0367,PLC,0.0,initiator_like|PLC_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_0438,86,1.0,codesys_ge_misc,responder_like,3,DEV_0523,PLC,0.0,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_0441,193112,1.0,modbus,responder_like,3,DEV_0770,PLC,0.653,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0445,51,0.235,codesys_ge_misc,mixed,3,,,,mixed,False,mixed_role,weak
+DEV_0451,1754,0.002,s7_iso,initiator_like,2,DEV_0533,HMI,0.779,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0474,8,1.0,codesys_ge_misc,no_ot_payload,3,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0533,8744,0.008,s7_iso,initiator_like,3,,,,initiator_like|no_seed_analog,True,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0610,439519,0.038,modbus,initiator_like,3,DEV_0534,HMI,0.7,initiator_like|HMI_analog,True,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0643,4219,1.0,enip,responder_like,3,DEV_0287,PLC,0.209,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0679,75,0.107,codesys_ge_misc,initiator_like,2,DEV_0367,PLC,0.0,initiator_like|PLC_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_0688,46,0.174,codesys_ge_misc,initiator_like,2,DEV_0367,PLC,0.0,initiator_like|PLC_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_0706,16,1.0,codesys_ge_misc,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1475,4,0.0,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2124,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2125,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0875,0,,,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0886,0,,,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0919,0,,,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1310,0,,,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1311,0,,,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1372,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1645,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1646,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_17222,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1972,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2182,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2183,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_3037,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1181,0,,,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1642,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2128,2608,0.0,fox_niagara,initiator_like,1,,,,initiator_like|no_seed_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0077,1904,0.914,profinet_ethercat,responder_like,18,,,,responder_like|no_seed_analog,False,field_device_like(answers OT requests),strong
+DEV_0078,1673,0.007,profinet_ethercat,initiator_like,18,,,,initiator_like|no_seed_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0079,161,0.677,codesys_ge_misc,mixed,18,,,,mixed,False,mixed_role,weak
+DEV_0080,93,0.763,codesys_ge_misc,mixed,18,,,,mixed,False,mixed_role,weak
+DEV_0082,27,0.0,codesys_ge_misc,no_ot_payload,18,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0085,0,,,no_ot_payload,18,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1446,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2351,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_3027,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0129,0,,,no_ot_payload,13,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2464,560268,1.0,modbus,responder_like,1,DEV_0353,PLC,0.904,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_2465,560268,0.0,modbus,initiator_like,1,DEV_0610,HMI,0.904,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_17249,1520,0.241,modbus,mixed,2,,,,mixed,False,mixed_role,strong
+DEV_17256,280,0.986,codesys_ge_misc,responder_like,2,DEV_0523,PLC,0.0,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_17257,296,0.919,codesys_ge_misc,responder_like,2,DEV_0523,PLC,0.0,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_17266,0,,,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0440,36,1.0,codesys_ge_misc,responder_like,3,DEV_0523,PLC,0.0,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_0534,193124,0.0,modbus,initiator_like,3,DEV_0368,HMI,0.707,initiator_like|HMI_analog,True,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0696,32,0.375,codesys_ge_misc,mixed,2,,,,mixed,False,mixed_role,weak
+DEV_0707,8,1.0,codesys_ge_misc,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0791,4,1.0,codesys_ge_misc,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1382,16,0.25,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1385,12,1.0,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1399,8,1.0,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1418,9981,0.0,s7_iso,initiator_like,1,DEV_0533,HMI,0.682,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_1429,4,1.0,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1433,4,1.0,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1434,4,1.0,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1435,4,1.0,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1489,4,1.0,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0983,82384,1.0,modbus,responder_like,2,DEV_0353,PLC,0.989,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0998,76699,1.0,modbus,responder_like,2,DEV_0353,PLC,0.99,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0999,81733,1.0,modbus,responder_like,2,DEV_0353,PLC,0.989,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1289,76699,0.0,modbus,initiator_like,2,DEV_0610,HMI,0.99,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_1290,82360,0.0,modbus,initiator_like,2,DEV_0610,HMI,0.989,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_1291,81733,0.0,modbus,initiator_like,2,DEV_0610,HMI,0.989,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_17237,2822,0.06,codesys_ge_misc,initiator_like,5,DEV_0367,PLC,0.0,initiator_like|PLC_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0770,6050,1.0,modbus,responder_like,2,DEV_0286,PLC,0.986,responder_like|PLC_analog,True,field_device_like(answers OT requests),strong
+DEV_1383,12,1.0,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1481,4,1.0,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1590,62,1.0,codesys_ge_misc,responder_like,1,DEV_0523,PLC,1.0,responder_like|PLC_analog,True,field_device_like(answers OT requests),weak
+DEV_17238,0,,,no_ot_payload,5,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_3075,21903252,0.0,s7_iso,initiator_like,22,DEV_0533,HMI,0.0,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_3076,21903252,1.0,s7_iso,responder_like,22,DEV_0075,PLC,0.644,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0715,523106,1.0,modbus,responder_like,2,DEV_0787,HMI,0.771,responder_like|HMI_analog,False,field_device_like(answers OT requests),strong
+DEV_0896,1056167,1.0,modbus,responder_like,2,DEV_0787,HMI,0.771,responder_like|HMI_analog,False,field_device_like(answers OT requests),strong
+DEV_0912,6617454,0.0,modbus,initiator_like,2,DEV_0610,HMI,0.887,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0449,0,,,no_ot_payload,3,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0807,0,,,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_3603,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_3623,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_3693,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1323,137,0.109,iec104,initiator_like,1,,,,initiator_like|no_seed_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_1365,2892,1.0,iec104,responder_like,1,,,,responder_like|no_seed_analog,False,field_device_like(answers OT requests),strong
+DEV_1366,8864,1.0,iec104,responder_like,1,,,,responder_like|no_seed_analog,False,field_device_like(answers OT requests),strong
+DEV_1367,8908,1.0,iec104,responder_like,1,,,,responder_like|no_seed_analog,False,field_device_like(answers OT requests),strong
+DEV_1368,8903,1.0,iec104,responder_like,1,,,,responder_like|no_seed_analog,False,field_device_like(answers OT requests),strong
+DEV_1369,8917,1.0,iec104,responder_like,1,,,,responder_like|no_seed_analog,False,field_device_like(answers OT requests),strong
+DEV_1496,12,0.083,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1795,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1802,1,1.0,iec104,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1980,44339,0.0,iec104,initiator_like,1,,,,initiator_like|no_seed_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_2031,1,1.0,iec104,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2111,5976,1.0,iec104,responder_like,1,,,,responder_like|no_seed_analog,False,field_device_like(answers OT requests),strong
+DEV_2112,1,1.0,iec104,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2113,1,1.0,iec104,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2427,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1781,210082,1.0,s7_iso,responder_like,1,DEV_0075,PLC,0.632,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_3229,210082,0.0,s7_iso,initiator_like,1,DEV_0533,HMI,0.001,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_0216,18,1.0,codesys_ge_misc,no_ot_payload,6,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0676,18,0.0,codesys_ge_misc,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_3573,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1381,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_17246,1387,0.981,modbus,responder_like,2,DEV_0770,PLC,0.296,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_17247,35488,0.997,modbus,responder_like,2,DEV_0286,PLC,0.379,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_17248,384,0.99,codesys_ge_misc,responder_like,2,DEV_0523,PLC,0.0,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_17250,44,1.0,codesys_ge_misc,responder_like,2,DEV_0523,PLC,0.0,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_17251,123,1.0,codesys_ge_misc,responder_like,2,DEV_0523,PLC,0.0,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_17252,377,0.997,codesys_ge_misc,responder_like,2,DEV_0523,PLC,0.0,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_17253,343,0.994,codesys_ge_misc,responder_like,2,DEV_0523,PLC,0.0,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_17254,53,1.0,codesys_ge_misc,responder_like,2,DEV_0523,PLC,0.0,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_17255,248,0.992,codesys_ge_misc,responder_like,2,DEV_0523,PLC,0.0,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_17258,36040,1.0,modbus,responder_like,2,DEV_0286,PLC,0.38,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_17259,805,0.999,modbus,responder_like,2,DEV_0770,PLC,0.091,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_17260,326,0.972,codesys_ge_misc,responder_like,2,DEV_0523,PLC,0.0,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_17261,316,0.807,modbus,responder_like,2,DEV_0353,PLC,0.0,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_17263,8,1.0,codesys_ge_misc,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_17264,0,,,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2466,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0632,92,1.0,s7_iso,responder_like,1,DEV_0103,PLC,0.763,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_0662,72,1.0,s7_iso,responder_like,1,DEV_0153,PLC,0.392,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_1168,2882,1.0,s7_iso,responder_like,1,DEV_0153,PLC,0.321,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1267,209,1.0,s7_iso,responder_like,1,DEV_0103,PLC,0.416,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_1436,12,0.0,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_17221,228,0.5,modbus,mixed,1,,,,mixed,False,mixed_role,weak
+DEV_1867,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1898,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1900,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1901,4980,0.802,s7_iso,responder_like,1,DEV_0103,PLC,0.632,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1933,2016,0.775,s7_iso,mixed,1,,,,mixed,False,mixed_role,strong
+DEV_1935,13266,1.0,s7_iso,responder_like,1,DEV_0103,PLC,0.678,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1966,11264,1.0,s7_iso,responder_like,1,DEV_0103,PLC,0.701,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1967,6113,0.841,s7_iso,responder_like,1,DEV_0103,PLC,0.688,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1968,537,0.201,s7_iso,mixed,1,,,,mixed,False,mixed_role,strong
+DEV_2017,5676,0.097,s7_iso,initiator_like,1,DEV_0533,HMI,0.0,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_2018,7680,0.0,s7_iso,initiator_like,1,DEV_0533,HMI,0.0,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_2019,1387,0.171,s7_iso,initiator_like,1,DEV_0533,HMI,0.0,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_2020,4287,1.0,s7_iso,responder_like,1,DEV_0103,PLC,0.652,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_2084,487,0.0,s7_iso,initiator_like,1,DEV_0533,HMI,0.0,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_2087,630,0.0,s7_iso,initiator_like,1,DEV_0533,HMI,0.0,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_2158,823,0.333,s7_iso,mixed,1,,,,mixed,False,mixed_role,strong
+DEV_2159,94,0.0,s7_iso,initiator_like,1,DEV_0533,HMI,0.0,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_2160,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2161,108,0.0,s7_iso,initiator_like,1,DEV_0533,HMI,0.617,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_2162,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2163,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2167,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2173,4035,1.0,s7_iso,responder_like,1,DEV_0075,PLC,0.687,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_2175,425,1.0,s7_iso,responder_like,1,DEV_0103,PLC,0.756,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_2176,999,1.0,s7_iso,responder_like,1,DEV_0103,PLC,0.764,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_2390,63,1.0,s7_iso,responder_like,1,DEV_0075,PLC,0.0,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_2391,2095,1.0,s7_iso,responder_like,1,DEV_0153,PLC,0.185,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_2392,32,0.0,s7_iso,initiator_like,1,DEV_0533,HMI,0.865,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_2393,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2394,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2396,106,0.0,s7_iso,initiator_like,1,DEV_0533,HMI,0.098,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_2398,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2399,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2400,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2401,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2402,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2407,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2408,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2409,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2411,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2420,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2941,366,1.0,modbus,responder_like,1,DEV_0353,PLC,0.967,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_2942,181,1.0,modbus,responder_like,1,DEV_0353,PLC,0.964,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_2943,46,1.0,s7_iso,responder_like,1,DEV_0153,PLC,0.263,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_2945,75,1.0,modbus,responder_like,1,DEV_0353,PLC,0.7,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_2946,55,1.0,modbus,responder_like,1,DEV_0353,PLC,0.495,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_2947,55,1.0,modbus,responder_like,1,DEV_0353,PLC,0.495,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_2948,55,1.0,modbus,responder_like,1,DEV_0770,PLC,0.387,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_2949,35,1.0,modbus,responder_like,1,DEV_0353,PLC,0.35,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_2950,20,1.0,modbus,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2951,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2952,213,1.0,s7_iso,responder_like,1,DEV_0103,PLC,0.415,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_2953,73,0.0,s7_iso,initiator_like,1,DEV_0533,HMI,0.0,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_2954,1456,0.0,s7_iso,initiator_like,1,DEV_0533,HMI,0.0,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_2956,1542,1.0,s7_iso,responder_like,1,DEV_0153,PLC,0.389,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_2957,145,1.0,s7_iso,responder_like,1,DEV_0153,PLC,0.257,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_2958,65,1.0,s7_iso,responder_like,1,DEV_0153,PLC,0.389,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_2959,115,1.0,s7_iso,responder_like,1,DEV_0153,PLC,0.255,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_2960,1542,0.0,s7_iso,initiator_like,1,DEV_0533,HMI,0.0,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_2964,4276,0.0,s7_iso,initiator_like,1,DEV_0533,HMI,0.0,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_2965,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2969,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2970,3154,0.0,s7_iso,initiator_like,1,DEV_0533,HMI,0.0,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_2971,104,1.0,s7_iso,responder_like,1,DEV_0075,PLC,0.0,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_2972,2,1.0,s7_iso,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2973,1413,0.0,s7_iso,initiator_like,1,DEV_0533,HMI,0.0,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_2974,954,1.0,s7_iso,responder_like,1,DEV_0153,PLC,0.185,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_2976,228,0.5,modbus,mixed,1,,,,mixed,False,mixed_role,weak
+DEV_2984,1235,0.0,s7_iso,initiator_like,1,DEV_0533,HMI,0.0,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_2985,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2987,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2988,74,0.0,s7_iso,initiator_like,1,DEV_0533,HMI,0.999,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_2990,170,1.0,s7_iso,responder_like,1,DEV_0153,PLC,0.201,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_2991,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2992,78,0.0,s7_iso,initiator_like,1,DEV_0533,HMI,0.998,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_2993,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2994,170,1.0,s7_iso,responder_like,1,DEV_0153,PLC,0.201,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_2995,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2996,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2997,1304,0.0,s7_iso,initiator_like,1,DEV_0533,HMI,0.0,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_2999,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1562,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1710,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1803,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1317,1086,1.0,codesys_ge_misc,responder_like,1,DEV_0523,PLC,0.0,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1319,4606,0.764,dnp3,mixed,1,,,,mixed,False,mixed_role,strong
+DEV_1388,1,0.0,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1672,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1736,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1796,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1804,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1949,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_3443,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1632,892781,0.597,enip,mixed,1,,,,mixed,False,mixed_role,strong
+DEV_2036,39573,0.0,enip,initiator_like,1,DEV_0354,HMI,0.203,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_2241,74906,0.377,enip,mixed,1,,,,mixed,False,mixed_role,strong
+DEV_2242,18736,0.503,enip,mixed,1,,,,mixed,False,mixed_role,strong
+DEV_2243,18942,0.503,enip,mixed,1,,,,mixed,False,mixed_role,strong
+DEV_2244,18864,0.503,enip,mixed,1,,,,mixed,False,mixed_role,strong
+DEV_2245,18733,0.503,enip,mixed,1,,,,mixed,False,mixed_role,strong
+DEV_2246,128910,0.364,enip,mixed,1,,,,mixed,False,mixed_role,strong
+DEV_2247,46831,0.4,enip,mixed,1,,,,mixed,False,mixed_role,strong
+DEV_2248,78190,0.283,enip,mixed,1,,,,mixed,False,mixed_role,strong
+DEV_2249,168444,0.387,enip,mixed,1,,,,mixed,False,mixed_role,strong
+DEV_2250,46584,0.498,enip,mixed,1,,,,mixed,False,mixed_role,strong
+DEV_2251,46695,0.5,enip,mixed,1,,,,mixed,False,mixed_role,strong
+DEV_2252,47379,0.5,enip,mixed,1,,,,mixed,False,mixed_role,strong
+DEV_2253,46564,0.5,enip,mixed,1,,,,mixed,False,mixed_role,strong
+DEV_2254,46696,0.5,enip,mixed,1,,,,mixed,False,mixed_role,strong
+DEV_2255,46734,0.5,enip,mixed,1,,,,mixed,False,mixed_role,strong
+DEV_17269,284,0.958,codesys_ge_misc,responder_like,1,DEV_0523,PLC,0.0,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_1316,6,0.0,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1318,6,0.0,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1640,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1648,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1938,1062794,0.0,s7_iso,initiator_like,1,DEV_0533,HMI,0.728,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_2094,1062794,1.0,s7_iso,responder_like,1,DEV_0103,PLC,0.963,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_17271,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_17273,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1345,78,0.0,codesys_ge_misc,initiator_like,1,DEV_0367,PLC,0.0,initiator_like|PLC_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_1349,68,0.529,codesys_ge_misc,mixed,1,,,,mixed,False,mixed_role,weak
+DEV_1386,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1407,12,1.0,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1449,8,1.0,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1450,6,1.0,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1453,8,1.0,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1461,4,1.0,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1477,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1479,4,1.0,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1480,4,1.0,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1532,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1548,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1580,4,1.0,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1602,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1603,4,0.0,dnp3,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1613,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1639,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1734,4,1.0,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2029,4,1.0,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2107,6532,0.0,enip,initiator_like,1,DEV_0354,HMI,0.213,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_2109,61246,0.0,enip,initiator_like,1,DEV_0354,HMI,0.06,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_2110,25222,1.0,enip,responder_like,1,DEV_0287,PLC,0.359,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_2233,42556,1.0,enip,responder_like,1,DEV_0287,PLC,0.209,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_2235,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2554,4,1.0,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2559,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2560,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2561,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2562,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2563,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2564,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2565,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2566,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2567,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2568,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2569,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2570,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1559,174446,0.0,s7_iso,initiator_like,1,DEV_0533,HMI,0.777,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_1566,173662,1.0,s7_iso,responder_like,1,DEV_0075,PLC,0.935,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1962,784,1.0,s7_iso,responder_like,1,DEV_0103,PLC,0.985,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_2837,70,1.0,s7_iso,responder_like,1,DEV_0103,PLC,0.978,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_2838,70,0.0,s7_iso,initiator_like,1,DEV_0533,HMI,0.779,initiator_like|HMI_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_1699,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2350,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2740,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1312,3196129,0.0,codesys_ge_misc,initiator_like,1,DEV_0367,PLC,0.0,initiator_like|PLC_analog,False,supervisory_or_engineering_like(sends OT requests),strong
+DEV_1324,182,1.0,codesys_ge_misc,responder_like,1,DEV_0523,PLC,0.0,responder_like|PLC_analog,False,field_device_like(answers OT requests),weak
+DEV_1326,151006,1.0,codesys_ge_misc,responder_like,1,DEV_0523,PLC,0.0,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1327,110722,1.0,codesys_ge_misc,responder_like,1,DEV_0523,PLC,0.0,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1328,308083,1.0,codesys_ge_misc,responder_like,1,DEV_0523,PLC,0.0,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1329,453339,1.0,codesys_ge_misc,responder_like,1,DEV_0523,PLC,0.0,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1330,181293,1.0,codesys_ge_misc,responder_like,1,DEV_0523,PLC,0.0,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1331,450008,1.0,codesys_ge_misc,responder_like,1,DEV_0523,PLC,0.0,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1332,445067,1.0,codesys_ge_misc,responder_like,1,DEV_0523,PLC,0.0,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1337,18196,1.0,codesys_ge_misc,responder_like,1,DEV_0523,PLC,0.0,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1338,18220,1.0,codesys_ge_misc,responder_like,1,DEV_0523,PLC,0.0,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1339,18234,1.0,codesys_ge_misc,responder_like,1,DEV_0523,PLC,0.0,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1342,15,0.0,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1344,173998,1.0,codesys_ge_misc,responder_like,1,DEV_0523,PLC,0.0,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1348,185748,1.0,modbus,responder_like,1,DEV_0353,PLC,0.99,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1350,189602,1.0,modbus,responder_like,1,DEV_0353,PLC,0.99,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1351,193056,1.0,modbus,responder_like,1,DEV_0353,PLC,0.99,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_1352,194391,1.0,modbus,responder_like,1,DEV_0353,PLC,0.99,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_2614,52492,1.0,modbus,responder_like,1,DEV_0787,HMI,0.908,responder_like|HMI_analog,False,field_device_like(answers OT requests),strong
+DEV_2615,52492,1.0,modbus,responder_like,1,DEV_0787,HMI,0.908,responder_like|HMI_analog,False,field_device_like(answers OT requests),strong
+DEV_1335,24,0.0,profinet_ethercat,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1748,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1950,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2298,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1356,38,0.105,codesys_ge_misc,initiator_like,1,DEV_0367,PLC,0.0,initiator_like|PLC_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_1358,38,0.105,codesys_ge_misc,initiator_like,1,DEV_0367,PLC,0.0,initiator_like|PLC_analog,False,supervisory_or_engineering_like(sends OT requests),weak
+DEV_1378,26,0.154,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1430,4,1.0,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1437,4,1.0,codesys_ge_misc,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2488,712833,1.0,modbus,responder_like,1,DEV_0787,HMI,1.0,responder_like|HMI_analog,False,field_device_like(answers OT requests),strong
+DEV_2489,122499,1.0,modbus,responder_like,1,DEV_0787,HMI,0.671,responder_like|HMI_analog,False,field_device_like(answers OT requests),strong
+DEV_2490,122499,1.0,modbus,responder_like,1,DEV_0787,HMI,0.671,responder_like|HMI_analog,False,field_device_like(answers OT requests),strong
+DEV_2499,368705,1.0,modbus,responder_like,1,DEV_0353,PLC,0.896,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_2500,3711653,1.0,modbus,responder_like,1,DEV_0353,PLC,0.99,responder_like|PLC_analog,False,field_device_like(answers OT requests),strong
+DEV_0694,0,,,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0698,0,,,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0701,0,,,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0977,0,,,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1497,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2027,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2228,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2523,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_3096,0,,,no_ot_payload,2,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_3425,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_3567,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_0096,0,,,no_ot_payload,17,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1347,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_1374,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_2715,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_3230,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_3240,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none
+DEV_3307,0,,,no_ot_payload,1,,,,no_ot_payload,False,no_ot_payload(cannot judge),none

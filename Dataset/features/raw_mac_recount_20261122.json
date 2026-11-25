@@ -1,0 +1,16 @@
+{
+ "n_files": 2230,
+ "n_packets": 3710051909,
+ "null_mac_cells": 0,
+ "distinct_src_mac": 95155,
+ "distinct_dst_mac": 19757,
+ "distinct_mac_union": 112579,
+ "unparsable": 0,
+ "broadcast": 1,
+ "multicast_nonbroadcast": 17088,
+ "unicast": 95490,
+ "unicast_zero_mac": 1,
+ "src_only_unicast": 84463,
+ "dst_only_unicast": 8696,
+ "seconds": 338
+}

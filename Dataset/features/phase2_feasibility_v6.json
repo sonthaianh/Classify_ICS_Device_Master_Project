@@ -1,0 +1,53 @@
+{
+ "pool_size_threshold_0.5": 1123,
+ "pool_rule_OT": 790,
+ "pool_rule_unknown": 333,
+ "pool_by_bucket": {
+  "no_decoded_protocol_or_port": 333,
+  "siemens_s7": 280,
+  "other_protocol_or_port": 144,
+  "modbus": 107,
+  "ethernet_ip_cip": 91,
+  "bacnet": 48,
+  "telecontrol_dnp3_104": 46,
+  "profinet_other_fieldbus": 39,
+  "iec61850_goose_mms": 35
+ },
+ "pool_by_port_side": {
+  "none": 401,
+  "device_listens": 308,
+  "both": 232,
+  "device_initiates": 182
+ },
+ "type_labels_available": {
+  "devices_csv_ground_truth_device_type_nonempty": 0,
+  "lab_inventory_types": {
+   "HMI": 8,
+   "IO": 1,
+   "PLC": 13
+  },
+  "lab_in_pool": 19,
+  "lab_total": 22
+ },
+ "taxonomy_proposed": [
+  "PLC/controller",
+  "HMI/SCADA/operator station",
+  "Engineering workstation/tool",
+  "IED/RTU/protection relay",
+  "IO/gateway/other field device",
+  "khac/khong ro"
+ ],
+ "labeling_sheet_rows": 180,
+ "labeling_sheet_by_bucket": {
+  "bacnet": 20,
+  "telecontrol_dnp3_104": 20,
+  "siemens_s7": 20,
+  "other_protocol_or_port": 20,
+  "no_decoded_protocol_or_port": 20,
+  "ethernet_ip_cip": 20,
+  "profinet_other_fieldbus": 20,
+  "iec61850_goose_mms": 20,
+  "modbus": 20
+ },
+ "min_labels_rule_of_thumb": "about 30-50 labelled devices per class for a stable baseline -> 150-250 for 5 classes + 'khac'"
+}

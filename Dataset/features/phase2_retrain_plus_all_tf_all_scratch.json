@@ -1,0 +1,87 @@
+{
+ "labels": "all",
+ "variant": "scratch",
+ "seeds": 3,
+ "n": 144,
+ "class_counts": {
+  "PLC": 40,
+  "HMI": 14,
+  "EWS": 15,
+  "OTHER": 75
+ },
+ "result": {
+  "balanced_acc": 0.528,
+  "balanced_acc_std": 0.004,
+  "macro_f1": 0.497,
+  "recall": {
+   "PLC": 0.55,
+   "HMI": 0.571,
+   "EWS": 0.378,
+   "OTHER": 0.613
+  },
+  "confusion_sum_over_seeds": [
+   [
+    66,
+    14,
+    19,
+    21
+   ],
+   [
+    6,
+    24,
+    3,
+    9
+   ],
+   [
+    11,
+    2,
+    17,
+    15
+   ],
+   [
+    35,
+    23,
+    29,
+    138
+   ]
+  ]
+ },
+ "subsets_seed0": {
+  "old_labels": {
+   "n": 117,
+   "accuracy": 0.624,
+   "balanced_acc_present_classes": 0.61,
+   "recall_by_class": {
+    "PLC": 0.703,
+    "HMI": 0.727,
+    "EWS": 0.4,
+    "OTHER": 0.611
+   }
+  },
+  "new_added": {
+   "n": 27,
+   "accuracy": 0.185,
+   "balanced_acc_present_classes": 0.079,
+   "recall_by_class": {
+    "PLC": 0.0,
+    "HMI": 0.0,
+    "OTHER": 0.238
+   }
+  },
+  "accuracy_by_new_subtype": {
+   "SCADA_DCS_valmet": {
+    "n": 1,
+    "accuracy": 0.0
+   },
+   "SCADA_server": {
+    "n": 1,
+    "accuracy": 0.0
+   },
+   "gateway_or_field_device": {
+    "n": 16,
+    "accuracy": 0.0
+   }
+  }
+ },
+ "seconds": 2520
+}

@@ -1,0 +1,16 @@
+﻿feature,mean_abs_shap,shap_share,gain_share
+udp_ratio,0.7598,0.2367,0.2696
+bytes_per_packet,0.5125,0.1597,0.154
+bcast_frame_ratio,0.4165,0.1298,0.1272
+packet_rate,0.2212,0.0689,0.0853
+svc_port_unique,0.2007,0.0625,0.0576
+pkts_per_flow,0.1978,0.0616,0.0708
+unique_local_port_count,0.1885,0.0587,0.0642
+nonip_frame_count,0.1316,0.041,0.0266
+flow_dur_median,0.128,0.0399,0.0534
+carryover_flow_ratio,0.1265,0.0394,0.0189
+arp_target_unique,0.1106,0.0345,0.0139
+one_way_flow_ratio,0.0722,0.0225,0.018
+small_flow_ratio,0.0633,0.0197,0.0157
+arp_frame_count,0.0631,0.0197,0.0194
+icmp_frame_count,0.0173,0.0054,0.0054

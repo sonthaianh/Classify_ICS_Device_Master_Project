@@ -1,13 +1,11 @@
 # Classify ICS Device — nhận diện vai trò thiết bị ICS từ lưu lượng mạng thụ động
 
-Mã nguồn của luận văn thạc sĩ "Nghiên cứu cải tiến phương pháp nhận diện thiết bị ICS dựa trên học kết hợp phục vụ hệ thống NIDS" (tác giả: sonthai).
+Mã nguồn và dữ liệu đã ẩn danh của luận văn thạc sĩ "Nghiên cứu cải tiến phương pháp nhận diện thiết bị ICS dựa trên học kết hợp phục vụ hệ thống NIDS" (tác giả: sonthai).
 
 Phương pháp gồm hai giai đoạn nối tiếp, chỉ dùng lưu lượng mạng thụ động:
 
 1. **Giai đoạn 1** phân biệt thiết bị công nghiệp (OT) với thiết bị không công nghiệp bằng LightGBM trên 15 đặc trưng hành vi, tính theo cửa sổ 45 giây.
 2. **Giai đoạn 2** xác định vai trò PLC, HMI, EWS hoặc OTHER của thiết bị OT bằng Random Forest trên 64 đặc trưng lấy từ tiêu đề thông điệp của bảy giao thức công nghiệp và hành vi giao tiếp. MLP, CNN 1D và Transformer được dùng để so sánh.
-
-> **Trạng thái hiện tại:** repo mới có mã nguồn và tài liệu. Hai phần sau sẽ được bổ sung: `Dataset/features/` (dữ liệu đã ẩn danh) và các tệp mô hình (`demo_webapp/model/`, `phase2_infer/`). Khi chưa có chúng, các script huấn luyện, đánh giá và demo chưa chạy được.
 
 ## Tìm gì ở đâu
 

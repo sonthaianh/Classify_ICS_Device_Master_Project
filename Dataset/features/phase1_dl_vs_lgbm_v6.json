@@ -1,0 +1,702 @@
+{
+ "features": [
+  "log1p_pkts_per_flow",
+  "log1p_bytes_per_packet",
+  "udp_ratio",
+  "log1p_packet_rate",
+  "small_flow_ratio",
+  "one_way_flow_ratio",
+  "flow_dur_median",
+  "log1p_unique_local_port_count",
+  "log1p_svc_port_unique",
+  "log1p_arp_frame_count",
+  "log1p_arp_target_unique",
+  "log1p_icmp_frame_count",
+  "log1p_nonip_frame_count",
+  "bcast_frame_ratio",
+  "carryover_flow_ratio"
+ ],
+ "K": 20,
+ "seeds": 3,
+ "status": "EXPLORATORY comparison; Phase 1 production model (LightGBM) unchanged",
+ "fold_device": {
+  "lightgbm": {
+   "per_seed_all_roc": [
+    0.928,
+    0.93,
+    0.929
+   ],
+   "per_seed_all_pr": [
+    0.836,
+    0.837,
+    0.839
+   ],
+   "roc_mean_std": [
+    0.929,
+    0.001
+   ],
+   "pr_mean_std": [
+    0.837,
+    0.001
+   ],
+   "gold_roc_mean": 0.82,
+   "seed0": {
+    "all": {
+     "n": 3923,
+     "ot": 928,
+     "roc_auc": 0.928,
+     "pr_auc": 0.836,
+     "recall@0.5": 0.851,
+     "precision@0.5": 0.703
+    },
+    "protocol_OT_vs_unknown": {
+     "n": 3536,
+     "ot": 541,
+     "roc_auc": 0.964,
+     "pr_auc": 0.849,
+     "recall@0.5": 0.937,
+     "precision@0.5": 0.604
+    },
+    "portonly_OT_vs_unknown": {
+     "n": 3382,
+     "ot": 387,
+     "roc_auc": 0.879,
+     "pr_auc": 0.58,
+     "recall@0.5": 0.731,
+     "precision@0.5": 0.459
+    },
+    "non_flood": {
+     "n": 3736,
+     "ot": 765,
+     "roc_auc": 0.931,
+     "pr_auc": 0.827,
+     "recall@0.5": 0.861,
+     "precision@0.5": 0.67
+    },
+    "gold": {
+     "roc": 0.819,
+     "pr": 0.748,
+     "ot_recall@0.5": 0.846,
+     "nonot_flagged@0.5": 0.277,
+     "n": 184
+    }
+   },
+   "ensemble": {
+    "all": {
+     "n": 3923,
+     "ot": 928,
+     "roc_auc": 0.929,
+     "pr_auc": 0.838,
+     "recall@0.5": 0.853,
+     "precision@0.5": 0.703
+    },
+    "protocol_OT_vs_unknown": {
+     "n": 3536,
+     "ot": 541,
+     "roc_auc": 0.964,
+     "pr_auc": 0.852,
+     "recall@0.5": 0.937,
+     "precision@0.5": 0.603
+    },
+    "portonly_OT_vs_unknown": {
+     "n": 3382,
+     "ot": 387,
+     "roc_auc": 0.881,
+     "pr_auc": 0.583,
+     "recall@0.5": 0.736,
+     "precision@0.5": 0.46
+    },
+    "non_flood": {
+     "n": 3736,
+     "ot": 765,
+     "roc_auc": 0.932,
+     "pr_auc": 0.83,
+     "recall@0.5": 0.863,
+     "precision@0.5": 0.669
+    },
+    "gold": {
+     "roc": 0.82,
+     "pr": 0.753,
+     "ot_recall@0.5": 0.831,
+     "nonot_flagged@0.5": 0.277,
+     "n": 184
+    }
+   }
+  },
+  "mlp_window": {
+   "per_seed_all_roc": [
+    0.914,
+    0.911,
+    0.912
+   ],
+   "per_seed_all_pr": [
+    0.776,
+    0.775,
+    0.778
+   ],
+   "roc_mean_std": [
+    0.912,
+    0.001
+   ],
+   "pr_mean_std": [
+    0.776,
+    0.001
+   ],
+   "gold_roc_mean": 0.821,
+   "seed0": {
+    "all": {
+     "n": 3923,
+     "ot": 928,
+     "roc_auc": 0.914,
+     "pr_auc": 0.776,
+     "recall@0.5": 0.835,
+     "precision@0.5": 0.635
+    },
+    "protocol_OT_vs_unknown": {
+     "n": 3536,
+     "ot": 541,
+     "roc_auc": 0.951,
+     "pr_auc": 0.771,
+     "recall@0.5": 0.922,
+     "precision@0.5": 0.529
+    },
+    "portonly_OT_vs_unknown": {
+     "n": 3382,
+     "ot": 387,
+     "roc_auc": 0.862,
+     "pr_auc": 0.478,
+     "recall@0.5": 0.713,
+     "precision@0.5": 0.383
+    },
+    "non_flood": {
+     "n": 3736,
+     "ot": 765,
+     "roc_auc": 0.92,
+     "pr_auc": 0.765,
+     "recall@0.5": 0.852,
+     "precision@0.5": 0.6
+    },
+    "gold": {
+     "roc": 0.818,
+     "pr": 0.737,
+     "ot_recall@0.5": 0.831,
+     "nonot_flagged@0.5": 0.336,
+     "n": 184
+    }
+   },
+   "ensemble": {
+    "all": {
+     "n": 3923,
+     "ot": 928,
+     "roc_auc": 0.915,
+     "pr_auc": 0.785,
+     "recall@0.5": 0.848,
+     "precision@0.5": 0.63
+    },
+    "protocol_OT_vs_unknown": {
+     "n": 3536,
+     "ot": 541,
+     "roc_auc": 0.953,
+     "pr_auc": 0.785,
+     "recall@0.5": 0.935,
+     "precision@0.5": 0.523
+    },
+    "portonly_OT_vs_unknown": {
+     "n": 3382,
+     "ot": 387,
+     "roc_auc": 0.862,
+     "pr_auc": 0.49,
+     "recall@0.5": 0.726,
+     "precision@0.5": 0.378
+    },
+    "non_flood": {
+     "n": 3736,
+     "ot": 765,
+     "roc_auc": 0.921,
+     "pr_auc": 0.775,
+     "recall@0.5": 0.86,
+     "precision@0.5": 0.592
+    },
+    "gold": {
+     "roc": 0.824,
+     "pr": 0.741,
+     "ot_recall@0.5": 0.8,
+     "nonot_flagged@0.5": 0.353,
+     "n": 184
+    }
+   }
+  },
+  "deepsets_device": {
+   "per_seed_all_roc": [
+    0.93,
+    0.929,
+    0.938
+   ],
+   "per_seed_all_pr": [
+    0.848,
+    0.849,
+    0.864
+   ],
+   "roc_mean_std": [
+    0.932,
+    0.004
+   ],
+   "pr_mean_std": [
+    0.854,
+    0.007
+   ],
+   "gold_roc_mean": 0.834,
+   "seed0": {
+    "all": {
+     "n": 3923,
+     "ot": 928,
+     "roc_auc": 0.93,
+     "pr_auc": 0.848,
+     "recall@0.5": 0.851,
+     "precision@0.5": 0.674
+    },
+    "protocol_OT_vs_unknown": {
+     "n": 3536,
+     "ot": 541,
+     "roc_auc": 0.96,
+     "pr_auc": 0.844,
+     "recall@0.5": 0.922,
+     "precision@0.5": 0.566
+    },
+    "portonly_OT_vs_unknown": {
+     "n": 3382,
+     "ot": 387,
+     "roc_auc": 0.888,
+     "pr_auc": 0.659,
+     "recall@0.5": 0.752,
+     "precision@0.5": 0.432
+    },
+    "non_flood": {
+     "n": 3736,
+     "ot": 765,
+     "roc_auc": 0.931,
+     "pr_auc": 0.828,
+     "recall@0.5": 0.851,
+     "precision@0.5": 0.639
+    },
+    "gold": {
+     "roc": 0.835,
+     "pr": 0.731,
+     "ot_recall@0.5": 0.831,
+     "nonot_flagged@0.5": 0.328,
+     "n": 184
+    }
+   },
+   "ensemble": {
+    "all": {
+     "n": 3923,
+     "ot": 928,
+     "roc_auc": 0.937,
+     "pr_auc": 0.863,
+     "recall@0.5": 0.86,
+     "precision@0.5": 0.69
+    },
+    "protocol_OT_vs_unknown": {
+     "n": 3536,
+     "ot": 541,
+     "roc_auc": 0.964,
+     "pr_auc": 0.861,
+     "recall@0.5": 0.928,
+     "precision@0.5": 0.584
+    },
+    "portonly_OT_vs_unknown": {
+     "n": 3382,
+     "ot": 387,
+     "roc_auc": 0.899,
+     "pr_auc": 0.682,
+     "recall@0.5": 0.765,
+     "precision@0.5": 0.453
+    },
+    "non_flood": {
+     "n": 3736,
+     "ot": 765,
+     "roc_auc": 0.937,
+     "pr_auc": 0.844,
+     "recall@0.5": 0.858,
+     "precision@0.5": 0.656
+    },
+    "gold": {
+     "roc": 0.838,
+     "pr": 0.75,
+     "ot_recall@0.5": 0.831,
+     "nonot_flagged@0.5": 0.328,
+     "n": 184
+    }
+   }
+  },
+  "bootstrap_vs_lightgbm_ensemble": {
+   "mlp_window": {
+    "roc_diff[2.5%,mean,97.5%]": [
+     -0.0196,
+     -0.0144,
+     -0.0094
+    ],
+    "pr_diff[2.5%,mean,97.5%]": [
+     -0.0681,
+     -0.0524,
+     -0.0375
+    ]
+   },
+   "deepsets_device": {
+    "roc_diff[2.5%,mean,97.5%]": [
+     0.0014,
+     0.0076,
+     0.0139
+    ],
+    "pr_diff[2.5%,mean,97.5%]": [
+     0.0094,
+     0.025,
+     0.0403
+    ]
+   }
+  }
+ },
+ "strict_component": {
+  "lightgbm": {
+   "per_seed_all_roc": [
+    0.858,
+    0.858,
+    0.86
+   ],
+   "per_seed_all_pr": [
+    0.666,
+    0.663,
+    0.665
+   ],
+   "roc_mean_std": [
+    0.859,
+    0.001
+   ],
+   "pr_mean_std": [
+    0.665,
+    0.001
+   ],
+   "gold_roc_mean": 0.795,
+   "seed0": {
+    "all": {
+     "n": 3923,
+     "ot": 928,
+     "roc_auc": 0.858,
+     "pr_auc": 0.666,
+     "recall@0.5": 0.796,
+     "precision@0.5": 0.523
+    },
+    "protocol_OT_vs_unknown": {
+     "n": 3536,
+     "ot": 541,
+     "roc_auc": 0.915,
+     "pr_auc": 0.664,
+     "recall@0.5": 0.906,
+     "precision@0.5": 0.421
+    },
+    "portonly_OT_vs_unknown": {
+     "n": 3382,
+     "ot": 387,
+     "roc_auc": 0.779,
+     "pr_auc": 0.33,
+     "recall@0.5": 0.643,
+     "precision@0.5": 0.27
+    },
+    "non_flood": {
+     "n": 3736,
+     "ot": 765,
+     "roc_auc": 0.874,
+     "pr_auc": 0.661,
+     "recall@0.5": 0.831,
+     "precision@0.5": 0.488
+    },
+    "gold": {
+     "roc": 0.796,
+     "pr": 0.649,
+     "ot_recall@0.5": 0.754,
+     "nonot_flagged@0.5": 0.294,
+     "n": 184
+    }
+   },
+   "ensemble": {
+    "all": {
+     "n": 3923,
+     "ot": 928,
+     "roc_auc": 0.86,
+     "pr_auc": 0.667,
+     "recall@0.5": 0.801,
+     "precision@0.5": 0.529
+    },
+    "protocol_OT_vs_unknown": {
+     "n": 3536,
+     "ot": 541,
+     "roc_auc": 0.916,
+     "pr_auc": 0.661,
+     "recall@0.5": 0.909,
+     "precision@0.5": 0.426
+    },
+    "portonly_OT_vs_unknown": {
+     "n": 3382,
+     "ot": 387,
+     "roc_auc": 0.781,
+     "pr_auc": 0.333,
+     "recall@0.5": 0.649,
+     "precision@0.5": 0.275
+    },
+    "non_flood": {
+     "n": 3736,
+     "ot": 765,
+     "roc_auc": 0.875,
+     "pr_auc": 0.661,
+     "recall@0.5": 0.834,
+     "precision@0.5": 0.493
+    },
+    "gold": {
+     "roc": 0.796,
+     "pr": 0.653,
+     "ot_recall@0.5": 0.769,
+     "nonot_flagged@0.5": 0.277,
+     "n": 184
+    }
+   }
+  },
+  "mlp_window": {
+   "per_seed_all_roc": [
+    0.871,
+    0.867,
+    0.872
+   ],
+   "per_seed_all_pr": [
+    0.648,
+    0.65,
+    0.649
+   ],
+   "roc_mean_std": [
+    0.87,
+    0.002
+   ],
+   "pr_mean_std": [
+    0.649,
+    0.001
+   ],
+   "gold_roc_mean": 0.778,
+   "seed0": {
+    "all": {
+     "n": 3923,
+     "ot": 928,
+     "roc_auc": 0.871,
+     "pr_auc": 0.648,
+     "recall@0.5": 0.808,
+     "precision@0.5": 0.567
+    },
+    "protocol_OT_vs_unknown": {
+     "n": 3536,
+     "ot": 541,
+     "roc_auc": 0.925,
+     "pr_auc": 0.628,
+     "recall@0.5": 0.926,
+     "precision@0.5": 0.467
+    },
+    "portonly_OT_vs_unknown": {
+     "n": 3382,
+     "ot": 387,
+     "roc_auc": 0.795,
+     "pr_auc": 0.307,
+     "recall@0.5": 0.643,
+     "precision@0.5": 0.303
+    },
+    "non_flood": {
+     "n": 3736,
+     "ot": 765,
+     "roc_auc": 0.881,
+     "pr_auc": 0.628,
+     "recall@0.5": 0.831,
+     "precision@0.5": 0.531
+    },
+    "gold": {
+     "roc": 0.765,
+     "pr": 0.62,
+     "ot_recall@0.5": 0.738,
+     "nonot_flagged@0.5": 0.353,
+     "n": 184
+    }
+   },
+   "ensemble": {
+    "all": {
+     "n": 3923,
+     "ot": 928,
+     "roc_auc": 0.874,
+     "pr_auc": 0.654,
+     "recall@0.5": 0.805,
+     "precision@0.5": 0.585
+    },
+    "protocol_OT_vs_unknown": {
+     "n": 3536,
+     "ot": 541,
+     "roc_auc": 0.925,
+     "pr_auc": 0.632,
+     "recall@0.5": 0.924,
+     "precision@0.5": 0.485
+    },
+    "portonly_OT_vs_unknown": {
+     "n": 3382,
+     "ot": 387,
+     "roc_auc": 0.802,
+     "pr_auc": 0.317,
+     "recall@0.5": 0.638,
+     "precision@0.5": 0.318
+    },
+    "non_flood": {
+     "n": 3736,
+     "ot": 765,
+     "roc_auc": 0.884,
+     "pr_auc": 0.635,
+     "recall@0.5": 0.834,
+     "precision@0.5": 0.551
+    },
+    "gold": {
+     "roc": 0.781,
+     "pr": 0.622,
+     "ot_recall@0.5": 0.785,
+     "nonot_flagged@0.5": 0.353,
+     "n": 184
+    }
+   }
+  },
+  "deepsets_device": {
+   "per_seed_all_roc": [
+    0.88,
+    0.874,
+    0.881
+   ],
+   "per_seed_all_pr": [
+    0.734,
+    0.711,
+    0.737
+   ],
+   "roc_mean_std": [
+    0.878,
+    0.003
+   ],
+   "pr_mean_std": [
+    0.727,
+    0.012
+   ],
+   "gold_roc_mean": 0.795,
+   "seed0": {
+    "all": {
+     "n": 3923,
+     "ot": 928,
+     "roc_auc": 0.88,
+     "pr_auc": 0.734,
+     "recall@0.5": 0.776,
+     "precision@0.5": 0.598
+    },
+    "protocol_OT_vs_unknown": {
+     "n": 3536,
+     "ot": 541,
+     "roc_auc": 0.922,
+     "pr_auc": 0.72,
+     "recall@0.5": 0.88,
+     "precision@0.5": 0.495
+    },
+    "portonly_OT_vs_unknown": {
+     "n": 3382,
+     "ot": 387,
+     "roc_auc": 0.821,
+     "pr_auc": 0.456,
+     "recall@0.5": 0.63,
+     "precision@0.5": 0.335
+    },
+    "non_flood": {
+     "n": 3736,
+     "ot": 765,
+     "roc_auc": 0.888,
+     "pr_auc": 0.704,
+     "recall@0.5": 0.788,
+     "precision@0.5": 0.559
+    },
+    "gold": {
+     "roc": 0.791,
+     "pr": 0.679,
+     "ot_recall@0.5": 0.738,
+     "nonot_flagged@0.5": 0.294,
+     "n": 184
+    }
+   },
+   "ensemble": {
+    "all": {
+     "n": 3923,
+     "ot": 928,
+     "roc_auc": 0.889,
+     "pr_auc": 0.746,
+     "recall@0.5": 0.797,
+     "precision@0.5": 0.583
+    },
+    "protocol_OT_vs_unknown": {
+     "n": 3536,
+     "ot": 541,
+     "roc_auc": 0.926,
+     "pr_auc": 0.728,
+     "recall@0.5": 0.893,
+     "precision@0.5": 0.477
+    },
+    "portonly_OT_vs_unknown": {
+     "n": 3382,
+     "ot": 387,
+     "roc_auc": 0.839,
+     "pr_auc": 0.48,
+     "recall@0.5": 0.664,
+     "precision@0.5": 0.327
+    },
+    "non_flood": {
+     "n": 3736,
+     "ot": 765,
+     "roc_auc": 0.894,
+     "pr_auc": 0.713,
+     "recall@0.5": 0.809,
+     "precision@0.5": 0.544
+    },
+    "gold": {
+     "roc": 0.802,
+     "pr": 0.733,
+     "ot_recall@0.5": 0.769,
+     "nonot_flagged@0.5": 0.328,
+     "n": 184
+    }
+   }
+  },
+  "bootstrap_vs_lightgbm_ensemble": {
+   "mlp_window": {
+    "roc_diff[2.5%,mean,97.5%]": [
+     0.0067,
+     0.0139,
+     0.0214
+    ],
+    "pr_diff[2.5%,mean,97.5%]": [
+     -0.0306,
+     -0.0119,
+     0.0078
+    ]
+   },
+   "deepsets_device": {
+    "roc_diff[2.5%,mean,97.5%]": [
+     0.0201,
+     0.0297,
+     0.0389
+    ],
+    "pr_diff[2.5%,mean,97.5%]": [
+     0.0568,
+     0.0791,
+     0.102
+    ]
+   }
+  }
+ },
+ "reproduction_check": {
+  "lightgbm_fold_device_seed0_roc": 0.928,
+  "expected": 0.928,
+  "lightgbm_strict_seed0_roc": 0.858,
+  "expected_approx": 0.858
+ }
+}

@@ -1,0 +1,148 @@
+{
+ "labels_file": "phase2_type_labels_4class_186_devices.csv",
+ "n": 165,
+ "bootstrap_B": 2000,
+ "balanced_acc_seed0_with_bootstrap_ci": {
+  "RF_64": {
+   "point": 0.633,
+   "ci95": [
+    0.542,
+    0.723
+   ]
+  },
+  "MLP_64": {
+   "point": 0.516,
+   "ci95": [
+    0.435,
+    0.605
+   ]
+  },
+  "CNN_scratch": {
+   "point": 0.613,
+   "ci95": [
+    0.523,
+    0.703
+   ]
+  },
+  "Transformer_scratch": {
+   "point": 0.607,
+   "ci95": [
+    0.518,
+    0.699
+   ]
+  },
+  "Luat_vai_tro": {
+   "point": 0.466,
+   "ci95": [
+    0.395,
+    0.535
+   ]
+  },
+  "Da_so": {
+   "point": 0.25,
+   "ci95": [
+    0.25,
+    0.25
+   ]
+  }
+ },
+ "paired_bootstrap_rf_minus_other": {
+  "RF_64 - MLP_64": {
+   "mean_diff": 0.117,
+   "ci95": [
+    0.036,
+    0.206
+   ],
+   "share_boot_diff_le_0": 0.004
+  },
+  "RF_64 - CNN_scratch": {
+   "mean_diff": 0.02,
+   "ci95": [
+    -0.056,
+    0.1
+   ],
+   "share_boot_diff_le_0": 0.304
+  },
+  "RF_64 - Transformer_scratch": {
+   "mean_diff": 0.027,
+   "ci95": [
+    -0.07,
+    0.127
+   ],
+   "share_boot_diff_le_0": 0.292
+  },
+  "RF_64 - Luat_vai_tro": {
+   "mean_diff": 0.168,
+   "ci95": [
+    0.091,
+    0.248
+   ],
+   "share_boot_diff_le_0": 0.0
+  },
+  "RF_64 - Da_so": {
+   "mean_diff": 0.385,
+   "ci95": [
+    0.292,
+    0.473
+   ],
+   "share_boot_diff_le_0": 0.0
+  }
+ },
+ "per_model_recall_seed0": {
+  "RF_64": {
+   "PLC": 0.76,
+   "HMI": 0.611,
+   "EWS": 0.55,
+   "OTHER": 0.61
+  },
+  "MLP_64": {
+   "PLC": 0.6,
+   "HMI": 0.556,
+   "EWS": 0.35,
+   "OTHER": 0.558
+  },
+  "CNN_scratch": {
+   "PLC": 0.68,
+   "HMI": 0.611,
+   "EWS": 0.5,
+   "OTHER": 0.662
+  },
+  "Transformer_scratch": {
+   "PLC": 0.7,
+   "HMI": 0.556,
+   "EWS": 0.55,
+   "OTHER": 0.623
+  },
+  "Luat_vai_tro": {
+   "PLC": 0.76,
+   "HMI": 0.611,
+   "EWS": 0.0,
+   "OTHER": 0.494
+  },
+  "Da_so": {
+   "PLC": 0.0,
+   "HMI": 0.0,
+   "EWS": 0.0,
+   "OTHER": 1.0
+  }
+ },
+ "transformer_seed0_balanced_acc": 0.607,
+ "rf64_recall_bootstrap_ci95": {
+  "PLC": [
+   0.636,
+   0.875
+  ],
+  "HMI": [
+   0.375,
+   0.842
+  ],
+  "EWS": [
+   0.333,
+   0.786
+  ],
+  "OTHER": [
+   0.5,
+   0.724
+  ]
+ }
+}

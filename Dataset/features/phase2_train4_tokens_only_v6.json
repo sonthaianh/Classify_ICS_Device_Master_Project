@@ -1,0 +1,325 @@
+{
+ "status": "EXPLORATORY - only devices with message-type tokens; no absence confound for eng features",
+ "classes": [
+  "PLC",
+  "HMI",
+  "EWS",
+  "OTHER"
+ ],
+ "all_labels": {
+  "n": 67,
+  "class_counts": {
+   "PLC": 33,
+   "HMI": 9,
+   "EWS": 10,
+   "OTHER": 15
+  },
+  "majority_baseline_acc": 0.493,
+  "behaviour": {
+   "balanced_acc": 0.414,
+   "balanced_acc_std": 0.011,
+   "macro_f1": 0.409,
+   "recall": {
+    "PLC": 0.582,
+    "HMI": 0.356,
+    "EWS": 0.32,
+    "OTHER": 0.4
+   },
+   "confusion_sum_over_seeds": [
+    [
+     96,
+     21,
+     30,
+     18
+    ],
+    [
+     19,
+     16,
+     5,
+     5
+    ],
+    [
+     20,
+     3,
+     16,
+     11
+    ],
+    [
+     18,
+     12,
+     15,
+     30
+    ]
+   ]
+  },
+  "payload_role": {
+   "balanced_acc": 0.662,
+   "balanced_acc_std": 0.003,
+   "macro_f1": 0.662,
+   "recall": {
+    "PLC": 0.83,
+    "HMI": 0.444,
+    "EWS": 0.72,
+    "OTHER": 0.653
+   },
+   "confusion_sum_over_seeds": [
+    [
+     137,
+     14,
+     7,
+     7
+    ],
+    [
+     14,
+     20,
+     11,
+     0
+    ],
+    [
+     7,
+     4,
+     36,
+     3
+    ],
+    [
+     15,
+     1,
+     10,
+     49
+    ]
+   ]
+  },
+  "payload_role_eng": {
+   "balanced_acc": 0.689,
+   "balanced_acc_std": 0.019,
+   "macro_f1": 0.68,
+   "recall": {
+    "PLC": 0.812,
+    "HMI": 0.689,
+    "EWS": 0.64,
+    "OTHER": 0.613
+   },
+   "confusion_sum_over_seeds": [
+    [
+     134,
+     17,
+     6,
+     8
+    ],
+    [
+     9,
+     31,
+     5,
+     0
+    ],
+    [
+     5,
+     10,
+     32,
+     3
+    ],
+    [
+     17,
+     2,
+     10,
+     46
+    ]
+   ]
+  },
+  "behaviour_payload_role_eng": {
+   "balanced_acc": 0.703,
+   "balanced_acc_std": 0.04,
+   "macro_f1": 0.703,
+   "recall": {
+    "PLC": 0.867,
+    "HMI": 0.667,
+    "EWS": 0.68,
+    "OTHER": 0.6
+   },
+   "confusion_sum_over_seeds": [
+    [
+     143,
+     11,
+     6,
+     5
+    ],
+    [
+     9,
+     30,
+     6,
+     0
+    ],
+    [
+     7,
+     6,
+     34,
+     3
+    ],
+    [
+     17,
+     3,
+     10,
+     45
+    ]
+   ]
+  }
+ },
+ "strict": {
+  "n": 62,
+  "class_counts": {
+   "PLC": 33,
+   "HMI": 9,
+   "EWS": 5,
+   "OTHER": 15
+  },
+  "majority_baseline_acc": 0.532,
+  "behaviour": {
+   "balanced_acc": 0.416,
+   "balanced_acc_std": 0.026,
+   "macro_f1": 0.411,
+   "recall": {
+    "PLC": 0.636,
+    "HMI": 0.333,
+    "EWS": 0.24,
+    "OTHER": 0.453
+   },
+   "confusion_sum_over_seeds": [
+    [
+     105,
+     26,
+     11,
+     23
+    ],
+    [
+     20,
+     15,
+     5,
+     5
+    ],
+    [
+     10,
+     3,
+     6,
+     6
+    ],
+    [
+     20,
+     14,
+     7,
+     34
+    ]
+   ]
+  },
+  "payload_role": {
+   "balanced_acc": 0.644,
+   "balanced_acc_std": 0.043,
+   "macro_f1": 0.634,
+   "recall": {
+    "PLC": 0.812,
+    "HMI": 0.644,
+    "EWS": 0.48,
+    "OTHER": 0.64
+   },
+   "confusion_sum_over_seeds": [
+    [
+     134,
+     15,
+     9,
+     7
+    ],
+    [
+     11,
+     29,
+     5,
+     0
+    ],
+    [
+     5,
+     5,
+     12,
+     3
+    ],
+    [
+     16,
+     1,
+     10,
+     48
+    ]
+   ]
+  },
+  "payload_role_eng": {
+   "balanced_acc": 0.674,
+   "balanced_acc_std": 0.028,
+   "macro_f1": 0.651,
+   "recall": {
+    "PLC": 0.788,
+    "HMI": 0.733,
+    "EWS": 0.56,
+    "OTHER": 0.613
+   },
+   "confusion_sum_over_seeds": [
+    [
+     130,
+     17,
+     8,
+     10
+    ],
+    [
+     9,
+     33,
+     3,
+     0
+    ],
+    [
+     5,
+     5,
+     14,
+     1
+    ],
+    [
+     16,
+     3,
+     10,
+     46
+    ]
+   ]
+  },
+  "behaviour_payload_role_eng": {
+   "balanced_acc": 0.683,
+   "balanced_acc_std": 0.023,
+   "macro_f1": 0.675,
+   "recall": {
+    "PLC": 0.861,
+    "HMI": 0.711,
+    "EWS": 0.56,
+    "OTHER": 0.6
+   },
+   "confusion_sum_over_seeds": [
+    [
+     142,
+     12,
+     6,
+     5
+    ],
+    [
+     9,
+     32,
+     4,
+     0
+    ],
+    [
+     7,
+     4,
+     14,
+     0
+    ],
+    [
+     17,
+     3,
+     10,
+     45
+    ]
+   ]
+  }
+ }
+}

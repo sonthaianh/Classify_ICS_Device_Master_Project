@@ -1,0 +1,79 @@
+{
+ "status": "MLP 64 cot, tap T, bo 186 nhan, 5 hat",
+ "all_labels": {
+  "n": 98,
+  "balanced_acc": 0.595,
+  "balanced_acc_std": 0.03,
+  "macro_f1": 0.6,
+  "recall": {
+   "PLC": 0.795,
+   "HMI": 0.7,
+   "EWS": 0.387,
+   "OTHER": 0.496
+  },
+  "confusion_sum_over_seeds": [
+   [
+    175,
+    7,
+    11,
+    27
+   ],
+   [
+    8,
+    49,
+    10,
+    3
+   ],
+   [
+    25,
+    15,
+    29,
+    6
+   ],
+   [
+    51,
+    3,
+    9,
+    62
+   ]
+  ]
+ },
+ "strict": {
+  "n": 93,
+  "balanced_acc": 0.577,
+  "balanced_acc_std": 0.033,
+  "macro_f1": 0.58,
+  "recall": {
+   "PLC": 0.773,
+   "HMI": 0.714,
+   "EWS": 0.34,
+   "OTHER": 0.48
+  },
+  "confusion_sum_over_seeds": [
+   [
+    170,
+    5,
+    17,
+    28
+   ],
+   [
+    12,
+    50,
+    5,
+    3
+   ],
+   [
+    14,
+    14,
+    17,
+    5
+   ],
+   [
+    54,
+    1,
+    10,
+    60
+   ]
+  ]
+ }
+}

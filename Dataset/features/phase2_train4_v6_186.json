@@ -1,0 +1,639 @@
+{
+ "status": "EXPLORATORY - small n, labels partly owner-reviewed, not expert verified",
+ "chance_balanced_acc": 0.25,
+ "classes": [
+  "PLC",
+  "HMI",
+  "EWS",
+  "OTHER"
+ ],
+ "all_labels": {
+  "A_profiled_only": {
+   "n": 165,
+   "class_counts": {
+    "PLC": 50,
+    "HMI": 18,
+    "EWS": 20,
+    "OTHER": 77
+   },
+   "majority_baseline_acc": 0.467,
+   "behaviour": {
+    "balanced_acc": 0.418,
+    "balanced_acc_std": 0.028,
+    "macro_f1": 0.409,
+    "recall": {
+     "PLC": 0.488,
+     "HMI": 0.289,
+     "EWS": 0.34,
+     "OTHER": 0.556
+    },
+    "confusion_sum_over_seeds": [
+     [
+      122,
+      37,
+      47,
+      44
+     ],
+     [
+      31,
+      26,
+      11,
+      22
+     ],
+     [
+      25,
+      8,
+      34,
+      33
+     ],
+     [
+      95,
+      38,
+      38,
+      214
+     ]
+    ]
+   },
+   "payload_role": {
+    "balanced_acc": 0.546,
+    "balanced_acc_std": 0.024,
+    "macro_f1": 0.517,
+    "recall": {
+     "PLC": 0.82,
+     "HMI": 0.356,
+     "EWS": 0.54,
+     "OTHER": 0.468
+    },
+    "confusion_sum_over_seeds": [
+     [
+      205,
+      20,
+      10,
+      15
+     ],
+     [
+      19,
+      32,
+      22,
+      17
+     ],
+     [
+      5,
+      20,
+      54,
+      21
+     ],
+     [
+      145,
+      17,
+      43,
+      180
+     ]
+    ]
+   },
+   "payload_role_eng": {
+    "balanced_acc": 0.586,
+    "balanced_acc_std": 0.022,
+    "macro_f1": 0.565,
+    "recall": {
+     "PLC": 0.792,
+     "HMI": 0.6,
+     "EWS": 0.46,
+     "OTHER": 0.494
+    },
+    "confusion_sum_over_seeds": [
+     [
+      198,
+      19,
+      8,
+      25
+     ],
+     [
+      16,
+      54,
+      7,
+      13
+     ],
+     [
+      5,
+      21,
+      46,
+      28
+     ],
+     [
+      153,
+      15,
+      27,
+      190
+     ]
+    ]
+   },
+   "behaviour_payload_role_eng": {
+    "balanced_acc": 0.641,
+    "balanced_acc_std": 0.03,
+    "macro_f1": 0.627,
+    "recall": {
+     "PLC": 0.788,
+     "HMI": 0.656,
+     "EWS": 0.55,
+     "OTHER": 0.569
+    },
+    "confusion_sum_over_seeds": [
+     [
+      197,
+      18,
+      9,
+      26
+     ],
+     [
+      13,
+      59,
+      10,
+      8
+     ],
+     [
+      6,
+      15,
+      55,
+      24
+     ],
+     [
+      140,
+      5,
+      21,
+      219
+     ]
+    ]
+   }
+  },
+  "B_all_behaviour_only": {
+   "n": 186,
+   "class_counts": {
+    "PLC": 53,
+    "HMI": 33,
+    "EWS": 20,
+    "OTHER": 80
+   },
+   "majority_baseline_acc": 0.43,
+   "behaviour": {
+    "balanced_acc": 0.393,
+    "balanced_acc_std": 0.023,
+    "macro_f1": 0.378,
+    "recall": {
+     "PLC": 0.521,
+     "HMI": 0.133,
+     "EWS": 0.32,
+     "OTHER": 0.597
+    },
+    "confusion_sum_over_seeds": [
+     [
+      138,
+      24,
+      55,
+      48
+     ],
+     [
+      73,
+      22,
+      42,
+      28
+     ],
+     [
+      30,
+      5,
+      32,
+      33
+     ],
+     [
+      101,
+      23,
+      37,
+      239
+     ]
+    ]
+   }
+  },
+  "C_all_with_payload_CONFOUNDED": {
+   "n": 186,
+   "class_counts": {
+    "PLC": 53,
+    "HMI": 33,
+    "EWS": 20,
+    "OTHER": 80
+   },
+   "majority_baseline_acc": 0.43,
+   "payload_role": {
+    "balanced_acc": 0.468,
+    "balanced_acc_std": 0.031,
+    "macro_f1": 0.419,
+    "recall": {
+     "PLC": 0.789,
+     "HMI": 0.091,
+     "EWS": 0.59,
+     "OTHER": 0.402
+    },
+    "confusion_sum_over_seeds": [
+     [
+      209,
+      35,
+      11,
+      10
+     ],
+     [
+      79,
+      15,
+      36,
+      35
+     ],
+     [
+      5,
+      12,
+      59,
+      24
+     ],
+     [
+      149,
+      42,
+      48,
+      161
+     ]
+    ]
+   },
+   "payload_role_eng": {
+    "balanced_acc": 0.493,
+    "balanced_acc_std": 0.014,
+    "macro_f1": 0.473,
+    "recall": {
+     "PLC": 0.777,
+     "HMI": 0.23,
+     "EWS": 0.51,
+     "OTHER": 0.455
+    },
+    "confusion_sum_over_seeds": [
+     [
+      206,
+      27,
+      8,
+      24
+     ],
+     [
+      78,
+      38,
+      17,
+      32
+     ],
+     [
+      5,
+      10,
+      51,
+      34
+     ],
+     [
+      148,
+      36,
+      34,
+      182
+     ]
+    ]
+   }
+  }
+ },
+ "strict": {
+  "A_profiled_only": {
+   "n": 160,
+   "class_counts": {
+    "PLC": 50,
+    "HMI": 18,
+    "EWS": 15,
+    "OTHER": 77
+   },
+   "majority_baseline_acc": 0.481,
+   "behaviour": {
+    "balanced_acc": 0.401,
+    "balanced_acc_std": 0.01,
+    "macro_f1": 0.393,
+    "recall": {
+     "PLC": 0.556,
+     "HMI": 0.278,
+     "EWS": 0.267,
+     "OTHER": 0.504
+    },
+    "confusion_sum_over_seeds": [
+     [
+      139,
+      28,
+      27,
+      56
+     ],
+     [
+      30,
+      25,
+      13,
+      22
+     ],
+     [
+      11,
+      11,
+      20,
+      33
+     ],
+     [
+      124,
+      35,
+      32,
+      194
+     ]
+    ]
+   },
+   "payload_role": {
+    "balanced_acc": 0.481,
+    "balanced_acc_std": 0.021,
+    "macro_f1": 0.448,
+    "recall": {
+     "PLC": 0.816,
+     "HMI": 0.422,
+     "EWS": 0.293,
+     "OTHER": 0.392
+    },
+    "confusion_sum_over_seeds": [
+     [
+      204,
+      20,
+      10,
+      16
+     ],
+     [
+      22,
+      38,
+      14,
+      16
+     ],
+     [
+      5,
+      20,
+      22,
+      28
+     ],
+     [
+      155,
+      25,
+      54,
+      151
+     ]
+    ]
+   },
+   "payload_role_eng": {
+    "balanced_acc": 0.536,
+    "balanced_acc_std": 0.011,
+    "macro_f1": 0.507,
+    "recall": {
+     "PLC": 0.776,
+     "HMI": 0.611,
+     "EWS": 0.307,
+     "OTHER": 0.449
+    },
+    "confusion_sum_over_seeds": [
+     [
+      194,
+      18,
+      9,
+      29
+     ],
+     [
+      18,
+      55,
+      7,
+      10
+     ],
+     [
+      5,
+      17,
+      23,
+      30
+     ],
+     [
+      154,
+      20,
+      38,
+      173
+     ]
+    ]
+   },
+   "behaviour_payload_role_eng": {
+    "balanced_acc": 0.603,
+    "balanced_acc_std": 0.02,
+    "macro_f1": 0.583,
+    "recall": {
+     "PLC": 0.808,
+     "HMI": 0.667,
+     "EWS": 0.413,
+     "OTHER": 0.522
+    },
+    "confusion_sum_over_seeds": [
+     [
+      202,
+      15,
+      7,
+      26
+     ],
+     [
+      14,
+      60,
+      8,
+      8
+     ],
+     [
+      5,
+      17,
+      31,
+      22
+     ],
+     [
+      151,
+      8,
+      25,
+      201
+     ]
+    ]
+   }
+  },
+  "B_all_behaviour_only": {
+   "n": 181,
+   "class_counts": {
+    "PLC": 53,
+    "HMI": 33,
+    "EWS": 15,
+    "OTHER": 80
+   },
+   "majority_baseline_acc": 0.442,
+   "behaviour": {
+    "balanced_acc": 0.386,
+    "balanced_acc_std": 0.014,
+    "macro_f1": 0.368,
+    "recall": {
+     "PLC": 0.6,
+     "HMI": 0.152,
+     "EWS": 0.28,
+     "OTHER": 0.512
+    },
+    "confusion_sum_over_seeds": [
+     [
+      159,
+      20,
+      33,
+      53
+     ],
+     [
+      79,
+      25,
+      44,
+      17
+     ],
+     [
+      12,
+      5,
+      21,
+      37
+     ],
+     [
+      127,
+      16,
+      52,
+      205
+     ]
+    ]
+   }
+  },
+  "C_all_with_payload_CONFOUNDED": {
+   "n": 181,
+   "class_counts": {
+    "PLC": 53,
+    "HMI": 33,
+    "EWS": 15,
+    "OTHER": 80
+   },
+   "majority_baseline_acc": 0.442,
+   "payload_role": {
+    "balanced_acc": 0.419,
+    "balanced_acc_std": 0.016,
+    "macro_f1": 0.381,
+    "recall": {
+     "PLC": 0.777,
+     "HMI": 0.115,
+     "EWS": 0.387,
+     "OTHER": 0.395
+    },
+    "confusion_sum_over_seeds": [
+     [
+      206,
+      34,
+      10,
+      15
+     ],
+     [
+      88,
+      19,
+      24,
+      34
+     ],
+     [
+      5,
+      11,
+      29,
+      30
+     ],
+     [
+      148,
+      45,
+      49,
+      158
+     ]
+    ]
+   },
+   "payload_role_eng": {
+    "balanced_acc": 0.466,
+    "balanced_acc_std": 0.015,
+    "macro_f1": 0.446,
+    "recall": {
+     "PLC": 0.774,
+     "HMI": 0.267,
+     "EWS": 0.387,
+     "OTHER": 0.438
+    },
+    "confusion_sum_over_seeds": [
+     [
+      205,
+      29,
+      11,
+      20
+     ],
+     [
+      82,
+      44,
+      9,
+      30
+     ],
+     [
+      5,
+      9,
+      29,
+      32
+     ],
+     [
+      151,
+      39,
+      35,
+      175
+     ]
+    ]
+   }
+  }
+ },
+ "permutation_test_A_payload_role_eng": {
+  "observed": 0.586,
+  "null_mean": 0.246,
+  "null_p95": 0.344,
+  "p_value": 0.01,
+  "n_perm": 100
+ },
+ "top_features_A_payload_role_eng_(fit on all A, descriptive only)": {
+  "ot_server_share": 0.088,
+  "c_tx_distinct": 0.062,
+  "rx_p90": 0.061,
+  "rx_med": 0.059,
+  "tx_p90": 0.057,
+  "tx_share": 0.057,
+  "tx_med": 0.053,
+  "it_service|C": 0.05,
+  "enip|S": 0.035,
+  "eng_task_share": 0.034,
+  "eng_task_n": 0.034,
+  "it_service|S": 0.032
+ },
+ "OTHER_recall_by_subtype_A_seed0": {
+  "FP_scanner_or_IT": {
+   "n": 33,
+   "recall": 0.727
+  },
+  "IED": {
+   "n": 11,
+   "recall": 0.727
+  },
+  "IO": {
+   "n": 4,
+   "recall": 0.0
+  },
+  "OTHER": {
+   "n": 11,
+   "recall": 0.636
+  },
+  "gateway_or_field_device": {
+   "n": 16,
+   "recall": 0.0
+  },
+  "network_device": {
+   "n": 2,
+   "recall": 0.0
+  }
+ }
+}

@@ -1,0 +1,190 @@
+{
+ "labels_file": "phase2_type_labels_4class_186_devices.csv",
+ "n": 165,
+ "correct": 107,
+ "acc": 0.648,
+ "majority": 0.467,
+ "by_source": {
+  "customer_site_inventory": {
+   "n": 19,
+   "correct": 1,
+   "acc": 0.053
+  },
+  "gold_nonOT_phase1_false_positive": {
+   "n": 33,
+   "correct": 30,
+   "acc": 0.909
+  },
+  "lab_inventory": {
+   "n": 22,
+   "correct": 16,
+   "acc": 0.727
+  },
+  "owner_approved_session_evidence": {
+   "n": 5,
+   "correct": 4,
+   "acc": 0.8
+  },
+  "payload_identity": {
+   "n": 57,
+   "correct": 35,
+   "acc": 0.614
+  },
+  "public_roster_4sics_netresec": {
+   "n": 8,
+   "correct": 4,
+   "acc": 0.5
+  },
+  "reviewed_provisional": {
+   "n": 7,
+   "correct": 5,
+   "acc": 0.714
+  },
+  "reviewed_session_evidence": {
+   "n": 14,
+   "correct": 12,
+   "acc": 0.857
+  }
+ },
+ "by_evidence": {
+  "NA": {
+   "n": 65,
+   "correct": 38,
+   "acc": 0.585
+  },
+  "handshake_confirms_port_rule": {
+   "n": 28,
+   "correct": 22,
+   "acc": 0.786
+  },
+  "handshake_overrides_port_rule": {
+   "n": 3,
+   "correct": 1,
+   "acc": 0.333
+  },
+  "no_evidence": {
+   "n": 15,
+   "correct": 6,
+   "acc": 0.4
+  },
+  "port_rule_only(weaker)": {
+   "n": 54,
+   "correct": 40,
+   "acc": 0.741
+  }
+ },
+ "by_subtype_class": {
+  "('EWS', 'EWS')": {
+   "n": 15,
+   "correct": 7,
+   "acc": 0.467
+  },
+  "('EXCLUDED_client_with_controller_strings', 'EWS')": {
+   "n": 5,
+   "correct": 4,
+   "acc": 0.8
+  },
+  "('FP_scanner_or_IT', 'OTHER')": {
+   "n": 33,
+   "correct": 30,
+   "acc": 0.909
+  },
+  "('HMI', 'HMI')": {
+   "n": 16,
+   "correct": 10,
+   "acc": 0.625
+  },
+  "('IED', 'OTHER')": {
+   "n": 11,
+   "correct": 10,
+   "acc": 0.909
+  },
+  "('IO', 'OTHER')": {
+   "n": 4,
+   "correct": 0,
+   "acc": 0.0
+  },
+  "('OTHER', 'OTHER')": {
+   "n": 11,
+   "correct": 7,
+   "acc": 0.636
+  },
+  "('PLC', 'PLC')": {
+   "n": 50,
+   "correct": 38,
+   "acc": 0.76
+  },
+  "('SCADA_DCS_valmet', 'HMI')": {
+   "n": 1,
+   "correct": 1,
+   "acc": 1.0
+  },
+  "('SCADA_server', 'HMI')": {
+   "n": 1,
+   "correct": 0,
+   "acc": 0.0
+  },
+  "('gateway_or_field_device', 'OTHER')": {
+   "n": 16,
+   "correct": 0,
+   "acc": 0.0
+  },
+  "('network_device', 'OTHER')": {
+   "n": 2,
+   "correct": 0,
+   "acc": 0.0
+  }
+ },
+ "other_in_NA": 55,
+ "hmi_wrong": [
+  {
+   "device_id": "DEV_1711",
+   "RF_64": "OTHER",
+   "sub_type": "HMI",
+   "source": "lab_inventory",
+   "detail": "ABB CP604"
+  },
+  {
+   "device_id": "DEV_3097",
+   "RF_64": "OTHER",
+   "sub_type": "HMI",
+   "source": "lab_inventory",
+   "detail": "FLEXEM"
+  },
+  {
+   "device_id": "DEV_0787",
+   "RF_64": "PLC",
+   "sub_type": "HMI",
+   "source": "lab_inventory",
+   "detail": "Mitsubishi GOT2000"
+  },
+  {
+   "device_id": "DEV_0425",
+   "RF_64": "PLC",
+   "sub_type": "HMI",
+   "source": "payload_identity",
+   "detail": "LLDP: SIMATIC HMI=Siemens, SIMATIC HMI, KTP700 Basic, 6AV2 123-2GB03"
+  },
+  {
+   "device_id": "DEV_1324",
+   "RF_64": "PLC",
+   "sub_type": "HMI",
+   "source": "customer_site_inventory",
+   "detail": "Industrial Device/HMI ICPDAS Co.,LTD"
+  },
+  {
+   "device_id": "DEV_0129",
+   "RF_64": "EWS",
+   "sub_type": "SCADA_server",
+   "source": "customer_site_inventory",
+   "detail": "Server/ Dell OEMR OPTI XE3"
+  },
+  {
+   "device_id": "DEV_3061",
+   "RF_64": "EWS",
+   "sub_type": "HMI",
+   "source": "reviewed_session_evidence",
+   "detail": "WinCC-side client sending read/write requests to DEV_3062 in production capture 2190."
+  }
+ ]
+}

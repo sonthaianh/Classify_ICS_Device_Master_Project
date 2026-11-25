@@ -1,0 +1,953 @@
+{
+ "n_labels": 186,
+ "class_counts_186": {
+  "PLC": 53,
+  "HMI": 33,
+  "EWS": 20,
+  "OTHER": 80
+ },
+ "A": {
+  "n": 165,
+  "class_counts": {
+   "PLC": 50,
+   "HMI": 18,
+   "EWS": 20,
+   "OTHER": 77
+  },
+  "n_groups_first_capture": 86,
+  "seeds": [
+   [
+    {
+     "fold": 0,
+     "train_n": 132,
+     "train": {
+      "PLC": 40,
+      "HMI": 14,
+      "EWS": 17,
+      "OTHER": 61
+     },
+     "test_n": 33,
+     "test": {
+      "PLC": 10,
+      "HMI": 4,
+      "EWS": 3,
+      "OTHER": 16
+     },
+     "test_groups": 11
+    },
+    {
+     "fold": 1,
+     "train_n": 132,
+     "train": {
+      "PLC": 40,
+      "HMI": 14,
+      "EWS": 16,
+      "OTHER": 62
+     },
+     "test_n": 33,
+     "test": {
+      "PLC": 10,
+      "HMI": 4,
+      "EWS": 4,
+      "OTHER": 15
+     },
+     "test_groups": 19
+    },
+    {
+     "fold": 2,
+     "train_n": 132,
+     "train": {
+      "PLC": 40,
+      "HMI": 15,
+      "EWS": 16,
+      "OTHER": 61
+     },
+     "test_n": 33,
+     "test": {
+      "PLC": 10,
+      "HMI": 3,
+      "EWS": 4,
+      "OTHER": 16
+     },
+     "test_groups": 18
+    },
+    {
+     "fold": 3,
+     "train_n": 132,
+     "train": {
+      "PLC": 40,
+      "HMI": 15,
+      "EWS": 15,
+      "OTHER": 62
+     },
+     "test_n": 33,
+     "test": {
+      "PLC": 10,
+      "HMI": 3,
+      "EWS": 5,
+      "OTHER": 15
+     },
+     "test_groups": 19
+    },
+    {
+     "fold": 4,
+     "train_n": 132,
+     "train": {
+      "PLC": 40,
+      "HMI": 14,
+      "EWS": 16,
+      "OTHER": 62
+     },
+     "test_n": 33,
+     "test": {
+      "PLC": 10,
+      "HMI": 4,
+      "EWS": 4,
+      "OTHER": 15
+     },
+     "test_groups": 19
+    }
+   ],
+   [
+    {
+     "fold": 0,
+     "train_n": 132,
+     "train": {
+      "PLC": 40,
+      "HMI": 15,
+      "EWS": 16,
+      "OTHER": 61
+     },
+     "test_n": 33,
+     "test": {
+      "PLC": 10,
+      "HMI": 3,
+      "EWS": 4,
+      "OTHER": 16
+     },
+     "test_groups": 11
+    },
+    {
+     "fold": 1,
+     "train_n": 132,
+     "train": {
+      "PLC": 40,
+      "HMI": 14,
+      "EWS": 16,
+      "OTHER": 62
+     },
+     "test_n": 33,
+     "test": {
+      "PLC": 10,
+      "HMI": 4,
+      "EWS": 4,
+      "OTHER": 15
+     },
+     "test_groups": 19
+    },
+    {
+     "fold": 2,
+     "train_n": 132,
+     "train": {
+      "PLC": 40,
+      "HMI": 14,
+      "EWS": 16,
+      "OTHER": 62
+     },
+     "test_n": 33,
+     "test": {
+      "PLC": 10,
+      "HMI": 4,
+      "EWS": 4,
+      "OTHER": 15
+     },
+     "test_groups": 18
+    },
+    {
+     "fold": 3,
+     "train_n": 132,
+     "train": {
+      "PLC": 40,
+      "HMI": 15,
+      "EWS": 15,
+      "OTHER": 62
+     },
+     "test_n": 33,
+     "test": {
+      "PLC": 10,
+      "HMI": 3,
+      "EWS": 5,
+      "OTHER": 15
+     },
+     "test_groups": 19
+    },
+    {
+     "fold": 4,
+     "train_n": 132,
+     "train": {
+      "PLC": 40,
+      "HMI": 14,
+      "EWS": 17,
+      "OTHER": 61
+     },
+     "test_n": 33,
+     "test": {
+      "PLC": 10,
+      "HMI": 4,
+      "EWS": 3,
+      "OTHER": 16
+     },
+     "test_groups": 19
+    }
+   ],
+   [
+    {
+     "fold": 0,
+     "train_n": 133,
+     "train": {
+      "PLC": 40,
+      "HMI": 15,
+      "EWS": 17,
+      "OTHER": 61
+     },
+     "test_n": 32,
+     "test": {
+      "PLC": 10,
+      "HMI": 3,
+      "EWS": 3,
+      "OTHER": 16
+     },
+     "test_groups": 10
+    },
+    {
+     "fold": 1,
+     "train_n": 132,
+     "train": {
+      "PLC": 40,
+      "HMI": 14,
+      "EWS": 16,
+      "OTHER": 62
+     },
+     "test_n": 33,
+     "test": {
+      "PLC": 10,
+      "HMI": 4,
+      "EWS": 4,
+      "OTHER": 15
+     },
+     "test_groups": 19
+    },
+    {
+     "fold": 2,
+     "train_n": 132,
+     "train": {
+      "PLC": 40,
+      "HMI": 14,
+      "EWS": 16,
+      "OTHER": 62
+     },
+     "test_n": 33,
+     "test": {
+      "PLC": 10,
+      "HMI": 4,
+      "EWS": 4,
+      "OTHER": 15
+     },
+     "test_groups": 17
+    },
+    {
+     "fold": 3,
+     "train_n": 132,
+     "train": {
+      "PLC": 40,
+      "HMI": 15,
+      "EWS": 15,
+      "OTHER": 62
+     },
+     "test_n": 33,
+     "test": {
+      "PLC": 10,
+      "HMI": 3,
+      "EWS": 5,
+      "OTHER": 15
+     },
+     "test_groups": 19
+    },
+    {
+     "fold": 4,
+     "train_n": 131,
+     "train": {
+      "PLC": 40,
+      "HMI": 14,
+      "EWS": 16,
+      "OTHER": 61
+     },
+     "test_n": 34,
+     "test": {
+      "PLC": 10,
+      "HMI": 4,
+      "EWS": 4,
+      "OTHER": 16
+     },
+     "test_groups": 21
+    }
+   ],
+   [
+    {
+     "fold": 0,
+     "train_n": 133,
+     "train": {
+      "PLC": 40,
+      "HMI": 15,
+      "EWS": 17,
+      "OTHER": 61
+     },
+     "test_n": 32,
+     "test": {
+      "PLC": 10,
+      "HMI": 3,
+      "EWS": 3,
+      "OTHER": 16
+     },
+     "test_groups": 10
+    },
+    {
+     "fold": 1,
+     "train_n": 132,
+     "train": {
+      "PLC": 40,
+      "HMI": 14,
+      "EWS": 16,
+      "OTHER": 62
+     },
+     "test_n": 33,
+     "test": {
+      "PLC": 10,
+      "HMI": 4,
+      "EWS": 4,
+      "OTHER": 15
+     },
+     "test_groups": 19
+    },
+    {
+     "fold": 2,
+     "train_n": 132,
+     "train": {
+      "PLC": 40,
+      "HMI": 15,
+      "EWS": 16,
+      "OTHER": 61
+     },
+     "test_n": 33,
+     "test": {
+      "PLC": 10,
+      "HMI": 3,
+      "EWS": 4,
+      "OTHER": 16
+     },
+     "test_groups": 18
+    },
+    {
+     "fold": 3,
+     "train_n": 131,
+     "train": {
+      "PLC": 40,
+      "HMI": 14,
+      "EWS": 15,
+      "OTHER": 62
+     },
+     "test_n": 34,
+     "test": {
+      "PLC": 10,
+      "HMI": 4,
+      "EWS": 5,
+      "OTHER": 15
+     },
+     "test_groups": 20
+    },
+    {
+     "fold": 4,
+     "train_n": 132,
+     "train": {
+      "PLC": 40,
+      "HMI": 14,
+      "EWS": 16,
+      "OTHER": 62
+     },
+     "test_n": 33,
+     "test": {
+      "PLC": 10,
+      "HMI": 4,
+      "EWS": 4,
+      "OTHER": 15
+     },
+     "test_groups": 19
+    }
+   ],
+   [
+    {
+     "fold": 0,
+     "train_n": 132,
+     "train": {
+      "PLC": 40,
+      "HMI": 14,
+      "EWS": 17,
+      "OTHER": 61
+     },
+     "test_n": 33,
+     "test": {
+      "PLC": 10,
+      "HMI": 4,
+      "EWS": 3,
+      "OTHER": 16
+     },
+     "test_groups": 11
+    },
+    {
+     "fold": 1,
+     "train_n": 132,
+     "train": {
+      "PLC": 40,
+      "HMI": 14,
+      "EWS": 16,
+      "OTHER": 62
+     },
+     "test_n": 33,
+     "test": {
+      "PLC": 10,
+      "HMI": 4,
+      "EWS": 4,
+      "OTHER": 15
+     },
+     "test_groups": 19
+    },
+    {
+     "fold": 2,
+     "train_n": 132,
+     "train": {
+      "PLC": 40,
+      "HMI": 15,
+      "EWS": 16,
+      "OTHER": 61
+     },
+     "test_n": 33,
+     "test": {
+      "PLC": 10,
+      "HMI": 3,
+      "EWS": 4,
+      "OTHER": 16
+     },
+     "test_groups": 17
+    },
+    {
+     "fold": 3,
+     "train_n": 132,
+     "train": {
+      "PLC": 40,
+      "HMI": 15,
+      "EWS": 15,
+      "OTHER": 62
+     },
+     "test_n": 33,
+     "test": {
+      "PLC": 10,
+      "HMI": 3,
+      "EWS": 5,
+      "OTHER": 15
+     },
+     "test_groups": 19
+    },
+    {
+     "fold": 4,
+     "train_n": 132,
+     "train": {
+      "PLC": 40,
+      "HMI": 14,
+      "EWS": 16,
+      "OTHER": 62
+     },
+     "test_n": 33,
+     "test": {
+      "PLC": 10,
+      "HMI": 4,
+      "EWS": 4,
+      "OTHER": 15
+     },
+     "test_groups": 20
+    }
+   ]
+  ]
+ },
+ "T": {
+  "n": 98,
+  "class_counts": {
+   "PLC": 44,
+   "HMI": 14,
+   "EWS": 15,
+   "OTHER": 25
+  },
+  "n_groups_first_capture": 53,
+  "seeds": [
+   [
+    {
+     "fold": 0,
+     "train_n": 77,
+     "train": {
+      "PLC": 36,
+      "HMI": 12,
+      "EWS": 12,
+      "OTHER": 17
+     },
+     "test_n": 21,
+     "test": {
+      "PLC": 8,
+      "HMI": 2,
+      "EWS": 3,
+      "OTHER": 8
+     },
+     "test_groups": 10
+    },
+    {
+     "fold": 1,
+     "train_n": 78,
+     "train": {
+      "PLC": 35,
+      "HMI": 12,
+      "EWS": 12,
+      "OTHER": 19
+     },
+     "test_n": 20,
+     "test": {
+      "PLC": 9,
+      "HMI": 2,
+      "EWS": 3,
+      "OTHER": 6
+     },
+     "test_groups": 9
+    },
+    {
+     "fold": 2,
+     "train_n": 79,
+     "train": {
+      "PLC": 35,
+      "HMI": 11,
+      "EWS": 12,
+      "OTHER": 21
+     },
+     "test_n": 19,
+     "test": {
+      "PLC": 9,
+      "HMI": 3,
+      "EWS": 3,
+      "OTHER": 4
+     },
+     "test_groups": 11
+    },
+    {
+     "fold": 3,
+     "train_n": 78,
+     "train": {
+      "PLC": 35,
+      "HMI": 10,
+      "EWS": 12,
+      "OTHER": 21
+     },
+     "test_n": 20,
+     "test": {
+      "PLC": 9,
+      "HMI": 4,
+      "EWS": 3,
+      "OTHER": 4
+     },
+     "test_groups": 11
+    },
+    {
+     "fold": 4,
+     "train_n": 80,
+     "train": {
+      "PLC": 35,
+      "HMI": 11,
+      "EWS": 12,
+      "OTHER": 22
+     },
+     "test_n": 18,
+     "test": {
+      "PLC": 9,
+      "HMI": 3,
+      "EWS": 3,
+      "OTHER": 3
+     },
+     "test_groups": 12
+    }
+   ],
+   [
+    {
+     "fold": 0,
+     "train_n": 77,
+     "train": {
+      "PLC": 36,
+      "HMI": 12,
+      "EWS": 12,
+      "OTHER": 17
+     },
+     "test_n": 21,
+     "test": {
+      "PLC": 8,
+      "HMI": 2,
+      "EWS": 3,
+      "OTHER": 8
+     },
+     "test_groups": 10
+    },
+    {
+     "fold": 1,
+     "train_n": 78,
+     "train": {
+      "PLC": 35,
+      "HMI": 12,
+      "EWS": 12,
+      "OTHER": 19
+     },
+     "test_n": 20,
+     "test": {
+      "PLC": 9,
+      "HMI": 2,
+      "EWS": 3,
+      "OTHER": 6
+     },
+     "test_groups": 9
+    },
+    {
+     "fold": 2,
+     "train_n": 79,
+     "train": {
+      "PLC": 35,
+      "HMI": 11,
+      "EWS": 12,
+      "OTHER": 21
+     },
+     "test_n": 19,
+     "test": {
+      "PLC": 9,
+      "HMI": 3,
+      "EWS": 3,
+      "OTHER": 4
+     },
+     "test_groups": 11
+    },
+    {
+     "fold": 3,
+     "train_n": 79,
+     "train": {
+      "PLC": 35,
+      "HMI": 10,
+      "EWS": 12,
+      "OTHER": 22
+     },
+     "test_n": 19,
+     "test": {
+      "PLC": 9,
+      "HMI": 4,
+      "EWS": 3,
+      "OTHER": 3
+     },
+     "test_groups": 10
+    },
+    {
+     "fold": 4,
+     "train_n": 79,
+     "train": {
+      "PLC": 35,
+      "HMI": 11,
+      "EWS": 12,
+      "OTHER": 21
+     },
+     "test_n": 19,
+     "test": {
+      "PLC": 9,
+      "HMI": 3,
+      "EWS": 3,
+      "OTHER": 4
+     },
+     "test_groups": 13
+    }
+   ],
+   [
+    {
+     "fold": 0,
+     "train_n": 77,
+     "train": {
+      "PLC": 36,
+      "HMI": 12,
+      "EWS": 12,
+      "OTHER": 17
+     },
+     "test_n": 21,
+     "test": {
+      "PLC": 8,
+      "HMI": 2,
+      "EWS": 3,
+      "OTHER": 8
+     },
+     "test_groups": 10
+    },
+    {
+     "fold": 1,
+     "train_n": 78,
+     "train": {
+      "PLC": 35,
+      "HMI": 12,
+      "EWS": 12,
+      "OTHER": 19
+     },
+     "test_n": 20,
+     "test": {
+      "PLC": 9,
+      "HMI": 2,
+      "EWS": 3,
+      "OTHER": 6
+     },
+     "test_groups": 9
+    },
+    {
+     "fold": 2,
+     "train_n": 79,
+     "train": {
+      "PLC": 35,
+      "HMI": 11,
+      "EWS": 12,
+      "OTHER": 21
+     },
+     "test_n": 19,
+     "test": {
+      "PLC": 9,
+      "HMI": 3,
+      "EWS": 3,
+      "OTHER": 4
+     },
+     "test_groups": 11
+    },
+    {
+     "fold": 3,
+     "train_n": 79,
+     "train": {
+      "PLC": 35,
+      "HMI": 10,
+      "EWS": 12,
+      "OTHER": 22
+     },
+     "test_n": 19,
+     "test": {
+      "PLC": 9,
+      "HMI": 4,
+      "EWS": 3,
+      "OTHER": 3
+     },
+     "test_groups": 10
+    },
+    {
+     "fold": 4,
+     "train_n": 79,
+     "train": {
+      "PLC": 35,
+      "HMI": 11,
+      "EWS": 12,
+      "OTHER": 21
+     },
+     "test_n": 19,
+     "test": {
+      "PLC": 9,
+      "HMI": 3,
+      "EWS": 3,
+      "OTHER": 4
+     },
+     "test_groups": 13
+    }
+   ],
+   [
+    {
+     "fold": 0,
+     "train_n": 77,
+     "train": {
+      "PLC": 36,
+      "HMI": 12,
+      "EWS": 12,
+      "OTHER": 17
+     },
+     "test_n": 21,
+     "test": {
+      "PLC": 8,
+      "HMI": 2,
+      "EWS": 3,
+      "OTHER": 8
+     },
+     "test_groups": 10
+    },
+    {
+     "fold": 1,
+     "train_n": 78,
+     "train": {
+      "PLC": 35,
+      "HMI": 12,
+      "EWS": 12,
+      "OTHER": 19
+     },
+     "test_n": 20,
+     "test": {
+      "PLC": 9,
+      "HMI": 2,
+      "EWS": 3,
+      "OTHER": 6
+     },
+     "test_groups": 9
+    },
+    {
+     "fold": 2,
+     "train_n": 79,
+     "train": {
+      "PLC": 35,
+      "HMI": 11,
+      "EWS": 12,
+      "OTHER": 21
+     },
+     "test_n": 19,
+     "test": {
+      "PLC": 9,
+      "HMI": 3,
+      "EWS": 3,
+      "OTHER": 4
+     },
+     "test_groups": 11
+    },
+    {
+     "fold": 3,
+     "train_n": 79,
+     "train": {
+      "PLC": 35,
+      "HMI": 10,
+      "EWS": 12,
+      "OTHER": 22
+     },
+     "test_n": 19,
+     "test": {
+      "PLC": 9,
+      "HMI": 4,
+      "EWS": 3,
+      "OTHER": 3
+     },
+     "test_groups": 10
+    },
+    {
+     "fold": 4,
+     "train_n": 79,
+     "train": {
+      "PLC": 35,
+      "HMI": 11,
+      "EWS": 12,
+      "OTHER": 21
+     },
+     "test_n": 19,
+     "test": {
+      "PLC": 9,
+      "HMI": 3,
+      "EWS": 3,
+      "OTHER": 4
+     },
+     "test_groups": 13
+    }
+   ],
+   [
+    {
+     "fold": 0,
+     "train_n": 77,
+     "train": {
+      "PLC": 36,
+      "HMI": 12,
+      "EWS": 12,
+      "OTHER": 17
+     },
+     "test_n": 21,
+     "test": {
+      "PLC": 8,
+      "HMI": 2,
+      "EWS": 3,
+      "OTHER": 8
+     },
+     "test_groups": 10
+    },
+    {
+     "fold": 1,
+     "train_n": 78,
+     "train": {
+      "PLC": 35,
+      "HMI": 12,
+      "EWS": 12,
+      "OTHER": 19
+     },
+     "test_n": 20,
+     "test": {
+      "PLC": 9,
+      "HMI": 2,
+      "EWS": 3,
+      "OTHER": 6
+     },
+     "test_groups": 9
+    },
+    {
+     "fold": 2,
+     "train_n": 79,
+     "train": {
+      "PLC": 35,
+      "HMI": 11,
+      "EWS": 12,
+      "OTHER": 21
+     },
+     "test_n": 19,
+     "test": {
+      "PLC": 9,
+      "HMI": 3,
+      "EWS": 3,
+      "OTHER": 4
+     },
+     "test_groups": 11
+    },
+    {
+     "fold": 3,
+     "train_n": 79,
+     "train": {
+      "PLC": 35,
+      "HMI": 10,
+      "EWS": 12,
+      "OTHER": 22
+     },
+     "test_n": 19,
+     "test": {
+      "PLC": 9,
+      "HMI": 4,
+      "EWS": 3,
+      "OTHER": 3
+     },
+     "test_groups": 10
+    },
+    {
+     "fold": 4,
+     "train_n": 79,
+     "train": {
+      "PLC": 35,
+      "HMI": 11,
+      "EWS": 12,
+      "OTHER": 21
+     },
+     "test_n": 19,
+     "test": {
+      "PLC": 9,
+      "HMI": 3,
+      "EWS": 3,
+      "OTHER": 4
+     },
+     "test_groups": 13
+    }
+   ]
+  ]
+ }
+}

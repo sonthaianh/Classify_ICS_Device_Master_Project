@@ -1,0 +1,19 @@
+{
+ "total": 122,
+ "counts": {
+  "PLC": 40,
+  "HMI": 11,
+  "EWS": 15,
+  "OTHER": 56
+ },
+ "added": 33,
+ "added_by_gold_source": {
+  "blind_sheet_reviewed_sonthai": 18,
+  "capture_scenario_provisional": 13,
+  "lab_inventory": 2
+ },
+ "added_with_role_profile": 22,
+ "added_without_role_profile": 11,
+ "meets_minimum_each_class_ge_10_total_ge_100": true,
+ "note": "33 nhan OTHER moi: 18 sonthai ra soat + 13 capture mau tam thoi + 2 lab; chua chuyen gia xac nhan"
+}

@@ -1,0 +1,361 @@
+{
+ "status": "A2: stage 1 with 13 features (2 port-count features removed); frozen results untouched",
+ "features_15": [
+  "pkts_per_flow",
+  "bytes_per_packet",
+  "udp_ratio",
+  "packet_rate",
+  "small_flow_ratio",
+  "one_way_flow_ratio",
+  "flow_dur_median",
+  "unique_local_port_count",
+  "svc_port_unique",
+  "arp_frame_count",
+  "arp_target_unique",
+  "icmp_frame_count",
+  "nonip_frame_count",
+  "bcast_frame_ratio",
+  "carryover_flow_ratio"
+ ],
+ "features_13": [
+  "pkts_per_flow",
+  "bytes_per_packet",
+  "udp_ratio",
+  "packet_rate",
+  "small_flow_ratio",
+  "one_way_flow_ratio",
+  "flow_dur_median",
+  "arp_frame_count",
+  "arp_target_unique",
+  "icmp_frame_count",
+  "nonip_frame_count",
+  "bcast_frame_ratio",
+  "carryover_flow_ratio"
+ ],
+ "removed": [
+  "svc_port_unique",
+  "unique_local_port_count"
+ ],
+ "n_devices": 3923,
+ "n_windows": 768927,
+ "K_train_windows": 20,
+ "threshold": 0.5,
+ "variants": {
+  "15_features": {
+   "fold_device": {
+    "reference_label_roc_auc_pooled": 0.928,
+    "reference_label_pr_auc_pooled": 0.836,
+    "roc_auc_per_fold": [
+     0.922,
+     0.914,
+     0.944,
+     0.945,
+     0.922
+    ],
+    "roc_auc_fold_mean": 0.929,
+    "share_devices_score_ge_0.5": 0.286,
+    "n_devices_score_ge_0.5": 1123,
+    "gold_184": {
+     "n_OT": 65,
+     "n_nonOT": 119,
+     "roc_auc": 0.819,
+     "pr_auc": 0.748,
+     "at_0.5": {
+      "OT_recall": 0.846,
+      "nonOT_flagged": 0.277,
+      "balanced_acc": 0.784,
+      "confusion_TP_FN_FP_TN": [
+       55,
+       10,
+       33,
+       86
+      ]
+     },
+     "threshold_table": {
+      "0.2": {
+       "OT_recall": 0.892,
+       "nonOT_flagged": 0.681,
+       "balanced_acc": 0.606,
+       "youden_J": 0.212
+      },
+      "0.3": {
+       "OT_recall": 0.862,
+       "nonOT_flagged": 0.521,
+       "balanced_acc": 0.67,
+       "youden_J": 0.341
+      },
+      "0.4": {
+       "OT_recall": 0.862,
+       "nonOT_flagged": 0.387,
+       "balanced_acc": 0.737,
+       "youden_J": 0.475
+      },
+      "0.5": {
+       "OT_recall": 0.846,
+       "nonOT_flagged": 0.277,
+       "balanced_acc": 0.784,
+       "youden_J": 0.569
+      },
+      "0.6": {
+       "OT_recall": 0.785,
+       "nonOT_flagged": 0.218,
+       "balanced_acc": 0.783,
+       "youden_J": 0.566
+      },
+      "0.7": {
+       "OT_recall": 0.738,
+       "nonOT_flagged": 0.176,
+       "balanced_acc": 0.781,
+       "youden_J": 0.562
+      }
+     }
+    }
+   },
+   "fold_component": {
+    "reference_label_roc_auc_pooled": 0.858,
+    "reference_label_pr_auc_pooled": 0.666,
+    "roc_auc_per_fold": [
+     0.861,
+     0.832,
+     0.791,
+     0.826,
+     0.814
+    ],
+    "roc_auc_fold_mean": 0.825,
+    "share_devices_score_ge_0.5": 0.36,
+    "n_devices_score_ge_0.5": 1412,
+    "gold_184": {
+     "n_OT": 65,
+     "n_nonOT": 119,
+     "roc_auc": 0.796,
+     "pr_auc": 0.649,
+     "at_0.5": {
+      "OT_recall": 0.754,
+      "nonOT_flagged": 0.294,
+      "balanced_acc": 0.73,
+      "confusion_TP_FN_FP_TN": [
+       49,
+       16,
+       35,
+       84
+      ]
+     },
+     "threshold_table": {
+      "0.2": {
+       "OT_recall": 0.938,
+       "nonOT_flagged": 0.723,
+       "balanced_acc": 0.608,
+       "youden_J": 0.216
+      },
+      "0.3": {
+       "OT_recall": 0.923,
+       "nonOT_flagged": 0.571,
+       "balanced_acc": 0.676,
+       "youden_J": 0.352
+      },
+      "0.4": {
+       "OT_recall": 0.846,
+       "nonOT_flagged": 0.437,
+       "balanced_acc": 0.705,
+       "youden_J": 0.409
+      },
+      "0.5": {
+       "OT_recall": 0.754,
+       "nonOT_flagged": 0.294,
+       "balanced_acc": 0.73,
+       "youden_J": 0.46
+      },
+      "0.6": {
+       "OT_recall": 0.723,
+       "nonOT_flagged": 0.218,
+       "balanced_acc": 0.752,
+       "youden_J": 0.505
+      },
+      "0.7": {
+       "OT_recall": 0.615,
+       "nonOT_flagged": 0.143,
+       "balanced_acc": 0.736,
+       "youden_J": 0.473
+      }
+     }
+    }
+   }
+  },
+  "13_features": {
+   "fold_device": {
+    "reference_label_roc_auc_pooled": 0.926,
+    "reference_label_pr_auc_pooled": 0.829,
+    "roc_auc_per_fold": [
+     0.92,
+     0.91,
+     0.942,
+     0.941,
+     0.921
+    ],
+    "roc_auc_fold_mean": 0.927,
+    "share_devices_score_ge_0.5": 0.3,
+    "n_devices_score_ge_0.5": 1176,
+    "gold_184": {
+     "n_OT": 65,
+     "n_nonOT": 119,
+     "roc_auc": 0.827,
+     "pr_auc": 0.77,
+     "at_0.5": {
+      "OT_recall": 0.846,
+      "nonOT_flagged": 0.345,
+      "balanced_acc": 0.751,
+      "confusion_TP_FN_FP_TN": [
+       55,
+       10,
+       41,
+       78
+      ]
+     },
+     "threshold_table": {
+      "0.2": {
+       "OT_recall": 0.923,
+       "nonOT_flagged": 0.681,
+       "balanced_acc": 0.621,
+       "youden_J": 0.242
+      },
+      "0.3": {
+       "OT_recall": 0.892,
+       "nonOT_flagged": 0.521,
+       "balanced_acc": 0.686,
+       "youden_J": 0.371
+      },
+      "0.4": {
+       "OT_recall": 0.862,
+       "nonOT_flagged": 0.412,
+       "balanced_acc": 0.725,
+       "youden_J": 0.45
+      },
+      "0.5": {
+       "OT_recall": 0.846,
+       "nonOT_flagged": 0.345,
+       "balanced_acc": 0.751,
+       "youden_J": 0.502
+      },
+      "0.6": {
+       "OT_recall": 0.754,
+       "nonOT_flagged": 0.244,
+       "balanced_acc": 0.755,
+       "youden_J": 0.51
+      },
+      "0.7": {
+       "OT_recall": 0.692,
+       "nonOT_flagged": 0.168,
+       "balanced_acc": 0.762,
+       "youden_J": 0.524
+      }
+     }
+    }
+   },
+   "fold_component": {
+    "reference_label_roc_auc_pooled": 0.846,
+    "reference_label_pr_auc_pooled": 0.627,
+    "roc_auc_per_fold": [
+     0.855,
+     0.822,
+     0.795,
+     0.77,
+     0.797
+    ],
+    "roc_auc_fold_mean": 0.808,
+    "share_devices_score_ge_0.5": 0.368,
+    "n_devices_score_ge_0.5": 1443,
+    "gold_184": {
+     "n_OT": 65,
+     "n_nonOT": 119,
+     "roc_auc": 0.788,
+     "pr_auc": 0.661,
+     "at_0.5": {
+      "OT_recall": 0.754,
+      "nonOT_flagged": 0.319,
+      "balanced_acc": 0.717,
+      "confusion_TP_FN_FP_TN": [
+       49,
+       16,
+       38,
+       81
+      ]
+     },
+     "threshold_table": {
+      "0.2": {
+       "OT_recall": 0.923,
+       "nonOT_flagged": 0.756,
+       "balanced_acc": 0.583,
+       "youden_J": 0.167
+      },
+      "0.3": {
+       "OT_recall": 0.892,
+       "nonOT_flagged": 0.529,
+       "balanced_acc": 0.681,
+       "youden_J": 0.363
+      },
+      "0.4": {
+       "OT_recall": 0.892,
+       "nonOT_flagged": 0.429,
+       "balanced_acc": 0.732,
+       "youden_J": 0.464
+      },
+      "0.5": {
+       "OT_recall": 0.754,
+       "nonOT_flagged": 0.319,
+       "balanced_acc": 0.717,
+       "youden_J": 0.435
+      },
+      "0.6": {
+       "OT_recall": 0.754,
+       "nonOT_flagged": 0.218,
+       "balanced_acc": 0.768,
+       "youden_J": 0.535
+      },
+      "0.7": {
+       "OT_recall": 0.631,
+       "nonOT_flagged": 0.168,
+       "balanced_acc": 0.731,
+       "youden_J": 0.463
+      }
+     }
+    }
+   }
+  }
+ },
+ "reproduction_check_15_features_vs_frozen_oof": {
+  "max_abs_diff": 4.999557364104845e-06,
+  "frozen_gold_roc_auc": 0.819
+ },
+ "paired_13_minus_15": {
+  "gold_184_roc_auc_diff": {
+   "point": 0.008,
+   "ci95": [
+    -0.009,
+    0.027
+   ]
+  },
+  "gold_184_OT_recall_diff_at_0.5": {
+   "point": 0.0,
+   "ci95": [
+    -0.045,
+    0.044
+   ]
+  },
+  "gold_184_nonOT_flagged_diff_at_0.5": {
+   "point": 0.067,
+   "ci95": [
+    0.017,
+    0.12
+   ]
+  },
+  "reference_label_roc_auc_diff_fold_device": {
+   "point": -0.003,
+   "ci95": [
+    -0.005,
+    -0.0
+   ],
+   "bootstrap_B": 500
+  },
+  "devices_changing_side_of_0.5": 123
+ }
+}

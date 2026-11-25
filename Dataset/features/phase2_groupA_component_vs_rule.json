@@ -1,0 +1,36 @@
+{
+ "indep160": {
+  "n": 139,
+  "RF64_component_split_mean_60_runs": 0.454,
+  "rule": 0.433,
+  "diff": 0.021,
+  "ci95": [
+   -0.077,
+   0.129
+  ],
+  "share_le_0": 0.358,
+  "recall_component_split": {
+   "PLC": 0.772,
+   "HMI": 0.292,
+   "EWS": 0.2,
+   "OTHER": 0.553
+  }
+ },
+ "x186": {
+  "n": 165,
+  "RF64_component_split_mean_60_runs": 0.594,
+  "rule": 0.466,
+  "diff": 0.128,
+  "ci95": [
+   0.048,
+   0.207
+  ],
+  "share_le_0": 0.0,
+  "recall_component_split": {
+   "PLC": 0.733,
+   "HMI": 0.645,
+   "EWS": 0.45,
+   "OTHER": 0.548
+  }
+ }
+}

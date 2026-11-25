@@ -1,0 +1,7 @@
+﻿device_id,type4,sub_type,source,confidence,detail,tier1_role,role_evidence,gold_source
+DEV_17251,PLC,PLC,public_roster_4sics_netresec,high,,,,public_roster_4sics_netresec
+DEV_17259,OTHER,OTHER,public_roster_4sics_netresec,high,,,,public_roster_4sics_netresec
+DEV_17255,OTHER,OTHER,public_roster_4sics_netresec,high,,,,public_roster_4sics_netresec
+DEV_17246,OTHER,OTHER,public_roster_4sics_netresec,high,,,,public_roster_4sics_netresec
+DEV_17261,OTHER,OTHER,public_roster_4sics_netresec,high,,,,public_roster_4sics_netresec
+DEV_17234,PLC,PLC,public_roster_4sics_netresec,high,,,,public_roster_4sics_netresec

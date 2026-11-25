@@ -1,0 +1,62 @@
+{
+ "status": "EXPLORATORY - labels partly sonthai-reviewed and unverified; n small",
+ "class_counts": {
+  "PLC": 31,
+  "IED": 21,
+  "HMI": 10
+ },
+ "n": 62,
+ "majority_baseline_balanced_acc": 0.333,
+ "behaviour_only": {
+  "balanced_acc_mean_over_5_cv_seeds": 0.591,
+  "std": 0.022,
+  "confusion_labels": [
+   "HMI",
+   "IED",
+   "PLC"
+  ],
+  "confusion_seed0": [
+   [
+    3,
+    1,
+    6
+   ],
+   [
+    0,
+    14,
+    7
+   ],
+   [
+    2,
+    3,
+    26
+   ]
+  ]
+ },
+ "behaviour_plus_protocol_bucket": {
+  "balanced_acc_mean_over_5_cv_seeds": 0.619,
+  "std": 0.025,
+  "confusion_labels": [
+   "HMI",
+   "IED",
+   "PLC"
+  ],
+  "confusion_seed0": [
+   [
+    3,
+    0,
+    7
+   ],
+   [
+    0,
+    14,
+    7
+   ],
+   [
+    3,
+    1,
+    27
+   ]
+  ]
+ }
+}

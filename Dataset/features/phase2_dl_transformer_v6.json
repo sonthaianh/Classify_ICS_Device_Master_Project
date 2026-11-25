@@ -1,0 +1,229 @@
+{
+ "status": "EXPLORATORY - Transformer on event sequences; same labels/folds/metric/budget as the CNN (script 62); architecture fixed a priori",
+ "architecture": {
+  "d_model": 64,
+  "layers": 2,
+  "heads": 4,
+  "ff": 128,
+  "dropout": 0.1,
+  "window": 256,
+  "params": 118552,
+  "train_steps": 30
+ },
+ "chance_balanced_acc": 0.25,
+ "A_profiled|all_labels": {
+  "n": 117,
+  "class_counts": {
+   "PLC": 37,
+   "HMI": 11,
+   "EWS": 15,
+   "OTHER": 54
+  },
+  "pretrained": {
+   "balanced_acc": 0.597,
+   "balanced_acc_std": 0.041,
+   "macro_f1": 0.603,
+   "recall": {
+    "PLC": 0.714,
+    "HMI": 0.455,
+    "EWS": 0.4,
+    "OTHER": 0.819
+   },
+   "confusion_sum_over_seeds": [
+    [
+     132,
+     13,
+     14,
+     26
+    ],
+    [
+     8,
+     25,
+     12,
+     10
+    ],
+    [
+     13,
+     3,
+     30,
+     29
+    ],
+    [
+     27,
+     10,
+     12,
+     221
+    ]
+   ]
+  },
+  "scratch": {
+   "balanced_acc": 0.562,
+   "balanced_acc_std": 0.022,
+   "macro_f1": 0.54,
+   "recall": {
+    "PLC": 0.622,
+    "HMI": 0.6,
+    "EWS": 0.387,
+    "OTHER": 0.641
+   },
+   "confusion_sum_over_seeds": [
+    [
+     115,
+     20,
+     28,
+     22
+    ],
+    [
+     10,
+     33,
+     5,
+     7
+    ],
+    [
+     15,
+     3,
+     29,
+     28
+    ],
+    [
+     32,
+     17,
+     48,
+     173
+    ]
+   ]
+  }
+ },
+ "pretrain": {
+  "masked_symbol_acc": 0.78,
+  "most_common_baseline": 0.088,
+  "steps": 700,
+  "devices": 1069,
+  "vocab": 992
+ },
+ "T_tokens|all_labels": {
+  "n": 67,
+  "class_counts": {
+   "PLC": 33,
+   "HMI": 9,
+   "EWS": 10,
+   "OTHER": 15
+  },
+  "pretrained": {
+   "balanced_acc": 0.656,
+   "balanced_acc_std": 0.014,
+   "macro_f1": 0.641,
+   "recall": {
+    "PLC": 0.703,
+    "HMI": 0.6,
+    "EWS": 0.68,
+    "OTHER": 0.64
+   },
+   "confusion_sum_over_seeds": [
+    [
+     116,
+     17,
+     13,
+     19
+    ],
+    [
+     6,
+     27,
+     12,
+     0
+    ],
+    [
+     5,
+     4,
+     34,
+     7
+    ],
+    [
+     23,
+     0,
+     4,
+     48
+    ]
+   ]
+  },
+  "scratch": {
+   "balanced_acc": 0.604,
+   "balanced_acc_std": 0.023,
+   "macro_f1": 0.571,
+   "recall": {
+    "PLC": 0.539,
+    "HMI": 0.644,
+    "EWS": 0.58,
+    "OTHER": 0.653
+   },
+   "confusion_sum_over_seeds": [
+    [
+     89,
+     23,
+     26,
+     27
+    ],
+    [
+     8,
+     29,
+     4,
+     4
+    ],
+    [
+     9,
+     5,
+     29,
+     7
+    ],
+    [
+     18,
+     2,
+     6,
+     49
+    ]
+   ]
+  }
+ },
+ "reference_balanced_acc": {
+  "cnn": {
+   "A_profiled_101|all_labels": {
+    "scratch": 0.567,
+    "pretrained": 0.537
+   },
+   "A_profiled_101|strict": {
+    "scratch": 0.499,
+    "pretrained": 0.487
+   },
+   "T_tokens_65|all_labels": {
+    "scratch": 0.625,
+    "pretrained": 0.645
+   },
+   "T_tokens_65|strict": {
+    "scratch": 0.528,
+    "pretrained": 0.536
+   }
+  },
+  "mlp": {
+   "A_profiled_101|all_labels": {
+    "behaviour": 0.297,
+    "payload_role": 0.516,
+    "payload_role_eng": 0.56,
+    "behaviour_payload_role_eng": 0.56
+   },
+   "A_profiled_101|strict": {
+    "behaviour": 0.287,
+    "payload_role": 0.506,
+    "payload_role_eng": 0.508,
+    "behaviour_payload_role_eng": 0.495
+   },
+   "T_tokens_65|all_labels": {
+    "payload_role": 0.55,
+    "payload_role_eng": 0.622
+   },
+   "T_tokens_65|strict": {
+    "payload_role": 0.52,
+    "payload_role_eng": 0.532
+   }
+  }
+ }
+}

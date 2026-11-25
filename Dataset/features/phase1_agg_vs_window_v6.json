@@ -1,0 +1,112 @@
+{
+ "status": "CANDIDATE evaluation (selection of variant on rule-label metrics, not on gold)",
+ "n_gold": 184,
+ "gold_ot": 65,
+ "gold_nonot": 119,
+ "population": {
+  "window_lightgbm_frozen": {
+   "roc": 0.928,
+   "pr": 0.836
+  },
+  "agg60_device": {
+   "roc": 0.953,
+   "pr": 0.901
+  },
+  "agg15mean_device": {
+   "roc": 0.945,
+   "pr": 0.885
+  },
+  "agg60_strict": {
+   "roc": 0.873,
+   "pr": 0.717
+  },
+  "agg15mean_strict": {
+   "roc": 0.862,
+   "pr": 0.676
+  }
+ },
+ "gold": {
+  "window_lightgbm_frozen": {
+   "roc": 0.819,
+   "pr": 0.748,
+   "best_threshold_youden": 0.65,
+   "best_youden_j": 0.577,
+   "recall_at_nonot_flagged_<=0.20": 0.769,
+   "recall_at_nonot_flagged_<=0.28": 0.846,
+   "roc_by_source_when_both_classes": {
+    "blind_sheet_reviewed_sonthai": 0.812,
+    "lab_inventory": 0.455
+   }
+  },
+  "agg60_device": {
+   "roc": 0.857,
+   "pr": 0.783,
+   "best_threshold_youden": 0.65,
+   "best_youden_j": 0.635,
+   "recall_at_nonot_flagged_<=0.20": 0.8,
+   "recall_at_nonot_flagged_<=0.28": 0.831,
+   "roc_by_source_when_both_classes": {
+    "blind_sheet_reviewed_sonthai": 0.829,
+    "lab_inventory": 0.045
+   },
+   "delta_vs_frozen_window": {
+    "roc": [
+     0.037,
+     -0.005,
+     0.08
+    ],
+    "pr": [
+     0.037,
+     -0.054,
+     0.133
+    ]
+   }
+  },
+  "agg15mean_device": {
+   "roc": 0.847,
+   "pr": 0.773,
+   "best_threshold_youden": 0.7,
+   "best_youden_j": 0.653,
+   "recall_at_nonot_flagged_<=0.20": 0.815,
+   "recall_at_nonot_flagged_<=0.28": 0.815,
+   "roc_by_source_when_both_classes": {
+    "blind_sheet_reviewed_sonthai": 0.832,
+    "lab_inventory": 0.045
+   },
+   "delta_vs_frozen_window": {
+    "roc": [
+     0.027,
+     -0.013,
+     0.07
+    ],
+    "pr": [
+     0.027,
+     -0.06,
+     0.109
+    ]
+   }
+  },
+  "agg60_strict": {
+   "roc": 0.785,
+   "pr": 0.641,
+   "best_threshold_youden": 0.7,
+   "best_youden_j": 0.562,
+   "recall_at_nonot_flagged_<=0.20": 0.754,
+   "recall_at_nonot_flagged_<=0.28": 0.754,
+   "roc_by_source_when_both_classes": {
+    "blind_sheet_reviewed_sonthai": 0.737,
+    "lab_inventory": 0.091
+   }
+  }
+ },
+ "population_flagged": {
+  "threshold_candidate": 0.65,
+  "frozen_window@0.5": 1123,
+  "agg60@candidate": 841,
+  "both": 789,
+  "only_old": 334,
+  "only_new": 52,
+  "rule_OT_recall_candidate": 0.78,
+  "rule_precision_candidate": 0.861
+ }
+}

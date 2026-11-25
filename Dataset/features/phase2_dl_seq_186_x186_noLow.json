@@ -1,0 +1,175 @@
+{
+ "status": "EXPLORATORY retrain on 186 labels; frozen results untouched",
+ "labels_file": "phase2_type_labels_4class_186_devices_x186_noLow.csv",
+ "chance_balanced_acc": 0.25,
+ "pretrain": {
+  "masked_symbol_acc": 0.828,
+  "most_common_baseline": 0.087
+ },
+ "A_profiled|all_labels": {
+  "n": 158,
+  "class_counts": {
+   "PLC": 48,
+   "HMI": 16,
+   "EWS": 19,
+   "OTHER": 75
+  },
+  "scratch": {
+   "balanced_acc": 0.57,
+   "balanced_acc_std": 0.056,
+   "macro_f1": 0.552,
+   "recall": {
+    "PLC": 0.688,
+    "HMI": 0.575,
+    "EWS": 0.432,
+    "OTHER": 0.584
+   },
+   "confusion_sum_over_seeds": [
+    [
+     165,
+     18,
+     27,
+     30
+    ],
+    [
+     15,
+     46,
+     10,
+     9
+    ],
+    [
+     24,
+     4,
+     41,
+     26
+    ],
+    [
+     100,
+     29,
+     27,
+     219
+    ]
+   ]
+  },
+  "pretrained": {
+   "balanced_acc": 0.564,
+   "balanced_acc_std": 0.031,
+   "macro_f1": 0.544,
+   "recall": {
+    "PLC": 0.692,
+    "HMI": 0.562,
+    "EWS": 0.411,
+    "OTHER": 0.589
+   },
+   "confusion_sum_over_seeds": [
+    [
+     166,
+     25,
+     17,
+     32
+    ],
+    [
+     9,
+     45,
+     15,
+     11
+    ],
+    [
+     23,
+     14,
+     39,
+     19
+    ],
+    [
+     98,
+     37,
+     19,
+     221
+    ]
+   ]
+  }
+ },
+ "T_tokens|all_labels": {
+  "n": 92,
+  "class_counts": {
+   "PLC": 42,
+   "HMI": 12,
+   "EWS": 14,
+   "OTHER": 24
+  },
+  "scratch": {
+   "balanced_acc": 0.606,
+   "balanced_acc_std": 0.047,
+   "macro_f1": 0.594,
+   "recall": {
+    "PLC": 0.71,
+    "HMI": 0.633,
+    "EWS": 0.614,
+    "OTHER": 0.467
+   },
+   "confusion_sum_over_seeds": [
+    [
+     149,
+     14,
+     22,
+     25
+    ],
+    [
+     11,
+     38,
+     10,
+     1
+    ],
+    [
+     14,
+     9,
+     43,
+     4
+    ],
+    [
+     44,
+     5,
+     15,
+     56
+    ]
+   ]
+  },
+  "pretrained": {
+   "balanced_acc": 0.61,
+   "balanced_acc_std": 0.025,
+   "macro_f1": 0.603,
+   "recall": {
+    "PLC": 0.748,
+    "HMI": 0.633,
+    "EWS": 0.6,
+    "OTHER": 0.458
+   },
+   "confusion_sum_over_seeds": [
+    [
+     157,
+     18,
+     14,
+     21
+    ],
+    [
+     8,
+     38,
+     14,
+     0
+    ],
+    [
+     13,
+     10,
+     42,
+     5
+    ],
+    [
+     53,
+     3,
+     9,
+     55
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,258 @@
+{
+ "dcs_sensitivity": {
+  "as_is_HMI": {
+   "n_labels": 186,
+   "n_profiled": 165,
+   "stage2_only_profiled_bal_acc": [
+    0.641,
+    0.03
+   ],
+   "e2e_bal_acc_missing_wrong": [
+    0.553,
+    0.028
+   ],
+   "e2e_bal_acc_missing_OTHER": [
+    0.559,
+    0.028
+   ],
+   "e2e_ot3_accuracy": [
+    0.587,
+    0.02
+   ],
+   "e2e_recall_by_class": {
+    "PLC": 0.743,
+    "HMI": 0.358,
+    "EWS": 0.55,
+    "OTHER": 0.56
+   }
+  },
+  "DCS_as_PLC": {
+   "n_labels": 186,
+   "n_profiled": 165,
+   "stage2_only_profiled_bal_acc": [
+    0.631,
+    0.027
+   ],
+   "e2e_bal_acc_missing_wrong": [
+    0.55,
+    0.024
+   ],
+   "e2e_bal_acc_missing_OTHER": [
+    0.556,
+    0.024
+   ],
+   "e2e_ot3_accuracy": [
+    0.585,
+    0.026
+   ],
+   "e2e_recall_by_class": {
+    "PLC": 0.655,
+    "HMI": 0.425,
+    "EWS": 0.56,
+    "OTHER": 0.56
+   }
+  },
+  "DCS_excluded": {
+   "n_labels": 177,
+   "n_profiled": 164,
+   "stage2_only_profiled_bal_acc": [
+    0.645,
+    0.012
+   ],
+   "e2e_bal_acc_missing_wrong": [
+    0.586,
+    0.011
+   ],
+   "e2e_bal_acc_missing_OTHER": [
+    0.593,
+    0.011
+   ],
+   "e2e_ot3_accuracy": [
+    0.645,
+    0.021
+   ],
+   "e2e_recall_by_class": {
+    "PLC": 0.762,
+    "HMI": 0.433,
+    "EWS": 0.59,
+    "OTHER": 0.56
+   }
+  }
+ },
+ "accuracy_by_confidence_and_source": [
+  {
+   "by": "confidence",
+   "value": "high",
+   "n": 66,
+   "accuracy_mean": 0.485,
+   "accuracy_sd": 0.044,
+   "classes": {
+    "OTHER": 32,
+    "PLC": 23,
+    "HMI": 11
+   }
+  },
+  {
+   "by": "confidence",
+   "value": "low",
+   "n": 20,
+   "accuracy_mean": 0.83,
+   "accuracy_sd": 0.051,
+   "classes": {
+    "OTHER": 15,
+    "HMI": 2,
+    "PLC": 2,
+    "EWS": 1
+   }
+  },
+  {
+   "by": "confidence",
+   "value": "medium",
+   "n": 79,
+   "accuracy_mean": 0.727,
+   "accuracy_sd": 0.045,
+   "classes": {
+    "OTHER": 30,
+    "PLC": 25,
+    "EWS": 19,
+    "HMI": 5
+   }
+  },
+  {
+   "by": "source",
+   "value": "customer_site_inventory",
+   "n": 19,
+   "accuracy_mean": 0.137,
+   "accuracy_sd": 0.071,
+   "classes": {
+    "OTHER": 16,
+    "HMI": 3
+   }
+  },
+  {
+   "by": "source",
+   "value": "gold_nonOT_phase1_false_positive",
+   "n": 33,
+   "accuracy_mean": 0.891,
+   "accuracy_sd": 0.015,
+   "classes": {
+    "OTHER": 33
+   }
+  },
+  {
+   "by": "source",
+   "value": "lab_inventory",
+   "n": 22,
+   "accuracy_mean": 0.727,
+   "accuracy_sd": 0.0,
+   "classes": {
+    "PLC": 13,
+    "HMI": 8,
+    "OTHER": 1
+   }
+  },
+  {
+   "by": "source",
+   "value": "owner_approved_session_evidence",
+   "n": 5,
+   "accuracy_mean": 0.8,
+   "accuracy_sd": 0.0,
+   "classes": {
+    "EWS": 5
+   }
+  },
+  {
+   "by": "source",
+   "value": "payload_identity",
+   "n": 57,
+   "accuracy_mean": 0.607,
+   "accuracy_sd": 0.056,
+   "classes": {
+    "PLC": 24,
+    "OTHER": 20,
+    "EWS": 10,
+    "HMI": 3
+   }
+  },
+  {
+   "by": "source",
+   "value": "public_roster_4sics_netresec",
+   "n": 8,
+   "accuracy_mean": 0.4,
+   "accuracy_sd": 0.094,
+   "classes": {
+    "OTHER": 5,
+    "PLC": 3
+   }
+  },
+  {
+   "by": "source",
+   "value": "reviewed_provisional",
+   "n": 7,
+   "accuracy_mean": 0.629,
+   "accuracy_sd": 0.114,
+   "classes": {
+    "HMI": 2,
+    "PLC": 2,
+    "OTHER": 2,
+    "EWS": 1
+   }
+  },
+  {
+   "by": "source",
+   "value": "reviewed_session_evidence",
+   "n": 14,
+   "accuracy_mean": 0.843,
+   "accuracy_sd": 0.07,
+   "classes": {
+    "PLC": 8,
+    "EWS": 4,
+    "HMI": 2
+   }
+  }
+ ],
+ "frozen_test_high_confidence": {
+  "n_repeats_used": 22,
+  "mean_test_size": 25.1,
+  "balanced_acc_by_training_version": {
+   "122": [
+    0.474,
+    0.141,
+    21
+   ],
+   "165": [
+    0.486,
+    0.112,
+    22
+   ],
+   "186": [
+    0.516,
+    0.153,
+    22
+   ],
+   "186_without_21_reviewed": [
+    0.486,
+    0.112,
+    22
+   ]
+  },
+  "note": "test = high-confidence devices inside ~30% of connected components; train = devices in the other components that belong to the label version"
+ },
+ "one_stage_RF64_on_all_186": {
+  "balanced_acc": [
+   0.532,
+   0.015
+  ],
+  "ot3_accuracy_106": [
+   0.581,
+   0.011
+  ],
+  "recall_by_class": {
+   "PLC": 0.804,
+   "HMI": 0.242,
+   "EWS": 0.55,
+   "OTHER": 0.53
+  },
+  "note": "no stage-1 gate; devices without payload profile keep behaviour columns only; same labels and grouped folds; OTHER holds only 33 stage-1 false positives plus IT/network labels, not all non-OT devices"
+ }
+}

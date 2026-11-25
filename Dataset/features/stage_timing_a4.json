@@ -1,0 +1,274 @@
+{
+ "date": "2026-11-25",
+ "machine": {
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",
+  "logical_cpus": 22,
+  "python": "3.14.10"
+ },
+ "note": "wall-clock, single process; model inference uses the library defaults for threads; offline payload extraction of the full data set (script 67, 6 worker processes) took 460 s for 1,473 files (log phase2_payload_full_run.log)",
+ "payload_volume": {
+  "all_raw_parquet_files": {
+   "files": 2230,
+   "GB": 116.4
+  },
+  "without_stage1_gate_all_stage1_devices": {
+   "devices": 3923,
+   "device_capture_pairs": 14335,
+   "files": 1664,
+   "raw_parquet_GB": 29.9,
+   "raw_parquet_bytes": 32084761542,
+   "windows": 768927
+  },
+  "with_stage1_gate_score_ge_0.5": {
+   "devices": 1123,
+   "device_capture_pairs": 7536,
+   "files": 1473,
+   "raw_parquet_GB": 29.3,
+   "raw_parquet_bytes": 31439198893,
+   "windows": 451389
+  },
+  "with_stage1_gate_as_used_script67_pool_plus_lab_OT": {
+   "devices": 1126,
+   "device_capture_pairs": 7543,
+   "files": 1473,
+   "raw_parquet_GB": 29.3,
+   "raw_parquet_bytes": 31439198893,
+   "windows": 451403
+  },
+  "n_devices_stage1": 3923,
+  "n_devices_score_ge_0.5": 1123,
+  "missing_raw_files": 0,
+  "reduction_with_gate": {
+   "devices": 0.713,
+   "files": 0.115,
+   "GB": 0.02,
+   "device_capture_pairs": 0.474
+  }
+ },
+ "model_inference_on_extracted_features": {
+  "stage1_lightgbm": {
+   "n_devices": 3923,
+   "n_windows": 768927,
+   "n_features": 15,
+   "batch_all_windows_s": 3.242,
+   "ms_per_device_batch": 0.826,
+   "ms_per_window_batch": 0.00418,
+   "ms_single_device_20_windows": 1.14
+  },
+  "stage2_random_forest": {
+   "n_trees": 500,
+   "n_features": 64,
+   "n_devices_batch": 1123,
+   "batch_s": 0.095,
+   "ms_per_device_batch": 0.084,
+   "ms_single_device": 70.8
+  }
+ },
+ "prototype_on_sample_pcap": {
+  "files": [
+   {
+    "file": "sample_1.pcap",
+    "size_MB": 0.37,
+    "packets": 3159,
+    "devices_scored": 4,
+    "devices_passed_gate": 3,
+    "devices_stage2_predicted": 3,
+    "devices_stage2_predicted_nogate": 4,
+    "windows": 17,
+    "median_s": {
+     "t_read_pcap": 0.032,
+     "t_stage1_features": 0.507,
+     "t_stage1_lightgbm": 0.003,
+     "t_stage2_payload_profile": 0.026,
+     "t_stage2_vector_and_rf": 0.214,
+     "t_stage2_nogate_payload_profile": 0.026,
+     "t_stage2_nogate_vector_and_rf": 0.298
+    },
+    "per_device_ms": {
+     "read_pcap_per_scored_device": 8.1,
+     "stage1_per_scored_device": 127.4,
+     "stage2_per_passed_device": 80.0,
+     "stage2_nogate_per_scored_device": 81.1
+    },
+    "totals_s": {
+     "read": 0.032,
+     "stage1": 0.51,
+     "stage2_with_gate": 0.24,
+     "stage2_without_gate": 0.324
+    }
+   },
+   {
+    "file": "sample_2.pcap",
+    "size_MB": 1.18,
+    "packets": 7792,
+    "devices_scored": 9,
+    "devices_passed_gate": 2,
+    "devices_stage2_predicted": 2,
+    "devices_stage2_predicted_nogate": 9,
+    "windows": 101,
+    "median_s": {
+     "t_read_pcap": 0.1,
+     "t_stage1_features": 0.62,
+     "t_stage1_lightgbm": 0.004,
+     "t_stage2_payload_profile": 0.058,
+     "t_stage2_vector_and_rf": 0.153,
+     "t_stage2_nogate_payload_profile": 0.089,
+     "t_stage2_nogate_vector_and_rf": 0.717
+    },
+    "per_device_ms": {
+     "read_pcap_per_scored_device": 11.1,
+     "stage1_per_scored_device": 69.3,
+     "stage2_per_passed_device": 105.4,
+     "stage2_nogate_per_scored_device": 89.5
+    },
+    "totals_s": {
+     "read": 0.1,
+     "stage1": 0.624,
+     "stage2_with_gate": 0.211,
+     "stage2_without_gate": 0.806
+    }
+   },
+   {
+    "file": "sample_3.pcap",
+    "size_MB": 1.06,
+    "packets": 7225,
+    "devices_scored": 10,
+    "devices_passed_gate": 2,
+    "devices_stage2_predicted": 2,
+    "devices_stage2_predicted_nogate": 10,
+    "windows": 103,
+    "median_s": {
+     "t_read_pcap": 0.093,
+     "t_stage1_features": 0.633,
+     "t_stage1_lightgbm": 0.005,
+     "t_stage2_payload_profile": 0.055,
+     "t_stage2_vector_and_rf": 0.161,
+     "t_stage2_nogate_payload_profile": 0.082,
+     "t_stage2_nogate_vector_and_rf": 0.709
+    },
+    "per_device_ms": {
+     "read_pcap_per_scored_device": 9.3,
+     "stage1_per_scored_device": 63.9,
+     "stage2_per_passed_device": 107.7,
+     "stage2_nogate_per_scored_device": 79.1
+    },
+    "totals_s": {
+     "read": 0.093,
+     "stage1": 0.639,
+     "stage2_with_gate": 0.215,
+     "stage2_without_gate": 0.791
+    }
+   },
+   {
+    "file": "sample_4.pcap",
+    "size_MB": 0.47,
+    "packets": 3181,
+    "devices_scored": 4,
+    "devices_passed_gate": 2,
+    "devices_stage2_predicted": 2,
+    "devices_stage2_predicted_nogate": 4,
+    "windows": 19,
+    "median_s": {
+     "t_read_pcap": 0.041,
+     "t_stage1_features": 0.526,
+     "t_stage1_lightgbm": 0.005,
+     "t_stage2_payload_profile": 0.04,
+     "t_stage2_vector_and_rf": 0.156,
+     "t_stage2_nogate_payload_profile": 0.045,
+     "t_stage2_nogate_vector_and_rf": 0.294
+    },
+    "per_device_ms": {
+     "read_pcap_per_scored_device": 10.3,
+     "stage1_per_scored_device": 132.6,
+     "stage2_per_passed_device": 98.2,
+     "stage2_nogate_per_scored_device": 84.6
+    },
+    "totals_s": {
+     "read": 0.041,
+     "stage1": 0.53,
+     "stage2_with_gate": 0.196,
+     "stage2_without_gate": 0.339
+    }
+   },
+   {
+    "file": "sample_5.pcap",
+    "size_MB": 23.38,
+    "packets": 24152,
+    "devices_scored": 5,
+    "devices_passed_gate": 3,
+    "devices_stage2_predicted": 3,
+    "devices_stage2_predicted_nogate": 5,
+    "windows": 34,
+    "median_s": {
+     "t_read_pcap": 0.33,
+     "t_stage1_features": 0.702,
+     "t_stage1_lightgbm": 0.005,
+     "t_stage2_payload_profile": 0.057,
+     "t_stage2_vector_and_rf": 0.278,
+     "t_stage2_nogate_payload_profile": 0.056,
+     "t_stage2_nogate_vector_and_rf": 0.358
+    },
+    "per_device_ms": {
+     "read_pcap_per_scored_device": 66.0,
+     "stage1_per_scored_device": 141.2,
+     "stage2_per_passed_device": 111.9,
+     "stage2_nogate_per_scored_device": 82.6
+    },
+    "totals_s": {
+     "read": 0.33,
+     "stage1": 0.706,
+     "stage2_with_gate": 0.336,
+     "stage2_without_gate": 0.413
+    }
+   },
+   {
+    "file": "sample_6.pcap",
+    "size_MB": 12.23,
+    "packets": 18082,
+    "devices_scored": 10,
+    "devices_passed_gate": 3,
+    "devices_stage2_predicted": 3,
+    "devices_stage2_predicted_nogate": 10,
+    "windows": 94,
+    "median_s": {
+     "t_read_pcap": 0.241,
+     "t_stage1_features": 0.887,
+     "t_stage1_lightgbm": 0.004,
+     "t_stage2_payload_profile": 0.121,
+     "t_stage2_vector_and_rf": 0.217,
+     "t_stage2_nogate_payload_profile": 0.16,
+     "t_stage2_nogate_vector_and_rf": 0.749
+    },
+    "per_device_ms": {
+     "read_pcap_per_scored_device": 24.1,
+     "stage1_per_scored_device": 89.2,
+     "stage2_per_passed_device": 112.8,
+     "stage2_nogate_per_scored_device": 90.9
+    },
+    "totals_s": {
+     "read": 0.241,
+     "stage1": 0.892,
+     "stage2_with_gate": 0.338,
+     "stage2_without_gate": 0.909
+    }
+   }
+  ],
+  "summary": {
+   "n_pcap": 6,
+   "packets": 63591,
+   "devices_scored": 42,
+   "devices_passed_gate": 15,
+   "ms_per_device_read_pcap": 19.9,
+   "ms_per_device_stage1": 92.9,
+   "ms_per_passed_device_stage2": 102.4,
+   "ms_per_device_stage2_without_gate": 85.3,
+   "total_s": {
+    "read": 0.84,
+    "stage1": 3.9,
+    "stage2_with_gate": 1.54,
+    "stage2_without_gate": 3.58
+   }
+  }
+ }
+}

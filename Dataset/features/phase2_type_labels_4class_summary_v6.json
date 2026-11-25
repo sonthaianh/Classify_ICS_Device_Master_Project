@@ -1,0 +1,39 @@
+{
+ "total_usable": 89,
+ "excluded": 1,
+ "counts": {
+  "PLC": 40,
+  "HMI": 11,
+  "EWS": 15,
+  "OTHER": 23
+ },
+ "other_breakdown": {
+  "IED": 11,
+  "IO": 6,
+  "OTHER": 6
+ },
+ "by_source": {
+  "EWS": {
+   "lab_inventory": 0,
+   "owner_approved_session_evidence": 5,
+   "payload_identity": 10
+  },
+  "HMI": {
+   "lab_inventory": 8,
+   "owner_approved_session_evidence": 0,
+   "payload_identity": 3
+  },
+  "OTHER": {
+   "lab_inventory": 1,
+   "owner_approved_session_evidence": 0,
+   "payload_identity": 22
+  },
+  "PLC": {
+   "lab_inventory": 13,
+   "owner_approved_session_evidence": 0,
+   "payload_identity": 27
+  }
+ },
+ "bar_total_100_each_class_ge_10": false,
+ "each_class_ge_10": true
+}

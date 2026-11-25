@@ -1,0 +1,153 @@
+{
+ "labelled_total_OT_classes": 78,
+ "per_class": {
+  "PLC": 40,
+  "HMI": 11,
+  "EWS": 10,
+  "IED": 11,
+  "IO": 6
+ },
+ "per_class_by_source": {
+  "lab_inventory": {
+   "EWS": 0,
+   "HMI": 8,
+   "IED": 0,
+   "IO": 1,
+   "PLC": 13
+  },
+  "payload_identity": {
+   "EWS": 10,
+   "HMI": 3,
+   "IED": 11,
+   "IO": 5,
+   "PLC": 27
+  }
+ },
+ "other_labelled(OTHER)": 6,
+ "four_class_counts(PLC,HMI,EWS,IED+IO)": {
+  "PLC": 40,
+  "FIELD_OTHER": 17,
+  "HMI": 11,
+  "EWS": 10
+ },
+ "excluded_suspect_identity": [
+  {
+   "device_id": "DEV_0226",
+   "type": "IED",
+   "detail": "string: SEL relay model=SEL-3530 | string: SEL relay model=SEL-351"
+  },
+  {
+   "device_id": "DEV_0160",
+   "type": "PLC",
+   "detail": "order number: S7 CPU=6ES7 314-6EH04-0AB0"
+  },
+  {
+   "device_id": "DEV_0091",
+   "type": "PLC",
+   "detail": "string: PLC model=ControlLogix"
+  },
+  {
+   "device_id": "DEV_0235",
+   "type": "PLC",
+   "detail": "order number: S7 CPU=6ES7 315-2EH14-0AB0"
+  },
+  {
+   "device_id": "DEV_3229",
+   "type": "PLC",
+   "detail": "string: PLC model=S7-400 | order number: S7 CPU=6ES7 410-5HX08-0AB0"
+  },
+  {
+   "device_id": "DEV_0089",
+   "type": "PLC",
+   "detail": "order number: S7 CPU=6ES7 314-6EH04-0AB0"
+  }
+ ],
+ "meets_total_100": false,
+ "meets_each_10": {
+  "PLC": true,
+  "HMI": true,
+  "EWS": true,
+  "IED": true,
+  "IO": false
+ },
+ "ready_for_5_class_training": false,
+ "conflicts_between_sources": [],
+ "role_consistency": {
+  "checked": 58,
+  "consistent": 43,
+  "both_roles": 8,
+  "inconsistent": 7,
+  "inconsistent_rows": [
+   {
+    "device_id": "DEV_0367",
+    "type": "PLC",
+    "tier1_role": "client",
+    "role_evidence": "port_rule_only(weaker)",
+    "source": "lab_inventory"
+   },
+   {
+    "device_id": "DEV_0524",
+    "type": "PLC",
+    "tier1_role": "client",
+    "role_evidence": "port_rule_only(weaker)",
+    "source": "lab_inventory"
+   },
+   {
+    "device_id": "DEV_0787",
+    "type": "HMI",
+    "tier1_role": "server",
+    "role_evidence": "handshake_confirms_port_rule",
+    "source": "lab_inventory"
+   },
+   {
+    "device_id": "DEV_0133",
+    "type": "PLC",
+    "tier1_role": "client",
+    "role_evidence": "handshake_overrides_port_rule",
+    "source": "payload_identity"
+   },
+   {
+    "device_id": "DEV_0040",
+    "type": "EWS",
+    "tier1_role": "server",
+    "role_evidence": "port_rule_only(weaker)",
+    "source": "payload_identity"
+   },
+   {
+    "device_id": "DEV_0035",
+    "type": "EWS",
+    "tier1_role": "server",
+    "role_evidence": "handshake_overrides_port_rule",
+    "source": "payload_identity"
+   },
+   {
+    "device_id": "DEV_0279",
+    "type": "PLC",
+    "tier1_role": "client",
+    "role_evidence": "handshake_confirms_port_rule",
+    "source": "payload_identity"
+   }
+  ]
+ },
+ "cross_check_vs_sonthai_review": {
+  "overlap": 7,
+  "agree": 4,
+  "disagree_rows": [
+   {
+    "device_id": "DEV_0226",
+    "sonthai": "IED",
+    "table": "EXCLUDED_client_with_controller_strings"
+   },
+   {
+    "device_id": "DEV_0136",
+    "sonthai": "PLC",
+    "table": "IO"
+   },
+   {
+    "device_id": "DEV_3229",
+    "sonthai": "EWS",
+    "table": "EXCLUDED_client_with_controller_strings"
+   }
+  ]
+ }
+}

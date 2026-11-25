@@ -1,0 +1,266 @@
+{
+ "raw_input": "phase2_identity_raw_v6_full.json",
+ "seeds_total": 22,
+ "seeds_with_any_identity": 11,
+ "seeds_decided": 9,
+ "seeds_decided_correct": 9,
+ "seed_accuracy_on_decided": 1.0,
+ "seed_rows": [
+  {
+   "device_id": "DEV_0367",
+   "device_type": "PLC",
+   "ip": "0.0.0.0",
+   "model": "Mitsubishi FX5UJ-60MR/ES",
+   "identity_type": "PLC",
+   "confidence": "medium",
+   "evidence": "string: PLC model=FX5UJ-60MR/ES"
+  },
+  {
+   "device_id": "DEV_0287",
+   "device_type": "PLC",
+   "ip": "0.0.0.0",
+   "model": "Allen-Bradley MicroLogix 1400 B",
+   "identity_type": "no_identity_items",
+   "confidence": NaN,
+   "evidence": NaN
+  },
+  {
+   "device_id": "DEV_0075",
+   "device_type": "PLC",
+   "ip": "0.0.0.0",
+   "model": "Siemens S7-1200 CPU1212C",
+   "identity_type": "PLC",
+   "confidence": "medium",
+   "evidence": "DCP role: IO controller=io_controller | DCP type: PLC/CPU=S7-1200 | SNMP sysDescr: controller=Siemens, SIMATIC S7, CPU-1200, 6ES7 212-1BE40-0XB0"
+  },
+  {
+   "device_id": "DEV_0353",
+   "device_type": "PLC",
+   "ip": "0.0.0.0",
+   "model": "Schneider M221 TM221CE24R",
+   "identity_type": "no_identity_items",
+   "confidence": NaN,
+   "evidence": NaN
+  },
+  {
+   "device_id": "DEV_0770",
+   "device_type": "PLC",
+   "ip": "0.0.0.0",
+   "model": "Delta DVP-12SE11T",
+   "identity_type": "no_identity_items",
+   "confidence": NaN,
+   "evidence": NaN
+  },
+  {
+   "device_id": "DEV_0751",
+   "device_type": "PLC",
+   "ip": "0.0.0.0",
+   "model": "Allen-Bradley MicroLogix 1100",
+   "identity_type": "PLC",
+   "confidence": "medium",
+   "evidence": "string: Rockwell controller catalog=1763-L16BWA"
+  },
+  {
+   "device_id": "DEV_0286",
+   "device_type": "PLC",
+   "ip": "0.0.0.0",
+   "model": "LS XBM-DN32HP",
+   "identity_type": "no_identity_items",
+   "confidence": NaN,
+   "evidence": NaN
+  },
+  {
+   "device_id": "DEV_0103",
+   "device_type": "PLC",
+   "ip": "0.0.0.0",
+   "model": "Siemens S7-1500 CPU1513-1 PN",
+   "identity_type": "PLC",
+   "confidence": "high",
+   "evidence": "DCP role: IO controller=io_controller | DCP type: PLC/CPU=S7-1500 | SNMP sysDescr: controller=Siemens, SIMATIC S7, CPU 1513-1 PN, 6ES7 513-1AL02"
+  },
+  {
+   "device_id": "DEV_0222",
+   "device_type": "IO",
+   "ip": "0.0.0.0",
+   "model": "Siemens ET200SP IM155-6PN",
+   "identity_type": "IO",
+   "confidence": "high",
+   "evidence": "DCP role: IO device only=io_device | DCP type: remote I/O=ET200SP | SNMP sysDescr: remote I/O / coupler=Siemens, SIMATIC S7, IM155-6PN ST, 6ES7 155-6AU00-"
+  },
+  {
+   "device_id": "DEV_0153",
+   "device_type": "PLC",
+   "ip": "0.0.0.0",
+   "model": "Siemens S7-1200 CPU1211C",
+   "identity_type": "PLC",
+   "confidence": "medium",
+   "evidence": "SNMP sysDescr: controller=Siemens, SIMATIC S7, CPU-1200, 6ES7 211-1AE40-0XB0 | DCP role: IO controller=io_device+io_controller | DCP type: PLC/CPU=S7-1200"
+  },
+  {
+   "device_id": "DEV_0534",
+   "device_type": "HMI",
+   "ip": "0.0.0.0",
+   "model": "Mitsubishi GT2712-STBA",
+   "identity_type": "no_identity_items",
+   "confidence": NaN,
+   "evidence": NaN
+  },
+  {
+   "device_id": "DEV_0368",
+   "device_type": "HMI",
+   "ip": "0.0.0.0",
+   "model": "Pro-face GP4601TA",
+   "identity_type": "no_identity_items",
+   "confidence": NaN,
+   "evidence": NaN
+  },
+  {
+   "device_id": "DEV_0533",
+   "device_type": "HMI",
+   "ip": "0.0.0.0",
+   "model": "Siemens KTP700 Basic",
+   "identity_type": "HMI",
+   "confidence": "high",
+   "evidence": "LLDP: SIMATIC HMI=Siemens, SIMATIC HMI, KTP700 Basic, 6AV2 123-2GB03 | string: SIMATIC HMI station=SIMATIC-ROOT-HMI"
+  },
+  {
+   "device_id": "DEV_0610",
+   "device_type": "HMI",
+   "ip": "0.0.0.0",
+   "model": "Delta DOP-107DV",
+   "identity_type": "no_identity_items",
+   "confidence": NaN,
+   "evidence": NaN
+  },
+  {
+   "device_id": "DEV_0354",
+   "device_type": "HMI",
+   "ip": "0.0.0.0",
+   "model": "LS XP30-BTA/DC",
+   "identity_type": "no_identity_items",
+   "confidence": NaN,
+   "evidence": NaN
+  },
+  {
+   "device_id": "DEV_0552",
+   "device_type": "PLC",
+   "ip": "0.0.0.0",
+   "model": "ABB PM564",
+   "identity_type": "no_identity_items",
+   "confidence": NaN,
+   "evidence": NaN
+  },
+  {
+   "device_id": "DEV_0523",
+   "device_type": "PLC",
+   "ip": "0.0.0.0",
+   "model": "Mitsubishi FX5UJ-40MR/ES",
+   "identity_type": "PLC",
+   "confidence": "medium",
+   "evidence": "string: PLC model=FX5UJ-40MR/ES"
+  },
+  {
+   "device_id": "DEV_0524",
+   "device_type": "PLC",
+   "ip": "0.0.0.0",
+   "model": "Schneider TM241CE24R",
+   "identity_type": "PLC",
+   "confidence": "high",
+   "evidence": "SNMP sysDescr: controller=SCHNEIDER M241-51 Fast Ethernet TCP/IP"
+  },
+  {
+   "device_id": "DEV_1590",
+   "device_type": "PLC",
+   "ip": "0.0.0.0",
+   "model": "Siemens Logo! 6ED1052",
+   "identity_type": "no_identity_items",
+   "confidence": NaN,
+   "evidence": NaN
+  },
+  {
+   "device_id": "DEV_1711",
+   "device_type": "HMI",
+   "ip": "0.0.0.0",
+   "model": "ABB CP604",
+   "identity_type": "none",
+   "confidence": "",
+   "evidence": ""
+  },
+  {
+   "device_id": "DEV_3097",
+   "device_type": "HMI",
+   "ip": "0.0.0.0",
+   "model": "FLEXEM",
+   "identity_type": "none",
+   "confidence": "",
+   "evidence": ""
+  },
+  {
+   "device_id": "DEV_0787",
+   "device_type": "HMI",
+   "ip": "0.0.0.0",
+   "model": "Mitsubishi GOT2000",
+   "identity_type": "no_identity_items",
+   "confidence": NaN,
+   "evidence": NaN
+  }
+ ],
+ "type_counts_all_devices": {
+  "none": 145,
+  "undecided": 56,
+  "PLC": 39,
+  "IED": 12,
+  "EWS": 10,
+  "IO": 6,
+  "OTHER": 6,
+  "HMI": 4
+ },
+ "type_counts_decided_by_confidence": {
+  "high": {
+   "EWS": 0,
+   "HMI": 2,
+   "IED": 2,
+   "IO": 4,
+   "OTHER": 5,
+   "PLC": 13
+  },
+  "medium": {
+   "EWS": 10,
+   "HMI": 2,
+   "IED": 10,
+   "IO": 2,
+   "OTHER": 1,
+   "PLC": 26
+  }
+ },
+ "agreement_with_sonthai_review": {
+  "n_overlap": 7,
+  "agree": 5,
+  "confusion": {
+   "HMI": {
+    "EWS": 0,
+    "HMI": 1,
+    "IED": 0,
+    "PLC": 0
+   },
+   "IED": {
+    "EWS": 0,
+    "HMI": 0,
+    "IED": 1,
+    "PLC": 0
+   },
+   "IO": {
+    "EWS": 0,
+    "HMI": 0,
+    "IED": 0,
+    "PLC": 1
+   },
+   "PLC": {
+    "EWS": 1,
+    "HMI": 0,
+    "IED": 0,
+    "PLC": 3
+   }
+  }
+ }
+}

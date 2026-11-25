@@ -1,0 +1,20 @@
+{
+ "protocol": "script 34 default; 15 features; K=20; 5-fold by device; LightGBM main",
+ "n_devices": 3923,
+ "gold": {
+  "ot_lab": 22,
+  "nonot_lab_servers": 2,
+  "nonot_capture_scenario_provisional": 50,
+  "candidates_before_ambiguity_filter": 74,
+  "kept_after_filter": 50
+ },
+ "gold_roc_auc": 0.835,
+ "gold_pr_auc": 0.732,
+ "gold_roc_auc_without_scanner_servers": 0.85,
+ "gold_nonot_score_median": 0.389,
+ "gold_ot_score_median": 0.818,
+ "population_roc_auc": 0.928,
+ "population_pr_auc": 0.836,
+ "xgboost_gold_roc_auc": 0.83,
+ "caveat": "gold small (22 OT / few non-OT); capture-scenario non-OT is provisional; lab devices share sessions in training folds"
+}

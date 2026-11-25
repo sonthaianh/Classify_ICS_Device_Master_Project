@@ -1,0 +1,50 @@
+{
+ "gold_old": {
+  "n": 184,
+  "ot": 65,
+  "non_ot": 119,
+  "roc_auc": 0.8195,
+  "pr_auc": 0.7479,
+  "recall_ot@0.5": 0.8462,
+  "non_ot_flagged@0.5": 0.2773
+ },
+ "gold_new": {
+  "n": 192,
+  "ot": 72,
+  "non_ot": 120,
+  "roc_auc": 0.8303,
+  "pr_auc": 0.7722,
+  "recall_ot@0.5": 0.8611,
+  "non_ot_flagged@0.5": 0.2833
+ },
+ "gold_added_only": {
+  "n": 8,
+  "ot": 7,
+  "non_ot": 1,
+  "roc_auc": 0.7143,
+  "pr_auc": 0.9617,
+  "recall_ot@0.5": 1.0,
+  "non_ot_flagged@0.5": 1.0
+ },
+ "gold_source_counts_new": {
+  "blind_sheet_reviewed_sonthai": 113,
+  "capture_scenario_provisional": 47,
+  "lab_inventory": 24,
+  "public_roster_4sics_netresec": 8
+ },
+ "phase2_old": {
+  "OTHER": 56,
+  "PLC": 40,
+  "EWS": 15,
+  "HMI": 11
+ },
+ "phase2_new": {
+  "OTHER": 60,
+  "PLC": 42,
+  "EWS": 15,
+  "HMI": 11
+ },
+ "phase2_new_with_payload_profile": 6,
+ "phase2_new_total": 6,
+ "note": "diem Phase 1 la diem out-of-fold cua mo hinh dong bang (phase1_oof_scores_v6.csv); 8 nhan moi gan nhu deu la OT de doan nen khong the dung de noi mo hinh tot hon"
+}

@@ -1,0 +1,30 @@
+{
+ "n_gold_ot": 22,
+ "n_gold_nonot": 52,
+ "base_full15": {
+  "pop_roc": 0.9284,
+  "pop_pr": 0.8357,
+  "gold_roc": 0.835,
+  "gold_ot_recall@0.3": 0.909,
+  "gold_nonot_fpr@0.3": 0.615
+ },
+ "single_feature_device_median_auc": {
+  "udp_ratio": 0.745,
+  "pkts_per_flow": 0.751,
+  "packet_rate": 0.739
+ },
+ "metadata_only_n_windows_device": {
+  "pop_roc": 0.6234,
+  "pop_pr": 0.3785,
+  "gold_roc": 0.768,
+  "gold_ot_recall@0.3": 0.955,
+  "gold_nonot_fpr@0.3": 0.519
+ },
+ "top5_shap_share": {
+  "udp_ratio": 0.237,
+  "bytes_per_packet": 0.16,
+  "bcast_frame_ratio": 0.13,
+  "packet_rate": 0.069,
+  "svc_port_unique": 0.062
+ }
+}

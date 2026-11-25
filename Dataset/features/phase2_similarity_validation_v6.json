@@ -1,0 +1,325 @@
+{
+ "n_seeds_profiled": 22,
+ "n_seeds_total": 22,
+ "seed_types": {
+  "PLC": 13,
+  "HMI": 8,
+  "IO": 1
+ },
+ "loo_1nn_accuracy_all": 0.591,
+ "loo_1nn_accuracy_PLC_vs_HMI_rows": 0.619,
+ "majority_baseline_PLC_vs_HMI": 0.619,
+ "loo_detail": [
+  {
+   "device_id": "DEV_0367",
+   "true": "PLC",
+   "nearest_seed": "DEV_0222",
+   "pred_1nn": "IO",
+   "sim_1nn": 0.588,
+   "ok": false,
+   "max_sim_IO": 0.588,
+   "max_sim_PLC": 0.506,
+   "max_sim_HMI": 0.574
+  },
+  {
+   "device_id": "DEV_0287",
+   "true": "PLC",
+   "nearest_seed": "DEV_0751",
+   "pred_1nn": "PLC",
+   "sim_1nn": 0.4,
+   "ok": true,
+   "max_sim_IO": 0.255,
+   "max_sim_PLC": 0.4,
+   "max_sim_HMI": 0.134
+  },
+  {
+   "device_id": "DEV_0075",
+   "true": "PLC",
+   "nearest_seed": "DEV_0103",
+   "pred_1nn": "PLC",
+   "sim_1nn": 0.661,
+   "ok": true,
+   "max_sim_IO": 0.134,
+   "max_sim_PLC": 0.661,
+   "max_sim_HMI": 0.142
+  },
+  {
+   "device_id": "DEV_0353",
+   "true": "PLC",
+   "nearest_seed": "DEV_0787",
+   "pred_1nn": "HMI",
+   "sim_1nn": 0.838,
+   "ok": false,
+   "max_sim_IO": 0.148,
+   "max_sim_PLC": 0.545,
+   "max_sim_HMI": 0.838
+  },
+  {
+   "device_id": "DEV_0770",
+   "true": "PLC",
+   "nearest_seed": "DEV_0286",
+   "pred_1nn": "PLC",
+   "sim_1nn": 0.968,
+   "ok": true,
+   "max_sim_IO": 0.171,
+   "max_sim_PLC": 0.968,
+   "max_sim_HMI": 0.531
+  },
+  {
+   "device_id": "DEV_0751",
+   "true": "PLC",
+   "nearest_seed": "DEV_1590",
+   "pred_1nn": "PLC",
+   "sim_1nn": 0.532,
+   "ok": true,
+   "max_sim_IO": 0.418,
+   "max_sim_PLC": 0.532,
+   "max_sim_HMI": 0.196
+  },
+  {
+   "device_id": "DEV_0286",
+   "true": "PLC",
+   "nearest_seed": "DEV_0770",
+   "pred_1nn": "PLC",
+   "sim_1nn": 0.968,
+   "ok": true,
+   "max_sim_IO": 0.076,
+   "max_sim_PLC": 0.968,
+   "max_sim_HMI": 0.507
+  },
+  {
+   "device_id": "DEV_0103",
+   "true": "PLC",
+   "nearest_seed": "DEV_0075",
+   "pred_1nn": "PLC",
+   "sim_1nn": 0.661,
+   "ok": true,
+   "max_sim_IO": 0.251,
+   "max_sim_PLC": 0.661,
+   "max_sim_HMI": 0.531
+  },
+  {
+   "device_id": "DEV_0222",
+   "true": "IO",
+   "nearest_seed": "DEV_1590",
+   "pred_1nn": "PLC",
+   "sim_1nn": 0.822,
+   "ok": false,
+   "max_sim_PLC": 0.822,
+   "max_sim_HMI": 0.428
+  },
+  {
+   "device_id": "DEV_0153",
+   "true": "PLC",
+   "nearest_seed": "DEV_0075",
+   "pred_1nn": "PLC",
+   "sim_1nn": 0.394,
+   "ok": true,
+   "max_sim_IO": 0.328,
+   "max_sim_PLC": 0.394,
+   "max_sim_HMI": 0.114
+  },
+  {
+   "device_id": "DEV_0534",
+   "true": "HMI",
+   "nearest_seed": "DEV_0368",
+   "pred_1nn": "HMI",
+   "sim_1nn": 0.683,
+   "ok": true,
+   "max_sim_IO": 0.044,
+   "max_sim_PLC": 0.538,
+   "max_sim_HMI": 0.683
+  },
+  {
+   "device_id": "DEV_0368",
+   "true": "HMI",
+   "nearest_seed": "DEV_0534",
+   "pred_1nn": "HMI",
+   "sim_1nn": 0.683,
+   "ok": true,
+   "max_sim_IO": -0.086,
+   "max_sim_PLC": 0.438,
+   "max_sim_HMI": 0.683
+  },
+  {
+   "device_id": "DEV_0533",
+   "true": "HMI",
+   "nearest_seed": "DEV_0222",
+   "pred_1nn": "IO",
+   "sim_1nn": 0.109,
+   "ok": false,
+   "max_sim_IO": 0.109,
+   "max_sim_PLC": 0.097,
+   "max_sim_HMI": 0.1
+  },
+  {
+   "device_id": "DEV_0610",
+   "true": "HMI",
+   "nearest_seed": "DEV_0524",
+   "pred_1nn": "PLC",
+   "sim_1nn": 0.812,
+   "ok": false,
+   "max_sim_IO": -0.02,
+   "max_sim_PLC": 0.812,
+   "max_sim_HMI": 0.655
+  },
+  {
+   "device_id": "DEV_0354",
+   "true": "HMI",
+   "nearest_seed": "DEV_0533",
+   "pred_1nn": "HMI",
+   "sim_1nn": 0.1,
+   "ok": true,
+   "max_sim_IO": 0.051,
+   "max_sim_PLC": 0.043,
+   "max_sim_HMI": 0.1
+  },
+  {
+   "device_id": "DEV_0552",
+   "true": "PLC",
+   "nearest_seed": "DEV_1590",
+   "pred_1nn": "PLC",
+   "sim_1nn": 0.958,
+   "ok": true,
+   "max_sim_IO": 0.807,
+   "max_sim_PLC": 0.958,
+   "max_sim_HMI": 0.384
+  },
+  {
+   "device_id": "DEV_0523",
+   "true": "PLC",
+   "nearest_seed": "DEV_1590",
+   "pred_1nn": "PLC",
+   "sim_1nn": 0.875,
+   "ok": true,
+   "max_sim_IO": 0.816,
+   "max_sim_PLC": 0.875,
+   "max_sim_HMI": 0.242
+  },
+  {
+   "device_id": "DEV_0524",
+   "true": "PLC",
+   "nearest_seed": "DEV_0610",
+   "pred_1nn": "HMI",
+   "sim_1nn": 0.812,
+   "ok": false,
+   "max_sim_IO": 0.075,
+   "max_sim_PLC": 0.268,
+   "max_sim_HMI": 0.812
+  },
+  {
+   "device_id": "DEV_1590",
+   "true": "PLC",
+   "nearest_seed": "DEV_0552",
+   "pred_1nn": "PLC",
+   "sim_1nn": 0.958,
+   "ok": true,
+   "max_sim_IO": 0.822,
+   "max_sim_PLC": 0.958,
+   "max_sim_HMI": 0.3
+  },
+  {
+   "device_id": "DEV_1711",
+   "true": "HMI",
+   "nearest_seed": "DEV_0103",
+   "pred_1nn": "PLC",
+   "sim_1nn": 0.531,
+   "ok": false,
+   "max_sim_IO": 0.428,
+   "max_sim_PLC": 0.531,
+   "max_sim_HMI": 0.097
+  },
+  {
+   "device_id": "DEV_3097",
+   "true": "HMI",
+   "nearest_seed": "DEV_0367",
+   "pred_1nn": "PLC",
+   "sim_1nn": 0.574,
+   "ok": false,
+   "max_sim_IO": -0.024,
+   "max_sim_PLC": 0.574,
+   "max_sim_HMI": 0.466
+  },
+  {
+   "device_id": "DEV_0787",
+   "true": "HMI",
+   "nearest_seed": "DEV_0353",
+   "pred_1nn": "PLC",
+   "sim_1nn": 0.838,
+   "ok": false,
+   "max_sim_IO": 0.067,
+   "max_sim_PLC": 0.838,
+   "max_sim_HMI": 0.167
+  }
+ ],
+ "loo_mean_sim_correct": 0.68,
+ "loo_mean_sim_wrong": 0.658,
+ "tau_hi": 0.683,
+ "tau_lo": 0.1,
+ "vs_sonthai_review": {
+  "Engineering workstation/tool": {
+   "n_profiled": 3,
+   "median_best_sim": 0.867,
+   "pct_with_close_seed(tier!=none)": 1.0,
+   "pseudo_label_counts": {
+    "HMI": 3
+   }
+  },
+  "HMI/SCADA/operator station": {
+   "n_profiled": 2,
+   "median_best_sim": 0.846,
+   "pct_with_close_seed(tier!=none)": 1.0,
+   "pseudo_label_counts": {
+    "HMI": 2
+   }
+  },
+  "IED/RTU/protection relay": {
+   "n_profiled": 17,
+   "median_best_sim": 0.194,
+   "pct_with_close_seed(tier!=none)": 1.0,
+   "pseudo_label_counts": {
+    "HMI": 11,
+    "PLC": 6
+   }
+  },
+  "IO/gateway/other field device": {
+   "n_profiled": 2,
+   "median_best_sim": 0.437,
+   "pct_with_close_seed(tier!=none)": 1.0,
+   "pseudo_label_counts": {
+    "PLC": 2
+   }
+  },
+  "PLC/controller": {
+   "n_profiled": 15,
+   "median_best_sim": 0.586,
+   "pct_with_close_seed(tier!=none)": 0.933,
+   "pseudo_label_counts": {
+    "PLC": 10,
+    "HMI": 4,
+    "no_close_seed": 1
+   }
+  },
+  "khac/khong ro": {
+   "n_profiled": 8,
+   "median_best_sim": 0.617,
+   "pct_with_close_seed(tier!=none)": 1.0,
+   "pseudo_label_counts": {
+    "PLC": 4,
+    "HMI": 3,
+    "IO": 1
+   }
+  }
+ },
+ "pool_pseudo_label_counts_non_seed": {
+  "HMI": 423,
+  "PLC": 333,
+  "IO": 51,
+  "no_close_seed": 26
+ },
+ "pool_tier_counts_non_seed": {
+  "medium": 571,
+  "high": 236,
+  "none": 26
+ }
+}

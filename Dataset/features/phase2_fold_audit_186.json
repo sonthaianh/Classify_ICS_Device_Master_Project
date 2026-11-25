@@ -1,0 +1,435 @@
+{
+ "status": "AUDIT on frozen 186-label set; no frozen result overwritten",
+ "n_devices_A": 165,
+ "n_columns": 64,
+ "sessions_per_device": {
+  "median": 2.0,
+  "mean": 6.58,
+  "share_devices_with_gt1_session": 0.618,
+  "n_distinct_sessions_in_A": 582,
+  "n_distinct_first_sessions": 86
+ },
+ "train_test_overlap": {
+  "first_session_overlap_total": 0,
+  "mean_share_of_test_devices_sharing_a_session_with_train": 0.354,
+  "min": 0.061,
+  "max": 0.667,
+  "mean_sessions_in_both": 34.8,
+  "mean_sessions_in_test": 134.5
+ },
+ "per_fold": [
+  {
+   "seed": 0,
+   "fold": 0,
+   "n_train": 132,
+   "n_test": 33,
+   "test_devices_sharing_a_session_with_train": 10,
+   "share_of_test_devices": 0.303,
+   "sessions_in_both": 14,
+   "sessions_in_test": 49,
+   "first_session_overlap": 0
+  },
+  {
+   "seed": 0,
+   "fold": 1,
+   "n_train": 132,
+   "n_test": 33,
+   "test_devices_sharing_a_session_with_train": 22,
+   "share_of_test_devices": 0.667,
+   "sessions_in_both": 68,
+   "sessions_in_test": 174,
+   "first_session_overlap": 0
+  },
+  {
+   "seed": 0,
+   "fold": 2,
+   "n_train": 132,
+   "n_test": 33,
+   "test_devices_sharing_a_session_with_train": 12,
+   "share_of_test_devices": 0.364,
+   "sessions_in_both": 59,
+   "sessions_in_test": 265,
+   "first_session_overlap": 0
+  },
+  {
+   "seed": 0,
+   "fold": 3,
+   "n_train": 132,
+   "n_test": 33,
+   "test_devices_sharing_a_session_with_train": 2,
+   "share_of_test_devices": 0.061,
+   "sessions_in_both": 7,
+   "sessions_in_test": 109,
+   "first_session_overlap": 0
+  },
+  {
+   "seed": 0,
+   "fold": 4,
+   "n_train": 132,
+   "n_test": 33,
+   "test_devices_sharing_a_session_with_train": 15,
+   "share_of_test_devices": 0.455,
+   "sessions_in_both": 30,
+   "sessions_in_test": 80,
+   "first_session_overlap": 0
+  },
+  {
+   "seed": 1,
+   "fold": 0,
+   "n_train": 132,
+   "n_test": 33,
+   "test_devices_sharing_a_session_with_train": 11,
+   "share_of_test_devices": 0.333,
+   "sessions_in_both": 44,
+   "sessions_in_test": 98,
+   "first_session_overlap": 0
+  },
+  {
+   "seed": 1,
+   "fold": 1,
+   "n_train": 132,
+   "n_test": 33,
+   "test_devices_sharing_a_session_with_train": 22,
+   "share_of_test_devices": 0.667,
+   "sessions_in_both": 65,
+   "sessions_in_test": 135,
+   "first_session_overlap": 0
+  },
+  {
+   "seed": 1,
+   "fold": 2,
+   "n_train": 132,
+   "n_test": 33,
+   "test_devices_sharing_a_session_with_train": 9,
+   "share_of_test_devices": 0.273,
+   "sessions_in_both": 27,
+   "sessions_in_test": 71,
+   "first_session_overlap": 0
+  },
+  {
+   "seed": 1,
+   "fold": 3,
+   "n_train": 132,
+   "n_test": 33,
+   "test_devices_sharing_a_session_with_train": 4,
+   "share_of_test_devices": 0.121,
+   "sessions_in_both": 10,
+   "sessions_in_test": 290,
+   "first_session_overlap": 0
+  },
+  {
+   "seed": 1,
+   "fold": 4,
+   "n_train": 132,
+   "n_test": 33,
+   "test_devices_sharing_a_session_with_train": 15,
+   "share_of_test_devices": 0.455,
+   "sessions_in_both": 23,
+   "sessions_in_test": 75,
+   "first_session_overlap": 0
+  },
+  {
+   "seed": 2,
+   "fold": 0,
+   "n_train": 133,
+   "n_test": 32,
+   "test_devices_sharing_a_session_with_train": 8,
+   "share_of_test_devices": 0.25,
+   "sessions_in_both": 8,
+   "sessions_in_test": 58,
+   "first_session_overlap": 0
+  },
+  {
+   "seed": 2,
+   "fold": 1,
+   "n_train": 132,
+   "n_test": 33,
+   "test_devices_sharing_a_session_with_train": 11,
+   "share_of_test_devices": 0.333,
+   "sessions_in_both": 66,
+   "sessions_in_test": 129,
+   "first_session_overlap": 0
+  },
+  {
+   "seed": 2,
+   "fold": 2,
+   "n_train": 132,
+   "n_test": 33,
+   "test_devices_sharing_a_session_with_train": 6,
+   "share_of_test_devices": 0.182,
+   "sessions_in_both": 47,
+   "sessions_in_test": 251,
+   "first_session_overlap": 0
+  },
+  {
+   "seed": 2,
+   "fold": 3,
+   "n_train": 132,
+   "n_test": 33,
+   "test_devices_sharing_a_session_with_train": 10,
+   "share_of_test_devices": 0.303,
+   "sessions_in_both": 14,
+   "sessions_in_test": 90,
+   "first_session_overlap": 0
+  },
+  {
+   "seed": 2,
+   "fold": 4,
+   "n_train": 131,
+   "n_test": 34,
+   "test_devices_sharing_a_session_with_train": 15,
+   "share_of_test_devices": 0.441,
+   "sessions_in_both": 23,
+   "sessions_in_test": 133,
+   "first_session_overlap": 0
+  },
+  {
+   "seed": 3,
+   "fold": 0,
+   "n_train": 133,
+   "n_test": 32,
+   "test_devices_sharing_a_session_with_train": 10,
+   "share_of_test_devices": 0.312,
+   "sessions_in_both": 13,
+   "sessions_in_test": 58,
+   "first_session_overlap": 0
+  },
+  {
+   "seed": 3,
+   "fold": 1,
+   "n_train": 132,
+   "n_test": 33,
+   "test_devices_sharing_a_session_with_train": 16,
+   "share_of_test_devices": 0.485,
+   "sessions_in_both": 66,
+   "sessions_in_test": 125,
+   "first_session_overlap": 0
+  },
+  {
+   "seed": 3,
+   "fold": 2,
+   "n_train": 132,
+   "n_test": 33,
+   "test_devices_sharing_a_session_with_train": 8,
+   "share_of_test_devices": 0.242,
+   "sessions_in_both": 25,
+   "sessions_in_test": 111,
+   "first_session_overlap": 0
+  },
+  {
+   "seed": 3,
+   "fold": 3,
+   "n_train": 131,
+   "n_test": 34,
+   "test_devices_sharing_a_session_with_train": 11,
+   "share_of_test_devices": 0.324,
+   "sessions_in_both": 24,
+   "sessions_in_test": 272,
+   "first_session_overlap": 0
+  },
+  {
+   "seed": 3,
+   "fold": 4,
+   "n_train": 132,
+   "n_test": 33,
+   "test_devices_sharing_a_session_with_train": 15,
+   "share_of_test_devices": 0.455,
+   "sessions_in_both": 56,
+   "sessions_in_test": 113,
+   "first_session_overlap": 0
+  },
+  {
+   "seed": 4,
+   "fold": 0,
+   "n_train": 132,
+   "n_test": 33,
+   "test_devices_sharing_a_session_with_train": 9,
+   "share_of_test_devices": 0.273,
+   "sessions_in_both": 13,
+   "sessions_in_test": 47,
+   "first_session_overlap": 0
+  },
+  {
+   "seed": 4,
+   "fold": 1,
+   "n_train": 132,
+   "n_test": 33,
+   "test_devices_sharing_a_session_with_train": 22,
+   "share_of_test_devices": 0.667,
+   "sessions_in_both": 71,
+   "sessions_in_test": 156,
+   "first_session_overlap": 0
+  },
+  {
+   "seed": 4,
+   "fold": 2,
+   "n_train": 132,
+   "n_test": 33,
+   "test_devices_sharing_a_session_with_train": 4,
+   "share_of_test_devices": 0.121,
+   "sessions_in_both": 12,
+   "sessions_in_test": 231,
+   "first_session_overlap": 0
+  },
+  {
+   "seed": 4,
+   "fold": 3,
+   "n_train": 132,
+   "n_test": 33,
+   "test_devices_sharing_a_session_with_train": 9,
+   "share_of_test_devices": 0.273,
+   "sessions_in_both": 15,
+   "sessions_in_test": 110,
+   "first_session_overlap": 0
+  },
+  {
+   "seed": 4,
+   "fold": 4,
+   "n_train": 132,
+   "n_test": 33,
+   "test_devices_sharing_a_session_with_train": 16,
+   "share_of_test_devices": 0.485,
+   "sessions_in_both": 70,
+   "sessions_in_test": 132,
+   "first_session_overlap": 0
+  }
+ ],
+ "components": {
+  "n_components": 59,
+  "sizes_top10": [
+   39,
+   17,
+   12,
+   5,
+   5,
+   4,
+   4,
+   4,
+   3,
+   3
+  ],
+  "largest_share": 0.236,
+  "n_singletons": 30,
+  "class_counts_in_largest": {
+   "PLC": 14,
+   "OTHER": 13,
+   "HMI": 8,
+   "EWS": 4
+  }
+ },
+ "rf64_group_by_component": {
+  "balanced_acc": 0.608,
+  "balanced_acc_std": 0.009,
+  "macro_f1": 0.595,
+  "recall": {
+   "PLC": 0.728,
+   "HMI": 0.656,
+   "EWS": 0.48,
+   "OTHER": 0.569
+  },
+  "confusion_sum_over_seeds": [
+   [
+    182,
+    18,
+    11,
+    39
+   ],
+   [
+    13,
+    59,
+    7,
+    11
+   ],
+   [
+    5,
+    27,
+    48,
+    20
+   ],
+   [
+    144,
+    16,
+    6,
+    219
+   ]
+  ]
+ },
+ "duplicate_of_log_servers": [
+  "n_servers"
+ ],
+ "rf64_baseline_recomputed": {
+  "balanced_acc": 0.641,
+  "balanced_acc_std": 0.03,
+  "macro_f1": 0.627,
+  "recall": {
+   "PLC": 0.788,
+   "HMI": 0.656,
+   "EWS": 0.55,
+   "OTHER": 0.569
+  },
+  "confusion_sum_over_seeds": [
+   [
+    197,
+    18,
+    9,
+    26
+   ],
+   [
+    13,
+    59,
+    10,
+    8
+   ],
+   [
+    6,
+    15,
+    55,
+    24
+   ],
+   [
+    140,
+    5,
+    21,
+    219
+   ]
+  ]
+ },
+ "rf63_without_log_servers": {
+  "balanced_acc": 0.649,
+  "balanced_acc_std": 0.024,
+  "macro_f1": 0.639,
+  "recall": {
+   "PLC": 0.796,
+   "HMI": 0.644,
+   "EWS": 0.56,
+   "OTHER": 0.595
+  },
+  "confusion_sum_over_seeds": [
+   [
+    199,
+    15,
+    8,
+    28
+   ],
+   [
+    10,
+    58,
+    9,
+    13
+   ],
+   [
+    5,
+    15,
+    56,
+    24
+   ],
+   [
+    130,
+    6,
+    20,
+    229
+   ]
+  ]
+ },
+ "n_columns_after_drop": 63
+}

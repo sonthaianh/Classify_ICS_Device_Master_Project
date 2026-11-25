@@ -1,0 +1,190 @@
+{
+ "protocol": "LightGBM frozen default params, 15 features, K=20, 5 folds; train subsample stratified by rule label; test = all held-out devices; real data only",
+ "fractions": [
+  0.1,
+  0.25,
+  0.5,
+  0.75,
+  1.0
+ ],
+ "sample_seeds": 3,
+ "summary": [
+  {
+   "split": "fold_component",
+   "fraction": 0.1,
+   "train_devices": 314.0,
+   "n_runs": 3,
+   "rule_roc": 0.8326,
+   "rule_roc_sd": 0.013,
+   "rule_pr": 0.581,
+   "rule_pr_sd": 0.0187,
+   "gold_roc": 0.793,
+   "gold_roc_sd": 0.0038,
+   "gold_pr": 0.6342,
+   "gold_recall": 0.7179,
+   "gold_nonOT_flag": 0.2521
+  },
+  {
+   "split": "fold_component",
+   "fraction": 0.25,
+   "train_devices": 785.0,
+   "n_runs": 3,
+   "rule_roc": 0.8325,
+   "rule_roc_sd": 0.0194,
+   "rule_pr": 0.612,
+   "rule_pr_sd": 0.0361,
+   "gold_roc": 0.7656,
+   "gold_roc_sd": 0.0341,
+   "gold_pr": 0.6209,
+   "gold_recall": 0.7077,
+   "gold_nonOT_flag": 0.2829
+  },
+  {
+   "split": "fold_component",
+   "fraction": 0.5,
+   "train_devices": 1569.0,
+   "n_runs": 3,
+   "rule_roc": 0.8499,
+   "rule_roc_sd": 0.012,
+   "rule_pr": 0.6479,
+   "rule_pr_sd": 0.0116,
+   "gold_roc": 0.792,
+   "gold_roc_sd": 0.0125,
+   "gold_pr": 0.6469,
+   "gold_recall": 0.7795,
+   "gold_nonOT_flag": 0.3053
+  },
+  {
+   "split": "fold_component",
+   "fraction": 0.75,
+   "train_devices": 2354.0,
+   "n_runs": 3,
+   "rule_roc": 0.8562,
+   "rule_roc_sd": 0.004,
+   "rule_pr": 0.6602,
+   "rule_pr_sd": 0.0064,
+   "gold_roc": 0.8006,
+   "gold_roc_sd": 0.0149,
+   "gold_pr": 0.6669,
+   "gold_recall": 0.7897,
+   "gold_nonOT_flag": 0.3081
+  },
+  {
+   "split": "fold_component",
+   "fraction": 1.0,
+   "train_devices": 3138.0,
+   "n_runs": 1,
+   "rule_roc": 0.8584,
+   "rule_roc_sd": NaN,
+   "rule_pr": 0.6665,
+   "rule_pr_sd": NaN,
+   "gold_roc": 0.796,
+   "gold_roc_sd": NaN,
+   "gold_pr": 0.6488,
+   "gold_recall": 0.7538,
+   "gold_nonOT_flag": 0.2941
+  },
+  {
+   "split": "fold_device",
+   "fraction": 0.1,
+   "train_devices": 314.0,
+   "n_runs": 3,
+   "rule_roc": 0.8778,
+   "rule_roc_sd": 0.0056,
+   "rule_pr": 0.6856,
+   "rule_pr_sd": 0.0087,
+   "gold_roc": 0.7769,
+   "gold_roc_sd": 0.024,
+   "gold_pr": 0.6526,
+   "gold_recall": 0.6974,
+   "gold_nonOT_flag": 0.2409
+  },
+  {
+   "split": "fold_device",
+   "fraction": 0.25,
+   "train_devices": 785.0,
+   "n_runs": 3,
+   "rule_roc": 0.9095,
+   "rule_roc_sd": 0.003,
+   "rule_pr": 0.7781,
+   "rule_pr_sd": 0.0116,
+   "gold_roc": 0.8147,
+   "gold_roc_sd": 0.003,
+   "gold_pr": 0.7176,
+   "gold_recall": 0.7846,
+   "gold_nonOT_flag": 0.2325
+  },
+  {
+   "split": "fold_device",
+   "fraction": 0.5,
+   "train_devices": 1569.0,
+   "n_runs": 3,
+   "rule_roc": 0.9194,
+   "rule_roc_sd": 0.0004,
+   "rule_pr": 0.8171,
+   "rule_pr_sd": 0.0026,
+   "gold_roc": 0.8045,
+   "gold_roc_sd": 0.0058,
+   "gold_pr": 0.7182,
+   "gold_recall": 0.8,
+   "gold_nonOT_flag": 0.2997
+  },
+  {
+   "split": "fold_device",
+   "fraction": 0.75,
+   "train_devices": 2354.0,
+   "n_runs": 3,
+   "rule_roc": 0.9267,
+   "rule_roc_sd": 0.0021,
+   "rule_pr": 0.8318,
+   "rule_pr_sd": 0.0009,
+   "gold_roc": 0.8233,
+   "gold_roc_sd": 0.0022,
+   "gold_pr": 0.7523,
+   "gold_recall": 0.8308,
+   "gold_nonOT_flag": 0.2941
+  },
+  {
+   "split": "fold_device",
+   "fraction": 1.0,
+   "train_devices": 3138.0,
+   "n_runs": 1,
+   "rule_roc": 0.9284,
+   "rule_roc_sd": NaN,
+   "rule_pr": 0.8357,
+   "rule_pr_sd": NaN,
+   "gold_roc": 0.8194,
+   "gold_roc_sd": NaN,
+   "gold_pr": 0.7479,
+   "gold_recall": 0.8462,
+   "gold_nonOT_flag": 0.2773
+  }
+ ],
+ "bootstrap": {
+  "fold_device": {
+   "rule_roc_100_minus_50[2.5,mean,97.5]": [
+    0.0049,
+    0.0088,
+    0.0129
+   ],
+   "gold_roc_100_minus_50[2.5,mean,97.5]": [
+    -0.0091,
+    0.0099,
+    0.0308
+   ]
+  },
+  "fold_component": {
+   "rule_roc_100_minus_50[2.5,mean,97.5]": [
+    0.0012,
+    0.0065,
+    0.0116
+   ],
+   "gold_roc_100_minus_50[2.5,mean,97.5]": [
+    -0.0083,
+    0.0125,
+    0.0335
+   ]
+  }
+ },
+ "seconds": 161
+}

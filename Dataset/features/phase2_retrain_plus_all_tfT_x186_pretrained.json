@@ -1,0 +1,51 @@
+{
+ "labels": "x186",
+ "regime": "T_tokens",
+ "variant": "pretrained",
+ "seeds": 3,
+ "n": 98,
+ "class_counts": {
+  "PLC": 44,
+  "HMI": 14,
+  "EWS": 15,
+  "OTHER": 25
+ },
+ "result": {
+  "balanced_acc": 0.574,
+  "balanced_acc_std": 0.047,
+  "macro_f1": 0.567,
+  "recall": {
+   "PLC": 0.652,
+   "HMI": 0.452,
+   "EWS": 0.644,
+   "OTHER": 0.547
+  },
+  "confusion_sum_over_seeds": [
+   [
+    86,
+    13,
+    14,
+    19
+   ],
+   [
+    8,
+    19,
+    14,
+    1
+   ],
+   [
+    6,
+    7,
+    29,
+    3
+   ],
+   [
+    29,
+    2,
+    3,
+    41
+   ]
+  ]
+ },
+ "seconds": 4387
+}

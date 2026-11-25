@@ -1,0 +1,1226 @@
+{
+ "status": "EXPLORATORY retrain; frozen results untouched",
+ "chance_balanced_acc": 0.25,
+ "variants": {
+  "old": {
+   "n_labels": 122,
+   "class_counts": {
+    "OTHER": 56,
+    "PLC": 40,
+    "EWS": 15,
+    "HMI": 11
+   },
+   "n_profiled": 117,
+   "n_tokens": 67,
+   "A_profiled": {
+    "n": 117,
+    "class_counts": {
+     "PLC": 37,
+     "HMI": 11,
+     "EWS": 15,
+     "OTHER": 54
+    },
+    "RF|behaviour_payload_role_eng": {
+     "balanced_acc": 0.618,
+     "balanced_acc_std": 0.028,
+     "macro_f1": 0.621,
+     "recall": {
+      "PLC": 0.784,
+      "HMI": 0.436,
+      "EWS": 0.48,
+      "OTHER": 0.77
+     },
+     "confusion_sum_over_seeds": [
+      [
+       145,
+       5,
+       9,
+       26
+      ],
+      [
+       12,
+       24,
+       11,
+       8
+      ],
+      [
+       7,
+       8,
+       36,
+       24
+      ],
+      [
+       32,
+       8,
+       22,
+       208
+      ]
+     ]
+    },
+    "RF_subsets_seed0": {
+     "old_labels": {
+      "n": 117,
+      "accuracy": 0.718,
+      "balanced_acc_present_classes": 0.635,
+      "recall_by_class": {
+       "PLC": 0.757,
+       "HMI": 0.455,
+       "EWS": 0.533,
+       "OTHER": 0.796
+      }
+     },
+     "accuracy_by_new_subtype": {}
+    },
+    "MLP|behaviour_payload_role_eng": {
+     "balanced_acc": 0.56,
+     "balanced_acc_std": 0.006,
+     "macro_f1": 0.556,
+     "recall": {
+      "PLC": 0.703,
+      "HMI": 0.6,
+      "EWS": 0.213,
+      "OTHER": 0.722
+     },
+     "confusion_sum_over_seeds": [
+      [
+       130,
+       9,
+       21,
+       25
+      ],
+      [
+       16,
+       33,
+       6,
+       0
+      ],
+      [
+       11,
+       9,
+       16,
+       39
+      ],
+      [
+       36,
+       7,
+       32,
+       195
+      ]
+     ]
+    },
+    "RF|payload_role_eng": {
+     "balanced_acc": 0.559,
+     "balanced_acc_std": 0.026,
+     "macro_f1": 0.552,
+     "recall": {
+      "PLC": 0.805,
+      "HMI": 0.418,
+      "EWS": 0.32,
+      "OTHER": 0.693
+     },
+     "confusion_sum_over_seeds": [
+      [
+       149,
+       12,
+       9,
+       15
+      ],
+      [
+       17,
+       23,
+       5,
+       10
+      ],
+      [
+       10,
+       11,
+       24,
+       30
+      ],
+      [
+       30,
+       13,
+       40,
+       187
+      ]
+     ]
+    },
+    "MLP|payload_role_eng": {
+     "balanced_acc": 0.56,
+     "balanced_acc_std": 0.009,
+     "macro_f1": 0.551,
+     "recall": {
+      "PLC": 0.692,
+      "HMI": 0.636,
+      "EWS": 0.213,
+      "OTHER": 0.7
+     },
+     "confusion_sum_over_seeds": [
+      [
+       128,
+       6,
+       14,
+       37
+      ],
+      [
+       5,
+       35,
+       5,
+       10
+      ],
+      [
+       10,
+       10,
+       16,
+       39
+      ],
+      [
+       34,
+       16,
+       31,
+       189
+      ]
+     ]
+    }
+   },
+   "T_tokens": {
+    "n": 67,
+    "class_counts": {
+     "PLC": 33,
+     "HMI": 9,
+     "EWS": 10,
+     "OTHER": 15
+    },
+    "RF|behaviour_payload_role_eng": {
+     "balanced_acc": 0.703,
+     "balanced_acc_std": 0.04,
+     "macro_f1": 0.703,
+     "recall": {
+      "PLC": 0.867,
+      "HMI": 0.667,
+      "EWS": 0.68,
+      "OTHER": 0.6
+     },
+     "confusion_sum_over_seeds": [
+      [
+       143,
+       11,
+       6,
+       5
+      ],
+      [
+       9,
+       30,
+       6,
+       0
+      ],
+      [
+       7,
+       6,
+       34,
+       3
+      ],
+      [
+       17,
+       3,
+       10,
+       45
+      ]
+     ]
+    },
+    "RF_subsets_seed0": {
+     "old_labels": {
+      "n": 67,
+      "accuracy": 0.791,
+      "balanced_acc_present_classes": 0.782,
+      "recall_by_class": {
+       "PLC": 0.848,
+       "HMI": 0.778,
+       "EWS": 0.9,
+       "OTHER": 0.6
+      }
+     },
+     "accuracy_by_new_subtype": {}
+    },
+    "MLP|behaviour_payload_role_eng": {
+     "balanced_acc": 0.611,
+     "balanced_acc_std": 0.017,
+     "macro_f1": 0.621,
+     "recall": {
+      "PLC": 0.8,
+      "HMI": 0.711,
+      "EWS": 0.32,
+      "OTHER": 0.613
+     },
+     "confusion_sum_over_seeds": [
+      [
+       132,
+       1,
+       18,
+       14
+      ],
+      [
+       7,
+       32,
+       5,
+       1
+      ],
+      [
+       15,
+       8,
+       16,
+       11
+      ],
+      [
+       25,
+       0,
+       4,
+       46
+      ]
+     ]
+    }
+   }
+  },
+  "all": {
+   "n_labels": 165,
+   "class_counts": {
+    "OTHER": 78,
+    "PLC": 43,
+    "HMI": 29,
+    "EWS": 15
+   },
+   "n_profiled": 144,
+   "n_tokens": 78,
+   "A_profiled": {
+    "n": 144,
+    "class_counts": {
+     "PLC": 40,
+     "HMI": 14,
+     "EWS": 15,
+     "OTHER": 75
+    },
+    "RF|behaviour_payload_role_eng": {
+     "balanced_acc": 0.569,
+     "balanced_acc_std": 0.012,
+     "macro_f1": 0.551,
+     "recall": {
+      "PLC": 0.805,
+      "HMI": 0.4,
+      "EWS": 0.52,
+      "OTHER": 0.549
+     },
+     "confusion_sum_over_seeds": [
+      [
+       161,
+       11,
+       5,
+       23
+      ],
+      [
+       18,
+       28,
+       13,
+       11
+      ],
+      [
+       6,
+       6,
+       39,
+       24
+      ],
+      [
+       133,
+       11,
+       25,
+       206
+      ]
+     ]
+    },
+    "RF_subsets_seed0": {
+     "old_labels": {
+      "n": 117,
+      "accuracy": 0.692,
+      "balanced_acc_present_classes": 0.608,
+      "recall_by_class": {
+       "PLC": 0.811,
+       "HMI": 0.364,
+       "EWS": 0.533,
+       "OTHER": 0.722
+      }
+     },
+     "new_added": {
+      "n": 27,
+      "accuracy": 0.296,
+      "balanced_acc_present_classes": 0.603,
+      "recall_by_class": {
+       "PLC": 1.0,
+       "HMI": 0.667,
+       "OTHER": 0.143
+      }
+     },
+     "accuracy_by_new_subtype": {
+      "SCADA_DCS_valmet": {
+       "n": 1,
+       "accuracy": 1.0
+      },
+      "SCADA_server": {
+       "n": 1,
+       "accuracy": 1.0
+      },
+      "gateway_or_field_device": {
+       "n": 16,
+       "accuracy": 0.188
+      }
+     }
+    },
+    "MLP|behaviour_payload_role_eng": {
+     "balanced_acc": 0.486,
+     "balanced_acc_std": 0.011,
+     "macro_f1": 0.472,
+     "recall": {
+      "PLC": 0.61,
+      "HMI": 0.586,
+      "EWS": 0.227,
+      "OTHER": 0.523
+     },
+     "confusion_sum_over_seeds": [
+      [
+       122,
+       16,
+       26,
+       36
+      ],
+      [
+       17,
+       41,
+       6,
+       6
+      ],
+      [
+       16,
+       8,
+       17,
+       34
+      ],
+      [
+       135,
+       9,
+       35,
+       196
+      ]
+     ]
+    },
+    "RF|payload_role_eng": {
+     "balanced_acc": 0.508,
+     "balanced_acc_std": 0.022,
+     "macro_f1": 0.472,
+     "recall": {
+      "PLC": 0.795,
+      "HMI": 0.443,
+      "EWS": 0.36,
+      "OTHER": 0.435
+     },
+     "confusion_sum_over_seeds": [
+      [
+       159,
+       13,
+       16,
+       12
+      ],
+      [
+       20,
+       31,
+       4,
+       15
+      ],
+      [
+       6,
+       12,
+       27,
+       30
+      ],
+      [
+       147,
+       27,
+       38,
+       163
+      ]
+     ]
+    },
+    "MLP|payload_role_eng": {
+     "balanced_acc": 0.468,
+     "balanced_acc_std": 0.013,
+     "macro_f1": 0.448,
+     "recall": {
+      "PLC": 0.615,
+      "HMI": 0.543,
+      "EWS": 0.213,
+      "OTHER": 0.501
+     },
+     "confusion_sum_over_seeds": [
+      [
+       123,
+       10,
+       24,
+       43
+      ],
+      [
+       12,
+       38,
+       9,
+       11
+      ],
+      [
+       13,
+       16,
+       16,
+       30
+      ],
+      [
+       131,
+       18,
+       38,
+       188
+      ]
+     ]
+    }
+   },
+   "T_tokens": {
+    "n": 78,
+    "class_counts": {
+     "PLC": 34,
+     "HMI": 10,
+     "EWS": 10,
+     "OTHER": 24
+    },
+    "RF|behaviour_payload_role_eng": {
+     "balanced_acc": 0.615,
+     "balanced_acc_std": 0.027,
+     "macro_f1": 0.609,
+     "recall": {
+      "PLC": 0.8,
+      "HMI": 0.56,
+      "EWS": 0.66,
+      "OTHER": 0.442
+     },
+     "confusion_sum_over_seeds": [
+      [
+       136,
+       11,
+       5,
+       18
+      ],
+      [
+       9,
+       28,
+       13,
+       0
+      ],
+      [
+       6,
+       8,
+       33,
+       3
+      ],
+      [
+       57,
+       0,
+       10,
+       53
+      ]
+     ]
+    },
+    "RF_subsets_seed0": {
+     "old_labels": {
+      "n": 67,
+      "accuracy": 0.687,
+      "balanced_acc_present_classes": 0.628,
+      "recall_by_class": {
+       "PLC": 0.788,
+       "HMI": 0.556,
+       "EWS": 0.5,
+       "OTHER": 0.667
+      }
+     },
+     "new_added": {
+      "n": 11,
+      "accuracy": 0.273,
+      "balanced_acc_present_classes": 0.704,
+      "recall_by_class": {
+       "PLC": 1.0,
+       "HMI": 1.0,
+       "OTHER": 0.111
+      }
+     },
+     "accuracy_by_new_subtype": {
+      "SCADA_DCS_valmet": {
+       "n": 1,
+       "accuracy": 1.0
+      },
+      "gateway_or_field_device": {
+       "n": 6,
+       "accuracy": 0.0
+      }
+     }
+    },
+    "MLP|behaviour_payload_role_eng": {
+     "balanced_acc": 0.558,
+     "balanced_acc_std": 0.035,
+     "macro_f1": 0.564,
+     "recall": {
+      "PLC": 0.771,
+      "HMI": 0.72,
+      "EWS": 0.3,
+      "OTHER": 0.442
+     },
+     "confusion_sum_over_seeds": [
+      [
+       131,
+       2,
+       13,
+       24
+      ],
+      [
+       6,
+       36,
+       8,
+       0
+      ],
+      [
+       16,
+       11,
+       15,
+       8
+      ],
+      [
+       61,
+       0,
+       6,
+       53
+      ]
+     ]
+    }
+   }
+  },
+  "noDCS": {
+   "n_labels": 156,
+   "class_counts": {
+    "OTHER": 78,
+    "PLC": 43,
+    "HMI": 20,
+    "EWS": 15
+   },
+   "n_profiled": 143,
+   "n_tokens": 77,
+   "A_profiled": {
+    "n": 143,
+    "class_counts": {
+     "PLC": 40,
+     "HMI": 13,
+     "EWS": 15,
+     "OTHER": 75
+    },
+    "RF|behaviour_payload_role_eng": {
+     "balanced_acc": 0.539,
+     "balanced_acc_std": 0.032,
+     "macro_f1": 0.523,
+     "recall": {
+      "PLC": 0.825,
+      "HMI": 0.277,
+      "EWS": 0.493,
+      "OTHER": 0.56
+     },
+     "confusion_sum_over_seeds": [
+      [
+       165,
+       10,
+       6,
+       19
+      ],
+      [
+       23,
+       18,
+       13,
+       11
+      ],
+      [
+       6,
+       7,
+       37,
+       25
+      ],
+      [
+       131,
+       10,
+       24,
+       210
+      ]
+     ]
+    },
+    "RF_subsets_seed0": {
+     "old_labels": {
+      "n": 117,
+      "accuracy": 0.675,
+      "balanced_acc_present_classes": 0.558,
+      "recall_by_class": {
+       "PLC": 0.838,
+       "HMI": 0.273,
+       "EWS": 0.4,
+       "OTHER": 0.722
+      }
+     },
+     "new_added": {
+      "n": 26,
+      "accuracy": 0.308,
+      "balanced_acc_present_classes": 0.468,
+      "recall_by_class": {
+       "PLC": 0.667,
+       "HMI": 0.5,
+       "OTHER": 0.238
+      }
+     },
+     "accuracy_by_new_subtype": {
+      "SCADA_server": {
+       "n": 1,
+       "accuracy": 1.0
+      },
+      "gateway_or_field_device": {
+       "n": 16,
+       "accuracy": 0.188
+      }
+     }
+    },
+    "MLP|behaviour_payload_role_eng": {
+     "balanced_acc": 0.489,
+     "balanced_acc_std": 0.012,
+     "macro_f1": 0.471,
+     "recall": {
+      "PLC": 0.62,
+      "HMI": 0.554,
+      "EWS": 0.227,
+      "OTHER": 0.555
+     },
+     "confusion_sum_over_seeds": [
+      [
+       124,
+       23,
+       23,
+       30
+      ],
+      [
+       21,
+       36,
+       7,
+       1
+      ],
+      [
+       15,
+       9,
+       17,
+       34
+      ],
+      [
+       132,
+       8,
+       27,
+       208
+      ]
+     ]
+    },
+    "RF|payload_role_eng": {
+     "balanced_acc": 0.469,
+     "balanced_acc_std": 0.018,
+     "macro_f1": 0.429,
+     "recall": {
+      "PLC": 0.805,
+      "HMI": 0.323,
+      "EWS": 0.36,
+      "OTHER": 0.387
+     },
+     "confusion_sum_over_seeds": [
+      [
+       161,
+       13,
+       12,
+       14
+      ],
+      [
+       24,
+       21,
+       3,
+       17
+      ],
+      [
+       5,
+       10,
+       27,
+       33
+      ],
+      [
+       146,
+       28,
+       56,
+       145
+      ]
+     ]
+    },
+    "MLP|payload_role_eng": {
+     "balanced_acc": 0.47,
+     "balanced_acc_std": 0.02,
+     "macro_f1": 0.447,
+     "recall": {
+      "PLC": 0.625,
+      "HMI": 0.538,
+      "EWS": 0.227,
+      "OTHER": 0.488
+     },
+     "confusion_sum_over_seeds": [
+      [
+       125,
+       13,
+       17,
+       45
+      ],
+      [
+       13,
+       35,
+       6,
+       11
+      ],
+      [
+       8,
+       13,
+       17,
+       37
+      ],
+      [
+       133,
+       18,
+       41,
+       183
+      ]
+     ]
+    }
+   },
+   "T_tokens": {
+    "n": 77,
+    "class_counts": {
+     "PLC": 34,
+     "HMI": 9,
+     "EWS": 10,
+     "OTHER": 24
+    },
+    "RF|behaviour_payload_role_eng": {
+     "balanced_acc": 0.608,
+     "balanced_acc_std": 0.024,
+     "macro_f1": 0.602,
+     "recall": {
+      "PLC": 0.818,
+      "HMI": 0.578,
+      "EWS": 0.62,
+      "OTHER": 0.417
+     },
+     "confusion_sum_over_seeds": [
+      [
+       139,
+       10,
+       7,
+       14
+      ],
+      [
+       10,
+       26,
+       9,
+       0
+      ],
+      [
+       6,
+       10,
+       31,
+       3
+      ],
+      [
+       60,
+       0,
+       10,
+       50
+      ]
+     ]
+    },
+    "RF_subsets_seed0": {
+     "old_labels": {
+      "n": 67,
+      "accuracy": 0.701,
+      "balanced_acc_present_classes": 0.643,
+      "recall_by_class": {
+       "PLC": 0.818,
+       "HMI": 0.556,
+       "EWS": 0.6,
+       "OTHER": 0.6
+      }
+     },
+     "new_added": {
+      "n": 10,
+      "accuracy": 0.1,
+      "balanced_acc_present_classes": 0.5,
+      "recall_by_class": {
+       "PLC": 1.0,
+       "OTHER": 0.0
+      }
+     },
+     "accuracy_by_new_subtype": {
+      "gateway_or_field_device": {
+       "n": 6,
+       "accuracy": 0.0
+      }
+     }
+    },
+    "MLP|behaviour_payload_role_eng": {
+     "balanced_acc": 0.545,
+     "balanced_acc_std": 0.007,
+     "macro_f1": 0.556,
+     "recall": {
+      "PLC": 0.759,
+      "HMI": 0.667,
+      "EWS": 0.32,
+      "OTHER": 0.433
+     },
+     "confusion_sum_over_seeds": [
+      [
+       129,
+       1,
+       16,
+       24
+      ],
+      [
+       7,
+       30,
+       7,
+       1
+      ],
+      [
+       18,
+       8,
+       16,
+       8
+      ],
+      [
+       61,
+       0,
+       7,
+       52
+      ]
+     ]
+    }
+   }
+  },
+  "noSCADA": {
+   "n_labels": 148,
+   "class_counts": {
+    "OTHER": 78,
+    "PLC": 43,
+    "EWS": 15,
+    "HMI": 12
+   },
+   "n_profiled": 142,
+   "n_tokens": 77,
+   "A_profiled": {
+    "n": 142,
+    "class_counts": {
+     "PLC": 40,
+     "HMI": 12,
+     "EWS": 15,
+     "OTHER": 75
+    },
+    "RF|behaviour_payload_role_eng": {
+     "balanced_acc": 0.536,
+     "balanced_acc_std": 0.015,
+     "macro_f1": 0.52,
+     "recall": {
+      "PLC": 0.805,
+      "HMI": 0.25,
+      "EWS": 0.507,
+      "OTHER": 0.584
+     },
+     "confusion_sum_over_seeds": [
+      [
+       161,
+       8,
+       8,
+       23
+      ],
+      [
+       21,
+       15,
+       14,
+       10
+      ],
+      [
+       5,
+       9,
+       38,
+       23
+      ],
+      [
+       122,
+       9,
+       25,
+       219
+      ]
+     ]
+    },
+    "RF_subsets_seed0": {
+     "old_labels": {
+      "n": 117,
+      "accuracy": 0.701,
+      "balanced_acc_present_classes": 0.58,
+      "recall_by_class": {
+       "PLC": 0.784,
+       "HMI": 0.273,
+       "EWS": 0.467,
+       "OTHER": 0.796
+      }
+     },
+     "new_added": {
+      "n": 25,
+      "accuracy": 0.28,
+      "balanced_acc_present_classes": 0.302,
+      "recall_by_class": {
+       "PLC": 0.667,
+       "HMI": 0.0,
+       "OTHER": 0.238
+      }
+     },
+     "accuracy_by_new_subtype": {
+      "gateway_or_field_device": {
+       "n": 16,
+       "accuracy": 0.188
+      }
+     }
+    },
+    "MLP|behaviour_payload_role_eng": {
+     "balanced_acc": 0.47,
+     "balanced_acc_std": 0.012,
+     "macro_f1": 0.45,
+     "recall": {
+      "PLC": 0.605,
+      "HMI": 0.517,
+      "EWS": 0.213,
+      "OTHER": 0.544
+     },
+     "confusion_sum_over_seeds": [
+      [
+       121,
+       25,
+       22,
+       32
+      ],
+      [
+       17,
+       31,
+       8,
+       4
+      ],
+      [
+       15,
+       10,
+       16,
+       34
+      ],
+      [
+       136,
+       10,
+       25,
+       204
+      ]
+     ]
+    },
+    "RF|payload_role_eng": {
+     "balanced_acc": 0.454,
+     "balanced_acc_std": 0.028,
+     "macro_f1": 0.42,
+     "recall": {
+      "PLC": 0.785,
+      "HMI": 0.2,
+      "EWS": 0.4,
+      "OTHER": 0.429
+     },
+     "confusion_sum_over_seeds": [
+      [
+       157,
+       9,
+       15,
+       19
+      ],
+      [
+       23,
+       12,
+       10,
+       15
+      ],
+      [
+       6,
+       10,
+       30,
+       29
+      ],
+      [
+       144,
+       18,
+       52,
+       161
+      ]
+     ]
+    },
+    "MLP|payload_role_eng": {
+     "balanced_acc": 0.476,
+     "balanced_acc_std": 0.017,
+     "macro_f1": 0.457,
+     "recall": {
+      "PLC": 0.635,
+      "HMI": 0.55,
+      "EWS": 0.213,
+      "OTHER": 0.504
+     },
+     "confusion_sum_over_seeds": [
+      [
+       127,
+       6,
+       14,
+       53
+      ],
+      [
+       12,
+       33,
+       5,
+       10
+      ],
+      [
+       9,
+       15,
+       16,
+       35
+      ],
+      [
+       135,
+       14,
+       37,
+       189
+      ]
+     ]
+    }
+   },
+   "T_tokens": {
+    "n": 77,
+    "class_counts": {
+     "PLC": 34,
+     "HMI": 9,
+     "EWS": 10,
+     "OTHER": 24
+    },
+    "RF|behaviour_payload_role_eng": {
+     "balanced_acc": 0.608,
+     "balanced_acc_std": 0.024,
+     "macro_f1": 0.602,
+     "recall": {
+      "PLC": 0.818,
+      "HMI": 0.578,
+      "EWS": 0.62,
+      "OTHER": 0.417
+     },
+     "confusion_sum_over_seeds": [
+      [
+       139,
+       10,
+       7,
+       14
+      ],
+      [
+       10,
+       26,
+       9,
+       0
+      ],
+      [
+       6,
+       10,
+       31,
+       3
+      ],
+      [
+       60,
+       0,
+       10,
+       50
+      ]
+     ]
+    },
+    "RF_subsets_seed0": {
+     "old_labels": {
+      "n": 67,
+      "accuracy": 0.701,
+      "balanced_acc_present_classes": 0.643,
+      "recall_by_class": {
+       "PLC": 0.818,
+       "HMI": 0.556,
+       "EWS": 0.6,
+       "OTHER": 0.6
+      }
+     },
+     "new_added": {
+      "n": 10,
+      "accuracy": 0.1,
+      "balanced_acc_present_classes": 0.5,
+      "recall_by_class": {
+       "PLC": 1.0,
+       "OTHER": 0.0
+      }
+     },
+     "accuracy_by_new_subtype": {
+      "gateway_or_field_device": {
+       "n": 6,
+       "accuracy": 0.0
+      }
+     }
+    },
+    "MLP|behaviour_payload_role_eng": {
+     "balanced_acc": 0.545,
+     "balanced_acc_std": 0.007,
+     "macro_f1": 0.556,
+     "recall": {
+      "PLC": 0.759,
+      "HMI": 0.667,
+      "EWS": 0.32,
+      "OTHER": 0.433
+     },
+     "confusion_sum_over_seeds": [
+      [
+       129,
+       1,
+       16,
+       24
+      ],
+      [
+       7,
+       30,
+       7,
+       1
+      ],
+      [
+       18,
+       8,
+       16,
+       8
+      ],
+      [
+       61,
+       0,
+       7,
+       52
+      ]
+     ]
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,129 @@
+{
+ "n": 117,
+ "class_counts": {
+  "OTHER": 54,
+  "PLC": 37,
+  "EWS": 15,
+  "HMI": 11
+ },
+ "seeds": 3,
+ "seq": "phase2_sequences_v6_full.pkl",
+ "variants": {
+  "raw": {
+   "balanced_acc": 0.574,
+   "balanced_acc_std": 0.04,
+   "macro_f1": 0.561,
+   "recall": {
+    "PLC": 0.658,
+    "HMI": 0.667,
+    "EWS": 0.311,
+    "OTHER": 0.66
+   },
+   "confusion_sum_over_seeds": [
+    [
+     73,
+     6,
+     21,
+     11
+    ],
+    [
+     3,
+     22,
+     4,
+     4
+    ],
+    [
+     10,
+     3,
+     14,
+     18
+    ],
+    [
+     17,
+     9,
+     29,
+     107
+    ]
+   ]
+  },
+  "rle_rep": {
+   "balanced_acc": 0.551,
+   "balanced_acc_std": 0.026,
+   "macro_f1": 0.541,
+   "recall": {
+    "PLC": 0.721,
+    "HMI": 0.515,
+    "EWS": 0.333,
+    "OTHER": 0.636
+   },
+   "confusion_sum_over_seeds": [
+    [
+     80,
+     10,
+     12,
+     9
+    ],
+    [
+     7,
+     17,
+     3,
+     6
+    ],
+    [
+     13,
+     1,
+     15,
+     16
+    ],
+    [
+     22,
+     7,
+     30,
+     103
+    ]
+   ]
+  },
+  "rle_norep": {
+   "balanced_acc": 0.592,
+   "balanced_acc_std": 0.037,
+   "macro_f1": 0.575,
+   "recall": {
+    "PLC": 0.712,
+    "HMI": 0.667,
+    "EWS": 0.333,
+    "OTHER": 0.654
+   },
+   "confusion_sum_over_seeds": [
+    [
+     79,
+     6,
+     16,
+     10
+    ],
+    [
+     4,
+     22,
+     1,
+     6
+    ],
+    [
+     11,
+     3,
+     15,
+     16
+    ],
+    [
+     22,
+     10,
+     24,
+     106
+    ]
+   ]
+  }
+ },
+ "events_mean": {
+  "raw": 5027.9,
+  "rle_rep": 3540.0,
+  "rle_norep": 3540.0
+ }
+}

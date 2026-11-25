@@ -1,0 +1,339 @@
+{
+ "status": "EXPLORATORY - only devices with message-type tokens; no absence confound for eng features",
+ "classes": [
+  "PLC",
+  "HMI",
+  "EWS",
+  "OTHER"
+ ],
+ "all_labels": {
+  "n": 98,
+  "class_counts": {
+   "PLC": 44,
+   "HMI": 14,
+   "EWS": 15,
+   "OTHER": 25
+  },
+  "majority_baseline_acc": 0.449,
+  "behaviour": {
+   "balanced_acc": 0.397,
+   "balanced_acc_std": 0.035,
+   "macro_f1": 0.382,
+   "recall": {
+    "PLC": 0.459,
+    "HMI": 0.343,
+    "EWS": 0.467,
+    "OTHER": 0.32
+   },
+   "confusion_sum_over_seeds": [
+    [
+     101,
+     32,
+     59,
+     28
+    ],
+    [
+     27,
+     24,
+     9,
+     10
+    ],
+    [
+     22,
+     8,
+     35,
+     10
+    ],
+    [
+     38,
+     13,
+     34,
+     40
+    ]
+   ]
+  },
+  "payload_role": {
+   "balanced_acc": 0.572,
+   "balanced_acc_std": 0.03,
+   "macro_f1": 0.566,
+   "recall": {
+    "PLC": 0.832,
+    "HMI": 0.357,
+    "EWS": 0.707,
+    "OTHER": 0.392
+   },
+   "confusion_sum_over_seeds": [
+    [
+     183,
+     14,
+     2,
+     21
+    ],
+    [
+     10,
+     25,
+     30,
+     5
+    ],
+    [
+     5,
+     14,
+     53,
+     3
+    ],
+    [
+     66,
+     0,
+     10,
+     49
+    ]
+   ]
+  },
+  "payload_role_eng": {
+   "balanced_acc": 0.629,
+   "balanced_acc_std": 0.036,
+   "macro_f1": 0.618,
+   "recall": {
+    "PLC": 0.773,
+    "HMI": 0.729,
+    "EWS": 0.64,
+    "OTHER": 0.376
+   },
+   "confusion_sum_over_seeds": [
+    [
+     170,
+     20,
+     9,
+     21
+    ],
+    [
+     10,
+     51,
+     8,
+     1
+    ],
+    [
+     5,
+     19,
+     48,
+     3
+    ],
+    [
+     68,
+     0,
+     10,
+     47
+    ]
+   ]
+  },
+  "behaviour_payload_role_eng": {
+   "balanced_acc": 0.668,
+   "balanced_acc_std": 0.021,
+   "macro_f1": 0.658,
+   "recall": {
+    "PLC": 0.836,
+    "HMI": 0.8,
+    "EWS": 0.667,
+    "OTHER": 0.368
+   },
+   "confusion_sum_over_seeds": [
+    [
+     184,
+     10,
+     11,
+     15
+    ],
+    [
+     7,
+     56,
+     7,
+     0
+    ],
+    [
+     5,
+     17,
+     50,
+     3
+    ],
+    [
+     69,
+     0,
+     10,
+     46
+    ]
+   ]
+  },
+  "permutation_payload_role_eng": {
+   "observed": 0.629,
+   "null_mean": 0.253,
+   "null_p95": 0.376,
+   "p_value": 0.01,
+   "n_perm": 100
+  }
+ },
+ "strict": {
+  "n": 93,
+  "class_counts": {
+   "PLC": 44,
+   "HMI": 14,
+   "EWS": 10,
+   "OTHER": 25
+  },
+  "majority_baseline_acc": 0.473,
+  "behaviour": {
+   "balanced_acc": 0.348,
+   "balanced_acc_std": 0.027,
+   "macro_f1": 0.352,
+   "recall": {
+    "PLC": 0.559,
+    "HMI": 0.357,
+    "EWS": 0.14,
+    "OTHER": 0.336
+   },
+   "confusion_sum_over_seeds": [
+    [
+     123,
+     27,
+     40,
+     30
+    ],
+    [
+     28,
+     25,
+     8,
+     9
+    ],
+    [
+     32,
+     4,
+     7,
+     7
+    ],
+    [
+     39,
+     13,
+     31,
+     42
+    ]
+   ]
+  },
+  "payload_role": {
+   "balanced_acc": 0.526,
+   "balanced_acc_std": 0.017,
+   "macro_f1": 0.525,
+   "recall": {
+    "PLC": 0.859,
+    "HMI": 0.429,
+    "EWS": 0.44,
+    "OTHER": 0.376
+   },
+   "confusion_sum_over_seeds": [
+    [
+     189,
+     13,
+     2,
+     16
+    ],
+    [
+     10,
+     30,
+     25,
+     5
+    ],
+    [
+     5,
+     22,
+     22,
+     1
+    ],
+    [
+     68,
+     0,
+     10,
+     47
+    ]
+   ]
+  },
+  "payload_role_eng": {
+   "balanced_acc": 0.602,
+   "balanced_acc_std": 0.034,
+   "macro_f1": 0.59,
+   "recall": {
+    "PLC": 0.777,
+    "HMI": 0.729,
+    "EWS": 0.52,
+    "OTHER": 0.384
+   },
+   "confusion_sum_over_seeds": [
+    [
+     171,
+     18,
+     9,
+     22
+    ],
+    [
+     9,
+     51,
+     9,
+     1
+    ],
+    [
+     5,
+     17,
+     26,
+     2
+    ],
+    [
+     67,
+     0,
+     10,
+     48
+    ]
+   ]
+  },
+  "behaviour_payload_role_eng": {
+   "balanced_acc": 0.638,
+   "balanced_acc_std": 0.022,
+   "macro_f1": 0.626,
+   "recall": {
+    "PLC": 0.823,
+    "HMI": 0.814,
+    "EWS": 0.54,
+    "OTHER": 0.376
+   },
+   "confusion_sum_over_seeds": [
+    [
+     181,
+     10,
+     10,
+     19
+    ],
+    [
+     6,
+     57,
+     7,
+     0
+    ],
+    [
+     5,
+     16,
+     27,
+     2
+    ],
+    [
+     68,
+     0,
+     10,
+     47
+    ]
+   ]
+  },
+  "permutation_payload_role_eng": {
+   "observed": 0.602,
+   "null_mean": 0.238,
+   "null_p95": 0.364,
+   "p_value": 0.01,
+   "n_perm": 100
+  }
+ }
+}

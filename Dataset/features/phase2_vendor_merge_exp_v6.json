@@ -1,0 +1,308 @@
+{
+ "ghi_chu": "THU NGHIEM BO SUNG - khong ghi de ket qua dong bang; RF, tap A, 5 hat, nhom = session dau",
+ "so_nhan_SCADA_chuyen_sang_EWS": 17,
+ "old": {
+  "n_tap_A": 117,
+  "class_counts": {
+   "PLC": 37,
+   "HMI": 11,
+   "EWS": 15,
+   "OTHER": 54
+  },
+  "ket_qua": {
+   "49": {
+    "balanced_acc": 0.559,
+    "std": 0.026,
+    "recall": {
+     "PLC": 0.805,
+     "HMI": 0.418,
+     "EWS": 0.32,
+     "OTHER": 0.693
+    }
+   },
+   "49+hang": {
+    "balanced_acc": 0.586,
+    "std": 0.026,
+    "recall": {
+     "PLC": 0.805,
+     "HMI": 0.382,
+     "EWS": 0.413,
+     "OTHER": 0.744
+    }
+   },
+   "64": {
+    "balanced_acc": 0.618,
+    "std": 0.028,
+    "recall": {
+     "PLC": 0.784,
+     "HMI": 0.436,
+     "EWS": 0.48,
+     "OTHER": 0.77
+    }
+   },
+   "64+hang": {
+    "balanced_acc": 0.59,
+    "std": 0.018,
+    "recall": {
+     "PLC": 0.805,
+     "HMI": 0.345,
+     "EWS": 0.427,
+     "OTHER": 0.781
+    }
+   },
+   "chi_hang": {
+    "balanced_acc": 0.502,
+    "std": 0.009,
+    "recall": {
+     "PLC": 0.649,
+     "HMI": 0.273,
+     "EWS": 0.667,
+     "OTHER": 0.419
+    }
+   }
+  },
+  "bang_lop_x_nhom_hang": {
+   "PLC": {
+    "v_industrial": 24,
+    "v_local": 0,
+    "v_network": 1,
+    "v_other": 9,
+    "v_pc": 1,
+    "v_vm": 2
+   },
+   "HMI": {
+    "v_industrial": 4,
+    "v_local": 0,
+    "v_network": 0,
+    "v_other": 5,
+    "v_pc": 0,
+    "v_vm": 2
+   },
+   "EWS": {
+    "v_industrial": 1,
+    "v_local": 1,
+    "v_network": 0,
+    "v_other": 1,
+    "v_pc": 2,
+    "v_vm": 10
+   },
+   "OTHER": {
+    "v_industrial": 12,
+    "v_local": 2,
+    "v_network": 6,
+    "v_other": 18,
+    "v_pc": 13,
+    "v_vm": 3
+   }
+  },
+  "HMI_vs_EWS_chi_hang_auc": {
+   "n_HMI": 11,
+   "n_EWS": 15,
+   "auc_mean": 0.747
+  }
+ },
+ "all": {
+  "n_tap_A": 144,
+  "class_counts": {
+   "PLC": 40,
+   "HMI": 14,
+   "EWS": 15,
+   "OTHER": 75
+  },
+  "ket_qua": {
+   "49": {
+    "balanced_acc": 0.508,
+    "std": 0.022,
+    "recall": {
+     "PLC": 0.795,
+     "HMI": 0.443,
+     "EWS": 0.36,
+     "OTHER": 0.435
+    }
+   },
+   "49+hang": {
+    "balanced_acc": 0.515,
+    "std": 0.028,
+    "recall": {
+     "PLC": 0.795,
+     "HMI": 0.357,
+     "EWS": 0.4,
+     "OTHER": 0.509
+    }
+   },
+   "64": {
+    "balanced_acc": 0.569,
+    "std": 0.012,
+    "recall": {
+     "PLC": 0.805,
+     "HMI": 0.4,
+     "EWS": 0.52,
+     "OTHER": 0.549
+    }
+   },
+   "64+hang": {
+    "balanced_acc": 0.568,
+    "std": 0.016,
+    "recall": {
+     "PLC": 0.84,
+     "HMI": 0.414,
+     "EWS": 0.48,
+     "OTHER": 0.539
+    }
+   },
+   "chi_hang": {
+    "balanced_acc": 0.506,
+    "std": 0.003,
+    "recall": {
+     "PLC": 0.625,
+     "HMI": 0.5,
+     "EWS": 0.667,
+     "OTHER": 0.232
+    }
+   }
+  },
+  "bang_lop_x_nhom_hang": {
+   "PLC": {
+    "v_industrial": 25,
+    "v_local": 0,
+    "v_network": 1,
+    "v_other": 11,
+    "v_pc": 1,
+    "v_vm": 2
+   },
+   "HMI": {
+    "v_industrial": 4,
+    "v_local": 0,
+    "v_network": 0,
+    "v_other": 7,
+    "v_pc": 1,
+    "v_vm": 2
+   },
+   "EWS": {
+    "v_industrial": 1,
+    "v_local": 1,
+    "v_network": 0,
+    "v_other": 1,
+    "v_pc": 2,
+    "v_vm": 10
+   },
+   "OTHER": {
+    "v_industrial": 26,
+    "v_local": 2,
+    "v_network": 6,
+    "v_other": 22,
+    "v_pc": 16,
+    "v_vm": 3
+   }
+  },
+  "HMI_vs_EWS_chi_hang_auc": {
+   "n_HMI": 14,
+   "n_EWS": 15,
+   "auc_mean": 0.771
+  }
+ },
+ "scadaEWS": {
+  "n_tap_A": 144,
+  "class_counts": {
+   "PLC": 40,
+   "HMI": 12,
+   "EWS": 17,
+   "OTHER": 75
+  },
+  "ket_qua": {
+   "49": {
+    "balanced_acc": 0.495,
+    "std": 0.042,
+    "recall": {
+     "PLC": 0.775,
+     "HMI": 0.25,
+     "EWS": 0.494,
+     "OTHER": 0.461
+    }
+   },
+   "49+hang": {
+    "balanced_acc": 0.518,
+    "std": 0.025,
+    "recall": {
+     "PLC": 0.81,
+     "HMI": 0.25,
+     "EWS": 0.494,
+     "OTHER": 0.517
+    }
+   },
+   "64": {
+    "balanced_acc": 0.558,
+    "std": 0.015,
+    "recall": {
+     "PLC": 0.795,
+     "HMI": 0.3,
+     "EWS": 0.553,
+     "OTHER": 0.584
+    }
+   },
+   "64+hang": {
+    "balanced_acc": 0.553,
+    "std": 0.022,
+    "recall": {
+     "PLC": 0.825,
+     "HMI": 0.283,
+     "EWS": 0.529,
+     "OTHER": 0.573
+    }
+   },
+   "chi_hang": {
+    "balanced_acc": 0.472,
+    "std": 0.009,
+    "recall": {
+     "PLC": 0.625,
+     "HMI": 0.5,
+     "EWS": 0.588,
+     "OTHER": 0.176
+    }
+   }
+  },
+  "bang_lop_x_nhom_hang": {
+   "PLC": {
+    "v_industrial": 25,
+    "v_local": 0,
+    "v_network": 1,
+    "v_other": 11,
+    "v_pc": 1,
+    "v_vm": 2
+   },
+   "HMI": {
+    "v_industrial": 4,
+    "v_local": 0,
+    "v_network": 0,
+    "v_other": 6,
+    "v_pc": 0,
+    "v_vm": 2
+   },
+   "EWS": {
+    "v_industrial": 1,
+    "v_local": 1,
+    "v_network": 0,
+    "v_other": 2,
+    "v_pc": 3,
+    "v_vm": 10
+   },
+   "OTHER": {
+    "v_industrial": 26,
+    "v_local": 2,
+    "v_network": 6,
+    "v_other": 22,
+    "v_pc": 16,
+    "v_vm": 3
+   }
+  },
+  "HMI_vs_EWS_chi_hang_auc": {
+   "n_HMI": 12,
+   "n_EWS": 17,
+   "auc_mean": 0.721
+  }
+ },
+ "SCADA_nhan_co_ho_so_payload": {
+  "tong": 17,
+  "co_ho_so": 2
+ }
+}

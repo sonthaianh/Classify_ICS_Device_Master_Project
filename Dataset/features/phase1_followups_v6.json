@@ -1,0 +1,65 @@
+{
+ "gold": {
+  "n": 184,
+  "ot": 65,
+  "nonot": 119,
+  "by_source": "{('blind_sheet_reviewed_sonthai', 'OT'): 43, ('blind_sheet_reviewed_sonthai', 'non-OT'): 70, ('capture_scenario_provisional', 'non-OT'): 47, ('lab_inventory', 'OT'): 22, ('lab_inventory', 'non-OT'): 2}",
+  "conflicts_dropped": []
+ },
+ "scanner_suspects": {
+  "threshold_ports": 50,
+  "n": 686,
+  "pct_rule_ot": 0.501,
+  "gold_ot_among_suspects": 22,
+  "gold_nonot_among_suspects": 37
+ },
+ "strict_component_split": {
+  "pooled_roc": 0.8584,
+  "pooled_pr": 0.6665,
+  "gold_n_ot": 65,
+  "gold_n_nonot": 119,
+  "gold_roc": 0.796,
+  "gold_pr": 0.649,
+  "ot_recall@0.3": 0.923,
+  "nonot_flagged@0.3": 0.571,
+  "ot_recall@0.5": 0.754,
+  "nonot_flagged@0.5": 0.294
+ },
+ "by_source_at_0.5": [
+  {
+   "source": "blind_sheet_reviewed_sonthai",
+   "gold_label": "OT",
+   "n": 43,
+   "pct_scored>=0.5": 0.837,
+   "median_score": 0.843
+  },
+  {
+   "source": "blind_sheet_reviewed_sonthai",
+   "gold_label": "non-OT",
+   "n": 70,
+   "pct_scored>=0.5": 0.257,
+   "median_score": 0.263
+  },
+  {
+   "source": "capture_scenario_provisional",
+   "gold_label": "non-OT",
+   "n": 47,
+   "pct_scored>=0.5": 0.277,
+   "median_score": 0.374
+  },
+  {
+   "source": "lab_inventory",
+   "gold_label": "OT",
+   "n": 22,
+   "pct_scored>=0.5": 0.864,
+   "median_score": 0.818
+  },
+  {
+   "source": "lab_inventory",
+   "gold_label": "non-OT",
+   "n": 2,
+   "pct_scored>=0.5": 1.0,
+   "median_score": 0.881
+  }
+ ]
+}

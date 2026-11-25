@@ -1,0 +1,118 @@
+{
+ "check_all_windows_roc": 0.9284,
+ "obstime_same_1556_devices": [
+  {
+   "first_n_windows": 1,
+   "approx_seconds": 45,
+   "n_devices": 1556,
+   "pop_roc_same_devices": 0.8791,
+   "n_gold": 76,
+   "gold_roc_same_devices": 0.899
+  },
+  {
+   "first_n_windows": 2,
+   "approx_seconds": 90,
+   "n_devices": 1556,
+   "pop_roc_same_devices": 0.8981,
+   "n_gold": 76,
+   "gold_roc_same_devices": 0.869
+  },
+  {
+   "first_n_windows": 3,
+   "approx_seconds": 135,
+   "n_devices": 1556,
+   "pop_roc_same_devices": 0.9027,
+   "n_gold": 76,
+   "gold_roc_same_devices": 0.854
+  },
+  {
+   "first_n_windows": 5,
+   "approx_seconds": 225,
+   "n_devices": 1556,
+   "pop_roc_same_devices": 0.9054,
+   "n_gold": 76,
+   "gold_roc_same_devices": 0.841
+  },
+  {
+   "first_n_windows": 10,
+   "approx_seconds": 450,
+   "n_devices": 1556,
+   "pop_roc_same_devices": 0.9119,
+   "n_gold": 76,
+   "gold_roc_same_devices": 0.856
+  }
+ ],
+ "scanner_like_lab_devices": [
+  {
+   "device_id": "DEV_0691",
+   "lab": "Lab1",
+   "device_type": "SERVER",
+   "gold_label": "non-OT",
+   "stage1_score": 0.984,
+   "rule_label": "OT_confirmed",
+   "max_service_ports_in_a_session": "1080",
+   "score_source": "phase1_oof_scores_v6.csv"
+  },
+  {
+   "device_id": "DEV_0265",
+   "lab": "Lab1",
+   "device_type": "SERVER",
+   "gold_label": "non-OT",
+   "stage1_score": 0.778,
+   "rule_label": "OT_confirmed",
+   "max_service_ports_in_a_session": "1916",
+   "score_source": "phase1_oof_scores_v6.csv"
+  }
+ ],
+ "top_scored_gold_nonOT": [
+  {
+   "device_id": "DEV_0691",
+   "stage1_score": 0.984,
+   "source": "lab_inventory",
+   "rule_label": "OT_confirmed"
+  },
+  {
+   "device_id": "DEV_2644",
+   "stage1_score": 0.969,
+   "source": "blind_sheet_reviewed_sonthai",
+   "rule_label": "unknown"
+  },
+  {
+   "device_id": "DEV_3034",
+   "stage1_score": 0.905,
+   "source": "capture_scenario_provisional",
+   "rule_label": "unknown"
+  },
+  {
+   "device_id": "DEV_3035",
+   "stage1_score": 0.904,
+   "source": "capture_scenario_provisional",
+   "rule_label": "unknown"
+  },
+  {
+   "device_id": "DEV_1386",
+   "stage1_score": 0.898,
+   "source": "blind_sheet_reviewed_sonthai",
+   "rule_label": "unknown"
+  },
+  {
+   "device_id": "DEV_2643",
+   "stage1_score": 0.887,
+   "source": "blind_sheet_reviewed_sonthai",
+   "rule_label": "unknown"
+  },
+  {
+   "device_id": "DEV_0383",
+   "stage1_score": 0.866,
+   "source": "capture_scenario_provisional",
+   "rule_label": "unknown"
+  },
+  {
+   "device_id": "DEV_3036",
+   "stage1_score": 0.864,
+   "source": "capture_scenario_provisional",
+   "rule_label": "unknown"
+  }
+ ],
+ "note": "G.1: so cua luan van (0,879; 0,898; 0,912) khop voi pop_roc_same_devices. G.3: hai may chu phong thi nghiem, nhan gold khong-OT, diem 0,984 va 0,778, nhan luat OT_confirmed."
+}

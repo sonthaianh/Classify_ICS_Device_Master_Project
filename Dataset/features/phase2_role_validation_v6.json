@@ -1,0 +1,332 @@
+{
+ "seeds_with_ot_payload": 18,
+ "auc_server_share_PLC_vs_HMI": 0.882,
+ "rule_hi_lo_table": {
+  "initiator_like": {
+   "HMI": 5,
+   "PLC": 2
+  },
+  "responder_like": {
+   "HMI": 1,
+   "PLC": 10
+  }
+ },
+ "all_seed_rows": [
+  {
+   "device_id": "DEV_0367",
+   "device_type": "PLC",
+   "ip": "0.0.0.0",
+   "ot_pkts": 402,
+   "ot_server_share": 0.08,
+   "dominant_ot_family": "codesys_ge_misc",
+   "role_class": "initiator_like"
+  },
+  {
+   "device_id": "DEV_0287",
+   "device_type": "PLC",
+   "ip": "0.0.0.0",
+   "ot_pkts": 27229,
+   "ot_server_share": 1.0,
+   "dominant_ot_family": "enip",
+   "role_class": "responder_like"
+  },
+  {
+   "device_id": "DEV_0075",
+   "device_type": "PLC",
+   "ip": "0.0.0.0",
+   "ot_pkts": 80665,
+   "ot_server_share": 1.0,
+   "dominant_ot_family": "s7_iso",
+   "role_class": "responder_like"
+  },
+  {
+   "device_id": "DEV_0353",
+   "device_type": "PLC",
+   "ip": "0.0.0.0",
+   "ot_pkts": 31282,
+   "ot_server_share": 0.962,
+   "dominant_ot_family": "modbus",
+   "role_class": "responder_like"
+  },
+  {
+   "device_id": "DEV_0770",
+   "device_type": "PLC",
+   "ip": "0.0.0.0",
+   "ot_pkts": 6050,
+   "ot_server_share": 1.0,
+   "dominant_ot_family": "modbus",
+   "role_class": "responder_like"
+  },
+  {
+   "device_id": "DEV_0751",
+   "device_type": "PLC",
+   "ip": "0.0.0.0",
+   "ot_pkts": 274,
+   "ot_server_share": 1.0,
+   "dominant_ot_family": "enip",
+   "role_class": "responder_like"
+  },
+  {
+   "device_id": "DEV_0286",
+   "device_type": "PLC",
+   "ip": "0.0.0.0",
+   "ot_pkts": 230306,
+   "ot_server_share": 1.0,
+   "dominant_ot_family": "modbus",
+   "role_class": "responder_like"
+  },
+  {
+   "device_id": "DEV_0103",
+   "device_type": "PLC",
+   "ip": "0.0.0.0",
+   "ot_pkts": 1294,
+   "ot_server_share": 1.0,
+   "dominant_ot_family": "s7_iso",
+   "role_class": "responder_like"
+  },
+  {
+   "device_id": "DEV_0222",
+   "device_type": "IO",
+   "ip": "0.0.0.0",
+   "ot_pkts": 156,
+   "ot_server_share": 0.66,
+   "dominant_ot_family": "profinet_ethercat",
+   "role_class": "mixed"
+  },
+  {
+   "device_id": "DEV_0153",
+   "device_type": "PLC",
+   "ip": "0.0.0.0",
+   "ot_pkts": 2654,
+   "ot_server_share": 1.0,
+   "dominant_ot_family": "s7_iso",
+   "role_class": "responder_like"
+  },
+  {
+   "device_id": "DEV_0534",
+   "device_type": "HMI",
+   "ip": "0.0.0.0",
+   "ot_pkts": 193124,
+   "ot_server_share": 0.0,
+   "dominant_ot_family": "modbus",
+   "role_class": "initiator_like"
+  },
+  {
+   "device_id": "DEV_0368",
+   "device_type": "HMI",
+   "ip": "0.0.0.0",
+   "ot_pkts": 230062,
+   "ot_server_share": 0.0,
+   "dominant_ot_family": "modbus",
+   "role_class": "initiator_like"
+  },
+  {
+   "device_id": "DEV_0533",
+   "device_type": "HMI",
+   "ip": "0.0.0.0",
+   "ot_pkts": 8744,
+   "ot_server_share": 0.008,
+   "dominant_ot_family": "s7_iso",
+   "role_class": "initiator_like"
+  },
+  {
+   "device_id": "DEV_0610",
+   "device_type": "HMI",
+   "ip": "0.0.0.0",
+   "ot_pkts": 439519,
+   "ot_server_share": 0.038,
+   "dominant_ot_family": "modbus",
+   "role_class": "initiator_like"
+  },
+  {
+   "device_id": "DEV_0354",
+   "device_type": "HMI",
+   "ip": "0.0.0.0",
+   "ot_pkts": 27148,
+   "ot_server_share": 0.001,
+   "dominant_ot_family": "enip",
+   "role_class": "initiator_like"
+  },
+  {
+   "device_id": "DEV_0552",
+   "device_type": "PLC",
+   "ip": "0.0.0.0",
+   "ot_pkts": 24,
+   "ot_server_share": 1.0,
+   "dominant_ot_family": "modbus",
+   "role_class": "no_ot_payload"
+  },
+  {
+   "device_id": "DEV_0523",
+   "device_type": "PLC",
+   "ip": "0.0.0.0",
+   "ot_pkts": 464,
+   "ot_server_share": 1.0,
+   "dominant_ot_family": "codesys_ge_misc",
+   "role_class": "responder_like"
+  },
+  {
+   "device_id": "DEV_0524",
+   "device_type": "PLC",
+   "ip": "0.0.0.0",
+   "ot_pkts": 35871,
+   "ot_server_share": 0.018,
+   "dominant_ot_family": "modbus",
+   "role_class": "initiator_like"
+  },
+  {
+   "device_id": "DEV_1590",
+   "device_type": "PLC",
+   "ip": "0.0.0.0",
+   "ot_pkts": 62,
+   "ot_server_share": 1.0,
+   "dominant_ot_family": "codesys_ge_misc",
+   "role_class": "responder_like"
+  },
+  {
+   "device_id": "DEV_1711",
+   "device_type": "HMI",
+   "ip": "0.0.0.0",
+   "ot_pkts": 0,
+   "ot_server_share": NaN,
+   "dominant_ot_family": "",
+   "role_class": "no_ot_payload"
+  },
+  {
+   "device_id": "DEV_3097",
+   "device_type": "HMI",
+   "ip": "0.0.0.0",
+   "ot_pkts": 0,
+   "ot_server_share": NaN,
+   "dominant_ot_family": "",
+   "role_class": "no_ot_payload"
+  },
+  {
+   "device_id": "DEV_0787",
+   "device_type": "HMI",
+   "ip": "0.0.0.0",
+   "ot_pkts": 35290,
+   "ot_server_share": 1.0,
+   "dominant_ot_family": "modbus",
+   "role_class": "responder_like"
+  }
+ ],
+ "rule_0.5_accuracy_PLC_vs_HMI": 0.833,
+ "rule_0.5_errors": [
+  {
+   "device_id": "DEV_0367",
+   "device_type": "PLC",
+   "ip": "0.0.0.0",
+   "model": "Mitsubishi FX5UJ-60MR/ES",
+   "ot_server_share": 0.08
+  },
+  {
+   "device_id": "DEV_0524",
+   "device_type": "PLC",
+   "ip": "0.0.0.0",
+   "model": "Schneider TM241CE24R",
+   "ot_server_share": 0.018
+  },
+  {
+   "device_id": "DEV_0787",
+   "device_type": "HMI",
+   "ip": "0.0.0.0",
+   "model": "Mitsubishi GOT2000",
+   "ot_server_share": 1.0
+  }
+ ],
+ "vs_sonthai_review": {
+  "Engineering workstation/tool": {
+   "n_profiled": 3,
+   "role_class_counts": {
+    "no_ot_payload": 2,
+    "initiator_like": 1
+   },
+   "pseudo_label_counts": {
+    "no_ot_payload": 2,
+    "initiator_like|HMI_analog": 1
+   }
+  },
+  "IED/RTU/protection relay": {
+   "n_profiled": 18,
+   "role_class_counts": {
+    "no_ot_payload": 11,
+    "responder_like": 6,
+    "initiator_like": 1
+   },
+   "pseudo_label_counts": {
+    "no_ot_payload": 11,
+    "responder_like|PLC_analog": 6,
+    "initiator_like|no_seed_analog": 1
+   }
+  },
+  "khac/khong ro": {
+   "n_profiled": 10,
+   "role_class_counts": {
+    "no_ot_payload": 8,
+    "responder_like": 2
+   },
+   "pseudo_label_counts": {
+    "no_ot_payload": 8,
+    "responder_like|PLC_analog": 2
+   }
+  },
+  "PLC/controller": {
+   "n_profiled": 17,
+   "role_class_counts": {
+    "responder_like": 9,
+    "mixed": 5,
+    "no_ot_payload": 3
+   },
+   "pseudo_label_counts": {
+    "responder_like|PLC_analog": 8,
+    "mixed": 5,
+    "no_ot_payload": 3,
+    "responder_like|no_seed_analog": 1
+   }
+  },
+  "HMI/SCADA/operator station": {
+   "n_profiled": 2,
+   "role_class_counts": {
+    "no_ot_payload": 1,
+    "initiator_like": 1
+   },
+   "pseudo_label_counts": {
+    "no_ot_payload": 1,
+    "initiator_like|HMI_analog": 1
+   }
+  },
+  "IO/gateway/other field device": {
+   "n_profiled": 2,
+   "role_class_counts": {
+    "responder_like": 1,
+    "mixed": 1
+   },
+   "pseudo_label_counts": {
+    "responder_like|PLC_analog": 1,
+    "mixed": 1
+   }
+  }
+ },
+ "pool_non_seed_role_class": {
+  "no_ot_payload": 516,
+  "responder_like": 281,
+  "initiator_like": 179,
+  "mixed": 71
+ },
+ "pool_non_seed_pseudo_label": {
+  "no_ot_payload": 516,
+  "responder_like|PLC_analog": 245,
+  "initiator_like|HMI_analog": 115,
+  "mixed": 71,
+  "initiator_like|PLC_analog": 34,
+  "initiator_like|no_seed_analog": 30,
+  "responder_like|no_seed_analog": 28,
+  "responder_like|HMI_analog": 8
+ },
+ "thresholds": {
+  "MIN_OT": 30,
+  "HI": 0.8,
+  "LO": 0.2
+ }
+}

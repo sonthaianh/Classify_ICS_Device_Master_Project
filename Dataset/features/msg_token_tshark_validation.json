@@ -1,0 +1,110 @@
+{
+ "files_scanned": 275,
+ "per_family_target": 300,
+ "tshark": "TShark (Wireshark) 4.6.9 (v4.6.9-0-g2d548b197c75).",
+ "families": {
+  "s7_iso": {
+   "n_sampled": 300,
+   "agree": 283,
+   "disagree": 0,
+   "token_only": 0,
+   "tshark_only": 0,
+   "neither": 17,
+   "agree_rate_when_both_read": 1.0,
+   "missed_by_token_rate": 0.0,
+   "examples": []
+  },
+  "modbus": {
+   "n_sampled": 300,
+   "agree": 110,
+   "disagree": 0,
+   "token_only": 0,
+   "tshark_only": 0,
+   "neither": 190,
+   "agree_rate_when_both_read": 1.0,
+   "missed_by_token_rate": 0.0,
+   "examples": []
+  },
+  "enip": {
+   "n_sampled": 300,
+   "agree": 218,
+   "disagree": 0,
+   "token_only": 0,
+   "tshark_only": 0,
+   "neither": 82,
+   "agree_rate_when_both_read": 1.0,
+   "missed_by_token_rate": 0.0,
+   "examples": []
+  },
+  "bacnet": {
+   "n_sampled": 300,
+   "agree": 191,
+   "disagree": 3,
+   "token_only": 0,
+   "tshark_only": 0,
+   "neither": 106,
+   "agree_rate_when_both_read": 0.985,
+   "missed_by_token_rate": 0.0,
+   "examples": [
+    {
+     "result": "disagree",
+     "detail": "bac_creq_svc00 vs svc=7",
+     "file": "S1585.parquet",
+     "payload_head": "81 0a 01 e6 01 04 0e 23 ad 00 10 07 c4 02 80 00"
+    },
+    {
+     "result": "disagree",
+     "detail": "bac_creq_svc01 vs svc=7",
+     "file": "S1585.parquet",
+     "payload_head": "81 0a 01 e6 01 04 0e 23 ad 01 10 07 20 20 3c 70"
+    },
+    {
+     "result": "disagree",
+     "detail": "bac_creq_svc02 vs svc=7",
+     "file": "S1585.parquet",
+     "payload_head": "81 0a 01 a7 01 04 0a 23 ad 02 10 07 22 31 31 32"
+    }
+   ]
+  },
+  "dnp3": {
+   "n_sampled": 300,
+   "agree": 195,
+   "disagree": 1,
+   "token_only": 3,
+   "tshark_only": 0,
+   "neither": 101,
+   "agree_rate_when_both_read": 0.995,
+   "missed_by_token_rate": 0.0,
+   "examples": [
+    {
+     "result": "disagree",
+     "detail": "dnp3_req_fc44 vs fn=2",
+     "file": "S1015.parquet",
+     "payload_head": "05 64 69 c4 04 00 03 00 ac 52 85 20 44 65 76 69"
+    }
+   ]
+  },
+  "iec104": {
+   "n_sampled": 300,
+   "agree": 244,
+   "disagree": 0,
+   "token_only": 0,
+   "tshark_only": 0,
+   "neither": 56,
+   "agree_rate_when_both_read": 1.0,
+   "missed_by_token_rate": 0.0,
+   "examples": []
+  },
+  "omron_fins": {
+   "n_sampled": 300,
+   "agree": 300,
+   "disagree": 0,
+   "token_only": 0,
+   "tshark_only": 0,
+   "neither": 0,
+   "agree_rate_when_both_read": 1.0,
+   "missed_by_token_rate": 0.0,
+   "examples": []
+  }
+ }
+}

@@ -1,0 +1,107 @@
+{
+ "status": "EXPLORATORY; labels not expert-verified; OTHER biased (selected from Phase 1 false positives)",
+ "threshold": 0.5,
+ "n": 165,
+ "devices_without_phase2_prediction_(no payload profile)": {
+  "n": 21,
+  "by_class": {
+   "HMI": 15,
+   "PLC": 3,
+   "OTHER": 3
+  },
+  "pass_phase1": 5
+ },
+ "per_class": {
+  "PLC": {
+   "n": 50,
+   "pass_phase1": 49,
+   "pass_rate": 0.98,
+   "phase2_correct_given_pass": 41,
+   "phase2_acc_given_pass": 0.837,
+   "end_to_end_correct": 41,
+   "end_to_end_recall": 0.82,
+   "phase2_only_recall_all_devices(oracle gate)": 0.82
+  },
+  "HMI": {
+   "n": 18,
+   "pass_phase1": 16,
+   "pass_rate": 0.889,
+   "phase2_correct_given_pass": 11,
+   "phase2_acc_given_pass": 0.688,
+   "end_to_end_correct": 11,
+   "end_to_end_recall": 0.611,
+   "phase2_only_recall_all_devices(oracle gate)": 0.611
+  },
+  "EWS": {
+   "n": 20,
+   "pass_phase1": 20,
+   "pass_rate": 1.0,
+   "phase2_correct_given_pass": 11,
+   "phase2_acc_given_pass": 0.55,
+   "end_to_end_correct": 11,
+   "end_to_end_recall": 0.55,
+   "phase2_only_recall_all_devices(oracle gate)": 0.55
+  },
+  "OTHER": {
+   "n": 77,
+   "pass_phase1": 77,
+   "pass_rate": 1.0,
+   "phase2_correct_given_pass": 39,
+   "phase2_acc_given_pass": 0.506,
+   "end_to_end_correct": 39,
+   "end_to_end_recall": 0.506,
+   "phase2_only_recall_all_devices(oracle gate)": 0.506
+  }
+ },
+ "ot_types_pooled": {
+  "n": 88,
+  "pass_rate": 0.966,
+  "phase2_correct_given_pass": 0.741,
+  "end_to_end_correct": 0.716,
+  "oracle_gate_correct": 0.716
+ },
+ "ot_types_blocked_by_phase1": [
+  {
+   "device_id": "DEV_0367",
+   "type4": "PLC",
+   "p1_score": 0.462
+  },
+  {
+   "device_id": "DEV_1711",
+   "type4": "HMI",
+   "p1_score": 0.298
+  },
+  {
+   "device_id": "DEV_3097",
+   "type4": "HMI",
+   "p1_score": 0.171
+  }
+ ],
+ "ot_types_passed_but_predicted_OTHER": 10,
+ "confusion_passed_only": {
+  "EWS": {
+   "EWS": 11,
+   "HMI": 3,
+   "OTHER": 5,
+   "PLC": 1
+  },
+  "HMI": {
+   "EWS": 1,
+   "HMI": 11,
+   "OTHER": 1,
+   "PLC": 3
+  },
+  "OTHER": {
+   "EWS": 5,
+   "HMI": 4,
+   "OTHER": 39,
+   "PLC": 29
+  },
+  "PLC": {
+   "EWS": 2,
+   "HMI": 2,
+   "OTHER": 4,
+   "PLC": 41
+  }
+ }
+}

@@ -1,0 +1,261 @@
+{
+ "set": "indep160",
+ "feature_sets": {
+  "A|behaviour": {
+   "n_cols": 15,
+   "mean": 0.48,
+   "sd": 0.019,
+   "per_seed": [
+    0.472,
+    0.487,
+    0.449,
+    0.484,
+    0.508
+   ]
+  },
+  "A|payload_role": {
+   "n_cols": 39,
+   "mean": 0.451,
+   "sd": 0.018,
+   "per_seed": [
+    0.485,
+    0.437,
+    0.436,
+    0.449,
+    0.449
+   ]
+  },
+  "A|payload_role_eng": {
+   "n_cols": 49,
+   "mean": 0.465,
+   "sd": 0.018,
+   "per_seed": [
+    0.479,
+    0.478,
+    0.453,
+    0.435,
+    0.479
+   ]
+  },
+  "A|behaviour_payload_role_eng": {
+   "n_cols": 64,
+   "mean": 0.538,
+   "sd": 0.038,
+   "per_seed": [
+    0.549,
+    0.567,
+    0.486,
+    0.502,
+    0.585
+   ]
+  },
+  "T|behaviour": {
+   "n_cols": 15,
+   "mean": 0.416,
+   "sd": 0.026,
+   "per_seed": [
+    0.413,
+    0.398,
+    0.42,
+    0.388,
+    0.463
+   ]
+  },
+  "T|payload_role": {
+   "n_cols": 39,
+   "mean": 0.526,
+   "sd": 0.037,
+   "per_seed": [
+    0.506,
+    0.509,
+    0.503,
+    0.513,
+    0.599
+   ]
+  },
+  "T|payload_role_eng": {
+   "n_cols": 49,
+   "mean": 0.56,
+   "sd": 0.067,
+   "per_seed": [
+    0.588,
+    0.488,
+    0.631,
+    0.473,
+    0.62
+   ]
+  },
+  "T|behaviour_payload_role_eng": {
+   "n_cols": 64,
+   "mean": 0.61,
+   "sd": 0.032,
+   "per_seed": [
+    0.595,
+    0.578,
+    0.585,
+    0.628,
+    0.663
+   ]
+  }
+ },
+ "role_only_control": {
+  "role4": {
+   "mean": 0.31,
+   "sd": 0.026,
+   "per_seed": [
+    0.334,
+    0.301,
+    0.291,
+    0.279,
+    0.345
+   ]
+  },
+  "role7": {
+   "mean": 0.366,
+   "sd": 0.019,
+   "per_seed": [
+    0.39,
+    0.336,
+    0.351,
+    0.371,
+    0.38
+   ]
+  }
+ },
+ "recall_seed0_ci": {
+  "PLC": {
+   "seed0": 0.775,
+   "ci95": [
+    0.636,
+    0.9
+   ]
+  },
+  "HMI": {
+   "seed0": 0.5,
+   "ci95": [
+    0.238,
+    0.786
+   ]
+  },
+  "EWS": {
+   "seed0": 0.4,
+   "ci95": [
+    0.1,
+    0.75
+   ]
+  },
+  "OTHER": {
+   "seed0": 0.52,
+   "ci95": [
+    0.408,
+    0.631
+   ]
+  }
+ },
+ "seed0_OTHER_errors": {
+  "n_OTHER": 75,
+  "n_wrong": 36,
+  "pred_counts": {
+   "PLC": 28,
+   "EWS": 5,
+   "HMI": 3
+  },
+  "wrong_as_PLC_by_subtype": {
+   "gateway_or_field_device": 13,
+   "OTHER": 6,
+   "IED": 5,
+   "IO": 3,
+   "FP_scanner_or_IT": 1
+  },
+  "OTHER_subtypes_in_A": {
+   "FP_scanner_or_IT": 33,
+   "gateway_or_field_device": 16,
+   "IED": 11,
+   "OTHER": 11,
+   "IO": 4
+  }
+ },
+ "OTHER_as_PLC_all_seeds": "119/375",
+ "permutation_RF64": {
+  "observed_seed0": 0.549,
+  "null_mean": 0.249,
+  "null_p95": 0.325,
+  "p_value": 0.005,
+  "n_perm": 200
+ },
+ "importance_top8|payload_role_eng": [
+  [
+   "tx_share",
+   0.087
+  ],
+  [
+   "ot_server_share",
+   0.083
+  ],
+  [
+   "tx_p90",
+   0.073
+  ],
+  [
+   "rx_med",
+   0.069
+  ],
+  [
+   "rx_p90",
+   0.067
+  ],
+  [
+   "it_service|C",
+   0.062
+  ],
+  [
+   "enip|S",
+   0.061
+  ],
+  [
+   "tx_med",
+   0.054
+  ]
+ ],
+ "importance_top8|behaviour_payload_role_eng": [
+  [
+   "bcast_frame_ratio",
+   0.085
+  ],
+  [
+   "nonip_frame_count",
+   0.07
+  ],
+  [
+   "ot_server_share",
+   0.054
+  ],
+  [
+   "tx_share",
+   0.047
+  ],
+  [
+   "enip|S",
+   0.043
+  ],
+  [
+   "flow_dur_median",
+   0.042
+  ],
+  [
+   "it_service|C",
+   0.037
+  ],
+  [
+   "rx_med",
+   0.036
+  ]
+ ],
+ "A_without_OT_tokens": 66,
+ "A_without_OT_tokens_by_class": {
+  "OTHER": 51,
+  "PLC": 6,
+  "EWS": 5,
+  "HMI": 4
+ }
+}

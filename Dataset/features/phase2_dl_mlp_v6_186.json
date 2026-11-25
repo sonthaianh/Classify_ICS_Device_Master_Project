@@ -1,0 +1,506 @@
+{
+ "status": "EXPLORATORY - same labels/folds/metric as RandomForest (scripts 58/59); hyper-parameters fixed a priori",
+ "chance_balanced_acc": 0.25,
+ "A_profiled_101|all_labels": {
+  "n": 165,
+  "class_counts": {
+   "PLC": 50,
+   "HMI": 18,
+   "EWS": 20,
+   "OTHER": 77
+  },
+  "behaviour": {
+   "balanced_acc": 0.299,
+   "balanced_acc_std": 0.021,
+   "macro_f1": 0.289,
+   "recall": {
+    "PLC": 0.256,
+    "HMI": 0.311,
+    "EWS": 0.22,
+    "OTHER": 0.408
+   },
+   "confusion_sum_over_seeds": [
+    [
+     64,
+     36,
+     68,
+     82
+    ],
+    [
+     20,
+     28,
+     13,
+     29
+    ],
+    [
+     21,
+     16,
+     22,
+     41
+    ],
+    [
+     96,
+     32,
+     100,
+     157
+    ]
+   ]
+  },
+  "payload_role": {
+   "balanced_acc": 0.476,
+   "balanced_acc_std": 0.027,
+   "macro_f1": 0.464,
+   "recall": {
+    "PLC": 0.692,
+    "HMI": 0.456,
+    "EWS": 0.24,
+    "OTHER": 0.517
+   },
+   "confusion_sum_over_seeds": [
+    [
+     173,
+     16,
+     13,
+     48
+    ],
+    [
+     16,
+     41,
+     18,
+     15
+    ],
+    [
+     14,
+     28,
+     24,
+     34
+    ],
+    [
+     135,
+     15,
+     36,
+     199
+    ]
+   ]
+  },
+  "payload_role_eng": {
+   "balanced_acc": 0.495,
+   "balanced_acc_std": 0.022,
+   "macro_f1": 0.484,
+   "recall": {
+    "PLC": 0.668,
+    "HMI": 0.522,
+    "EWS": 0.29,
+    "OTHER": 0.499
+   },
+   "confusion_sum_over_seeds": [
+    [
+     167,
+     13,
+     15,
+     55
+    ],
+    [
+     13,
+     47,
+     15,
+     15
+    ],
+    [
+     19,
+     18,
+     29,
+     34
+    ],
+    [
+     139,
+     17,
+     37,
+     192
+    ]
+   ]
+  },
+  "behaviour_payload_role_eng": {
+   "balanced_acc": 0.536,
+   "balanced_acc_std": 0.021,
+   "macro_f1": 0.524,
+   "recall": {
+    "PLC": 0.664,
+    "HMI": 0.589,
+    "EWS": 0.34,
+    "OTHER": 0.551
+   },
+   "confusion_sum_over_seeds": [
+    [
+     166,
+     23,
+     17,
+     44
+    ],
+    [
+     18,
+     53,
+     11,
+     8
+    ],
+    [
+     17,
+     11,
+     34,
+     38
+    ],
+    [
+     127,
+     16,
+     30,
+     212
+    ]
+   ]
+  }
+ },
+ "A_profiled_101|strict": {
+  "n": 160,
+  "class_counts": {
+   "PLC": 50,
+   "HMI": 18,
+   "EWS": 15,
+   "OTHER": 77
+  },
+  "behaviour": {
+   "balanced_acc": 0.283,
+   "balanced_acc_std": 0.025,
+   "macro_f1": 0.28,
+   "recall": {
+    "PLC": 0.272,
+    "HMI": 0.344,
+    "EWS": 0.12,
+    "OTHER": 0.395
+   },
+   "confusion_sum_over_seeds": [
+    [
+     68,
+     37,
+     41,
+     104
+    ],
+    [
+     23,
+     31,
+     5,
+     31
+    ],
+    [
+     17,
+     10,
+     9,
+     39
+    ],
+    [
+     109,
+     25,
+     99,
+     152
+    ]
+   ]
+  },
+  "payload_role": {
+   "balanced_acc": 0.442,
+   "balanced_acc_std": 0.024,
+   "macro_f1": 0.427,
+   "recall": {
+    "PLC": 0.688,
+    "HMI": 0.489,
+    "EWS": 0.107,
+    "OTHER": 0.486
+   },
+   "confusion_sum_over_seeds": [
+    [
+     172,
+     16,
+     12,
+     50
+    ],
+    [
+     20,
+     44,
+     11,
+     15
+    ],
+    [
+     13,
+     22,
+     8,
+     32
+    ],
+    [
+     138,
+     18,
+     42,
+     187
+    ]
+   ]
+  },
+  "payload_role_eng": {
+   "balanced_acc": 0.479,
+   "balanced_acc_std": 0.016,
+   "macro_f1": 0.465,
+   "recall": {
+    "PLC": 0.68,
+    "HMI": 0.556,
+    "EWS": 0.213,
+    "OTHER": 0.468
+   },
+   "confusion_sum_over_seeds": [
+    [
+     170,
+     12,
+     15,
+     53
+    ],
+    [
+     16,
+     50,
+     9,
+     15
+    ],
+    [
+     14,
+     13,
+     16,
+     32
+    ],
+    [
+     142,
+     19,
+     44,
+     180
+    ]
+   ]
+  },
+  "behaviour_payload_role_eng": {
+   "balanced_acc": 0.524,
+   "balanced_acc_std": 0.016,
+   "macro_f1": 0.508,
+   "recall": {
+    "PLC": 0.692,
+    "HMI": 0.611,
+    "EWS": 0.28,
+    "OTHER": 0.512
+   },
+   "confusion_sum_over_seeds": [
+    [
+     173,
+     23,
+     15,
+     39
+    ],
+    [
+     25,
+     55,
+     5,
+     5
+    ],
+    [
+     16,
+     8,
+     21,
+     30
+    ],
+    [
+     136,
+     13,
+     39,
+     197
+    ]
+   ]
+  }
+ },
+ "T_tokens_65|all_labels": {
+  "n": 98,
+  "class_counts": {
+   "PLC": 44,
+   "HMI": 14,
+   "EWS": 15,
+   "OTHER": 25
+  },
+  "payload_role": {
+   "balanced_acc": 0.488,
+   "balanced_acc_std": 0.043,
+   "macro_f1": 0.487,
+   "recall": {
+    "PLC": 0.777,
+    "HMI": 0.457,
+    "EWS": 0.333,
+    "OTHER": 0.384
+   },
+   "confusion_sum_over_seeds": [
+    [
+     171,
+     13,
+     7,
+     29
+    ],
+    [
+     12,
+     32,
+     26,
+     0
+    ],
+    [
+     12,
+     30,
+     25,
+     8
+    ],
+    [
+     63,
+     6,
+     8,
+     48
+    ]
+   ]
+  },
+  "payload_role_eng": {
+   "balanced_acc": 0.543,
+   "balanced_acc_std": 0.02,
+   "macro_f1": 0.546,
+   "recall": {
+    "PLC": 0.764,
+    "HMI": 0.614,
+    "EWS": 0.387,
+    "OTHER": 0.408
+   },
+   "confusion_sum_over_seeds": [
+    [
+     168,
+     11,
+     15,
+     26
+    ],
+    [
+     13,
+     43,
+     14,
+     0
+    ],
+    [
+     20,
+     20,
+     29,
+     6
+    ],
+    [
+     64,
+     3,
+     7,
+     51
+    ]
+   ]
+  }
+ },
+ "T_tokens_65|strict": {
+  "n": 93,
+  "class_counts": {
+   "PLC": 44,
+   "HMI": 14,
+   "EWS": 10,
+   "OTHER": 25
+  },
+  "payload_role": {
+   "balanced_acc": 0.446,
+   "balanced_acc_std": 0.028,
+   "macro_f1": 0.438,
+   "recall": {
+    "PLC": 0.745,
+    "HMI": 0.529,
+    "EWS": 0.18,
+    "OTHER": 0.328
+   },
+   "confusion_sum_over_seeds": [
+    [
+     164,
+     15,
+     6,
+     35
+    ],
+    [
+     16,
+     37,
+     17,
+     0
+    ],
+    [
+     10,
+     26,
+     9,
+     5
+    ],
+    [
+     65,
+     7,
+     12,
+     41
+    ]
+   ]
+  },
+  "payload_role_eng": {
+   "balanced_acc": 0.51,
+   "balanced_acc_std": 0.024,
+   "macro_f1": 0.512,
+   "recall": {
+    "PLC": 0.764,
+    "HMI": 0.614,
+    "EWS": 0.24,
+    "OTHER": 0.424
+   },
+   "confusion_sum_over_seeds": [
+    [
+     168,
+     11,
+     10,
+     31
+    ],
+    [
+     16,
+     43,
+     11,
+     0
+    ],
+    [
+     14,
+     18,
+     12,
+     6
+    ],
+    [
+     59,
+     2,
+     11,
+     53
+    ]
+   ]
+  }
+ },
+ "randomforest_reference_balanced_acc": {
+  "A_profiled_101|all_labels": {
+   "behaviour": 0.415,
+   "payload_role": 0.49,
+   "payload_role_eng": 0.559,
+   "behaviour_payload_role_eng": 0.618
+  },
+  "T_tokens_65|all_labels": {
+   "payload_role": 0.662,
+   "payload_role_eng": 0.689
+  },
+  "A_profiled_101|strict": {
+   "behaviour": 0.44,
+   "payload_role": 0.496,
+   "payload_role_eng": 0.519,
+   "behaviour_payload_role_eng": 0.599
+  },
+  "T_tokens_65|strict": {
+   "payload_role": 0.644,
+   "payload_role_eng": 0.674
+  }
+ }
+}

@@ -1,0 +1,86 @@
+{
+ "n": 165,
+ "class_counts": {
+  "OTHER": 77,
+  "PLC": 50,
+  "EWS": 20,
+  "HMI": 18
+ },
+ "baselines": {
+  "B2_oui_rf": {
+   "balanced_acc": 0.398,
+   "balanced_acc_std": 0.011,
+   "macro_f1": 0.361,
+   "recall": {
+    "PLC": 0.372,
+    "HMI": 0.578,
+    "EWS": 0.35,
+    "OTHER": 0.294
+   },
+   "confusion_sum_over_seeds": [
+    [
+     93,
+     115,
+     17,
+     25
+    ],
+    [
+     10,
+     52,
+     17,
+     11
+    ],
+    [
+     5,
+     51,
+     35,
+     9
+    ],
+    [
+     45,
+     203,
+     24,
+     113
+    ]
+   ]
+  },
+  "B5_fuzzy_1nn": {
+   "balanced_acc": 0.468,
+   "balanced_acc_std": 0.031,
+   "macro_f1": 0.454,
+   "recall": {
+    "PLC": 0.688,
+    "HMI": 0.467,
+    "EWS": 0.27,
+    "OTHER": 0.447
+   },
+   "confusion_sum_over_seeds": [
+    [
+     172,
+     13,
+     21,
+     44
+    ],
+    [
+     19,
+     42,
+     13,
+     16
+    ],
+    [
+     37,
+     15,
+     27,
+     21
+    ],
+    [
+     161,
+     26,
+     26,
+     172
+    ]
+   ]
+  }
+ },
+ "note": "cai dat lai gian luoc; chance 0,25; so sanh voi RF 64 cot 0,618 va Transformer/CNN trong cac file dong bang"
+}
