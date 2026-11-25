@@ -1,6 +1,6 @@
 # Classify ICS Device — nhận diện vai trò thiết bị ICS từ lưu lượng mạng thụ động
 
-Mã nguồn và dữ liệu đã ẩn danh của luận văn thạc sĩ "Nghiên cứu cải tiến phương pháp nhận diện thiết bị ICS dựa trên học kết hợp phục vụ hệ thống NIDS" (tác giả: sonthai).
+Mã nguồn và dữ liệu đã ẩn danh của luận văn thạc sĩ "Cải tiến mô hình nhận diện vai trò thiết bị ICS qua fingerprinting thụ động bằng học kết hợp phục vụ NIDS" (tác giả: sonthai).
 
 Phương pháp gồm hai giai đoạn nối tiếp, chỉ dùng lưu lượng mạng thụ động:
 
