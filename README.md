@@ -23,7 +23,7 @@ Phương pháp gồm hai giai đoạn nối tiếp, chỉ dùng lưu lượng m�
 
 | Thư mục | Nội dung |
 |---|---|
-| `pcap_to_dataset/` | 91 script của cả hai giai đoạn: chuyển PCAP, dựng dữ liệu, gán nhãn, huấn luyện, đánh giá |
+| `pcap_to_dataset/` | 92 script của cả hai giai đoạn: chuyển PCAP, dựng dữ liệu, gán nhãn, huấn luyện, đánh giá |
 | `demo_webapp/` | Nguyên mẫu web chạy **cả hai giai đoạn** trên một tệp PCAP |
 | `phase2_infer/` | Mô hình Random Forest của giai đoạn 2 dùng cho nguyên mẫu |
 | `utils/` | Tra cứu OUI, dựng khung gói tin, danh mục cổng và giao thức OT/IT |

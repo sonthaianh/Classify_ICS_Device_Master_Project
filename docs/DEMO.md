@@ -38,13 +38,22 @@ python pcap_to_dataset/99_phase2_infer_186.py <tệp.pcap>          # chỉ thi�
 python pcap_to_dataset/99_phase2_infer_186.py <tệp.pcap> --all    # mọi thiết bị
 ```
 
+Nguyên mẫu dùng mô hình giai đoạn 2 huấn luyện trên đủ 186 nhãn (`phase2_infer/model_186/`). Để chạy cùng quy trình với mô hình chỉ huấn luyện trên bộ nhãn độc lập, là bộ nhãn của kết quả chính trong luận văn (`phase2_infer/model_indep160/`, 139 thiết bị):
+
+```bash
+python pcap_to_dataset/116_phase2_infer_indep160.py <tệp.pcap>
+```
+
+Hai mô hình có thể cho vai trò khác nhau trên cùng một thiết bị, nhất là ở lớp HMI và EWS.
+
 Kết quả được in ra màn hình và ghi vào `phase2_infer/output/<tên tệp>_phase2_186.json`.
 
 ## Huấn luyện lại mô hình của nguyên mẫu
 
 ```bash
 python demo_webapp/train_model.py                       # giai đoạn 1: LightGBM trên 15 đặc trưng hành vi
-python pcap_to_dataset/99_phase2_infer_186.py --train   # giai đoạn 2: Random Forest trên 64 đặc trưng
+python pcap_to_dataset/99_phase2_infer_186.py --train   # giai đoạn 2: Random Forest trên 64 đặc trưng, đủ 186 nhãn
+python pcap_to_dataset/116_phase2_infer_indep160.py --train   # giai đoạn 2: cùng cấu hình, chỉ bộ nhãn độc lập
 ```
 
 Hai lệnh này cần dữ liệu trong `Dataset/features/`.

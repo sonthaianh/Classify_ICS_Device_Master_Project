@@ -11,7 +11,7 @@ Chạy từ thư mục gốc của repo: `python pcap_to_dataset/<tên script>.p
 | [2. Giai đoạn 1: thiết bị OT hay không-OT](#2-giai-đoạn-1-thiết-bị-ot-hay-khôngot) | 18 |
 | [3. Giai đoạn 2: nhãn vai trò](#3-giai-đoạn-2-nhãn-vai-trò) | 17 |
 | [4. Giai đoạn 2: đặc trưng, mô hình và phương pháp cơ sở](#4-giai-đoạn-2-đặc-trưng-mô-hình-và-phương-pháp-cơ-sở) | 26 |
-| [5. Hai giai đoạn nối nhau: đánh giá đầu–cuối và nguyên mẫu trên một tệp PCAP](#5-hai-giai-đoạn-nối-nhau-đánh-giá-đầucuối-và-nguyên-mẫu-trên-một-tệp-pcap) | 4 |
+| [5. Hai giai đoạn nối nhau: đánh giá đầu–cuối và nguyên mẫu trên một tệp PCAP](#5-hai-giai-đoạn-nối-nhau-đánh-giá-đầucuối-và-nguyên-mẫu-trên-một-tệp-pcap) | 5 |
 | [6. Kết quả chính trên bộ nhãn độc lập và các kiểm tra bổ sung](#6-kết-quả-chính-trên-bộ-nhãn-độc-lập-và-các-kiểm-tra-bổ-sung) | 11 |
 
 ## 0. Chuyển PCAP thành bảng gói tin và dựng flow
@@ -123,6 +123,7 @@ Chạy từ thư mục gốc của repo: `python pcap_to_dataset/<tên script>.p
 | `69_phase2_infer.py` | Phase 2 tren MOT file PCAP: Phase 1 (OT?) -> cong -> ho so payload -> feature -> RandomForest 4 lop PLC / HMI / EWS / OTHER (2026-11-11). |
 | `99_phase2_infer_186.py` | Nguyen mau Phase 2 tren MOT file PCAP, huan luyen lai tren bo 186 nhan (2026-11-20). KHONG ghi de mo hinh 117 nhan. |
 | `112_stage_timing.py` | Nhom A4 cua so theo doi (2026-11-25): chi phi cua tung giai doan. KHONG huan luyen lai, KHONG ghi de ket qua dong bang. |
+| `116_phase2_infer_indep160.py` | Nguyen mau giai doan 2 tren MOT file PCAP, huan luyen tren BO NHAN DOC LAP (160 nhan, 139 thiet bi co ho so payload) (2026-11-25). |
 
 ## 6. Kết quả chính trên bộ nhãn độc lập và các kiểm tra bổ sung
 
@@ -156,4 +157,4 @@ Chạy từ thư mục gốc của repo: `python pcap_to_dataset/<tên script>.p
 | Chi phí từng giai đoạn | `112_stage_timing.py` | `stage_timing_a4.json` |
 | Số thiết bị theo fold | `107_phase2_fold_counts.py` | `phase2_fold_counts_186.json` |
 | Kiểm tra chia fold, kiểm tra lồng, độ nhạy nhãn DCS (bộ đủ 186 nhãn) | `101_phase2_fold_audit.py`, `103_group_c_checks.py`, `105_group_c_rerun.py` | `phase2_fold_audit_186.json`, `phase2_groupc_extra_186.json`, `phase2_groupc_rerun_186.json` |
-| Nguyên mẫu hai giai đoạn trên một tệp PCAP | `99_phase2_infer_186.py`, `69_phase2_infer.py`, thư mục `demo_webapp/` | `phase2_infer/output/` |
+| Nguyên mẫu hai giai đoạn trên một tệp PCAP | `99_phase2_infer_186.py`, `116_phase2_infer_indep160.py`, `69_phase2_infer.py`, thư mục `demo_webapp/` | `phase2_infer/output/` |
