@@ -1,0 +1,540 @@
+# Standard OT/ICS protocols (open standards)
+standard:
+  # Modbus family
+  - "Modbus"
+  - "Modbus TCP"
+  - "Modbus RTU"
+  - "Modbus ASCII"
+  - "Modbus Concept"
+  - "Modbus Eltec"
+  - "Modbus Execload"
+  # Siemens S7 family
+  - "S7comm"
+  - "S7comm-Plus"
+  - "COTP"
+  - "ISO-TSAP"
+  # IEC 61850 family
+  - "MMS"
+  - "GOOSE"
+  - "IEC 61850"
+  # IEC 60870 family
+  - "IEC-104"
+  - "IEC 60870-5-101"
+  - "IEC 60870-5-102"
+  - "IEC 60870-5-103"
+  - "IEC 60870-5-104"
+  - "IEC 60870-5-7"
+  - "ICCP"
+  - "TASE.2"
+  # IEC 62056 / DLMS
+  - "DLMS/COSEM"
+  - "IEC 62056"
+  # IEC 61850 Sampled Values (Layer 2)
+  - "IEC-61850-SV"
+  # IEC 62439 (redundancy)
+  - "IEC 62439-3"
+  - "PRP"
+  - "HSR"
+  # EtherNet/IP & CIP
+  - "EtherNet/IP"
+  - "EtherNet/IP-IO"
+  - "CIP"
+  # PROFINET family
+  - "PROFINET"
+  - "PROFINET-RT"
+  - "PROFINET-RTM"
+  - "PROFINET-CM"
+  - "Profinet CBA"
+  - "Profinet DCP"
+  - "Profinet IO"
+  - "Profinet MRP"
+  - "Profinet PTCP"
+  - "Profinet RPC"
+  - "Profinet RT"
+  - "Profinet RTA"
+  - "Profinet RTC"
+  # DNP3
+  - "DNP3"
+  # OPC family
+  - "OPC-UA"
+  - "OPC-UA-TLS"
+  - "OPC"
+  - "OPC AE"
+  - "OPC DA"
+  - "OPC HDA"
+  # BACnet
+  - "BACnet"
+  - "BACNet"
+  # MQTT
+  - "MQTT"
+  - "MQTT-TLS"
+  # HART
+  - "HART-IP"
+  - "HART IP"
+  # Fieldbus / Industrial Ethernet
+  - "Foundation Fieldbus"
+  - "FF-Annunciation"
+  - "FF-SystemMgmt"
+  - "EtherCAT"
+  - "CC-LINK IE Field"
+  - "Sercos III"
+  - "SafetyNET p"
+  # Other standard OT
+  - "PCCC"
+  - "RTPS"
+  - "SLMP"
+  - "Synchrophasor"
+  - "SES_92"
+  - "Sox"
+  - "UTMC"
+  - "CANopen"
+  - "LonTalk"
+  - "SECS II"
+  # Added: missing standard OT protocols
+  - "POWERLINK"
+  - "Ethernet POWERLINK"
+  - "DeviceNet"
+  - "ControlNet"
+  - "KNXnet/IP"
+  - "KNX"
+  - "IO-Link"
+  - "J1939"
+  - "WirelessHART"
+  - "ISA-100.11a"
+  - "ZigBee"
+  - "6LoWPAN"
+
+# Proprietary / vendor-specific OT protocols
+proprietary:
+  # ABB
+  - "800xa"
+  - "ABB 800"
+  - "ABB Bailey"
+  - "ABB CNCP"
+  - "ABB DMS system"
+  - "ABB IAC MMS"
+  - "ABB Melody"
+  - "ABB NIS"
+  - "ABB RNRP"
+  - "ABB Spirit"
+  - "ABB Symphony Plus"
+  - "ABB Totalflow"
+  - "ABBDMS"
+  - "CNCP"
+  - "PN800"
+  - "RNRP"
+  - "SPlus"
+  - "SPlusPortMap"
+  - "MMS (ABB 800xA)"
+  # Siemens
+  - "S7"
+  - "S7 Plus"
+  - "Desigo"
+  - "DIGSI"
+  - "PVSS"
+  - "Siemens FWL LOAD"
+  - "Siemens P2"
+  - "Sinaut ST7"
+  - "Sinec H1"
+  - "H1/S5"
+  - "TSAP"
+  - "TG102"
+  - "TG800"
+  # Rockwell / Allen-Bradley
+  - "CSP - PCCC"
+  - "CSP2"
+  - "Factory Talk"
+  # Schneider Electric
+  - "APC PowerChute"
+  - "Citect"
+  - "COMEX"
+  - "Modbus Modsoft"
+  - "Modbus Schneider"
+  - "Modbus TCP Schneider Unity"
+  - "Modbus/TCP Concept"
+  - "Modbus/TCP Modicon"
+  - "Modbus/TCP SoMachine Basic"
+  - "Modbus/TCP Unity"
+  - "SCHNEIDER_SYSAP"
+  - "UNI_TE"
+  - "Unity"
+  - "Cimplicity Replica"
+  - "Cimplicity View"
+  # Honeywell
+  - "Experion"
+  - "Experion DSA"
+  - "Experion PHD"
+  - "Experion SIS"
+  - "Experion SRP"
+  - "Experion-PKS"
+  - "Honeywell C200"
+  - "Honeywell C300"
+  - "Honeywell Firewall CF9"
+  - "HONEYWELL ICW"
+  - "HONEYWELL MERCURY"
+  - "Fox"
+  - "Foxboro"
+  # Emerson / DeltaV / Fisher ROC
+  - "DeltaV"
+  - "DELTAV IO"
+  - "DELTAV MGMT"
+  - "DELTAV UPGD"
+  - "DELTAV WGP"
+  - "Emerson-ROC"
+  - "ROC"
+  - "TotalFlow"
+  - "Ovation"
+  # Yokogawa
+  - "Centum CAMS"
+  - "Centum DCS"
+  - "Centum ODEQ"
+  - "Centum TREND"
+  - "Vnet/IP"
+  - "VNET_IP_WAN"
+  - "VNET_IP_WAN_HEARTBEAT"
+  - "ISaGRAF IXL"
+  - "IXL"
+  - "DNA"
+  # GE
+  - "GE Bentley Nevada"
+  - "GE GSM"
+  - "GE HISTORIAN API"
+  - "GE iFIX N2N"
+  - "GE iFIX PDB SYNC"
+  - "GE PAC8000"
+  - "GE QuickPanel"
+  - "GE SDB"
+  - "GE WorkstationST"
+  - "GE-ALM"
+  - "GE-EGD"
+  - "GE-EGD-CMP"
+  - "GE-SDI"
+  - "GE-SDI Classic"
+  - "GE-SRTP"
+  - "EGD"
+  - "SRTP"
+  # Beckhoff / TwinCAT
+  - "ADS"
+  - "TwinCAT IO-RAW"
+  - "TwinCAT NV"
+  # OMRON
+  - "FINS"
+  - "OMRON-FINS"
+  # Mitsubishi
+  - "MELSOFT"
+  - "C-NET"
+  # SEL (Schweitzer Engineering)
+  - "SEL"
+  - "SEL RTAC"
+  - "SEL_FM"
+  - "SEL_RTAC_ONLINE"
+  - "Fast Message"
+  # Triconex / Schneider Safety
+  - "Triconex"
+  - "Tristation"
+  # Phoenix Contact
+  - "ADE"
+  # Wago / CodeSys
+  - "CodeSys"
+  - "ProConos"
+  # Cognex (Vision)
+  - "Cognex"
+  - "COGNEX DISCOVERY"
+  - "COGNEX MASTERSLAVE"
+  # Toyoda / Jtekt
+  - "CMP-Link"
+  - "Toyopuc"
+  # FANUC
+  - "FANUC C4"
+  - "Focas"
+  # Keyence
+  - "Keyence"
+  # LS Electric
+  - "LS-XGT"
+  # SICK
+  - "SICK_DISCOVERY"
+  # Moxa
+  - "Masterbus 300"
+  - "Masterbus300"
+  # Hirschmann
+  - "HiDiscovery"
+  # Lantronix
+  - "Lantronix gateways"
+  # Atop Technologies
+  - "Atop Technologies gateways"
+  # OSIsoft / AVEVA
+  - "OSISoft_PI"
+  - "PI-Connect"
+  - "Historian"
+  # Wonderware / AVEVA
+  - "Wonderware Historian"
+  - "Wonderware SuiteLink"
+  - "Wonderware System Platform"
+  - "SuiteLink DA"
+  # ICONICS
+  - "ICONICS GENBROKER"
+  # COPA-DATA
+  - "ZENON_NETSRV"
+  # Campbell Scientific
+  - "PAKBUS"
+  # Kongsberg
+  - "Kongsberg NET_IO"
+  # Wartsila
+  - "Wartsila NACOS Platinum"
+  # Vestas
+  - "VESTAS_FIRECREST"
+  - "VESTAS_ROADRUNNER"
+  # Redlion
+  - "Redlion Crimson"
+  - "Red-Lion"
+  # Prosoft
+  - "PROSOFT_DISCOVERY"
+  # NovaTech
+  - "NovaTech Orion"
+  # Niagara / Tridium
+  - "Niagara Tridium"
+  - "Niagara-Fox"
+  # CygNet
+  - "CygNet SCADA"
+  # Bently Nevada
+  - "Bently Nevada"
+  - "BN_SYSTEM_1"
+  # Cooper / PG&E
+  - "CP2179"
+  # AutomationDirect
+  - "AUTOMATIONDIRECT_SYSTEM"
+  # Atlas Copco
+  - "Atlas Copco Open Protocol"
+  # Trend Controls (BMS)
+  - "Trend Controls IQ/IC"
+  # Philips
+  - "Philips HUE"
+  # Mercury Security
+  - "MSP"
+  # Eaton
+  - "EATON_IPP"
+  # Panasonic
+  - "PANASONIC_BOOTP"
+  # Hikvision
+  - "SADP"
+  # IntelliVue (Philips Medical)
+  - "IntelliVue"
+  # Milestone
+  - "Xprotect ImageServer"
+  # Indigo Vision
+  - "Indigo Vision"
+  # DEMATIC
+  - "DEMATIC"
+  # Raymond
+  - "Raymond iWarehouse"
+  # Telvent / Schneider
+  - "Telvent OASyS DNA"
+  - "OASys"
+  # Bernecker & Rainer (B&R)
+  - "Bernecker & Rainer"
+  # Saia Burgess
+  - "SAIA_SBUS"
+  - "S-BUS"
+  # Unitronics
+  - "PCOM"
+  # OPTO 22
+  - "OPTO"
+  - "OPTO MMP"
+  # Bristol Babcock
+  - "BSAP"
+  - "BSAP IP"
+  - "BSAP_IP_TIMESYNC"
+  # Other proprietary OT
+  # (Removed non-OT: eMule, Computer Browser, IKE, NTLMSSP, SAMR,
+  #  HSRPv2, DB2/DRDA, DCE-RPC generic, Nexthink, KMS, ZMTP, TNS,
+  #  ASCII, Endpoint Manager, PGP2PGP)
+  - "APOGEE"
+  - "ASDU_APCI"
+  - "CAMP"
+  - "CDA"
+  - "CEI 79-5/2-3"
+  - "Cim/IO"
+  - "CISP"
+  - "Classic SDI"
+  - "CSLib"
+  - "CTI"
+  - "DACP"
+  - "DCE-RPC ABB DCS"
+  - "Enron Modbus"
+  - "Fault Tolerant Ethernet"
+  - "FSC-DS"
+  - "GVCP"
+  - "HL7"
+  - "iFix2iFix"
+  - "ION"
+  - "LACBUS"
+  - "LDAS"
+  - "Monarch"
+  - "Net/IO"
+  - "Netmation"
+  - "NTCIP"
+  - "ODEQ"
+  - "Omniflow Flow computer"
+  - "OPP3"
+  - "RCDP"
+  - "S8000"
+  - "SLAM"
+  - "SDI"
+  - "TCM"
+  - "Thales"
+  - "Toolbox"
+  - "UCA2_GOOSE"
+  - "UDP/TCP NMEA"
+  - "URMS 2070"
+  - "Telnet - Hirschmann"
+  - "Telnet - DeltaV"
+  - "Telnet - Moxa"
+  - "Telnet - Omniflow"
+  - "Telnet - SEL"
+
+# Binary feature flags for ML model
+# key = column name (has_xxx), value = list of protocol names
+flags:
+  has_modbus:
+    - "Modbus"
+    - "Modbus TCP"
+    - "Modbus RTU"
+    - "Modbus ASCII"
+    - "Modbus Concept"
+    - "Modbus Eltec"
+    - "Modbus Execload"
+    - "Modbus Modsoft"
+    - "Modbus Schneider"
+    - "Modbus TCP Schneider Unity"
+    - "Modbus/TCP Concept"
+    - "Modbus/TCP Modicon"
+    - "Modbus/TCP SoMachine Basic"
+    - "Modbus/TCP Unity"
+    - "Enron Modbus"
+  has_s7comm:
+    - "S7comm"
+    - "S7comm-Plus"
+    - "S7"
+    - "S7 Plus"
+  has_mms:
+    - "MMS"
+    - "MMS (ABB 800xA)"
+    - "IEC 61850"
+    - "IEC-61850-SV"
+  has_enip:
+    - "EtherNet/IP"
+    - "EtherNet/IP-IO"
+    - "CIP"
+  has_dnp3:
+    - "DNP3"
+  has_opcua:
+    - "OPC-UA"
+    - "OPC-UA-TLS"
+    - "OPC"
+    - "OPC AE"
+    - "OPC DA"
+    - "OPC HDA"
+  has_bacnet:
+    - "BACnet"
+    - "BACNet"
+  has_iec104:
+    - "IEC-104"
+    - "IEC 60870-5-104"
+    - "IEC 60870-5-101"
+    - "IEC 60870-5-102"
+    - "IEC 60870-5-103"
+    - "IEC 60870-5-7"
+    - "ICCP"
+    - "TASE.2"
+    - "ASDU_APCI"
+  has_mqtt:
+    - "MQTT"
+    - "MQTT-TLS"
+  has_profinet:
+    - "PROFINET"
+    - "PROFINET-RT"
+    - "PROFINET-RTM"
+    - "PROFINET-CM"
+    - "Profinet CBA"
+    - "Profinet DCP"
+    - "Profinet IO"
+    - "Profinet MRP"
+    - "Profinet PTCP"
+    - "Profinet RPC"
+    - "Profinet RT"
+    - "Profinet RTA"
+    - "Profinet RTC"
+  has_goose:
+    - "GOOSE"
+    - "UCA2_GOOSE"
+  has_ethercat:
+    - "EtherCAT"
+  has_hart:
+    - "HART-IP"
+    - "HART IP"
+  has_dlms:
+    - "DLMS/COSEM"
+    - "IEC 62056"
+  has_fins:
+    - "FINS"
+    - "OMRON-FINS"
+  has_cclink:
+    - "CC-LINK IE Field"
+  has_fieldbus:
+    - "Foundation Fieldbus"
+    - "FF-Annunciation"
+    - "FF-SystemMgmt"
+  has_canopen:
+    - "CANopen"
+  has_lontalk:
+    - "LonTalk"
+  has_pccc:
+    - "PCCC"
+    - "CSP - PCCC"
+  has_triconex:
+    - "Triconex"
+    - "Tristation"
+  has_deltav:
+    - "DeltaV"
+    - "DELTAV IO"
+    - "DELTAV MGMT"
+    - "DELTAV UPGD"
+    - "DELTAV WGP"
+  has_ge_srtp:
+    - "GE-SRTP"
+    - "SRTP"
+  has_codesys:
+    - "CodeSys"
+    - "ProConos"
+  has_ads:
+    - "ADS"
+    - "TwinCAT IO-RAW"
+    - "TwinCAT NV"
+  has_powerlink:
+    - "POWERLINK"
+    - "Ethernet POWERLINK"
+  has_knx:
+    - "KNXnet/IP"
+    - "KNX"
+  has_devicenet:
+    - "DeviceNet"
+    - "ControlNet"
+  has_iolink:
+    - "IO-Link"
+  has_wirelesshart:
+    - "WirelessHART"
+    - "ISA-100.11a"
+
+# Generic protocol names (not OT-specific, not IT-specific)
+generic_names:
+  - "TCP"
+  - "UDP"
+  - "OTHER"
+  - "ICMP"
+  - "IPv6"
+  - "GRE"
+  - "ESP"
+  - "VLAN"
+  - "MPLS"
+  - "unknown"
+  - ""

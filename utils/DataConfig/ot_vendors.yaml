@@ -1,0 +1,285 @@
+# MAC OUI -> Vendor name (IEEE OUI database entries)
+oui_entries:
+  # --- Siemens (PLC, HMI, Switch) ---
+  - oui: "00:0E:8C"
+    vendor: "Siemens"
+  - oui: "00:1C:06"
+    vendor: "Siemens"
+  - oui: "00:1B:1B"
+    vendor: "Siemens"
+  - oui: "00:1F:F8"
+    vendor: "Siemens"
+  - oui: "B8:2A:72"
+    vendor: "Siemens"
+  - oui: "4C:EB:42"
+    vendor: "Siemens"
+  - oui: "64:00:6A"
+    vendor: "Siemens"
+  - oui: "8C:F3:19"
+    vendor: "Siemens"
+  - oui: "A4:BA:DB"
+    vendor: "Siemens"
+  # --- Rockwell Automation / Allen-Bradley ---
+  - oui: "00:00:BC"
+    vendor: "Rockwell Automation"
+  - oui: "5C:88:16"
+    vendor: "Rockwell Automation"
+  - oui: "00:1D:9C"
+    vendor: "Rockwell Automation"
+  - oui: "00:20:BD"
+    vendor: "Rockwell Automation"
+  # --- Schneider Electric ---
+  # 00:80:F4 was historically Telemecanique Electrique (acquired by Schneider
+  # Electric in 1988; product line continued as Modicon/Schneider). Previously
+  # mis-mapped to "Siemens" here — corrected 2026-08-17 after cross-checking
+  # against output/module_1/dataset_overview.txt which shows this OUI resolving
+  # to "Telemecanique Electrique" via the canonical IEEE OUI lookup.
+  - oui: "00:80:F4"
+    vendor: "Schneider Electric"
+  - oui: "00:A0:EC"
+    vendor: "Schneider Electric"
+  - oui: "00:80:E1"
+    vendor: "Schneider Electric"
+  - oui: "00:60:38"
+    vendor: "Schneider Electric"
+  - oui: "00:0C:C6"
+    vendor: "Schneider Electric"
+  # --- ABB ---
+  - oui: "00:C0:C6"
+    vendor: "ABB"
+  - oui: "00:20:D6"
+    vendor: "ABB"
+  - oui: "00:26:BA"
+    vendor: "ABB"
+  # --- Honeywell ---
+  - oui: "00:01:9E"
+    vendor: "Honeywell"
+  - oui: "00:D0:EF"
+    vendor: "Honeywell"
+  - oui: "00:40:AE"
+    vendor: "Honeywell"
+  # --- Yokogawa ---
+  - oui: "00:06:9D"
+    vendor: "Yokogawa"
+  - oui: "00:1E:60"
+    vendor: "Yokogawa"
+  # --- Emerson (DeltaV, Fisher, Rosemount) ---
+  - oui: "00:40:3C"
+    vendor: "Emerson"
+  - oui: "00:03:34"
+    vendor: "Emerson"
+  # --- General Electric / GE Fanuc ---
+  - oui: "00:50:C2"
+    vendor: "General Electric"
+  - oui: "00:22:1D"
+    vendor: "General Electric"
+  # --- Phoenix Contact ---
+  - oui: "00:13:D4"
+    vendor: "Phoenix Contact"
+  - oui: "00:A0:45"
+    vendor: "Phoenix Contact"
+  # --- WAGO ---
+  - oui: "00:01:4A"
+    vendor: "WAGO"
+  - oui: "00:30:DE"
+    vendor: "WAGO"
+  # --- Beckhoff ---
+  - oui: "00:0B:23"
+    vendor: "Beckhoff"
+  - oui: "00:01:05"
+    vendor: "Beckhoff"
+  # --- MOXA (Gateway, Serial Server) ---
+  - oui: "00:90:E8"
+    vendor: "MOXA"
+  - oui: "00:0F:B5"
+    vendor: "MOXA"
+  # --- Mitsubishi Electric ---
+  - oui: "00:60:35"
+    vendor: "Mitsubishi Electric"
+  - oui: "78:C2:C0"
+    vendor: "Mitsubishi Electric"
+  - oui: "00:0C:E5"
+    vendor: "Mitsubishi Electric"
+  # --- OMRON ---
+  - oui: "00:0C:7B"
+    vendor: "OMRON"
+  - oui: "00:00:E3"
+    vendor: "OMRON"
+  # --- B&R Automation (ABB group) ---
+  - oui: "00:60:65"
+    vendor: "B&R Automation"
+  - oui: "00:0A:E4"
+    vendor: "B&R Automation"
+  # --- Hilscher (netX, PROFINET, EtherCAT) ---
+  - oui: "00:02:A2"
+    vendor: "Hilscher"
+  # --- HMS Networks (Anybus) ---
+  - oui: "00:30:11"
+    vendor: "HMS Networks"
+  # --- Red Lion Controls ---
+  - oui: "00:06:71"
+    vendor: "Red Lion"
+  # --- Advantech (IoT Gateway, IPC) ---
+  - oui: "00:D0:C9"
+    vendor: "Advantech"
+  - oui: "00:0B:AB"
+    vendor: "Advantech"
+  # --- Delta Electronics ---
+  - oui: "00:0A:CD"
+    vendor: "Delta Electronics"
+  # --- LS Electric / LG Industrial ---
+  - oui: "00:E0:91"
+    vendor: "LS Electric"
+  # --- Pilz (Safety controllers) ---
+  - oui: "00:0C:2E"
+    vendor: "Pilz"
+  # --- KUKA Robotics ---
+  - oui: "00:03:46"
+    vendor: "KUKA"
+  # --- FANUC Robotics ---
+  - oui: "00:E0:09"
+    vendor: "FANUC"
+  # --- Turck (IO-Link, fieldbus) ---
+  - oui: "00:07:46"
+    vendor: "Turck"
+  # --- IFM Electronic ---
+  - oui: "00:04:A5"
+    vendor: "IFM"
+  # --- Pepperl+Fuchs ---
+  - oui: "00:0F:F7"
+    vendor: "Pepperl+Fuchs"
+  # --- Eaton (Power, UPS, PLC) ---
+  - oui: "00:1A:8A"
+    vendor: "Eaton"
+  # --- SEL (Schweitzer Engineering) ---
+  - oui: "00:30:A7"
+    vendor: "SEL"
+  # --- Hirschmann (Industrial Switches) ---
+  - oui: "00:80:63"
+    vendor: "Hirschmann"
+  # --- Added: missing OT vendors ---
+  # --- Bosch Rexroth (Drives, Motion, Hydraulics) ---
+  - oui: "00:05:68"
+    vendor: "Bosch Rexroth"
+  - oui: "00:0E:4A"
+    vendor: "Bosch Rexroth"
+  # --- Yaskawa (Servo, Robotics, Drives) ---
+  - oui: "00:00:65"
+    vendor: "Yaskawa"
+  - oui: "00:10:95"
+    vendor: "Yaskawa"
+  # --- Endress+Hauser (Process Instrumentation) ---
+  - oui: "00:01:F4"
+    vendor: "Endress+Hauser"
+  # --- Danfoss (Drives, HVAC) ---
+  - oui: "00:07:81"
+    vendor: "Danfoss"
+  # --- Festo (Pneumatics, Motion) ---
+  - oui: "00:0E:10"
+    vendor: "Festo"
+  # --- Belden (Hirschmann parent, Industrial Network) ---
+  - oui: "00:0F:F8"
+    vendor: "Belden"
+  # --- KEBA (Industrial Automation) ---
+  - oui: "00:08:D5"
+    vendor: "KEBA"
+  # --- Lenze (Motion, Drives) ---
+  - oui: "00:16:F5"
+    vendor: "Lenze"
+  # --- Pepperl+Fuchs (already listed, adding another OUI) ---
+  - oui: "00:19:C3"
+    vendor: "Pepperl+Fuchs"
+  # --- Balluff (IO-Link, Sensors) ---
+  - oui: "00:07:7D"
+    vendor: "Balluff"
+
+# Substring keywords for vendor name matching (case-insensitive)
+keywords:
+  # Major PLC / DCS / SCADA vendors
+  - "siemens"
+  - "rockwell"
+  - "schneider"
+  - "abb"
+  - "honeywell"
+  - "yokogawa"
+  - "emerson"
+  - "phoenix"
+  - "wago"
+  - "beckhoff"
+  - "moxa"
+  - "mitsubishi"
+  - "omron"
+  - "delta electro"
+  - "ge fanuc"
+  - "general electric"
+  - "allen-bradley"
+  - "triconex"
+  - "cognex"
+  - "keyence"
+  - "sick"
+  # Networking / Gateway / Fieldbus vendors
+  - "hirschmann"
+  - "lantronix"
+  - "atop"
+  - "redlion"
+  - "red lion"
+  - "prosoft"
+  - "novatech"
+  - "sel "
+  - "schweitzer"
+  - "hilscher"
+  - "hms "
+  - "anybus"
+  # IoT / IPC / Edge vendors
+  - "advantech"
+  - "eaton"
+  - "pepperl"
+  - "turck"
+  - "ifm electro"
+  - "pilz"
+  - "kuka"
+  - "dematic"
+  # Energy / Maritime / Wind
+  - "bently nevada"
+  - "campbell scientific"
+  - "kongsberg"
+  - "vestas"
+  - "wartsila"
+  # Software / SCADA platforms
+  - "copa-data"
+  - "iconics"
+  - "osisoft"
+  - "aveva"
+  - "wonderware"
+  - "tridium"
+  # Robotics / Motion
+  - "fanuc"
+  - "toyoda"
+  - "jtekt"
+  - "ls electric"
+  # Other OT vendors
+  - "panasonic"
+  - "saia"
+  - "unitronics"
+  - "opto 22"
+  - "automationdirect"
+  - "atlas copco"
+  - "bernecker"
+  - "b&r"
+  # Added: missing OT vendor keywords
+  - "bosch rexroth"
+  - "rexroth"
+  - "yaskawa"
+  - "endress"
+  - "danfoss"
+  - "festo"
+  - "belden"
+  - "lenze"
+  - "balluff"
+  - "keba"
+  - "sew-eurodrive"
+  - "sew eurodrive"
+  - "nord drive"
+  - "parker hannifin"
+  - "universal robots"
+  - "staubli"

@@ -1,0 +1,92 @@
+ports:
+  # File Transfer
+  - 20      # FTP Data
+  - 21      # FTP Control
+  - 69      # TFTP
+  - 445     # SMB / CIFS
+  - 2049    # NFS
+  # Remote Access
+  - 22      # SSH
+  - 23      # Telnet
+  - 3389    # RDP (Remote Desktop)
+  - 5900    # VNC
+  - 5985    # WinRM HTTP
+  - 5986    # WinRM HTTPS
+  # Web
+  - 80      # HTTP
+  - 443     # HTTPS
+  - 8080    # HTTP Alternate
+  - 8443    # HTTPS Alternate
+  - 8000    # HTTP Dev
+  - 8888    # HTTP Misc
+  # Email
+  - 25      # SMTP
+  - 110     # POP3
+  - 143     # IMAP
+  - 465     # SMTPS
+  - 587     # SMTP Submission
+  - 993     # IMAPS
+  - 995     # POP3S
+  # DNS / Network Services
+  - 53      # DNS
+  - 67      # DHCP Server
+  - 68      # DHCP Client
+  - 88      # Kerberos
+  - 123     # NTP
+  - 161     # SNMP
+  - 162     # SNMP Trap
+  - 389     # LDAP
+  - 464     # Kerberos Change Password
+  - 500     # IKE (IPSec VPN)
+  - 514     # Syslog
+  - 636     # LDAPS
+  - 749     # Kerberos Admin
+  - 1080    # SOCKS Proxy
+  - 1194    # OpenVPN
+  - 1514    # Syslog TLS
+  - 4500    # IPSec NAT-T
+  # Database
+  - 1433    # Microsoft SQL Server
+  - 1521    # Oracle DB
+  - 3306    # MySQL / MariaDB
+  - 5432    # PostgreSQL
+  - 6379    # Redis
+  - 9200    # Elasticsearch
+  - 27017   # MongoDB
+  # Monitoring / Management
+  - 3000    # Grafana
+  - 5601    # Kibana
+  - 9090    # Prometheus
+  - 10050   # Zabbix Agent
+  - 10051   # Zabbix Server
+  # Message Queue
+  - 5672    # RabbitMQ AMQP
+  - 9092    # Apache Kafka
+  # Virtualization / Container
+  - 902     # VMware ESXi
+  - 903     # VMware Console
+  - 2376    # Docker TLS
+  - 6443    # Kubernetes API
+  # Proxy / VPN
+  - 3128    # Squid Proxy
+  - 1194    # OpenVPN (already listed above, dedup in loader)
+  # Added: missing IT ports
+  # Syslog / Logging
+  - 1514    # Syslog TLS
+  - 6514    # Syslog TLS (IANA official)
+  # SNMP extended
+  - 199     # SNMP multiplexer (SMUX)
+  # Active Directory
+  - 3268    # Global Catalog LDAP
+  - 3269    # Global Catalog LDAPS
+  # Time sync
+  - 319     # PTP event
+  - 320     # PTP general
+  # Printing
+  - 515     # LPR/LPD
+  - 631     # IPP (Internet Printing Protocol)
+  - 9100    # RAW printing (HP JetDirect)
+  # Backup / Management
+  - 10000   # Webmin / Virtualmin
+  - 8291    # MikroTik Winbox
+  - 8728    # MikroTik API

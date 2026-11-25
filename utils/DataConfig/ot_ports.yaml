@@ -1,0 +1,75 @@
+# All known OT ports (merged & deduplicated from all sources)
+ports:
+  - 102     # S7comm / COTP / MMS / ISO-TSAP
+  - 502     # Modbus/TCP
+  - 503     # UNVERIFIED — no IANA/vendor doc found; observed in some captures near 502
+  - 789     # Red Lion Crimson v3
+  - 851     # Codesys V3 runtime
+  - 1089    # FF Annunciation
+  - 1090    # FF Fieldbus Message
+  - 1091    # FF System Management
+  - 1541    # Foxboro/IA (real HART-IP is 5094 only — do not conflate, see line below)
+  - 1883    # MQTT
+  - 1911    # Tridium/Niagara Fox
+  - 1962    # Tridium/Niagara Fox
+  - 2222    # EtherNet/IP (implicit msg)
+  - 2404    # IEC 60870-5-104
+  - 4000    # Emerson ROC / DeltaV
+  - 4001    # Emerson ROC
+  - 4002    # Emerson ROC
+  - 4840    # OPC-UA
+  - 4843    # OPC-UA HTTPS
+  - 4911    # Niagara Fox
+  - 5007    # GE SRTP / Fanuc
+  - 5094    # HART-IP
+  - 8883    # MQTT over TLS
+  - 9600    # OMRON FINS
+  - 11740   # Codesys V3 gateway
+  - 18245   # GE SRTP (alternate)
+  - 20000   # DNP3
+  - 20547   # DNP3 (secure alternate)
+  - 34962   # PROFINET RT (cyclic)
+  - 34963   # PROFINET RT (acyclic)
+  - 34964   # PROFINET RT (alarm)
+  - 44818   # EtherNet/IP (explicit msg)
+  - 47808   # BACnet/IP
+  - 48898   # ADS/AMS (Beckhoff TwinCAT)
+  - 55000   # Honeywell Experion PKS
+  - 55001   # Honeywell Experion PKS
+  - 55003   # Honeywell Experion PKS
+  # Added: missing OT ports
+  - 2455    # CodeSys V2 runtime
+  - 3671    # KNXnet/IP (building automation)
+  - 4712    # UNVERIFIED — no confirmed IEC 61850 MMS alternate-port reference found
+  - 41100   # Tridium Niagara N4
+  - 18246   # GE SRTP (alternate 2)
+  - 2000    # Thin client / MMS alternate
+  - 34980   # EtherCAT (UDP discovery)
+
+# Port -> Protocol name mapping
+# For OT ports NOT registered in IANA (used by s1 lookup_protocol)
+port_to_protocol:
+  503:   "Modbus"
+  851:   "CodeSys"
+  1090:  "Foundation Fieldbus"
+  1541:  "Foxboro-IA"
+  1911:  "Niagara-Fox"
+  1962:  "Niagara-Fox"
+  4001:  "Emerson-ROC"
+  4002:  "Emerson-ROC"
+  5007:  "GE-SRTP"
+  11740: "CodeSys"
+  18245: "GE-SRTP"
+  20547: "DNP3"
+  48898: "ADS"
+  55000: "Experion-PKS"
+  55001: "Experion-PKS"
+  55003: "Experion-PKS"
+  789:   "Red-Lion"
+  # Added: missing port-to-protocol
+  2455:  "CodeSys"
+  3671:  "KNXnet/IP"
+  4712:  "IEC-61850-MMS-unverified"
+  41100: "Niagara-Fox"
+  18246: "GE-SRTP"
+  34980: "EtherCAT"

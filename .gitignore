@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.log
+venv/
+.venv/
+phase1_webapp/uploads/
+phase1_webapp/work/
+phase2_infer/output/
+Dataset/raw_parquet*/
+Dataset/processed/
+Dataset/pcap/
+*.pcap
+*.pcapng
+.vscode/
+.idea/

@@ -1,0 +1,14 @@
+# Non-IP industrial protocols operating directly on Ethernet
+ethertypes:
+  0x8892: "PROFINET"
+  0x88B8: "GOOSE"
+  0x88A4: "EtherCAT"
+  0x88BA: "IEC-61850-SV"
+  # 0x891D is registered to TTEthernet Protocol Control Frame (TTTech), not HSR.
+  # Real IEC 62439-3 HSR tag ethertype is 0x892F — corrected 2026-08-17.
+  0x891D: "TTEthernet-PCF"
+  0x892F: "HSR"
+  # Added: missing Layer 2 OT EtherTypes
+  0x88AB: "POWERLINK"
+  0x88CD: "SERCOS-III"
+  0x88F7: "PTP"

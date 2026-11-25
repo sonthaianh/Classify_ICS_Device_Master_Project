@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nhận diện thiết bị OT và vai trò</title>
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--ink:#16202b;--mut:#5d6b7a;--line:#dde2e8;--acc:#0b6bcb;--ot:#c2410c;--ok:#15803d;--warn:#b45309;--bar:#e8edf2}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#10161d;--card:#18212b;--ink:#e6edf3;--mut:#93a1b0;--line:#2a3643;--acc:#5aa9ff;--ot:#fb923c;--ok:#4ade80;--warn:#fbbf24;--bar:#27323e}}
+:root[data-theme=dark]{--bg:#10161d;--card:#18212b;--ink:#e6edf3;--mut:#93a1b0;--line:#2a3643;--acc:#5aa9ff;--ot:#fb923c;--ok:#4ade80;--warn:#fbbf24;--bar:#27323e}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,Segoe UI,Roboto,sans-serif}
+main{max-width:1180px;margin:0 auto;padding:20px 16px 60px}
+h1{font-size:22px;margin:0 0 2px}.sub{color:var(--mut);margin:0 0 18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;margin-bottom:14px}
+.drop{border:2px dashed var(--line);border-radius:12px;padding:26px;text-align:center;cursor:pointer;color:var(--mut)}
+.drop.over{border-color:var(--acc);color:var(--acc)}
+button{background:var(--acc);color:#fff;border:0;border-radius:8px;padding:8px 14px;font:inherit;cursor:pointer}
+button.ghost{background:transparent;color:var(--acc);border:1px solid var(--line)}
+.bar{height:10px;background:var(--bar);border-radius:6px;overflow:hidden}.bar i{display:block;height:100%;background:var(--acc);width:0;transition:width .3s}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+.stat{padding:10px 12px;border:1px solid var(--line);border-radius:10px}.stat b{display:block;font-size:22px}.stat span{color:var(--mut);font-size:13px}
+.note{border-left:4px solid var(--warn);padding:8px 12px;margin:8px 0;background:color-mix(in srgb,var(--warn) 10%,transparent);border-radius:0 8px 8px 0}
+table{width:100%;border-collapse:collapse}th,td{padding:8px 6px;border-bottom:1px solid var(--line);text-align:left;vertical-align:middle}
+th{font-size:12px;color:var(--mut);text-transform:uppercase;letter-spacing:.04em;cursor:pointer;white-space:nowrap}tbody tr{cursor:pointer}tbody tr:hover{background:color-mix(in srgb,var(--acc) 7%,transparent)}
+.tw{overflow-x:auto}.mono{font-family:ui-monospace,Consolas,monospace;font-size:13px}
+.sc{display:flex;align-items:center;gap:8px;min-width:150px}.sc .bar{flex:1;height:8px}.sc .bar i{background:var(--ot)}
+.pill{display:inline-block;padding:1px 8px;border-radius:999px;font-size:12px;border:1px solid var(--line)}
+.pill.rl{color:var(--acc);border-color:var(--acc);font-weight:600}.pill.ot{color:var(--ot);border-color:var(--ot)}.pill.un{color:var(--mut)}.pill.ag{color:var(--ok);border-color:var(--ok)}.pill.dg{color:var(--warn);border-color:var(--warn)}
+.row{display:flex;gap:12px;align-items:center;flex-wrap:wrap}.sp{flex:1}
+input[type=range]{width:220px}input[type=text]{padding:7px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);font:inherit}
+.drawer{position:fixed;inset:0 0 0 auto;width:min(560px,100%);background:var(--card);border-left:1px solid var(--line);padding:18px;overflow:auto;transform:translateX(105%);transition:transform .2s;z-index:5}
+.drawer.open{transform:none}.drawer h2{margin:0 0 4px;font-size:18px}.kv{display:grid;grid-template-columns:150px 1fr;gap:4px 10px;margin:10px 0}.kv div:nth-child(odd){color:var(--mut)}
+.hide{display:none}small{color:var(--mut)}
+svg text{fill:var(--mut);font-size:10px}
+</style>
+</head>
+<body>
+<main>
+<div class="row"><div class="sp"><h1>Nhận diện thiết bị OT và vai trò</h1><p class="sub">Tải file PCAP: Phase 1 cho xác suất từng thiết bị là OT (hành vi giao tiếp, cửa sổ 45 giây); Phase 2 dự đoán vai trò PLC / HMI / EWS / OTHER cho thiết bị OT.</p></div>
+<button class="ghost" id="aboutBtn">Về mô hình</button></div>
+
+<section class="card" id="about" hidden>
+<b>{{ meta.algorithm }}</b> · {{ meta.features|length }} đặc trưng hành vi · huấn luyện trên {{ meta.train_devices }} thiết bị.
+<p>Nhãn huấn luyện là {{ meta.labels }}. Mô hình <u>không</u> thấy giao thức hay cổng; luật chỉ dùng để gán nhãn và để hiển thị bên cạnh điểm mô hình.</p>
+<p>Tham chiếu kiểm tra chéo 5-fold theo thiết bị (nhãn luật, chưa có tập gold độc lập): ROC-AUC {{ meta.cv_reference_device_level.roc_auc }}, PR-AUC {{ meta.cv_reference_device_level.pr_auc }}
+(tỉ lệ OT nền {{ meta.cv_reference_device_level.prevalence }}); nhóm OT chỉ có cổng: ROC-AUC {{ meta.cv_reference_device_level.portonly_roc_auc }}.</p>
+{% if meta.honest_reference %}<p><b>Độ tin cậy thực tế (thận trọng hơn):</b> khi chia chặt theo nhóm session liên thông, ROC-AUC chỉ còn {{ meta.honest_reference.strict_component_split_pooled_roc }}. Trên tập gold hợp nhất ({{ meta.honest_reference.gold_n_ot }} OT / {{ meta.honest_reference.gold_n_nonot }} non-OT; một phần do sonthai rà soát trên phiếu mù, chưa qua đánh giá của bên thứ ba), ngưỡng 0,5 bắt được {{ (meta.honest_reference["gold_ot_recall@0.5"]*100)|round(0)|int }}% OT nhưng gắn nhầm {{ (meta.honest_reference["gold_nonot_flagged@0.5"]*100)|round(0)|int }}% non-OT. Kết quả là gợi ý để rà soát, không phải kết luận.</p>{% endif %}
+{% if p2 %}<p><b>Phase 2 (vai trò thiết bị):</b> Random Forest 4 lớp, 64 đặc trưng, huấn luyện trên {{ p2.n_train }} thiết bị có nhãn (PLC {{ p2.class_counts.PLC }}, HMI {{ p2.class_counts.HMI }}, EWS {{ p2.class_counts.EWS }}, OTHER {{ p2.class_counts.OTHER }}), bộ 186 nhãn. Độ chính xác cân bằng tham khảo (kiểm tra chéo): {{ p2.cv_reference.balanced_acc }} ± {{ p2.cv_reference.balanced_acc_std }}, mức ngẫu nhiên 0,25; độ phủ PLC {{ p2.cv_reference.recall.PLC }}, HMI {{ p2.cv_reference.recall.HMI }}, EWS {{ p2.cv_reference.recall.EWS }}, OTHER {{ p2.cv_reference.recall.OTHER }}. Chỉ chạy cho thiết bị có điểm Phase 1 từ {{ p2.threshold }} trở lên. Nhãn chưa qua đánh giá độc lập; một phần nhãn rà soát được gán từ chính lưu lượng, và các gateway nối tiếp thường bị dự đoán thành PLC. Dự đoán dấu "?" nghĩa là hai lớp đầu cách nhau dưới 0,10.</p>{% endif %}
+<p><small>Điểm của thiết bị = trung bình xác suất các cửa sổ có dữ liệu. "unknown" nghĩa là chưa đủ bằng chứng OT, không có nghĩa là chắc chắn không phải OT. Đặc trưng: {{ meta.features|join(', ') }}.</small></p>
+</section>
+
+<section class="card" id="upload">
+<div class="drop" id="drop"><b>Kéo thả file vào đây</b> hoặc bấm để chọn<br><small>.pcap · .pcapng · .cap — tối đa {{ max_mb }} MB (file được xóa sau khi phân tích)</small></div>
+<input type="file" id="file" accept=".pcap,.pcapng,.cap" hidden>
+<div id="prog" class="hide" style="margin-top:12px"><div class="bar"><i id="pbar"></i></div><small id="pmsg"></small></div>
+<div id="err" class="note hide" style="border-color:#b91c1c"></div>
+</section>
+
+<section id="out" class="hide">
+<div class="card"><div class="grid" id="stats"></div><div id="notes"></div></div>
+<div class="card">
+<div class="row">
+<label>Ngưỡng OT: <b id="thv"></b> <input type="range" id="thr" min="0.05" max="0.95" step="0.01"></label>
+<span class="pill ot" id="otCount"></span>
+<input type="text" id="q" placeholder="Lọc theo MAC, IP, hãng, giao thức…">
+<div class="sp"></div>
+<a id="csv"><button class="ghost">Tải CSV</button></a>
+</div>
+<small>Hạ ngưỡng để ít bỏ sót OT hơn (nhiều cảnh báo nhầm hơn). Cột "Luật" là kết luận từ giao thức/cổng, chỉ để đối chiếu.</small>
+<div class="tw"><table><thead><tr><th data-k="mac">Thiết bị</th><th data-k="vendor">Hãng (OUI)</th><th data-k="score">Điểm OT</th><th>Kết luận</th><th>Vai trò (Phase 2)</th><th data-k="rule_tier">Luật</th><th data-k="n_windows">Cửa sổ</th><th>Giao thức</th></tr></thead><tbody id="tb"></tbody></table></div>
+</div>
+</section>
+</main>
+
+<aside class="drawer" id="drawer"><div class="row"><div class="sp"></div><button class="ghost" id="close">Đóng</button></div><div id="dbody"></div></aside>
+
+<script>
+const $=s=>document.querySelector(s);let R=null,JOB=null,sortK='score',sortD=-1;
+$('#aboutBtn').onclick=()=>{const a=$('#about');a.hidden=!a.hidden};
+const drop=$('#drop'),file=$('#file');
+drop.onclick=()=>file.click();file.onchange=()=>file.files[0]&&send(file.files[0]);
+['dragover','dragenter'].forEach(e=>drop.addEventListener(e,x=>{x.preventDefault();drop.classList.add('over')}));
+['dragleave','drop'].forEach(e=>drop.addEventListener(e,x=>{x.preventDefault();drop.classList.remove('over')}));
+drop.addEventListener('drop',x=>x.dataTransfer.files[0]&&send(x.dataTransfer.files[0]));
+function fail(m){const e=$('#err');e.textContent=m;e.classList.remove('hide');$('#prog').classList.add('hide')}
+async function send(f){
+ $('#err').classList.add('hide');$('#out').classList.add('hide');$('#prog').classList.remove('hide');$('#pbar').style.width='2%';$('#pmsg').textContent='Đang tải lên '+f.name+' …';
+ const fd=new FormData();fd.append('pcap',f);
+ let r;try{r=await fetch('/api/upload',{method:'POST',body:fd})}catch(e){return fail('Không tải lên được: '+e)}
+ const j=await r.json();if(!r.ok)return fail(j.error||'Lỗi tải lên');JOB=j.job_id;poll();
+}
+async function poll(){
+ const j=await (await fetch('/api/status/'+JOB)).json();
+ $('#pbar').style.width=(j.progress||0)+'%';$('#pmsg').textContent=j.message||'';
+ if(j.status==='error')return fail(j.message);
+ if(j.status==='done'){R=await (await fetch('/api/result/'+JOB)).json();show();return}
+ setTimeout(poll,900);
+}
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function show(){
+ $('#prog').classList.add('hide');$('#out').classList.remove('hide');
+ const c=R.capture;
+ $('#stats').innerHTML=[['Gói tin',c.packets.toLocaleString()],['Thời lượng',c.duration_s+' s'],['MAC unicast',c.unicast_macs],['Thiết bị có flow',R.devices.length],['Thời gian xử lý',R.elapsed_s+' s']].map(([a,b])=>`<div class="stat"><b>${b}</b><span>${a}</span></div>`).join('');
+ $('#notes').innerHTML=R.notes.map(n=>`<div class="note">${esc(n)}</div>`).join('')+(R.dissection&&!/ok|decoded|complete/i.test(R.dissection)?`<small>Giải mã giao thức (tshark): ${esc(R.dissection)}</small>`:'');
+ const t=$('#thr');t.value=R.model.default_threshold;t.oninput=render;$('#q').oninput=render;
+ document.querySelectorAll('th[data-k]').forEach(h=>h.onclick=()=>{const k=h.dataset.k;sortD=(sortK===k)?-sortD:-1;sortK=k;render()});
+ render();
+}
+function roleCell(d){
+ const p=d.phase2;if(!p)return `<small title="${esc(d.phase2_status||'')}">—</small>`;
+ const tip=Object.entries(p.prob).map(([k,v])=>k+' '+v.toFixed(2)).join(' · ');
+ const ev=p.evidence==='weak'?' · bằng chứng yếu':p.evidence==='no_tokens'?' · không có thông điệp OT':'';
+ return `<span class="pill rl" title="${esc(tip)}">${esc(p.pred)}${p.uncertain?'?':''}</span> <small>${p.prob[p.pred].toFixed(2)}${ev}</small>`;
+}
+function p2html(d){
+ const p=d.phase2;
+ if(!p)return `<b>Vai trò thiết bị (Phase 2)</b><div class="note">${esc(d.phase2_status||'Chưa có dự đoán')}</div>`;
+ const bars=Object.entries(p.prob).sort((a,b)=>b[1]-a[1]).map(([k,v])=>`<div class="sc" style="min-width:0"><span style="width:56px">${k}</span><div class="bar"><i style="width:${(v*100).toFixed(0)}%;background:var(--acc)"></i></div><b>${v.toFixed(2)}</b></div>`).join('');
+ const evTxt={strong:'mạnh (từ 100 thông điệp OT và payload từ 45 giây trở lên)',weak:'yếu (capture ngắn hoặc ít thông điệp)',no_tokens:'không có thông điệp OT nhận ra được'}[p.evidence]||p.evidence;
+ const kv=(a,b)=>`<div>${a}</div><div>${b}</div>`;
+ return `<b>Vai trò thiết bị (Phase 2)</b><div class="kv">${kv('Dự đoán',`<b>${esc(p.pred)}</b>${p.uncertain?' <span class="pill dg">không chắc chắn</span>':''}`)}${kv('Hạng hai / chênh lệch',esc(p.second)+' / '+p.margin.toFixed(3))}
+ ${kv('Mức bằng chứng',evTxt)}${kv('Thông điệp OT / gói payload',p.n_message_tokens+' / '+p.n_payload_pkts)}${kv('Thời gian có payload',p.span_s+' s')}
+ ${kv('Vai trò theo luật cổng',esc(p.port_rule_role))}${kv('SYN / SYN-ACK trên cổng OT',p.syn_sent_ot+' / '+p.synack_sent_ot)}</div>${bars}
+ ${d.in_training_phase2?'<div class="note">MAC này có trong dữ liệu huấn luyện giai đoạn 2: không phải kiểm tra độc lập.</div>':''}
+ <small>Xác suất của Random Forest chưa được hiệu chỉnh; nhãn huấn luyện chưa qua đánh giá độc lập. HMI và EWS khó tách ở mức lưu lượng.</small>`;
+}
+function render(){
+ const thr=+$('#thr').value;$('#thv').textContent=thr.toFixed(2);
+ const q=$('#q').value.toLowerCase();
+ let rows=R.devices.filter(d=>!q||[d.mac,d.vendor,d.ips.join(' '),d.protocols.join(' ')].join(' ').toLowerCase().includes(q));
+ rows.sort((a,b)=>{const x=a[sortK],y=b[sortK];return (x>y?1:x<y?-1:0)*sortD});
+ const ot=R.devices.filter(d=>d.score>=thr).length;$('#otCount').textContent=ot+' / '+R.devices.length+' thiết bị bị đánh dấu OT';
+ $('#csv').href='/api/export/'+JOB+'.csv?threshold='+thr;
+ $('#tb').innerHTML=rows.map((d,i)=>{
+  const isOT=d.score>=thr,ruleOT=d.rule_label==='OT_confirmed';
+  return `<tr data-id="${d.device_id}"><td class="mono">${esc(d.mac)}${d.in_training?' <span class="pill un" title="MAC này nằm trong dữ liệu huấn luyện: điểm không phải kiểm tra độc lập">đã huấn luyện</span>':' <span class="pill ag" title="MAC chưa có trong dữ liệu huấn luyện">mới</span>'}<br><small>${esc(d.ips[0]||'')}</small></td><td>${esc(d.vendor)}</td>
+  <td><div class="sc"><div class="bar"><i style="width:${(d.score*100).toFixed(0)}%"></i></div><b>${d.score.toFixed(2)}</b></div></td>
+  <td><span class="pill ${isOT?'ot':'un'}">${isOT?'OT':'unknown'}</span></td>
+  <td>${roleCell(d)}</td>
+  <td><span class="pill ${ruleOT?'ot':'un'}">${ruleOT?'OT · '+d.rule_tier:'unknown'}</span> <span class="pill ${isOT===ruleOT?'ag':'dg'}">${isOT===ruleOT?'khớp':'lệch'}</span></td>
+  <td>${d.n_flow_windows}/${d.n_windows}</td><td><small>${esc(d.protocols.slice(0,4).join(', '))}</small></td></tr>`}).join('');
+ document.querySelectorAll('#tb tr').forEach(tr=>tr.onclick=()=>detail(tr.dataset.id));
+}
+function chart(tl){
+ if(!tl.length)return'';const W=500,H=110,P=22,mx=Math.max(1,...tl.map(x=>x.t));
+ const pts=tl.map(x=>`${P+(x.t/mx)*(W-P-6)},${H-P-(x.p*(H-P-8))}`).join(' ');const y=+$('#thr').value;
+ return `<svg viewBox="0 0 ${W} ${H}" width="100%"><line x1="${P}" x2="${W-6}" y1="${H-P-y*(H-P-8)}" y2="${H-P-y*(H-P-8)}" stroke="var(--warn)" stroke-dasharray="4 3"/><polyline fill="none" stroke="var(--acc)" stroke-width="2" points="${pts}"/>
+ <text x="2" y="12">1.0</text><text x="2" y="${H-P}">0</text><text x="${P}" y="${H-6}">0 s</text><text x="${W-40}" y="${H-6}">${mx} s</text></svg>`;
+}
+function detail(id){
+ const d=R.devices.find(x=>x.device_id===id);const kv=(a,b)=>`<div>${a}</div><div>${b}</div>`;
+ const feat=Object.entries(d.features_median).map(([k,v])=>`<tr><td>${k}</td><td class="mono">${v??'—'}</td></tr>`).join('');
+ $('#dbody').innerHTML=`<h2 class="mono">${esc(d.mac)}</h2><div>${esc(d.vendor)||'<small>hãng không rõ</small>'} <small>(suy từ OUI, chưa xác minh)</small></div>
+ <div class="kv">${kv('Điểm OT (TB / cao nhất)',d.score.toFixed(3)+' / '+d.score_max.toFixed(3))}${kv('Luật giao thức/cổng',d.rule_label+(d.rule_tier?' · '+d.rule_tier:''))}
+ ${kv('IP',esc(d.ips.join(', '))||'—')}${kv('Số IP đối tác',d.n_peer_ips)}${kv('Gói / flow',d.packets.toLocaleString()+' / '+d.flows)}${kv('Cửa sổ có flow',d.n_flow_windows+' / '+d.n_windows)}${kv('Vai trò gợi ý',d.role_hint)}
+ ${kv('Giao thức thấy',esc(d.protocols.join(', '))||'—')}${kv('Giao thức OT',esc(d.ot_protocols.join(', '))||'—')}${kv('Cổng OT đối tác',d.ot_peer_ports.join(', ')||'—')}${kv('Cổng OT phía máy',d.ot_local_ports.join(', ')||'—')}
+ ${kv('Cổng đối tác hay gặp',Object.entries(d.top_peer_ports).map(([p,n])=>p+'×'+n).join(', ')||'—')}${kv('Loại thông điệp',esc(d.message_types.join(', '))||'—')}</div>
+ ${d.in_training?'<div class="note">MAC này có trong dữ liệu huấn luyện: không phải kiểm tra độc lập.</div>':''}
+ ${p2html(d)}
+ <b>Xác suất OT theo thời gian</b><small> (đường cam = ngưỡng)</small>${chart(d.timeline)}
+ <b>Đặc trưng (trung vị các cửa sổ)</b><table>${feat}</table>`;
+ $('#drawer').classList.add('open');
+}
+$('#close').onclick=()=>$('#drawer').classList.remove('open');
+</script>
+</body>
+</html>
